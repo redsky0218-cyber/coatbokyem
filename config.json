@@ -1,0 +1,39 @@
+{
+  "_telegram_note": "토큰은 여기 넣지 마세요. 로컬은 secrets.json, 클라우드는 GitHub Secrets(환경변수) 사용",
+  "tickers": [
+    "CRS",
+    "BWXT",
+    "KLAC",
+    "TSLA",
+    "GOOGL",
+    "GLW",
+    "KEYS",
+    "AVGO",
+    "SNDK",
+    "SPCX",
+    "AMZN",
+    "ADI"
+  ],
+  "names": {
+    "CRS": "카펜터테크놀로지",
+    "BWXT": "BWXT",
+    "KLAC": "KLA",
+    "TSLA": "테슬라",
+    "GOOGL": "알파벳A",
+    "GLW": "코닝",
+    "KEYS": "키사이트",
+    "AVGO": "브로드컴",
+    "SNDK": "샌디스크",
+    "SPCX": "스페이스X",
+    "AMZN": "아마존",
+    "ADI": "ADI"
+  },
+  "bollinger": {
+    "period": 20,
+    "std_mult": 2.0,
+    "proximity_pct": 1.5
+  },
+  "crash": {
+    "drop_pct": 10.0
+  }
+}

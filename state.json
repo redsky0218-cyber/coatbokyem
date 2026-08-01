@@ -1,0 +1,18 @@
+{
+  "zone": {
+    "CRS": 0,
+    "BWXT": 1,
+    "KLAC": 1,
+    "TSLA": 2,
+    "GOOGL": 1,
+    "GLW": 1,
+    "KEYS": 1,
+    "AVGO": 1,
+    "SNDK": 1,
+    "AMZN": 0,
+    "ADI": 1
+  },
+  "crash": {
+    "SNDK": "2026-08-01"
+  }
+}

@@ -1,0 +1,45 @@
+name: bollinger-alert
+
+on:
+  schedule:
+    # 15분마다 (UTC 00-01시, 08-23시 = 미국 확장거래시간 커버). 스크립트가 정확한 장시간을 재확인함.
+    - cron: "*/15 0-1,8-23 * * *"
+  workflow_dispatch:   # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bollinger-alert
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run alert
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bollinger_alert.py
+
+      - name: Persist state (중복방지 상태 저장)
+        run: |
+          if [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            git commit -m "update state [skip ci]"
+            git push
+          else
+            echo "상태 변화 없음 - 커밋 생략"
+          fi
