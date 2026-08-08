@@ -85,6 +85,58 @@
         "AMD",
         "INTC"
       ]
+    },
+    "agenticaidrivesdatacentercpuefficiencyfocus": {
+      "name": "Agentic AI Drives Data Center CPU Efficiency Focus",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "AMZN"
+      ]
+    },
+    "pcie50nvmessdsforgamingperformance": {
+      "name": "PCIe 5.0 NVMe SSDs for Gaming Performance",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "MU",
+        "WDC",
+        "MRVL"
+      ]
+    },
+    "massivecapexfornextgenaimemoryhbmeuvdram": {
+      "name": "Massive Capex for Next-Gen AI Memory (HBM, EUV DRAM)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "MU",
+        "WDC",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ]
+    },
+    "usarmysnuclearmicroreactorsprojectjanus": {
+      "name": "US Army's Nuclear Microreactors (Project Janus)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "BWXT",
+        "HLNE"
+      ]
+    },
+    "superconductingquantumcomputingdiversification": {
+      "name": "Superconducting Quantum Computing Diversification",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "IBM",
+        "GOOGL"
+      ]
+    },
+    "agenticaiorchestrationplatformsuipathmaestro": {
+      "name": "Agentic AI Orchestration Platforms (UiPath Maestro)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "PATH"
+      ]
     }
   }
 }
