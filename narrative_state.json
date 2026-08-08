@@ -1,0 +1,56 @@
+{
+  "seen": {
+    "euvforadvanceddrammanufacturing": {
+      "name": "EUV for Advanced DRAM Manufacturing",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "ASML",
+        "MU"
+      ]
+    },
+    "ucieuniversalchipletinterconnectexpressadoption": {
+      "name": "UCIe (Universal Chiplet Interconnect Express) Adoption",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA",
+        "QCOM",
+        "MRVL"
+      ]
+    },
+    "aimemoryascoreinfrastructurenextgendramhbm": {
+      "name": "AI Memory as Core Infrastructure (Next-Gen DRAM/HBM)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "MU"
+      ]
+    },
+    "militaryadoptionofnuclearmicroreactorsprojectjanus": {
+      "name": "Military Adoption of Nuclear Microreactors (Project Janus)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "BWXT",
+        "GE"
+      ]
+    },
+    "ai": {
+      "name": "AI 기반 생물학적 제제 설계 및 합성",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "DDOG",
+        "ILMN",
+        "NVTA"
+      ]
+    },
+    "aiatlassianrovoblast": {
+      "name": "AI 어시스턴트의 데이터 유출 취약성 (Atlassian RovoBlast)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "OKTA"
+      ]
+    }
+  }
+}

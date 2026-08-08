@@ -1,0 +1,46 @@
+name: narrative-scout
+
+on:
+  schedule:
+    # 하루 6회 (4시간마다 UTC 0,4,8,12,16,20 = KST 09,13,17,21,01,05)
+    - cron: "0 */4 * * *"
+  workflow_dispatch:   # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+concurrency:
+  group: narrative-scout
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run narrative scout
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python narrative_scout.py
+
+      - name: Persist state (중복방지 상태 저장)
+        run: |
+          if [ -n "$(git status --porcelain narrative_state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add narrative_state.json
+            git commit -m "update narrative state [skip ci]"
+            git push
+          else
+            echo "상태 변화 없음 - 커밋 생략"
+          fi

@@ -1,0 +1,43 @@
+{
+  "_note": "유망 종목 '내러티브' 발굴용. 새 기술/제품 논의(예: 샌디스크 HBF)를 초기에 잡아 텔레그램 알림. 키는 여기 넣지 말고 secrets.json 또는 환경변수 사용.",
+
+  "reddit": {
+    "subreddits": [
+      "hardware",
+      "semiconductors",
+      "chipdesign",
+      "nuclear",
+      "NuclearPower",
+      "SpaceXLounge",
+      "space",
+      "biotech",
+      "cybersecurity",
+      "netsec",
+      "QuantumComputing",
+      "wallstreetbets",
+      "stocks",
+      "investing"
+    ],
+    "posts_per_subreddit": 12,
+    "lookback_hours": 48,
+    "max_selftext_chars": 1200
+  },
+
+  "hackernews": {
+    "enabled": true,
+    "min_points": 30,
+    "max_stories": 30,
+    "lookback_hours": 48
+  },
+
+  "focus": "반도체·AI 하드웨어/메모리·첨단 패키징·데이터센터 인프라, 원자력(SMR·핵연료), 우주(발사체·위성), 바이오(신약·플랫폼), 사이버보안, 양자컴퓨팅 등 첨단 기술 테마 전반. 새로운 기술 용어/제품/표준이 부상하는 초기 신호에 집중.",
+
+  "llm": {
+    "model": "gemini-2.5-flash",
+    "max_tokens": 12000,
+    "thinking_budget": 2048,
+    "max_narratives": 6
+  },
+
+  "telegram_note": "봇 토큰/chat_id 는 bollinger 봇과 동일한 secrets.json / 환경변수를 재사용합니다."
+}
