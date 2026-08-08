@@ -51,6 +51,40 @@
         "PANW",
         "OKTA"
       ]
+    },
+    "agenticaicpu": {
+      "name": "Agentic AI를 위한 CPU 최적화 및 효율성 증대",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "AMZN",
+        "INTC",
+        "AMD"
+      ]
+    },
+    "ucieuniversalchipletinterconnectexpress": {
+      "name": "UCIe (Universal Chiplet Interconnect Express) 표준의 발전과 전력 효율성",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "QCOM",
+        "MRVL"
+      ]
+    },
+    "aihbmdram": {
+      "name": "AI 메모리(HBM) 및 차세대 DRAM에 대한 대규모 투자",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "MU"
+      ]
+    },
+    "fpga": {
+      "name": "FPGA 기반 맞춤형 신경망 가속기 개발",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "AMD",
+        "INTC"
+      ]
     }
   }
 }
