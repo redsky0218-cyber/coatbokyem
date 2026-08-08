@@ -231,6 +231,13 @@ Rules:
 - Each narrative MUST map to one or more concrete US-listed tickers that plausibly
   benefit. Use real ticker symbols. If you cannot name a plausible beneficiary,
   do not include it.
+- Do NOT default to only the largest, most obvious mega-caps. For each narrative,
+  actively include SMALL- and MID-CAP beneficiaries (the more asymmetric, higher-
+  upside plays) alongside any large-cap names. A niche small-cap pure-play on the
+  emerging technology is often the most interesting signal.
+- If a specific ticker is mentioned DIRECTLY in the source discussion (e.g. someone
+  names "AAOI", "CRDO", etc.), prioritize surfacing that exact ticker rather than
+  substituting a bigger, safer name for the same theme.
 - Prefer specificity: a named technology/product/standard over a vague theme.
 - Be skeptical of pure hype / pump-and-dump. Note it in the rationale if relevant.
 - If nothing qualifies, return an empty list. Do not force weak items.
