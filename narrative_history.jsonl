@@ -10,3 +10,8 @@
 {"ts": "2026-08-09T23:18:50.647551+09:00", "name": "궤도 데이터센터 (Intel Nova Lake)", "tickers": ["INTC", "IRDM", "VSAT"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-09T23:18:50.647551+09:00", "name": "AI 기반 사이버 보안 위협 및 방어", "tickers": ["CRWD", "PANW", "ZS"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-09T23:18:50.647551+09:00", "name": "초소형 핵반응로 (SMR) 및 핵연료 시장 성장", "tickers": ["BWXT", "LEU", "UEC"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-10T02:31:01.099255+09:00", "name": "Direct Water-on-Die Cooling for GPUs", "tickers": ["NVDA", "AMD", "VRT", "SMCI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-10T02:31:01.099255+09:00", "name": "Orbital Data Centers / Two-Tier Satellite Networks", "tickers": ["INTC", "ASTS", "IRDM", "RKLB", "PL"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-10T02:31:01.099255+09:00", "name": "Massively Time-Interleaved Slope ADCs for High-Speed SerDes", "tickers": ["ADI", "TXN", "MRVL", "CRDO"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-10T02:31:01.099255+09:00", "name": "PFAS Removal with Aqueous Electrostatic Concentrator (AEC)", "tickers": ["BLGO", "Xylem (XYL)", "Evoqua Water Technologies (AQUA)"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-10T02:31:01.099255+09:00", "name": "Evil Fonts for Cybersecurity Attacks", "tickers": ["CRWD", "PANW", "ZS", "FTNT"], "stage": "emerging", "confidence": "medium"}
