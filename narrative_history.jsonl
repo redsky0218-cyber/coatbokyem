@@ -4,3 +4,9 @@
 {"ts": "2026-08-09T19:15:01.147184+09:00", "name": "5G/NTN(비지상 네트워크) 칩 아키텍처", "tickers": ["GCTS", "TSM"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-09T19:15:01.147184+09:00", "name": "에이전트 AI 및 오케스트레이션 플랫폼", "tickers": ["PATH"], "stage": "gaining_traction", "confidence": "medium"}
 {"ts": "2026-08-09T19:15:01.147184+09:00", "name": "PFAS 제거를 위한 수성 정전기 농축기 (AEC)", "tickers": ["BLGO"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-09T23:18:50.647551+09:00", "name": "ARM 기반 PC (Snapdragon CPU)", "tickers": ["QCOM", "MSFT"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-09T23:18:50.647551+09:00", "name": "고속 SerDes용 Slope ADC 아키텍처", "tickers": ["ADI", "AVGO", "MRVL"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-09T23:18:50.647551+09:00", "name": "AI 데이터센터 건설 및 인프라 급증", "tickers": ["BE", "OESX", "CIFR"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-09T23:18:50.647551+09:00", "name": "궤도 데이터센터 (Intel Nova Lake)", "tickers": ["INTC", "IRDM", "VSAT"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-09T23:18:50.647551+09:00", "name": "AI 기반 사이버 보안 위협 및 방어", "tickers": ["CRWD", "PANW", "ZS"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-09T23:18:50.647551+09:00", "name": "초소형 핵반응로 (SMR) 및 핵연료 시장 성장", "tickers": ["BWXT", "LEU", "UEC"], "stage": "emerging", "confidence": "medium"}

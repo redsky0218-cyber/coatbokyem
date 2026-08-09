@@ -191,6 +191,41 @@
       "tickers": [
         "BLGO"
       ]
+    },
+    "armpcsnapdragoncpu": {
+      "name": "ARM 기반 PC (Snapdragon CPU)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "QCOM",
+        "MSFT"
+      ]
+    },
+    "serdesslopeadc": {
+      "name": "고속 SerDes용 Slope ADC 아키텍처",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "ADI",
+        "AVGO",
+        "MRVL"
+      ]
+    },
+    "intelnovalake": {
+      "name": "궤도 데이터센터 (Intel Nova Lake)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "INTC",
+        "IRDM",
+        "VSAT"
+      ]
+    },
+    "smr": {
+      "name": "초소형 핵반응로 (SMR) 및 핵연료 시장 성장",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "BWXT",
+        "LEU",
+        "UEC"
+      ]
     }
   }
 }
