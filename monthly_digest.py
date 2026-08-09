@@ -135,10 +135,18 @@ def esc(s):
 
 def build_stats_block(ticker_counts, ticker_days):
     """AI 요약과 별개로, 원자료(Top 티커 순위표)도 함께 보냄."""
-    lines = ["", "📊 <b>티커 언급 순위 (Top 15)</b>"]
-    for i, (t, c) in enumerate(ticker_counts.most_common(15), 1):
+    lines = ["", "📊 <b>티커(기업) 언급 순위 (Top 20)</b>"]
+    for i, (t, c) in enumerate(ticker_counts.most_common(20), 1):
         d = len(ticker_days.get(t, set()))
         lines.append(f"{i}. <b>${esc(t)}</b> — {c}회 ({d}일)")
+    return "\n".join(lines)
+
+
+def build_themes_block(theme_counts):
+    """기술·테마 언급 순위 원자료."""
+    lines = ["", "🧬 <b>기술·테마 언급 순위 (Top 15)</b>"]
+    for i, (name, c) in enumerate(theme_counts.most_common(15), 1):
+        lines.append(f"{i}. ({c}회) {esc(name)}")
     return "\n".join(lines)
 
 
@@ -173,7 +181,8 @@ def main():
     header = f"🗓️ <b>월간 내러티브 다이제스트</b>  <i>{now:%Y-%m-%d} KST</i>"
     period = f"<i>최근 {LOOKBACK_DAYS}일 · 총 {len(rows)}건 감지</i>"
     stats = build_stats_block(ticker_counts, ticker_days)
-    msg = f"{header}\n{period}\n\n{esc(summary)}\n{stats}"
+    themes = build_themes_block(theme_counts)
+    msg = f"{header}\n{period}\n\n{esc(summary)}\n{stats}\n{themes}"
 
     # 텔레그램 4096자 제한 대응 분할
     for chunk in _split(msg, 3800):
