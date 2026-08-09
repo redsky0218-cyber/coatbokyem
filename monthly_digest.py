@@ -4,16 +4,26 @@
   - narrative_history.jsonl 을 읽어 최근 N일치만 필터
   - 티커(기업)별 / 기술·테마별 언급 횟수 집계
   - 집계 결과를 Gemini 에게 던져 '이달의 종합 리포트' 작성
-  - 텔레그램으로 전송
+  - 텔레그램으로 전송 + (설정 시) Gmail 로 메일 발송 (본문 표 + CSV 첨부)
 
   narrative_scout.py 의 유틸(경로/시크릿/텔레그램)을 그대로 재사용.
+
+  이메일 키 (있을 때만 메일 발송):
+    * 환경변수:  GMAIL_ADDRESS, GMAIL_APP_PASSWORD, EMAIL_TO(선택)
+    * secrets.json: gmail_address, gmail_app_password, email_to
 """
 
+import csv
+import io
 import json
-import re
+import smtplib
+import ssl
 import sys
 from collections import Counter
 from datetime import datetime, timedelta
+from email.mime.application import MIMEApplication
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
 import requests
 
@@ -150,6 +160,66 @@ def build_themes_block(theme_counts):
     return "\n".join(lines)
 
 
+# ----------------------------- 이메일 ----------------------------- #
+def _csv_bytes(header, rows):
+    buf = io.StringIO()
+    w = csv.writer(buf)
+    w.writerow(header)
+    w.writerows(rows)
+    # 엑셀/구글시트에서 한글 안 깨지도록 UTF-8 BOM
+    return ("﻿" + buf.getvalue()).encode("utf-8")
+
+
+def build_email_html(summary, ticker_counts, ticker_days, theme_counts, rows, now):
+    def tbl(title, headers, body_rows):
+        th = "".join(f"<th style='padding:6px 10px;border:1px solid #ddd;"
+                     f"background:#f4f4f4;text-align:left'>{esc(h)}</th>" for h in headers)
+        trs = []
+        for r in body_rows:
+            tds = "".join(f"<td style='padding:6px 10px;border:1px solid #ddd'>{esc(str(c))}</td>"
+                          for c in r)
+            trs.append(f"<tr>{tds}</tr>")
+        return (f"<h3 style='margin:18px 0 6px'>{esc(title)}</h3>"
+                f"<table style='border-collapse:collapse;font-size:14px'>"
+                f"<tr>{th}</tr>{''.join(trs)}</table>")
+
+    ticker_rows = [[i, t, f"{c}회", f"{len(ticker_days.get(t, set()))}일"]
+                   for i, (t, c) in enumerate(ticker_counts.most_common(TOP_TICKERS), 1)]
+    theme_rows = [[i, name, f"{c}회"]
+                  for i, (name, c) in enumerate(theme_counts.most_common(TOP_THEMES), 1)]
+
+    summary_html = esc(summary).replace("\n", "<br>")
+    return f"""\
+<div style="font-family:Segoe UI,Apple SD Gothic Neo,sans-serif;max-width:720px;color:#222">
+  <h2>🗓️ 월간 내러티브 다이제스트</h2>
+  <p style="color:#666">{now:%Y-%m-%d} KST · 최근 {LOOKBACK_DAYS}일 · 총 {len(rows)}건 감지</p>
+  <div style="line-height:1.7">{summary_html}</div>
+  {tbl("📊 티커(기업) 언급 순위", ["#", "티커", "언급", "등장일수"], ticker_rows)}
+  {tbl("🧬 기술·테마 언급 순위", ["#", "테마", "언급"], theme_rows)}
+  <p style="color:#999;font-size:12px;margin-top:20px">
+    첨부된 CSV 파일은 엑셀/구글시트에서 바로 열 수 있습니다.</p>
+</div>"""
+
+
+def send_email(sender, app_pw, recipient, subject, html_body, attachments):
+    """Gmail SMTP(SSL)로 발송. attachments: [(filename, bytes)]"""
+    msg = MIMEMultipart("mixed")
+    msg["From"] = sender
+    msg["To"] = recipient
+    msg["Subject"] = subject
+    alt = MIMEMultipart("alternative")
+    alt.attach(MIMEText(html_body, "html", "utf-8"))
+    msg.attach(alt)
+    for fname, data in attachments:
+        part = MIMEApplication(data, Name=fname)
+        part["Content-Disposition"] = f'attachment; filename="{fname}"'
+        msg.attach(part)
+    ctx = ssl.create_default_context()
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx) as s:
+        s.login(sender, app_pw)
+        s.sendmail(sender, [recipient], msg.as_string())
+
+
 # ----------------------------- 메인 ----------------------------- #
 def main():
     cfg = ns.load_json(ns.CONFIG_PATH)
@@ -185,9 +255,41 @@ def main():
     msg = f"{header}\n{period}\n\n{esc(summary)}\n{stats}\n{themes}"
 
     # 텔레그램 4096자 제한 대응 분할
-    for chunk in _split(msg, 3800):
-        ns.send_telegram(tg_token, tg_chat, chunk)
-    print("텔레그램 전송 완료.")
+    try:
+        for chunk in _split(msg, 3800):
+            ns.send_telegram(tg_token, tg_chat, chunk)
+        print("텔레그램 전송 완료.")
+    except Exception as e:  # noqa: BLE001
+        print(f"[경고] 텔레그램 전송 실패: {e}")
+
+    # 이메일 전송 (Gmail 앱 비밀번호가 있을 때만)
+    gmail_addr = ns.get_secret("GMAIL_ADDRESS", "gmail_address", secrets)
+    gmail_pw = ns.get_secret("GMAIL_APP_PASSWORD", "gmail_app_password", secrets)
+    if gmail_addr and gmail_pw:
+        recipient = ns.get_secret("EMAIL_TO", "email_to", secrets) or gmail_addr
+        ticker_csv = _csv_bytes(
+            ["순위", "티커", "언급횟수", "등장일수"],
+            [[i, t, c, len(ticker_days.get(t, set()))]
+             for i, (t, c) in enumerate(ticker_counts.most_common(TOP_TICKERS), 1)])
+        theme_csv = _csv_bytes(
+            ["순위", "테마", "언급횟수"],
+            [[i, name, c]
+             for i, (name, c) in enumerate(theme_counts.most_common(TOP_THEMES), 1)])
+        html_body = build_email_html(summary, ticker_counts, ticker_days,
+                                     theme_counts, rows, now)
+        ym = now.strftime("%Y%m")
+        try:
+            send_email(
+                gmail_addr, gmail_pw, recipient,
+                f"[월간 다이제스트] {now:%Y-%m-%d} 내러티브 리포트",
+                html_body,
+                [(f"ticker_ranking_{ym}.csv", ticker_csv),
+                 (f"theme_ranking_{ym}.csv", theme_csv)])
+            print(f"이메일 전송 완료 -> {recipient}")
+        except Exception as e:  # noqa: BLE001
+            print(f"[경고] 이메일 전송 실패: {e}")
+    else:
+        print("이메일 미설정 (GMAIL_ADDRESS/GMAIL_APP_PASSWORD 없음) - 메일 생략")
 
 
 def _split(text, limit):
