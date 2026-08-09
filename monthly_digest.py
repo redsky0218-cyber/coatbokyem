@@ -220,6 +220,29 @@ def send_email(sender, app_pw, recipient, subject, html_body, attachments):
         s.sendmail(sender, [recipient], msg.as_string())
 
 
+# ----------------------------- 구글 시트 (Apps Script 웹훅) ----------------------------- #
+def push_to_gsheet(webhook_url, token, month, ticker_counts, ticker_days,
+                   theme_counts, total):
+    """Apps Script 웹앱(doPost)에 월간 집계를 POST -> 시트에 누적.
+    payload:
+      { token, month, total,
+        tickers: [[티커, 언급횟수, 등장일수], ...],
+        themes:  [[테마, 언급횟수], ...] }
+    """
+    payload = {
+        "token": token or "",
+        "month": month,
+        "total": total,
+        "tickers": [[t, c, len(ticker_days.get(t, set()))]
+                    for t, c in ticker_counts.most_common(TOP_TICKERS)],
+        "themes": [[name, c]
+                   for name, c in theme_counts.most_common(TOP_THEMES)],
+    }
+    resp = requests.post(webhook_url, json=payload, timeout=30)
+    resp.raise_for_status()
+    return resp.text[:200]
+
+
 # ----------------------------- 메인 ----------------------------- #
 def main():
     cfg = ns.load_json(ns.CONFIG_PATH)
@@ -290,6 +313,19 @@ def main():
             print(f"[경고] 이메일 전송 실패: {e}")
     else:
         print("이메일 미설정 (GMAIL_ADDRESS/GMAIL_APP_PASSWORD 없음) - 메일 생략")
+
+    # 구글 시트 누적 (Apps Script 웹훅 URL 이 있을 때만)
+    gsheet_url = ns.get_secret("GSHEET_WEBHOOK_URL", "gsheet_webhook_url", secrets)
+    gsheet_token = ns.get_secret("GSHEET_TOKEN", "gsheet_token", secrets)
+    if gsheet_url:
+        try:
+            r = push_to_gsheet(gsheet_url, gsheet_token, now.strftime("%Y-%m"),
+                               ticker_counts, ticker_days, theme_counts, len(rows))
+            print(f"구글 시트 기록 완료: {r}")
+        except Exception as e:  # noqa: BLE001
+            print(f"[경고] 구글 시트 기록 실패: {e}")
+    else:
+        print("구글 시트 미설정 (GSHEET_WEBHOOK_URL 없음) - 시트 기록 생략")
 
 
 def _split(text, limit):
