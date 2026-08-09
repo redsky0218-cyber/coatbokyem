@@ -175,6 +175,22 @@
         "TMUS",
         "VZ"
       ]
+    },
+    "snapdragonwindowspccopilotpc": {
+      "name": "Snapdragon 기반 Windows PC (Copilot+ PC)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "QCOM",
+        "HPQ",
+        "DELL"
+      ]
+    },
+    "pfasaec": {
+      "name": "PFAS 제거를 위한 수성 정전기 농축기 (AEC)",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "BLGO"
+      ]
     }
   }
 }
