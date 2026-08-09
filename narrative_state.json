@@ -137,6 +137,44 @@
       "tickers": [
         "PATH"
       ]
+    },
+    "ucieuniversalchipletinterconnectexpressadoptionbeyondddrlikearchitectures": {
+      "name": "UCIe (Universal Chiplet Interconnect Express) Adoption Beyond DDR-like Architectures",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA",
+        "MRVL",
+        "CDNS",
+        "SNPS"
+      ]
+    },
+    "pdk": {
+      "name": "오픈소스 고급 공정 설계 키트(PDK)의 확장",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "GFS",
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "ailed": {
+      "name": "AI 데이터센터용 LED 조명 인프라",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "OESX"
+      ]
+    },
+    "5gntn": {
+      "name": "위성통신 및 지상망 통합 5G/NTN 칩 아키텍처",
+      "first_seen": "2026-08-09",
+      "tickers": [
+        "GCTS",
+        "QCOM",
+        "TMUS",
+        "VZ"
+      ]
     }
   }
 }
