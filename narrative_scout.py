@@ -36,6 +36,7 @@ except Exception:  # noqa: BLE001
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(BASE_DIR, "narrative_config.json")
 STATE_PATH = os.path.join(BASE_DIR, "narrative_state.json")
+HISTORY_PATH = os.path.join(BASE_DIR, "narrative_history.jsonl")
 SECRETS_PATH = os.path.join(BASE_DIR, "secrets.json")
 KST = ZoneInfo("Asia/Seoul")
 
@@ -63,6 +64,24 @@ def get_secret(env_key, secret_key, secrets):
 def save_state(state):
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def append_history(narratives):
+    """이번 실행에서 추출된 모든 내러티브를 이력(JSONL)에 한 줄씩 추가.
+    월간 다이제스트에서 '언급 횟수'(재등장 빈도)를 집계하는 데 사용."""
+    if not narratives:
+        return
+    ts = datetime.now(KST).isoformat()
+    with open(HISTORY_PATH, "a", encoding="utf-8") as f:
+        for n in narratives:
+            rec = {
+                "ts": ts,
+                "name": n.get("name", ""),
+                "tickers": n.get("tickers", []),
+                "stage": n.get("stage", ""),
+                "confidence": n.get("confidence", ""),
+            }
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 
 # ----------------------- Reddit 수집 (공개 RSS, 키 불필요) ----------------------- #
@@ -386,6 +405,9 @@ def main():
     corpus = build_corpus(posts)
     narratives = analyze_with_gemini(cfg, gemini_key, corpus)
     print(f"   -> {len(narratives)}개 내러티브 추출")
+
+    # 이력 기록 (재등장 빈도 집계용 - 중복 제거 전 전체 기록)
+    append_history(narratives)
 
     # 3) 중복 제거
     state = load_json(STATE_PATH, default={"seen": {}})

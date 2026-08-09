@@ -33,13 +33,13 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python narrative_scout.py
 
-      - name: Persist state (중복방지 상태 저장)
+      - name: Persist state (중복방지 상태 + 이력 저장)
         run: |
-          if [ -n "$(git status --porcelain narrative_state.json)" ]; then
+          if [ -n "$(git status --porcelain narrative_state.json narrative_history.jsonl)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add narrative_state.json
-            git commit -m "update narrative state [skip ci]"
+            git add narrative_state.json narrative_history.jsonl
+            git commit -m "update narrative state & history [skip ci]"
             git push
           else
             echo "상태 변화 없음 - 커밋 생략"
