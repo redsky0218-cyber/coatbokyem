@@ -15,3 +15,8 @@
 {"ts": "2026-08-10T02:31:01.099255+09:00", "name": "Massively Time-Interleaved Slope ADCs for High-Speed SerDes", "tickers": ["ADI", "TXN", "MRVL", "CRDO"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-10T02:31:01.099255+09:00", "name": "PFAS Removal with Aqueous Electrostatic Concentrator (AEC)", "tickers": ["BLGO", "Xylem (XYL)", "Evoqua Water Technologies (AQUA)"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-10T02:31:01.099255+09:00", "name": "Evil Fonts for Cybersecurity Attacks", "tickers": ["CRWD", "PANW", "ZS", "FTNT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-10T06:30:48.907002+09:00", "name": "다이 직접 수랭(Direct Water-on-Die Cooling) 기술", "tickers": ["ASTK", "VRT"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-10T06:30:48.907002+09:00", "name": "초고속 SerDes용 Slope ADC 아키텍처 부상", "tickers": ["ADI", "AVGO", "MRVL", "MPWR"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-10T06:30:48.907002+09:00", "name": "데이터센터 전력 및 수자원 독립성 강화", "tickers": ["BE", "FSLR", "ENPH"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-10T06:30:48.907002+09:00", "name": "AI 코드 보안 및 악성 AI 도구 탐지", "tickers": ["CRWD", "ZS", "PANW", "OKTA"], "stage": "gaining_traction", "confidence": "medium"}
+{"ts": "2026-08-10T06:30:48.907002+09:00", "name": "양자 컴퓨팅 하드웨어 다양화 및 이종 시스템 통합", "tickers": ["IONQ", "RGTI", "GTN"], "stage": "emerging", "confidence": "medium"}

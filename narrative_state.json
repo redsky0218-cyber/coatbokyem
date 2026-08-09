@@ -276,6 +276,24 @@
         "ZS",
         "FTNT"
       ]
+    },
+    "directwaterondiecooling": {
+      "name": "다이 직접 수랭(Direct Water-on-Die Cooling) 기술",
+      "first_seen": "2026-08-10",
+      "tickers": [
+        "ASTK",
+        "VRT"
+      ]
+    },
+    "aiai": {
+      "name": "AI 코드 보안 및 악성 AI 도구 탐지",
+      "first_seen": "2026-08-10",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "PANW",
+        "OKTA"
+      ]
     }
   }
 }
