@@ -40,7 +40,8 @@
     "model": "gemini-2.5-flash",
     "max_tokens": 12000,
     "thinking_budget": 2048,
-    "max_narratives": 6
+    "max_narratives": 6,
+    "max_tech": 8
   },
 
   "telegram_note": "봇 토큰/chat_id 는 bollinger 봇과 동일한 secrets.json / 환경변수를 재사용합니다."

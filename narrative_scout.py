@@ -261,6 +261,16 @@ Rules:
 - Be skeptical of pure hype / pump-and-dump. Note it in the rationale if relevant.
 - If nothing qualifies, return an empty list. Do not force weak items.
 - Respond in Korean for the summary/rationale fields (ticker symbols stay English).
+
+SEPARATELY, also fill "emerging_tech": a list of NEW technology terms, products,
+standards, materials, or acronyms that are just starting to be discussed — the
+EARLIEST possible signal (like "HBF" before anyone knew which stock benefits).
+- Include an item here EVEN IF there is no clear public-stock beneficiary yet.
+  This list is specifically for catching the technology itself as early as possible.
+- For each: term(정확한 용어/약어), what(무엇인지 한 줄), why_notable(왜 주목할 가치가
+  있는지), maybe_tickers(관련 상장사가 떠오르면 넣고, 없으면 빈 배열).
+- Prefer genuinely novel/niche terms over well-known ones. Skip generic buzzwords.
+- term 은 원문 그대로(영문 약어 등), 설명은 한국어로.
 """
 
 # Gemini 구조화 출력 스키마 (OpenAPI 서브셋: type 대문자, additionalProperties 미지원)
@@ -284,9 +294,22 @@ GEMINI_SCHEMA = {
                 "required": ["name", "summary", "tickers", "rationale",
                              "stage", "confidence"],
             },
-        }
+        },
+        "emerging_tech": {
+            "type": "ARRAY",
+            "items": {
+                "type": "OBJECT",
+                "properties": {
+                    "term": {"type": "STRING"},
+                    "what": {"type": "STRING"},
+                    "why_notable": {"type": "STRING"},
+                    "maybe_tickers": {"type": "ARRAY", "items": {"type": "STRING"}},
+                },
+                "required": ["term", "what", "why_notable", "maybe_tickers"],
+            },
+        },
     },
-    "required": ["narratives"],
+    "required": ["narratives", "emerging_tech"],
 }
 
 
@@ -297,7 +320,10 @@ def analyze_with_gemini(cfg, api_key, corpus):
 
     user_msg = (
         f"감시 테마: {cfg['focus']}\n\n"
-        f"최대 {lc.get('max_narratives', 6)}개까지, 가장 유망한 초기 내러티브만 골라라.\n\n"
+        f"narratives 는 최대 {lc.get('max_narratives', 6)}개까지, 가장 유망한 초기 "
+        f"내러티브(수혜주 포함)만 골라라.\n"
+        f"emerging_tech 는 최대 {lc.get('max_tech', 8)}개까지, 수혜주가 아직 없어도 "
+        f"'막 논의되기 시작한 새 기술/용어' 를 최대한 이르게 포착해서 담아라.\n\n"
         f"--- 커뮤니티 원문 시작 ---\n{corpus}\n--- 커뮤니티 원문 끝 ---"
     )
 
@@ -324,25 +350,25 @@ def analyze_with_gemini(cfg, api_key, corpus):
     )
     if resp.status_code != 200:
         print(f"[오류] Gemini 호출 실패 {resp.status_code}: {resp.text[:400]}")
-        return []
+        return [], []
 
     data = resp.json()
     try:
         text = data["candidates"][0]["content"]["parts"][0]["text"]
     except (KeyError, IndexError):
         print("[오류] Gemini 응답 파싱 실패:", str(data)[:400])
-        return []
+        return [], []
 
     try:
         parsed = json.loads(text)
     except json.JSONDecodeError:
         print("[오류] Gemini JSON 파싱 실패:\n", text[:500])
-        return []
+        return [], []
 
     um = data.get("usageMetadata", {})
     print(f"[Gemini] 입력 {um.get('promptTokenCount', '?')} / "
           f"출력 {um.get('candidatesTokenCount', '?')} 토큰")
-    return parsed.get("narratives", [])
+    return parsed.get("narratives", []), parsed.get("emerging_tech", [])
 
 
 # -------------------- 종목 enrich: 가격·모멘텀·신규성·점수 -------------------- #
@@ -560,8 +586,8 @@ def main():
 
     print("2) Gemini 분석 중…")
     corpus = build_corpus(posts)
-    narratives = analyze_with_gemini(cfg, gemini_key, corpus)
-    print(f"   -> {len(narratives)}개 내러티브 추출")
+    narratives, tech = analyze_with_gemini(cfg, gemini_key, corpus)
+    print(f"   -> 내러티브 {len(narratives)}개 / 기술신호 {len(tech)}개 추출")
 
     # 이력 기록 (재등장 빈도 집계용 - 중복 제거 전 전체 기록)
     append_history(narratives)
@@ -569,6 +595,7 @@ def main():
     # 3) 중복 제거
     state = load_json(STATE_PATH, default={"seen": {}})
     seen = state.setdefault("seen", {})
+    seen_tech = state.setdefault("seen_tech", {})
     today = datetime.now(KST).strftime("%Y-%m-%d")
 
     fresh = []
@@ -580,38 +607,63 @@ def main():
                      "tickers": n.get("tickers", [])}
         fresh.append(n)
 
+    fresh_tech = []
+    for tt in tech:
+        key = norm_key(tt.get("term", ""))
+        if not key or key in seen_tech:
+            continue
+        seen_tech[key] = {"term": tt.get("term"), "first_seen": today}
+        fresh_tech.append(tt)
+
     save_state(state)
 
-    if not fresh:
-        print("새 내러티브 없음. (알림 미전송)")
+    if not fresh and not fresh_tech:
+        print("새 내러티브·기술신호 없음. (알림 미전송)")
         return
 
-    # 4) 종목 가격·모멘텀·신규성 enrich + 조기기회 점수순 정렬
-    print("3) 종목 가격·모멘텀 조회 중…")
-    fresh = enrich_narratives(fresh, today)
-
-    # 5) 텔레그램 전송 (점수 높은 순)
     now_kst = datetime.now(KST)
-    lines = [f"🔍 <b>새 유망 내러티브 감지</b>  <i>{now_kst:%Y-%m-%d %H:%M} KST</i>",
-             "<i>조기·저평가 기회 점수순 · 🆕최초 🔁지속</i>", ""]
-    for n in fresh:
-        stage = STAGE_KO.get(n.get("stage"), n.get("stage", ""))
-        conf = CONF_KO.get(n.get("confidence"), n.get("confidence", ""))
-        score = n.get("_score", 0)
-        star = "🌟 " if score >= 70 else ""
-        lines.append(f"{star}<b>[{score}점] {n.get('name')}</b>")
-        lines.append(f"{stage} · 신뢰도 {conf}")
-        lines.append(f"{n.get('summary','')}")
-        lines.append(f"<i>{n.get('rationale','')}</i>")
-        for m in n.get("_meta", []):
-            lines.append(fmt_ticker_line(m))
+    lines = [f"🔍 <b>새 유망 신호 감지</b>  <i>{now_kst:%Y-%m-%d %H:%M} KST</i>", ""]
+
+    # 4) 내러티브: 가격·모멘텀·신규성 enrich + 조기기회 점수순
+    if fresh:
+        print("3) 종목 가격·모멘텀 조회 중…")
+        fresh = enrich_narratives(fresh, today)
+        lines.append("<b>━━ 💡 유망 내러티브 (조기·저평가 점수순) ━━</b>")
+        lines.append("<i>🆕최초 🔁지속</i>")
+        for n in fresh:
+            stage = STAGE_KO.get(n.get("stage"), n.get("stage", ""))
+            conf = CONF_KO.get(n.get("confidence"), n.get("confidence", ""))
+            score = n.get("_score", 0)
+            star = "🌟 " if score >= 70 else ""
+            lines.append("")
+            lines.append(f"{star}<b>[{score}점] {n.get('name')}</b>")
+            lines.append(f"{stage} · 신뢰도 {conf}")
+            lines.append(f"{n.get('summary','')}")
+            lines.append(f"<i>{n.get('rationale','')}</i>")
+            for m in n.get("_meta", []):
+                lines.append(fmt_ticker_line(m))
         lines.append("")
+
+    # 5) 기술 신호: 수혜주가 아직 없어도 '기술 자체'를 가장 이르게 포착
+    if fresh_tech:
+        lines.append("<b>━━ 🔬 새로 포착된 기술/용어 ━━</b>")
+        lines.append("<i>수혜주가 아직 없어도 기술을 먼저 잡습니다</i>")
+        for tt in fresh_tech:
+            term = tt.get("term", "")
+            mt = [f"${(t or '').strip().upper()}" for t in tt.get("maybe_tickers", []) if t]
+            lines.append("")
+            lines.append(f"🔬 <b>{term}</b> — {tt.get('what','')}")
+            lines.append(f"<i>{tt.get('why_notable','')}</i>")
+            if mt:
+                lines.append("관련주: " + " ".join(mt))
+            else:
+                lines.append("관련주: <i>아직 뚜렷한 상장사 없음 (조기 신호)</i>")
 
     msg = "\n".join(lines).strip()
     try:
         for chunk in split_message(msg, 3800):
             send_telegram(tg_token, tg_chat, chunk)
-        print(f"텔레그램 전송 완료 (새 내러티브 {len(fresh)}개).")
+        print(f"텔레그램 전송 완료 (내러티브 {len(fresh)} · 기술신호 {len(fresh_tech)}).")
     except Exception as e:  # noqa: BLE001
         print(f"[오류] 텔레그램 전송 실패: {e}")
 
