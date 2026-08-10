@@ -2,7 +2,7 @@
   "zone": {
     "CRS": 0,
     "BWXT": 1,
-    "KLAC": 0,
+    "KLAC": 1,
     "TSLA": 1,
     "GOOGL": 1,
     "GLW": 1,
@@ -10,7 +10,7 @@
     "AVGO": 0,
     "SNDK": 1,
     "AMZN": 0,
-    "ADI": 0
+    "ADI": 1
   },
   "crash": {
     "SNDK": "2026-08-01"
