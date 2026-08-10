@@ -20,3 +20,9 @@
 {"ts": "2026-08-10T06:30:48.907002+09:00", "name": "데이터센터 전력 및 수자원 독립성 강화", "tickers": ["BE", "FSLR", "ENPH"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-10T06:30:48.907002+09:00", "name": "AI 코드 보안 및 악성 AI 도구 탐지", "tickers": ["CRWD", "ZS", "PANW", "OKTA"], "stage": "gaining_traction", "confidence": "medium"}
 {"ts": "2026-08-10T06:30:48.907002+09:00", "name": "양자 컴퓨팅 하드웨어 다양화 및 이종 시스템 통합", "tickers": ["IONQ", "RGTI", "GTN"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-10T14:24:04.288524+09:00", "name": "GPU/CPU용 직접 다이(Direct Water-on-Die) 수랭식 냉각", "tickers": ["VRT", "SMCI"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-10T14:24:04.288524+09:00", "name": "초고속 SerDes를 위한 대규모 인터리빙 슬로프 ADC 아키텍처", "tickers": ["CRDO", "RMBS", "AVGO", "ADI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-10T14:24:04.288524+09:00", "name": "실리콘 포토닉스 기반 AI 슈퍼컴퓨팅 센터", "tickers": ["AIFA", "IMAX", "FN"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-10T14:24:04.288524+09:00", "name": "차세대 모바일 연결을 위한 5G/NTN(비지상 네트워크) 통합 칩셋", "tickers": ["GCTS", "QRVO", "TMUS", "VZ"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-10T14:24:04.288524+09:00", "name": "이동식 플러그인 태양광 패널 (발코니 태양광)", "tickers": ["ENPH", "SEDG", "SPWR"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-10T14:24:04.288524+09:00", "name": "이종 양자 컴퓨팅 시스템 (Superconducting + Neutral Atom/Silicon Spin)", "tickers": ["IONQ", "RGTI", "GTN"], "stage": "emerging", "confidence": "medium"}

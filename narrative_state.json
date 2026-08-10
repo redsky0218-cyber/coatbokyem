@@ -294,6 +294,33 @@
         "PANW",
         "OKTA"
       ]
+    },
+    "gpucpudirectwaterondie": {
+      "name": "GPU/CPU용 직접 다이(Direct Water-on-Die) 수랭식 냉각",
+      "first_seen": "2026-08-10",
+      "tickers": [
+        "VRT",
+        "SMCI"
+      ]
+    },
+    "serdesadc": {
+      "name": "초고속 SerDes를 위한 대규모 인터리빙 슬로프 ADC 아키텍처",
+      "first_seen": "2026-08-10",
+      "tickers": [
+        "CRDO",
+        "RMBS",
+        "AVGO",
+        "ADI"
+      ]
+    },
+    "superconductingneutralatomsiliconspin": {
+      "name": "이종 양자 컴퓨팅 시스템 (Superconducting + Neutral Atom/Silicon Spin)",
+      "first_seen": "2026-08-10",
+      "tickers": [
+        "IONQ",
+        "RGTI",
+        "GTN"
+      ]
     }
   }
 }
