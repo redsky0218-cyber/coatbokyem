@@ -340,6 +340,35 @@
         "XOM",
         "DUK"
       ]
+    },
+    "700x700mm": {
+      "name": "대형 패널 레벨 패키징 (700x700mm) 기술의 부상",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "AMKR",
+        "ASEI",
+        "COHR",
+        "ONTO",
+        "ENPH"
+      ]
+    },
+    "aigpu": {
+      "name": "AI 서버 및 GPU 거래를 위한 전문 마켓플레이스 부상",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "SMCI",
+        "DELL",
+        "HPQ",
+        "IBM"
+      ]
+    },
+    "glp1": {
+      "name": "GLP-1 약물의 사회경제적 영향 확대",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "LLY",
+        "NVO"
+      ]
     }
   },
   "seen_tech": {
@@ -373,6 +402,30 @@
     },
     "gpt5mini": {
       "term": "gpt-5-mini",
+      "first_seen": "2026-08-11"
+    },
+    "700x700mmpanelpackaging": {
+      "term": "700x700mm panel packaging",
+      "first_seen": "2026-08-11"
+    },
+    "stoamarkets": {
+      "term": "Stoa Markets",
+      "first_seen": "2026-08-11"
+    },
+    "projectswan": {
+      "term": "Project Swan",
+      "first_seen": "2026-08-11"
+    },
+    "privatecloudcompute": {
+      "term": "Private Cloud Compute",
+      "first_seen": "2026-08-11"
+    },
+    "ollama": {
+      "term": "Ollama",
+      "first_seen": "2026-08-11"
+    },
+    "gpt4all": {
+      "term": "GPT4All",
       "first_seen": "2026-08-11"
     }
   }
