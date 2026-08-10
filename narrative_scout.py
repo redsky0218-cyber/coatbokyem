@@ -23,7 +23,7 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 import requests
@@ -345,7 +345,164 @@ def analyze_with_gemini(cfg, api_key, corpus):
     return parsed.get("narratives", [])
 
 
+# -------------------- 종목 enrich: 가격·모멘텀·신규성·점수 -------------------- #
+def price_snapshot(tickers):
+    """yfinance 로 티커별 현재가·1M/3M 등락률·52주 고점대비(%) 조회.
+    실패해도 알림은 계속 나가도록 예외를 삼킨다. (키 불필요·무료)"""
+    uniq = [t for t in dict.fromkeys((t or "").strip().upper() for t in tickers) if t]
+    out = {}
+    if not uniq:
+        return out
+    try:
+        import yfinance as yf
+        data = yf.download(uniq, period="1y", interval="1d",
+                           progress=False, group_by="ticker", threads=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"[경고] 가격 조회 실패(전체): {e}")
+        return out
+
+    for t in uniq:
+        try:
+            if len(uniq) == 1:
+                close = data["Close"].dropna()
+            else:
+                close = data[t]["Close"].dropna()
+            if close is None or close.empty:
+                continue
+            price = float(close.iloc[-1])
+
+            def pct(days):
+                if len(close) > days:
+                    past = float(close.iloc[-1 - days])
+                    return (price / past - 1) * 100 if past else None
+                return None
+
+            hi = float(close.max())
+            out[t] = {
+                "price": price,
+                "chg_1m": pct(21),
+                "chg_3m": pct(63),
+                "off_high": (price / hi - 1) * 100 if hi else None,
+            }
+        except Exception:  # noqa: BLE001
+            continue
+    return out
+
+
+def ticker_history_days():
+    """이력에서 티커별 '등장한 날짜 집합' 로드 (신규/지속 판정용)."""
+    m = {}
+    if not os.path.exists(HISTORY_PATH):
+        return m
+    with open(HISTORY_PATH, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            day = (rec.get("ts") or "")[:10]
+            for t in rec.get("tickers", []):
+                t = (t or "").strip().upper()
+                if t and day:
+                    m.setdefault(t, set()).add(day)
+    return m
+
+
+def novelty_tag(ticker, today, hist_days):
+    """🆕 최초포착 / 🔁 지속(며칠) 태그. 오늘 이전 등장 이력으로 판정."""
+    days = hist_days.get((ticker or "").strip().upper(), set())
+    prior = days - {today}
+    if not prior:
+        return "🆕", True, 0
+    recent7 = 0
+    try:
+        cutoff = (datetime.now(KST) - timedelta(days=7)).strftime("%Y-%m-%d")
+        recent7 = len([d for d in days if d >= cutoff])
+    except Exception:  # noqa: BLE001
+        recent7 = len(days)
+    return f"🔁{len(prior)}일", False, recent7
+
+
+def opportunity_score(n, tickers_meta):
+    """조기·저평가 기회 점수 0~100.
+    단계(초기일수록↑) + 신뢰도 + 신규성 + '아직 안 오른 정도' 를 합산."""
+    stage_pts = {"very_early": 40, "emerging": 28,
+                 "gaining_traction": 15}.get(n.get("stage"), 20)
+    conf_pts = {"high": 25, "medium": 15, "low": 8}.get(n.get("confidence"), 12)
+
+    is_new = any(m.get("is_new") for m in tickers_meta)
+    novelty_pts = 20 if is_new else 8
+
+    # 대표 종목 = 3개월 등락률이 가장 낮은(=가장 덜 오른) 종목의 미상승 보너스
+    chgs = [m["price"]["chg_3m"] for m in tickers_meta
+            if m.get("price") and m["price"].get("chg_3m") is not None]
+    price_pts = 0
+    if chgs:
+        least = min(chgs)
+        if least <= 10:
+            price_pts = 15          # 아직 안 움직임 = 조기
+        elif least <= 40:
+            price_pts = 8
+        elif least >= 120:
+            price_pts = -12         # 이미 폭등 = 늦음
+    total = stage_pts + conf_pts + novelty_pts + price_pts
+    return max(0, min(100, total))
+
+
+def enrich_narratives(narratives, today):
+    """각 내러티브에 티커별 가격·신규태그 메타를 붙이고 점수 계산 후 정렬."""
+    all_tickers = [t for n in narratives for t in n.get("tickers", [])]
+    prices = price_snapshot(all_tickers)
+    hist_days = ticker_history_days()
+    for n in narratives:
+        metas = []
+        for t in n.get("tickers", []):
+            tag, is_new, recent7 = novelty_tag(t, today, hist_days)
+            metas.append({"ticker": (t or "").strip().upper(),
+                          "price": prices.get((t or "").strip().upper()),
+                          "tag": tag, "is_new": is_new, "recent7": recent7})
+        n["_meta"] = metas
+        n["_score"] = opportunity_score(n, metas)
+    narratives.sort(key=lambda x: x.get("_score", 0), reverse=True)
+    return narratives
+
+
+def fmt_ticker_line(m):
+    """'• $AAOI 🆕  $12.30 (1M +3% · 3M -8% · 고점 -22%)' 형태."""
+    parts = [f"• <b>${m['ticker']}</b> {m['tag']}"]
+    p = m.get("price")
+    if p:
+        seg = [f"${p['price']:.2f}"]
+        mom = []
+        for label, key in (("1M", "chg_1m"), ("3M", "chg_3m"), ("고점", "off_high")):
+            v = p.get(key)
+            if v is not None:
+                mom.append(f"{label} {v:+.0f}%")
+        if mom:
+            seg.append("(" + " · ".join(mom) + ")")
+        parts.append("  " + " ".join(seg))
+    return "".join(parts)
+
+
 # ----------------------------- 텔레그램 ----------------------------- #
+def split_message(text, limit=3800):
+    """텔레그램 4096자 제한 대응 - 줄 단위로 분할."""
+    if len(text) <= limit:
+        return [text]
+    parts, buf = [], ""
+    for line in text.split("\n"):
+        if len(buf) + len(line) + 1 > limit:
+            parts.append(buf)
+            buf = ""
+        buf += line + "\n"
+    if buf.strip():
+        parts.append(buf)
+    return parts
+
+
 def send_telegram(token, chat_id, text):
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     resp = requests.post(
@@ -429,22 +586,31 @@ def main():
         print("새 내러티브 없음. (알림 미전송)")
         return
 
-    # 4) 텔레그램 전송
+    # 4) 종목 가격·모멘텀·신규성 enrich + 조기기회 점수순 정렬
+    print("3) 종목 가격·모멘텀 조회 중…")
+    fresh = enrich_narratives(fresh, today)
+
+    # 5) 텔레그램 전송 (점수 높은 순)
     now_kst = datetime.now(KST)
-    lines = [f"🔍 <b>새 유망 내러티브 감지</b>  <i>{now_kst:%Y-%m-%d %H:%M} KST</i>", ""]
+    lines = [f"🔍 <b>새 유망 내러티브 감지</b>  <i>{now_kst:%Y-%m-%d %H:%M} KST</i>",
+             "<i>조기·저평가 기회 점수순 · 🆕최초 🔁지속</i>", ""]
     for n in fresh:
-        tickers = " ".join(f"${t}" for t in n.get("tickers", []))
         stage = STAGE_KO.get(n.get("stage"), n.get("stage", ""))
         conf = CONF_KO.get(n.get("confidence"), n.get("confidence", ""))
-        lines.append(f"<b>{n.get('name')}</b>  ({stage} · 신뢰도 {conf})")
-        lines.append(f"📈 {tickers}")
+        score = n.get("_score", 0)
+        star = "🌟 " if score >= 70 else ""
+        lines.append(f"{star}<b>[{score}점] {n.get('name')}</b>")
+        lines.append(f"{stage} · 신뢰도 {conf}")
         lines.append(f"{n.get('summary','')}")
         lines.append(f"<i>{n.get('rationale','')}</i>")
+        for m in n.get("_meta", []):
+            lines.append(fmt_ticker_line(m))
         lines.append("")
 
     msg = "\n".join(lines).strip()
     try:
-        send_telegram(tg_token, tg_chat, msg)
+        for chunk in split_message(msg, 3800):
+            send_telegram(tg_token, tg_chat, chunk)
         print(f"텔레그램 전송 완료 (새 내러티브 {len(fresh)}개).")
     except Exception as e:  # noqa: BLE001
         print(f"[오류] 텔레그램 전송 실패: {e}")
