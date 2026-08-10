@@ -321,6 +321,59 @@
         "RGTI",
         "GTN"
       ]
+    },
+    "aidockersandboxes": {
+      "name": "AI 에이전트를 위한 Docker Sandboxes",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "DDOG",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ]
+    },
+    "pfas": {
+      "name": "PFAS 제거 기술의 상업화 및 확장",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "BLGO",
+        "XOM",
+        "DUK"
+      ]
+    }
+  },
+  "seen_tech": {
+    "dockersandboxes": {
+      "term": "Docker Sandboxes",
+      "first_seen": "2026-08-11"
+    },
+    "localagenticai": {
+      "term": "Local Agentic AI",
+      "first_seen": "2026-08-11"
+    },
+    "museglimmer": {
+      "term": "Muse Glimmer",
+      "first_seen": "2026-08-11"
+    },
+    "opencodego": {
+      "term": "OpenCode Go",
+      "first_seen": "2026-08-11"
+    },
+    "evilfonts": {
+      "term": "Evil Fonts",
+      "first_seen": "2026-08-11"
+    },
+    "aqueouselectrostaticconcentratoraec": {
+      "term": "Aqueous Electrostatic Concentrator (AEC)",
+      "first_seen": "2026-08-11"
+    },
+    "gptrealtime21": {
+      "term": "gpt-realtime-2.1",
+      "first_seen": "2026-08-11"
+    },
+    "gpt5mini": {
+      "term": "gpt-5-mini",
+      "first_seen": "2026-08-11"
     }
   }
 }
