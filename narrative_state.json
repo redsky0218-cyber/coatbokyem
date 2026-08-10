@@ -369,6 +369,35 @@
         "LLY",
         "NVO"
       ]
+    },
+    "openweightai": {
+      "name": "오픈웨이트(Open-Weight) AI 모델의 확산",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "META",
+        "HUG",
+        "CRDO",
+        "AAOI"
+      ]
+    },
+    "aillmneedle2": {
+      "name": "엣지 AI를 위한 초소형 에이전트 LLM (Needle2)",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "ARM",
+        "QCOM",
+        "GOOGL",
+        "MSFT"
+      ]
+    },
+    "gpuaistoamarkets": {
+      "name": "GPU 및 AI 서버 마켓플레이스 (Stoa Markets)",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "SMCI",
+        "DELL",
+        "HPQ"
+      ]
     }
   },
   "seen_tech": {
@@ -426,6 +455,34 @@
     },
     "gpt4all": {
       "term": "GPT4All",
+      "first_seen": "2026-08-11"
+    },
+    "openweightmodels": {
+      "term": "Open-Weight Models",
+      "first_seen": "2026-08-11"
+    },
+    "needle2": {
+      "term": "Needle2",
+      "first_seen": "2026-08-11"
+    },
+    "panelpackagingtool700x700mm": {
+      "term": "Panel Packaging Tool (700x700mm)",
+      "first_seen": "2026-08-11"
+    },
+    "zeronoiseextrapolationznewithgeometricfix": {
+      "term": "Zero-Noise Extrapolation (ZNE) with Geometric Fix",
+      "first_seen": "2026-08-11"
+    },
+    "siliconcapacitorx2sc0201m22nfbv11": {
+      "term": "Silicon Capacitor X2SC 0201M 22nF BV11",
+      "first_seen": "2026-08-11"
+    },
+    "glp1drugsandwomensemployment": {
+      "term": "GLP-1 drugs and women's employment",
+      "first_seen": "2026-08-11"
+    },
+    "siliconphotonicsinversedesign": {
+      "term": "Silicon Photonics Inverse Design",
       "first_seen": "2026-08-11"
     }
   }
