@@ -266,6 +266,101 @@ def collect_arxiv_posts(cfg):
     return posts
 
 
+# ----------------- Lobsters 수집 (하드코어 개발자 커뮤니티, 키 불필요) ----------------- #
+def collect_lobsters_posts(cfg):
+    """lobste.rs 인기글. HN 보다 큐레이션이 엄격해 신호 밀도가 높음."""
+    lc = cfg.get("lobsters", {})
+    if not lc.get("enabled", True):
+        return []
+    try:
+        resp = requests.get("https://lobste.rs/hottest.json",
+                            headers={"User-Agent": USER_AGENT}, timeout=15)
+        resp.raise_for_status()
+        items = resp.json()
+    except Exception as e:  # noqa: BLE001
+        print(f"[경고] Lobsters 수집 실패: {e}")
+        return []
+    cutoff = time.time() - lc.get("lookback_hours", 48) * 3600
+    min_score = lc.get("min_score", 10)
+    posts = []
+    for it in items[:lc.get("max_stories", 15) * 2]:
+        try:
+            ts = datetime.fromisoformat(it.get("created_at", "")).timestamp()
+        except ValueError:
+            continue
+        if ts < cutoff or (it.get("score") or 0) < min_score:
+            continue
+        posts.append({
+            "source": f"Lobsters({it.get('score', 0)}p)",
+            "title": (it.get("title") or "").strip(),
+            "body": "",
+            "url": it.get("url") or it.get("short_id_url") or "",
+        })
+        if len(posts) >= lc.get("max_stories", 15):
+            break
+    return posts
+
+
+# ----------------- StockTwits 트렌딩 (개미 관심 티커, 키 불필요) ----------------- #
+def collect_stocktwits_posts(cfg):
+    """미국 리테일 투자자들의 실시간 트렌딩 티커 목록.
+    소형주에 자금·관심이 몰리는 순간의 스냅샷."""
+    sc = cfg.get("stocktwits", {})
+    if not sc.get("enabled", True):
+        return []
+    try:
+        resp = requests.get("https://api.stocktwits.com/api/2/trending/symbols.json",
+                            headers={"User-Agent": USER_AGENT}, timeout=15)
+        resp.raise_for_status()
+        syms = resp.json().get("symbols", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"[경고] StockTwits 수집 실패: {e}")
+        return []
+    if not syms:
+        return []
+    body = ", ".join(f"${s.get('symbol')}({s.get('title', '')})"
+                     for s in syms[:30] if s.get("symbol"))
+    return [{
+        "source": "StockTwits트렌딩",
+        "title": "지금 미국 개인투자자들이 가장 많이 보는 티커 (실시간 트렌딩)",
+        "body": body,
+        "url": "https://stocktwits.com/rankings/trending",
+    }]
+
+
+# ----------------- GitHub 신규 인기 저장소 (새 기술의 코드 신호, 키 불필요) ----------------- #
+def collect_github_posts(cfg):
+    """최근 며칠 내 생성돼 스타가 폭증한 저장소 = 새 기술이 코드로 먼저 뜨는 신호."""
+    gc = cfg.get("github", {})
+    if not gc.get("enabled", True):
+        return []
+    since = (datetime.now(KST) - timedelta(days=gc.get("created_within_days", 7)))
+    try:
+        resp = requests.get(
+            "https://api.github.com/search/repositories",
+            params={"q": f"created:>{since:%Y-%m-%d} stars:>{gc.get('min_stars', 100)}",
+                    "sort": "stars", "order": "desc",
+                    "per_page": gc.get("max_repos", 10)},
+            headers={"User-Agent": USER_AGENT,
+                     "Accept": "application/vnd.github+json"},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        items = resp.json().get("items", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"[경고] GitHub 수집 실패: {e}")
+        return []
+    posts = []
+    for it in items:
+        posts.append({
+            "source": f"GitHub(⭐{it.get('stargazers_count', 0)})",
+            "title": f"{it.get('full_name', '')}: {(it.get('description') or '').strip()}"[:200],
+            "body": f"language: {it.get('language') or '?'} · 신규 저장소 스타 급증",
+            "url": it.get("html_url") or "",
+        })
+    return posts
+
+
 # ----------------- SEC EDGAR 전문검색 (공시 교차확인, 키 불필요) ----------------- #
 def sec_fulltext_hits(term, lookback_days=90, max_hits=2):
     """감지된 신기술 용어가 실제 '기업 공시'(8-K/10-K/S-1 등)에 등장하는지 확인.
@@ -606,8 +701,18 @@ def enrich_narratives(narratives, today, posts=None):
                 src = (posts or [])[int(sid) - 1].get("source", "")
             except (ValueError, TypeError, IndexError):
                 continue
-            kinds.add("arxiv" if src.startswith("arXiv")
-                      else "hn" if src.startswith("HN") else "reddit")
+            if src.startswith("arXiv"):
+                kinds.add("arxiv")
+            elif src.startswith("HN"):
+                kinds.add("hn")
+            elif src.startswith("Lobsters"):
+                kinds.add("lobsters")
+            elif src.startswith("StockTwits"):
+                kinds.add("stocktwits")
+            elif src.startswith("GitHub"):
+                kinds.add("github")
+            else:
+                kinds.add("reddit")
         n["_src_kinds"] = len(kinds)
     all_tickers = [t for n in narratives for t in n["tickers"]]
     prices = price_snapshot(all_tickers)
@@ -749,14 +854,20 @@ def main():
         print("       secrets.json 또는 환경변수(GitHub Secrets)에 넣어주세요.")
         sys.exit(1)
 
-    print("1) 소스 수집 중… (Reddit + Hacker News + arXiv)")
+    print("1) 소스 수집 중… (Reddit·HN·arXiv·Lobsters·StockTwits·GitHub)")
     posts = collect_reddit_posts(cfg)
     print(f"   -> Reddit {len(posts)}개")
     hn = collect_hn_posts(cfg)
     print(f"   -> Hacker News {len(hn)}개")
     ax = collect_arxiv_posts(cfg)
     print(f"   -> arXiv {len(ax)}개")
-    posts += hn + ax
+    lb = collect_lobsters_posts(cfg)
+    print(f"   -> Lobsters {len(lb)}개")
+    st = collect_stocktwits_posts(cfg)
+    print(f"   -> StockTwits {len(st)}개")
+    gh = collect_github_posts(cfg)
+    print(f"   -> GitHub {len(gh)}개")
+    posts += hn + ax + lb + st + gh
     print(f"   -> 합계 {len(posts)}개 글 수집")
     if not posts:
         print("수집된 글 없음. 종료.")

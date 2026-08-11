@@ -17,6 +17,10 @@
       "optics",
       "photonics",
       "datacenter",
+      "LocalLLaMA",
+      "MachineLearning",
+      "robotics",
+      "UraniumSqueeze",
       "pennystocks",
       "wallstreetbets",
       "stocks",
@@ -46,6 +50,24 @@
     "enabled": true,
     "max_terms": 6,
     "lookback_days": 90
+  },
+
+  "lobsters": {
+    "enabled": true,
+    "max_stories": 15,
+    "min_score": 10,
+    "lookback_hours": 48
+  },
+
+  "stocktwits": {
+    "enabled": true
+  },
+
+  "github": {
+    "enabled": true,
+    "max_repos": 10,
+    "created_within_days": 7,
+    "min_stars": 100
   },
 
   "focus": "반도체·AI 하드웨어/메모리·첨단 패키징·데이터센터 인프라, 원자력(SMR·핵연료), 우주(발사체·위성), 바이오(신약·플랫폼), 사이버보안, 양자컴퓨팅 등 첨단 기술 테마 전반. 새로운 기술 용어/제품/표준이 부상하는 초기 신호에 집중.",
