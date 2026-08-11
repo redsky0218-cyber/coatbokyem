@@ -271,6 +271,10 @@ EARLIEST possible signal (like "HBF" before anyone knew which stock benefits).
   있는지), maybe_tickers(관련 상장사가 떠오르면 넣고, 없으면 빈 배열).
 - Prefer genuinely novel/niche terms over well-known ones. Skip generic buzzwords.
 - term 은 원문 그대로(영문 약어 등), 설명은 한국어로.
+
+For EVERY narrative and emerging_tech item, fill "source_ids": the [N] numbers of
+the community posts (from the corpus headers like "### [12] r/hardware") that the
+item is actually based on. Only cite posts you really used. 1-4 ids each.
 """
 
 # Gemini 구조화 출력 스키마 (OpenAPI 서브셋: type 대문자, additionalProperties 미지원)
@@ -290,9 +294,10 @@ GEMINI_SCHEMA = {
                               "enum": ["very_early", "emerging", "gaining_traction"]},
                     "confidence": {"type": "STRING",
                                    "enum": ["low", "medium", "high"]},
+                    "source_ids": {"type": "ARRAY", "items": {"type": "INTEGER"}},
                 },
                 "required": ["name", "summary", "tickers", "rationale",
-                             "stage", "confidence"],
+                             "stage", "confidence", "source_ids"],
             },
         },
         "emerging_tech": {
@@ -304,8 +309,10 @@ GEMINI_SCHEMA = {
                     "what": {"type": "STRING"},
                     "why_notable": {"type": "STRING"},
                     "maybe_tickers": {"type": "ARRAY", "items": {"type": "STRING"}},
+                    "source_ids": {"type": "ARRAY", "items": {"type": "INTEGER"}},
                 },
-                "required": ["term", "what", "why_notable", "maybe_tickers"],
+                "required": ["term", "what", "why_notable", "maybe_tickers",
+                             "source_ids"],
             },
         },
     },
@@ -496,6 +503,27 @@ def enrich_narratives(narratives, today):
     return narratives
 
 
+def fmt_sources(item, posts):
+    """source_ids -> '📎 출처: r/hardware, HN(85p)' + 링크. 잘못된 id 는 무시."""
+    ids = item.get("source_ids") or []
+    links = []
+    for sid in ids[:4]:
+        try:
+            p = posts[int(sid) - 1]          # corpus 는 [1]부터 번호
+        except (ValueError, TypeError, IndexError):
+            continue
+        title = html.escape((p.get("title") or "")[:60])
+        url = html.escape(p.get("url") or "", quote=True)
+        src = html.escape(p.get("source") or "")
+        if url:
+            links.append(f'<a href="{url}">{src}</a>')
+        else:
+            links.append(src or title)
+    if not links:
+        return None
+    return "📎 출처: " + " · ".join(links)
+
+
 def fmt_ticker_line(m):
     """'• $AAOI 🆕  $12.30 (1M +3% · 3M -8% · 고점 -22%)' 형태."""
     parts = [f"• <b>${m['ticker']}</b> {m['tag']}"]
@@ -642,6 +670,9 @@ def main():
             lines.append(f"<i>{n.get('rationale','')}</i>")
             for m in n.get("_meta", []):
                 lines.append(fmt_ticker_line(m))
+            src_line = fmt_sources(n, posts)
+            if src_line:
+                lines.append(src_line)
         lines.append("")
 
     # 5) 기술 신호: 수혜주가 아직 없어도 '기술 자체'를 가장 이르게 포착
@@ -658,6 +689,9 @@ def main():
                 lines.append("관련주: " + " ".join(mt))
             else:
                 lines.append("관련주: <i>아직 뚜렷한 상장사 없음 (조기 신호)</i>")
+            src_line = fmt_sources(tt, posts)
+            if src_line:
+                lines.append(src_line)
 
     msg = "\n".join(lines).strip()
     try:
