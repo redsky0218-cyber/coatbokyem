@@ -55,3 +55,8 @@
 {"ts": "2026-08-11T22:33:19.399053+09:00", "name": "한국의 공격적인 반도체 허브 구축 및 공급망 강화 정책", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-11T22:33:19.399053+09:00", "name": "원자력 발전소의 장기 계약 가격 상승 및 우라늄 시장 강세", "tickers": ["CCJ", "UUUU", "URNM"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-11T22:33:19.399053+09:00", "name": "AI 기반 기계 설계 에이전트 (MechFaber)의 발전", "tickers": ["ADSK", "PTC", "SSYS"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-12T00:47:12.892321+09:00", "name": "HBM 공급 부족으로 인한 NVIDIA AI 칩 설계 변화 및 광학 인터커넥트 부상", "tickers": ["NVDA", "COHR", "LITE", "CRDO"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-12T00:47:12.892321+09:00", "name": "한국의 대규모 반도체 허브 조성 및 광주 군사 기지 이전 가속화", "tickers": ["LRCX", "AMAT", "KLAC"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-12T00:47:12.892321+09:00", "name": "오픈웨이트 AI 모델 확산 및 로컬/엣지 AI 추론 시장 성장", "tickers": ["META", "QCOM", "ARM"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T00:47:12.892321+09:00", "name": "패널 패키징 기술의 발전 및 대형 기판 적용", "tickers": ["SHMD", "AMKR", "ASE"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-12T00:47:12.892321+09:00", "name": "AI 에이전트 기반의 자동화된 기계 설계 (MechFaber)", "tickers": ["ADSK", "PTC", "SYNO"], "stage": "very_early", "confidence": "medium"}

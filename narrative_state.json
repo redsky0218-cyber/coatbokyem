@@ -472,6 +472,16 @@
         "PTC",
         "SSYS"
       ]
+    },
+    "hbmnvidiaai": {
+      "name": "HBM 공급 부족으로 인한 NVIDIA AI 칩 설계 변화 및 광학 인터커넥트 부상",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "NVDA",
+        "COHR",
+        "LITE",
+        "CRDO"
+      ]
     }
   },
   "seen_tech": {
@@ -618,6 +628,22 @@
     "revisionprompting": {
       "term": "Revision Prompting",
       "first_seen": "2026-08-11"
+    },
+    "unslothdesktop": {
+      "term": "Unsloth Desktop",
+      "first_seen": "2026-08-12"
+    },
+    "deepseekv4flash0731": {
+      "term": "DeepSeek-V4-Flash-0731",
+      "first_seen": "2026-08-12"
+    },
+    "solaropen2": {
+      "term": "Solar Open 2",
+      "first_seen": "2026-08-12"
+    },
+    "mechfaber": {
+      "term": "MechFaber",
+      "first_seen": "2026-08-12"
     }
   }
 }
