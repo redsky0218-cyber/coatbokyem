@@ -266,6 +266,45 @@ def collect_arxiv_posts(cfg):
     return posts
 
 
+# ----------------- SEC EDGAR 전문검색 (공시 교차확인, 키 불필요) ----------------- #
+def sec_fulltext_hits(term, lookback_days=90, max_hits=2):
+    """감지된 신기술 용어가 실제 '기업 공시'(8-K/10-K/S-1 등)에 등장하는지 확인.
+    커뮤니티 소문 -> 공식 문서로 확인되는 순간을 잡는 교차검증."""
+    end = datetime.now(KST).date()
+    start = end - timedelta(days=lookback_days)
+    try:
+        resp = requests.get(
+            "https://efts.sec.gov/LATEST/search-index",
+            params={"q": f'"{term}"',
+                    "startdt": start.isoformat(), "enddt": end.isoformat()},
+            headers={"User-Agent": "narrative-scout/1.0 (redsky0218@gmail.com)"},
+            timeout=20,
+        )
+        resp.raise_for_status()
+        hits = resp.json().get("hits", {}).get("hits", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"[경고] SEC 검색 실패({term}): {e}")
+        return []
+    out = []
+    for h in hits[:max_hits]:
+        s = h.get("_source", {})
+        names = s.get("display_names") or []
+        name = re.sub(r"\s*\(CIK[^)]*\)", "", names[0]).strip() if names else "?"
+        out.append({"name": name,
+                    "form": s.get("file_type") or "",
+                    "date": s.get("file_date") or ""})
+    return out
+
+
+def sec_query_term(term):
+    """'HBF (High-Bandwidth Flash)' -> 더 구체적인 쪽(긴 쪽)을 검색어로."""
+    m = re.match(r"(.+?)\s*\((.+)\)\s*$", (term or "").strip())
+    if m:
+        outer, inner = m.group(1).strip(), m.group(2).strip()
+        return inner if len(inner) >= len(outer) else outer
+    return (term or "").strip()
+
+
 def build_corpus(posts):
     """수집한 글을 LLM 입력용 텍스트로 직렬화."""
     lines = []
@@ -442,10 +481,12 @@ def price_snapshot(tickers):
 
     for t in uniq:
         try:
-            if len(uniq) == 1:
-                close = data["Close"].dropna()
-            else:
+            try:                     # 멀티인덱스(티커별) 형태 우선
                 close = data[t]["Close"].dropna()
+                vol = data[t]["Volume"].dropna()
+            except (KeyError, IndexError):
+                close = data["Close"].dropna()
+                vol = data["Volume"].dropna()
             if close is None or close.empty:
                 continue
             price = float(close.iloc[-1])
@@ -456,12 +497,23 @@ def price_snapshot(tickers):
                     return (price / past - 1) * 100 if past else None
                 return None
 
+            # 거래량 이상: 최근 거래량 / 30일 평균 (2.5x 이상 = 자금 유입 흔적)
+            vol_ratio = None
+            try:
+                if vol is not None and len(vol) > 10:
+                    base = float(vol.tail(30).mean())
+                    if base > 0:
+                        vol_ratio = float(vol.iloc[-1]) / base
+            except Exception:  # noqa: BLE001
+                pass
+
             hi = float(close.max())
             out[t] = {
                 "price": price,
                 "chg_1m": pct(21),
                 "chg_3m": pct(63),
                 "off_high": (price / hi - 1) * 100 if hi else None,
+                "vol_ratio": vol_ratio,
             }
         except Exception:  # noqa: BLE001
             continue
@@ -530,14 +582,33 @@ def opportunity_score(n, tickers_meta):
             price_pts = 8
         elif least >= 120:
             price_pts = -12         # 이미 폭등 = 늦음
-    total = stage_pts + conf_pts + novelty_pts + price_pts
+
+    # 🔥 거래량 이상(2.5x+) = 자금이 먼저 움직이는 흔적
+    if any(((m.get("price") or {}).get("vol_ratio") or 0) >= 2.5
+           for m in tickers_meta):
+        price_pts += 6
+
+    # 🔗 교차출처(Reddit·HN·arXiv 중 2종 이상) = 독립 확인된 신호
+    cross_pts = 5 if n.get("_src_kinds", 0) >= 2 else 0
+
+    total = stage_pts + conf_pts + novelty_pts + price_pts + cross_pts
     return max(0, min(100, total))
 
 
-def enrich_narratives(narratives, today):
+def enrich_narratives(narratives, today, posts=None):
     """각 내러티브에 티커별 가격·신규태그 메타를 붙이고 점수 계산 후 정렬."""
     for n in narratives:
         n["tickers"] = clean_tickers(n.get("tickers", []))
+        # 교차출처: 근거 글이 몇 종류의 소스(reddit/HN/arXiv)에서 왔는지
+        kinds = set()
+        for sid in n.get("source_ids") or []:
+            try:
+                src = (posts or [])[int(sid) - 1].get("source", "")
+            except (ValueError, TypeError, IndexError):
+                continue
+            kinds.add("arxiv" if src.startswith("arXiv")
+                      else "hn" if src.startswith("HN") else "reddit")
+        n["_src_kinds"] = len(kinds)
     all_tickers = [t for n in narratives for t in n["tickers"]]
     prices = price_snapshot(all_tickers)
     hist_days = ticker_history_days()
@@ -588,6 +659,9 @@ def fmt_ticker_line(m):
             v = p.get(key)
             if v is not None:
                 mom.append(f"{label} {v:+.0f}%")
+        vr = p.get("vol_ratio")
+        if vr is not None and vr >= 2.0:
+            mom.append(f"거래량 {vr:.1f}x🔥")
         if mom:
             seg.append("(" + " · ".join(mom) + ")")
         parts.append("  " + " ".join(seg))
@@ -726,45 +800,73 @@ def main():
         return
 
     now_kst = datetime.now(KST)
-    lines = [f"🔍 <b>새 유망 신호 감지</b>  <i>{now_kst:%Y-%m-%d %H:%M} KST</i>", ""]
+    SEP = "──────────────────"
+    lines = [f"🔍 <b>새 유망 신호 감지</b>",
+             f"<i>{now_kst:%m-%d %H:%M} KST · 🆕최초 🔁지속 ⚡가속 🔥거래량 🔗교차</i>"]
 
     # 4) 내러티브: 가격·모멘텀·신규성 enrich + 조기기회 점수순
     if fresh:
         print("3) 종목 가격·모멘텀 조회 중…")
-        fresh = enrich_narratives(fresh, today)
-        lines.append("<b>━━ 💡 유망 내러티브 (조기·저평가 점수순) ━━</b>")
-        lines.append("<i>🆕최초 🔁지속</i>")
+        fresh = enrich_narratives(fresh, today, posts)
+        lines.append("")
+        lines.append("💡 <b>유망 내러티브</b> (조기·저평가 점수순)")
         for n in fresh:
             stage = STAGE_KO.get(n.get("stage"), n.get("stage", ""))
             conf = CONF_KO.get(n.get("confidence"), n.get("confidence", ""))
             score = n.get("_score", 0)
             star = "🌟 " if score >= 70 else ""
+            cross = " · 🔗교차" if n.get("_src_kinds", 0) >= 2 else ""
             lines.append("")
+            lines.append(SEP)
             lines.append(f"{star}<b>[{score}점] {n.get('name')}</b>")
-            lines.append(f"{stage} · 신뢰도 {conf}")
+            lines.append(f"{stage} · 신뢰도 {conf}{cross}")
+            lines.append("")
             lines.append(f"{n.get('summary','')}")
-            lines.append(f"<i>{n.get('rationale','')}</i>")
-            for m in n.get("_meta", []):
-                lines.append(fmt_ticker_line(m))
+            lines.append("")
+            lines.append(f"💬 <i>{n.get('rationale','')}</i>")
+            metas = n.get("_meta", [])
+            if metas:
+                lines.append("")
+                for m in metas:
+                    lines.append(fmt_ticker_line(m))
             src_line = fmt_sources(n, posts)
             if src_line:
                 lines.append(src_line)
-        lines.append("")
 
     # 5) 기술 신호: 수혜주가 아직 없어도 '기술 자체'를 가장 이르게 포착
     if fresh_tech:
-        lines.append("<b>━━ 🔬 새로 포착된 기술/용어 ━━</b>")
-        lines.append("<i>수혜주가 아직 없어도 기술을 먼저 잡습니다</i>")
+        # SEC 공시 교차확인: 이 용어가 실제 기업 공시에 등장했는가?
+        sec_cfg = cfg.get("sec", {})
+        if sec_cfg.get("enabled", True):
+            print("4) SEC 공시 교차확인 중…")
+            for tt in fresh_tech[:sec_cfg.get("max_terms", 6)]:
+                q = sec_query_term(tt.get("term", ""))
+                if len(q) >= 4:                  # 너무 짧은 약어는 오탐 방지
+                    tt["_sec"] = sec_fulltext_hits(
+                        q, sec_cfg.get("lookback_days", 90))
+                    time.sleep(0.4)
+
+        lines.append("")
+        lines.append("")
+        lines.append("🔬 <b>새로 포착된 기술/용어</b>")
+        lines.append("<i>수혜주가 없어도 기술 자체를 먼저 잡습니다</i>")
         for tt in fresh_tech:
             term = tt.get("term", "")
-            mt = [f"${(t or '').strip().upper()}" for t in tt.get("maybe_tickers", []) if t]
+            mt = [f"${t}" for t in clean_tickers(tt.get("maybe_tickers", []))]
             lines.append("")
-            lines.append(f"🔬 <b>{term}</b> — {tt.get('what','')}")
-            lines.append(f"<i>{tt.get('why_notable','')}</i>")
+            lines.append(SEP)
+            lines.append(f"🔬 <b>{term}</b>")
+            lines.append(f"{tt.get('what','')}")
+            lines.append("")
+            lines.append(f"💬 <i>{tt.get('why_notable','')}</i>")
+            lines.append("")
             if mt:
-                lines.append("관련주: " + " ".join(mt))
+                lines.append("📈 관련주: " + " ".join(mt))
             else:
-                lines.append("관련주: <i>아직 뚜렷한 상장사 없음 (조기 신호)</i>")
+                lines.append("📈 관련주: <i>아직 없음 (극초기 신호)</i>")
+            for h in tt.get("_sec", []):
+                lines.append(f"🏛️ SEC 공시: <b>{html.escape(h['name'])}</b>"
+                             f" · {h['form']} {h['date']}")
             src_line = fmt_sources(tt, posts)
             if src_line:
                 lines.append(src_line)
