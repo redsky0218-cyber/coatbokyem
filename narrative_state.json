@@ -712,6 +712,22 @@
     "hypersae": {
       "term": "HyperSAE",
       "first_seen": "2026-08-12"
+    },
+    "haleuhighassaylowenricheduranium": {
+      "term": "HALEU (High-Assay Low-Enriched Uranium)",
+      "first_seen": "2026-08-12"
+    },
+    "aircooledsmrs": {
+      "term": "Air-cooled SMRs",
+      "first_seen": "2026-08-12"
+    },
+    "analoginmemorycomputingaimcnoisebudget": {
+      "term": "Analog In-Memory Computing (AIMC) Noise Budget",
+      "first_seen": "2026-08-12"
+    },
+    "phoneharness": {
+      "term": "phone-harness",
+      "first_seen": "2026-08-12"
     }
   }
 }

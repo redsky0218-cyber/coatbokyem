@@ -66,3 +66,9 @@
 {"ts": "2026-08-12T03:58:31.567135+09:00", "name": "고농축 저농축 우라늄(HALEU) 연료 공급망 확장", "tickers": ["LEU", "DNN"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-12T03:58:31.567135+09:00", "name": "AI 에이전트 기반의 자동화된 기계 설계 및 CAD 생성", "tickers": ["ADSK", "PTC", "SNPS"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-12T03:58:31.567135+09:00", "name": "로봇 공학에서 센서 동기화 및 VSLAM을 위한 온-버스 클럭 징계", "tickers": ["OUST", "MVIS", "NVDA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T07:40:20.821496+09:00", "name": "HBM4 생산 수율 개선 및 공급 확대", "tickers": ["SSNLF", "MU", "NVDA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-12T07:40:20.821496+09:00", "name": "AI 칩 설계의 '메모리 우선' 전략 전환", "tickers": ["NVDA", "LITE", "COHR", "SMCI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T07:40:20.821496+09:00", "name": "데이터센터 냉각 솔루션으로서의 다이아몬드 활용", "tickers": ["AMAT", "LRCX", "KLIC"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-12T07:40:20.821496+09:00", "name": "차세대 원자로 연료 공급망 병목 현상", "tickers": ["UUUU", "CCJ", "NXE"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T07:40:20.821496+09:00", "name": "AI 에이전트의 전화 제어 및 자동화", "tickers": ["PLTR", "PATH", "UIPATH"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-12T07:40:20.821496+09:00", "name": "AI 기반 기계 설계 자동화 (MechFaber)", "tickers": ["ADSK", "PTC", "ANSS"], "stage": "very_early", "confidence": "medium"}
