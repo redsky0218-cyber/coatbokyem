@@ -398,6 +398,37 @@
         "DELL",
         "HPQ"
       ]
+    },
+    "nvidiarubinultrahbm4": {
+      "name": "NVIDIA Rubin Ultra 메모리 제약에 따른 HBM4 및 광학 인터커넥트 수요 증가",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "NVDA",
+        "AAOI",
+        "LITE",
+        "CRDO"
+      ]
+    },
+    "aimeta": {
+      "name": "오픈 웨이트 AI 모델 경쟁 심화 및 Meta의 전략적 전환",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "META"
+      ]
+    },
+    "ghost": {
+      "name": "컨테이너형 발사대 시스템 'GHOST'를 통한 로켓 발사 유연성 증대",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "RKLB"
+      ]
+    },
+    "aillmneedle2iot": {
+      "name": "초소형 엣지 AI LLM 'Needle2'를 통한 IoT 및 저가형 기기 시장 확장",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "ARM"
+      ]
     }
   },
   "seen_tech": {
@@ -483,6 +514,30 @@
     },
     "siliconphotonicsinversedesign": {
       "term": "Silicon Photonics Inverse Design",
+      "first_seen": "2026-08-11"
+    },
+    "rubinultra": {
+      "term": "Rubin Ultra",
+      "first_seen": "2026-08-11"
+    },
+    "hbm4": {
+      "term": "HBM4",
+      "first_seen": "2026-08-11"
+    },
+    "photonicinterconnect": {
+      "term": "Photonic Interconnect",
+      "first_seen": "2026-08-11"
+    },
+    "copackagedopticscpo": {
+      "term": "Co-packaged Optics (CPO)",
+      "first_seen": "2026-08-11"
+    },
+    "rollabledisplay": {
+      "term": "Rollable-display",
+      "first_seen": "2026-08-11"
+    },
+    "ghostcontainerizeddeployablelaunchsitesystem": {
+      "term": "GHOST (Containerized, Deployable Launch Site System)",
       "first_seen": "2026-08-11"
     }
   }
