@@ -67,7 +67,7 @@ def tally(rows):
     for rec in rows:
         day = rec["ts"][:10]
         for t in rec.get("tickers", []):
-            t = (t or "").strip().upper()
+            t = ns.clean_ticker(t)
             if not t:
                 continue
             ticker_counts[t] += 1

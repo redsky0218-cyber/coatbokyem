@@ -77,7 +77,7 @@ def append_history(narratives):
             rec = {
                 "ts": ts,
                 "name": n.get("name", ""),
-                "tickers": n.get("tickers", []),
+                "tickers": clean_tickers(n.get("tickers", [])),
                 "stage": n.get("stage", ""),
                 "confidence": n.get("confidence", ""),
             }
@@ -217,6 +217,52 @@ def collect_hn_posts(cfg):
             "url": url,
         })
 
+    return posts
+
+
+# ----------------------- arXiv 논문 수집 (공식 API, 키 불필요) ----------------------- #
+def collect_arxiv_posts(cfg):
+    """arXiv 최신 논문 수집. 기술의 '진짜 최초' 신호는 커뮤니티보다
+    논문에서 먼저 나오는 경우가 많다 (HBF 도 학회 발표가 먼저)."""
+    ac = cfg.get("arxiv", {})
+    if not ac.get("enabled", True):
+        return []
+
+    cats = ac.get("categories", ["cs.AR", "cs.ET", "quant-ph", "physics.optics"])
+    max_papers = ac.get("max_papers", 25)
+    lookback = ac.get("lookback_hours", 72) * 3600
+    max_chars = ac.get("max_abstract_chars", 700)
+
+    query = "+OR+".join(f"cat:{c}" for c in cats)
+    url = ("http://export.arxiv.org/api/query?search_query=" + query +
+           f"&sortBy=submittedDate&sortOrder=descending&max_results={max_papers}")
+    try:
+        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=25)
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+    except Exception as e:  # noqa: BLE001
+        print(f"[경고] arXiv 수집 실패: {e}")
+        return []
+
+    cutoff = time.time() - lookback
+    posts = []
+    for entry in root.findall("a:entry", ATOM_NS):
+        pub = entry.findtext("a:published", "", ATOM_NS)
+        try:
+            ts = datetime.fromisoformat(pub.replace("Z", "+00:00")).timestamp()
+        except ValueError:
+            continue
+        if ts < cutoff:
+            continue
+        title = " ".join((entry.findtext("a:title", "", ATOM_NS) or "").split())
+        abstract = " ".join((entry.findtext("a:summary", "", ATOM_NS) or "").split())
+        if len(abstract) > max_chars:
+            abstract = abstract[:max_chars] + "…"
+        link = entry.findtext("a:id", "", ATOM_NS) or ""
+        cat_el = entry.find("a:category", ATOM_NS)
+        cat = cat_el.get("term") if cat_el is not None else "arXiv"
+        posts.append({"source": f"arXiv({cat})", "title": title,
+                      "body": abstract, "url": link})
     return posts
 
 
@@ -445,18 +491,19 @@ def ticker_history_days():
 
 
 def novelty_tag(ticker, today, hist_days):
-    """🆕 최초포착 / 🔁 지속(며칠) 태그. 오늘 이전 등장 이력으로 판정."""
+    """🆕 최초포착 / 🔁 지속(며칠) / ⚡ 언급 가속(최근 7일 급증) 판정."""
     days = hist_days.get((ticker or "").strip().upper(), set())
     prior = days - {today}
     if not prior:
-        return "🆕", True, 0
-    recent7 = 0
-    try:
-        cutoff = (datetime.now(KST) - timedelta(days=7)).strftime("%Y-%m-%d")
-        recent7 = len([d for d in days if d >= cutoff])
-    except Exception:  # noqa: BLE001
-        recent7 = len(days)
-    return f"🔁{len(prior)}일", False, recent7
+        return "🆕", True, 0, False
+    now = datetime.now(KST)
+    cut7 = (now - timedelta(days=7)).strftime("%Y-%m-%d")
+    cut14 = (now - timedelta(days=14)).strftime("%Y-%m-%d")
+    recent7 = len([d for d in days if d >= cut7])
+    prior7 = len([d for d in days if cut14 <= d < cut7])
+    # 직전 주 대비 등장일수 2배 이상 & 3일 이상 = 언급 가속
+    accel = recent7 >= 3 and recent7 >= 2 * max(prior7, 1)
+    return f"🔁{len(prior)}일", False, recent7, accel
 
 
 def opportunity_score(n, tickers_meta):
@@ -468,6 +515,8 @@ def opportunity_score(n, tickers_meta):
 
     is_new = any(m.get("is_new") for m in tickers_meta)
     novelty_pts = 20 if is_new else 8
+    if any(m.get("accel") for m in tickers_meta):
+        novelty_pts += 5            # ⚡ 언급 가속 보너스
 
     # 대표 종목 = 3개월 등락률이 가장 낮은(=가장 덜 오른) 종목의 미상승 보너스
     chgs = [m["price"]["chg_3m"] for m in tickers_meta
@@ -487,16 +536,19 @@ def opportunity_score(n, tickers_meta):
 
 def enrich_narratives(narratives, today):
     """각 내러티브에 티커별 가격·신규태그 메타를 붙이고 점수 계산 후 정렬."""
-    all_tickers = [t for n in narratives for t in n.get("tickers", [])]
+    for n in narratives:
+        n["tickers"] = clean_tickers(n.get("tickers", []))
+    all_tickers = [t for n in narratives for t in n["tickers"]]
     prices = price_snapshot(all_tickers)
     hist_days = ticker_history_days()
     for n in narratives:
         metas = []
-        for t in n.get("tickers", []):
-            tag, is_new, recent7 = novelty_tag(t, today, hist_days)
-            metas.append({"ticker": (t or "").strip().upper(),
-                          "price": prices.get((t or "").strip().upper()),
-                          "tag": tag, "is_new": is_new, "recent7": recent7})
+        for t in n["tickers"]:
+            tag, is_new, recent7, accel = novelty_tag(t, today, hist_days)
+            metas.append({"ticker": t,
+                          "price": prices.get(t),
+                          "tag": tag, "is_new": is_new, "recent7": recent7,
+                          "accel": accel})
         n["_meta"] = metas
         n["_score"] = opportunity_score(n, metas)
     narratives.sort(key=lambda x: x.get("_score", 0), reverse=True)
@@ -525,8 +577,9 @@ def fmt_sources(item, posts):
 
 
 def fmt_ticker_line(m):
-    """'• $AAOI 🆕  $12.30 (1M +3% · 3M -8% · 고점 -22%)' 형태."""
-    parts = [f"• <b>${m['ticker']}</b> {m['tag']}"]
+    """'• $AAOI 🆕⚡  $12.30 (1M +3% · 3M -8% · 고점 -22%)' 형태."""
+    tag = m["tag"] + ("⚡" if m.get("accel") else "")
+    parts = [f"• <b>${m['ticker']}</b> {tag}"]
     p = m.get("price")
     if p:
         seg = [f"${p['price']:.2f}"]
@@ -582,6 +635,27 @@ def norm_key(name):
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
+def clean_ticker(raw):
+    """LLM 이 'XYLEM (XYL)' 처럼 회사명을 섞어 줄 때 순수 티커만 추출.
+    유효하지 않으면 None."""
+    s = (raw or "").strip().upper()
+    m = re.search(r"\(([A-Z]{1,6}(?:\.[A-Z])?)\)", s)   # 괄호 안 티커 우선
+    if m:
+        return m.group(1)
+    if re.fullmatch(r"[A-Z]{1,6}(?:\.[A-Z])?", s):
+        return s
+    return None
+
+
+def clean_tickers(lst):
+    out = []
+    for t in lst or []:
+        c = clean_ticker(t)
+        if c and c not in out:
+            out.append(c)
+    return out
+
+
 # ----------------------------- 메인 ----------------------------- #
 def main():
     cfg = load_json(CONFIG_PATH)
@@ -601,12 +675,14 @@ def main():
         print("       secrets.json 또는 환경변수(GitHub Secrets)에 넣어주세요.")
         sys.exit(1)
 
-    print("1) 소스 수집 중… (Reddit + Hacker News)")
+    print("1) 소스 수집 중… (Reddit + Hacker News + arXiv)")
     posts = collect_reddit_posts(cfg)
     print(f"   -> Reddit {len(posts)}개")
     hn = collect_hn_posts(cfg)
     print(f"   -> Hacker News {len(hn)}개")
-    posts += hn
+    ax = collect_arxiv_posts(cfg)
+    print(f"   -> arXiv {len(ax)}개")
+    posts += hn + ax
     print(f"   -> 합계 {len(posts)}개 글 수집")
     if not posts:
         print("수집된 글 없음. 종료.")
