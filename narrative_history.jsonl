@@ -45,3 +45,8 @@
 {"ts": "2026-08-11T14:04:02.575350+09:00", "name": "컨테이너형 발사대 시스템 'GHOST'를 통한 로켓 발사 유연성 증대", "tickers": ["RKLB"], "stage": "very_early", "confidence": "high"}
 {"ts": "2026-08-11T14:04:02.575350+09:00", "name": "초소형 엣지 AI LLM 'Needle2'를 통한 IoT 및 저가형 기기 시장 확장", "tickers": ["ARM"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-11T14:04:02.575350+09:00", "name": "GPU 및 AI 서버 시장의 중고 거래 및 금융 시장 형성 (Stoa Markets)", "tickers": ["SMCI"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-11T19:51:25.860200+09:00", "name": "NVIDIA Rubin Ultra 메모리 구성 재조정 및 광학 인터커넥트의 중요성 부각", "tickers": ["NVDA", "LITE", "ACMR", "MRVL", "COHR"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-11T19:51:25.860200+09:00", "name": "오픈웨이트 AI 모델의 부상과 산업 경쟁 구도 변화", "tickers": ["META", "BABA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-11T19:51:25.860200+09:00", "name": "대형 패널 첨단 패키징 기술의 특수 시장 적용 (우주/위성)", "tickers": ["SHMD"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-11T19:51:25.860200+09:00", "name": "엣지 AI(Edge AI)를 위한 초소형 에이전트 LLM (Needle2)", "tickers": ["ARM"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-11T19:51:25.860200+09:00", "name": "컨테이너형 이동식 로켓 발사 시스템 (Rocket Lab GHOST)", "tickers": ["RKLB"], "stage": "emerging", "confidence": "medium"}

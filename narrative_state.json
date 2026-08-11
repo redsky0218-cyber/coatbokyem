@@ -429,6 +429,31 @@
       "tickers": [
         "ARM"
       ]
+    },
+    "nvidiarubinultra": {
+      "name": "NVIDIA Rubin Ultra 메모리 구성 재조정 및 광학 인터커넥트의 중요성 부각",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "NVDA",
+        "LITE",
+        "ACMR",
+        "MRVL",
+        "COHR"
+      ]
+    },
+    "aiedgeaillmneedle2": {
+      "name": "엣지 AI(Edge AI)를 위한 초소형 에이전트 LLM (Needle2)",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "ARM"
+      ]
+    },
+    "rocketlabghost": {
+      "name": "컨테이너형 이동식 로켓 발사 시스템 (Rocket Lab GHOST)",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "RKLB"
+      ]
     }
   },
   "seen_tech": {
@@ -538,6 +563,18 @@
     },
     "ghostcontainerizeddeployablelaunchsitesystem": {
       "term": "GHOST (Containerized, Deployable Launch Site System)",
+      "first_seen": "2026-08-11"
+    },
+    "hbm4e": {
+      "term": "HBM4E",
+      "first_seen": "2026-08-11"
+    },
+    "closedweightmodels": {
+      "term": "Closed-weight models",
+      "first_seen": "2026-08-11"
+    },
+    "700x700mmpanelpackagingtool": {
+      "term": "700x700mm panel packaging tool",
       "first_seen": "2026-08-11"
     }
   }
