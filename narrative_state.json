@@ -482,6 +482,50 @@
         "LITE",
         "CRDO"
       ]
+    },
+    "hbm4": {
+      "name": "HBM4 수율 개선 및 공급망 안정화",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "SSNLF",
+        "MU"
+      ]
+    },
+    "hbmaicopackagedoptics": {
+      "name": "HBM 부족으로 인한 AI 칩 디자인 변화 및 포토닉스/Co-Packaged Optics 부상",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "NVDA",
+        "LITE",
+        "CRDO",
+        "SMCI"
+      ]
+    },
+    "haleu": {
+      "name": "고농축 저농축 우라늄(HALEU) 연료 공급망 확장",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "LEU",
+        "DNN"
+      ]
+    },
+    "aicad": {
+      "name": "AI 에이전트 기반의 자동화된 기계 설계 및 CAD 생성",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "ADSK",
+        "PTC",
+        "SNPS"
+      ]
+    },
+    "vslam": {
+      "name": "로봇 공학에서 센서 동기화 및 VSLAM을 위한 온-버스 클럭 징계",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "OUST",
+        "MVIS",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -643,6 +687,30 @@
     },
     "mechfaber": {
       "term": "MechFaber",
+      "first_seen": "2026-08-12"
+    },
+    "hbm4goldenyield": {
+      "term": "HBM4 Golden Yield",
+      "first_seen": "2026-08-12"
+    },
+    "photonicinterconnectcopackagedopticscpo": {
+      "term": "Photonic Interconnect / Co-Packaged Optics (CPO)",
+      "first_seen": "2026-08-12"
+    },
+    "openweightaimodels": {
+      "term": "Open-weight AI models",
+      "first_seen": "2026-08-12"
+    },
+    "verifrog": {
+      "term": "Verifrog",
+      "first_seen": "2026-08-12"
+    },
+    "tritiumbetavoltaiccells": {
+      "term": "Tritium Betavoltaic Cells",
+      "first_seen": "2026-08-12"
+    },
+    "hypersae": {
+      "term": "HyperSAE",
       "first_seen": "2026-08-12"
     }
   }

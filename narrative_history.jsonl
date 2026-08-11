@@ -60,3 +60,9 @@
 {"ts": "2026-08-12T00:47:12.892321+09:00", "name": "오픈웨이트 AI 모델 확산 및 로컬/엣지 AI 추론 시장 성장", "tickers": ["META", "QCOM", "ARM"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-12T00:47:12.892321+09:00", "name": "패널 패키징 기술의 발전 및 대형 기판 적용", "tickers": ["SHMD", "AMKR", "ASE"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-12T00:47:12.892321+09:00", "name": "AI 에이전트 기반의 자동화된 기계 설계 (MechFaber)", "tickers": ["ADSK", "PTC", "SYNO"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-12T03:58:31.567135+09:00", "name": "HBM4 수율 개선 및 공급망 안정화", "tickers": ["SSNLF", "MU"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-12T03:58:31.567135+09:00", "name": "HBM 부족으로 인한 AI 칩 디자인 변화 및 포토닉스/Co-Packaged Optics 부상", "tickers": ["NVDA", "LITE", "CRDO", "SMCI"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-12T03:58:31.567135+09:00", "name": "SMR(소형 모듈형 원자로)의 공랭식/하이브리드 냉각 시스템 채택", "tickers": ["BWXT", "GE"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T03:58:31.567135+09:00", "name": "고농축 저농축 우라늄(HALEU) 연료 공급망 확장", "tickers": ["LEU", "DNN"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-12T03:58:31.567135+09:00", "name": "AI 에이전트 기반의 자동화된 기계 설계 및 CAD 생성", "tickers": ["ADSK", "PTC", "SNPS"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-12T03:58:31.567135+09:00", "name": "로봇 공학에서 센서 동기화 및 VSLAM을 위한 온-버스 클럭 징계", "tickers": ["OUST", "MVIS", "NVDA"], "stage": "emerging", "confidence": "medium"}
