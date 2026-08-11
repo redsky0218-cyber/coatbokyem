@@ -454,6 +454,24 @@
       "tickers": [
         "RKLB"
       ]
+    },
+    "hbmai": {
+      "name": "HBM 부족으로 인한 AI 가속기 설계 변화 및 포토닉 인터커넥트 부상",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "MU",
+        "COHR",
+        "LWLG"
+      ]
+    },
+    "aimechfaber": {
+      "name": "AI 기반 기계 설계 에이전트 (MechFaber)의 발전",
+      "first_seen": "2026-08-11",
+      "tickers": [
+        "ADSK",
+        "PTC",
+        "SSYS"
+      ]
     }
   },
   "seen_tech": {
@@ -575,6 +593,30 @@
     },
     "700x700mmpanelpackagingtool": {
       "term": "700x700mm panel packaging tool",
+      "first_seen": "2026-08-11"
+    },
+    "analoginmemorycomputing": {
+      "term": "Analog in-memory computing",
+      "first_seen": "2026-08-11"
+    },
+    "quantumcoherencemicroscope": {
+      "term": "Quantum coherence microscope",
+      "first_seen": "2026-08-11"
+    },
+    "aesdebye": {
+      "term": "AES-Debye",
+      "first_seen": "2026-08-11"
+    },
+    "archagentv2": {
+      "term": "ArchAgent v2",
+      "first_seen": "2026-08-11"
+    },
+    "aicir": {
+      "term": "Aicir",
+      "first_seen": "2026-08-11"
+    },
+    "revisionprompting": {
+      "term": "Revision Prompting",
       "first_seen": "2026-08-11"
     }
   }

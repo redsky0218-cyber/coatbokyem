@@ -50,3 +50,8 @@
 {"ts": "2026-08-11T19:51:25.860200+09:00", "name": "대형 패널 첨단 패키징 기술의 특수 시장 적용 (우주/위성)", "tickers": ["SHMD"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-11T19:51:25.860200+09:00", "name": "엣지 AI(Edge AI)를 위한 초소형 에이전트 LLM (Needle2)", "tickers": ["ARM"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-11T19:51:25.860200+09:00", "name": "컨테이너형 이동식 로켓 발사 시스템 (Rocket Lab GHOST)", "tickers": ["RKLB"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-11T22:33:19.399053+09:00", "name": "HBM 부족으로 인한 AI 가속기 설계 변화 및 포토닉 인터커넥트 부상", "tickers": ["MU", "COHR", "LWLG"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-11T22:33:19.399053+09:00", "name": "오픈웨이트 AI 모델의 부상 및 로컬 AI 인프라 수요 증가", "tickers": ["NVDA", "DELL", "SMCI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-11T22:33:19.399053+09:00", "name": "한국의 공격적인 반도체 허브 구축 및 공급망 강화 정책", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-11T22:33:19.399053+09:00", "name": "원자력 발전소의 장기 계약 가격 상승 및 우라늄 시장 강세", "tickers": ["CCJ", "UUUU", "URNM"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-11T22:33:19.399053+09:00", "name": "AI 기반 기계 설계 에이전트 (MechFaber)의 발전", "tickers": ["ADSK", "PTC", "SSYS"], "stage": "very_early", "confidence": "medium"}
