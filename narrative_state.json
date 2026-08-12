@@ -526,6 +526,43 @@
         "MVIS",
         "NVDA"
       ]
+    },
+    "aihbf": {
+      "name": "AI 추론 가속화를 위한 고대역폭 플래시(HBF)",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "WDC",
+        "MU",
+        "SKHYY"
+      ]
+    },
+    "aicducoolantdistributionunit": {
+      "name": "AI 데이터센터 액체 냉각 및 CDU(Coolant Distribution Unit) 혁신",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "TER"
+      ]
+    },
+    "aighostsplice": {
+      "name": "AI 에이전트의 새로운 사이버 보안 위협 (GhostSplice)",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "PANW",
+        "FTNT"
+      ]
+    },
+    "ainist": {
+      "name": "AI 시대의 취약점 데이터베이스 재정비 (NIST)",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "MSFT"
+      ]
     }
   },
   "seen_tech": {
@@ -727,6 +764,18 @@
     },
     "phoneharness": {
       "term": "phone-harness",
+      "first_seen": "2026-08-12"
+    },
+    "hbfhighbandwidthflash": {
+      "term": "HBF (High Bandwidth Flash)",
+      "first_seen": "2026-08-12"
+    },
+    "decoupleddescentdd": {
+      "term": "Decoupled Descent (DD)",
+      "first_seen": "2026-08-12"
+    },
+    "contextinducedactivationdrift": {
+      "term": "Context-Induced Activation Drift",
       "first_seen": "2026-08-12"
     }
   }

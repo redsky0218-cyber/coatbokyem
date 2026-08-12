@@ -72,3 +72,9 @@
 {"ts": "2026-08-12T07:40:20.821496+09:00", "name": "차세대 원자로 연료 공급망 병목 현상", "tickers": ["UUUU", "CCJ", "NXE"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-12T07:40:20.821496+09:00", "name": "AI 에이전트의 전화 제어 및 자동화", "tickers": ["PLTR", "PATH", "UIPATH"], "stage": "very_early", "confidence": "low"}
 {"ts": "2026-08-12T07:40:20.821496+09:00", "name": "AI 기반 기계 설계 자동화 (MechFaber)", "tickers": ["ADSK", "PTC", "ANSS"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-12T14:36:38.265159+09:00", "name": "AI 추론 가속화를 위한 고대역폭 플래시(HBF)", "tickers": ["WDC", "MU", "SKHYY"], "stage": "very_early", "confidence": "high"}
+{"ts": "2026-08-12T14:36:38.265159+09:00", "name": "컨테이너형 이동식 발사 시스템 (GHOST)", "tickers": ["RKLB"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T14:36:38.265159+09:00", "name": "AI 데이터센터 액체 냉각 및 CDU(Coolant Distribution Unit) 혁신", "tickers": ["AMAT", "LRCX", "TER"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T14:36:38.265159+09:00", "name": "AI 에이전트의 새로운 사이버 보안 위협 (GhostSplice)", "tickers": ["CRWD", "ZS", "PANW", "FTNT"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-12T14:36:38.265159+09:00", "name": "AI 시대의 취약점 데이터베이스 재정비 (NIST)", "tickers": ["CRWD", "ZS", "MSFT"], "stage": "emerging", "confidence": "low"}
+{"ts": "2026-08-12T14:36:38.265159+09:00", "name": "AI 추론을 위한 한국형 AI 칩 인프라 확장", "tickers": ["SKM", "TER"], "stage": "emerging", "confidence": "medium"}
