@@ -94,3 +94,9 @@
 {"ts": "2026-08-13T05:06:58.409467+09:00", "name": "지역별 반도체 제조 허브 구축 가속화 (인도 구자라트 사례)", "tickers": ["MU"], "stage": "gaining_traction", "confidence": "medium"}
 {"ts": "2026-08-13T05:06:58.409467+09:00", "name": "AI/HPC 인프라 확장을 위한 소규모 데이터센터 개발", "tickers": ["BGDE", "SMCI", "DELL"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-13T05:06:58.409467+09:00", "name": "AI 에이전트 대상 사이버 보안 위협 및 DMARC 취약점 악용", "tickers": ["TTC", "CRWD", "PANW", "OKTA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T07:39:38.216412+09:00", "name": "AI 추론 워크로드로 인한 엔터프라이즈 SSD 수요 급증", "tickers": ["MU", "WDC", "SMCI", "HPE"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-13T07:39:38.216412+09:00", "name": "GaN(질화갈륨) 전력 반도체의 소비자 가전 채택 확대", "tickers": ["NVTS", "LSCC", "ON"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T07:39:38.216412+09:00", "name": "LiteLLM 공급망 공격 및 AI 모델 취약성", "tickers": ["CRWD", "ZS", "PANW", "OKTA"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-13T07:39:38.216412+09:00", "name": "로켓 랩의 컨테이너형 발사 시스템 'GHOST' 개발", "tickers": ["RKLB", "LMT", "BA"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-13T07:39:38.216412+09:00", "name": "차세대 배터리 기술: Enovix의 실리콘-특정 스마트폰 프로그램", "tickers": ["ENVX", "QS", "ALB"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T07:39:38.216412+09:00", "name": "AI 데이터센터 인프라의 전력, 냉각 및 네트워크 재설계", "tickers": ["SMCI", "AMAT", "ACMR", "VRT"], "stage": "gaining_traction", "confidence": "high"}

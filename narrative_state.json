@@ -636,6 +636,35 @@
         "PANW",
         "OKTA"
       ]
+    },
+    "aissd": {
+      "name": "AI 추론 워크로드로 인한 엔터프라이즈 SSD 수요 급증",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "MU",
+        "WDC",
+        "SMCI",
+        "HPE"
+      ]
+    },
+    "litellmai": {
+      "name": "LiteLLM 공급망 공격 및 AI 모델 취약성",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "PANW",
+        "OKTA"
+      ]
+    },
+    "enovix": {
+      "name": "차세대 배터리 기술: Enovix의 실리콘-특정 스마트폰 프로그램",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "ENVX",
+        "QS",
+        "ALB"
+      ]
     }
   },
   "seen_tech": {
@@ -909,6 +938,34 @@
     },
     "agenticworldcup": {
       "term": "Agentic World Cup",
+      "first_seen": "2026-08-13"
+    },
+    "serverledessds": {
+      "term": "Server-Led eSSDs",
+      "first_seen": "2026-08-13"
+    },
+    "litellmhack": {
+      "term": "LiteLLM Hack",
+      "first_seen": "2026-08-13"
+    },
+    "ghostcontainerizedlaunchsitesystem": {
+      "term": "GHOST (Containerized Launch Site System)",
+      "first_seen": "2026-08-13"
+    },
+    "vlabasedrobots": {
+      "term": "VLA-based robots",
+      "first_seen": "2026-08-13"
+    },
+    "acimanalogcomputinginmemory": {
+      "term": "ACiM (Analog Computing-in-Memory)",
+      "first_seen": "2026-08-13"
+    },
+    "dsusydiscretesupersymmetrictransformation": {
+      "term": "DSUSY (Discrete Supersymmetric Transformation)",
+      "first_seen": "2026-08-13"
+    },
+    "hlpufshybridlockedphysicalunclonablefunctions": {
+      "term": "HLPUFs (Hybrid Locked Physical Unclonable Functions)",
       "first_seen": "2026-08-13"
     }
   }
