@@ -89,3 +89,8 @@
 {"ts": "2026-08-13T00:46:32.312364+09:00", "name": "AI 공급망 보안 및 AI 에이전트 공격 벡터 증가", "tickers": ["CRWD", "ZS", "PANW", "MSFT"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-13T00:46:32.312364+09:00", "name": "로봇 공학 공급망의 새로운 기회 및 PaaS 모델", "tickers": ["DAIO", "CRDO", "ADI"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-13T00:46:32.312364+09:00", "name": "AI 에이전트를 활용한 신소재 발견 가속화 (반도체 열 관리 초점)", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-13T05:06:58.409467+09:00", "name": "AI 추론 워크로드를 위한 고대역폭 플래시(HBF) 메모리 부상", "tickers": ["WDC", "MU", "GOOGL"], "stage": "very_early", "confidence": "high"}
+{"ts": "2026-08-13T05:06:58.409467+09:00", "name": "AI 데이터센터 에너지 수요 증가에 따른 원자력 발전의 부상", "tickers": ["URNM", "UEC", "DNN", "NXE", "CCJ", "UUUU"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T05:06:58.409467+09:00", "name": "지역별 반도체 제조 허브 구축 가속화 (인도 구자라트 사례)", "tickers": ["MU"], "stage": "gaining_traction", "confidence": "medium"}
+{"ts": "2026-08-13T05:06:58.409467+09:00", "name": "AI/HPC 인프라 확장을 위한 소규모 데이터센터 개발", "tickers": ["BGDE", "SMCI", "DELL"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-13T05:06:58.409467+09:00", "name": "AI 에이전트 대상 사이버 보안 위협 및 DMARC 취약점 악용", "tickers": ["TTC", "CRWD", "PANW", "OKTA"], "stage": "emerging", "confidence": "medium"}

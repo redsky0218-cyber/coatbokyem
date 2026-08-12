@@ -617,6 +617,25 @@
         "CRDO",
         "ADI"
       ]
+    },
+    "aihpc": {
+      "name": "AI/HPC 인프라 확장을 위한 소규모 데이터센터 개발",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "BGDE",
+        "SMCI",
+        "DELL"
+      ]
+    },
+    "aidmarc": {
+      "name": "AI 에이전트 대상 사이버 보안 위협 및 DMARC 취약점 악용",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "TTC",
+        "CRWD",
+        "PANW",
+        "OKTA"
+      ]
     }
   },
   "seen_tech": {
@@ -870,6 +889,26 @@
     },
     "ghostsplice": {
       "term": "GhostSplice",
+      "first_seen": "2026-08-13"
+    },
+    "deepseekv4pro0813": {
+      "term": "DeepSeek V4 Pro 0813",
+      "first_seen": "2026-08-13"
+    },
+    "museglimmer30b": {
+      "term": "Muse Glimmer 30B",
+      "first_seen": "2026-08-13"
+    },
+    "mlxdspark": {
+      "term": "mlx-dspark",
+      "first_seen": "2026-08-13"
+    },
+    "nord55flash": {
+      "term": "NORD 5.5 — Flash",
+      "first_seen": "2026-08-13"
+    },
+    "agenticworldcup": {
+      "term": "Agentic World Cup",
       "first_seen": "2026-08-13"
     }
   }
