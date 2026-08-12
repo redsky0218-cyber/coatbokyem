@@ -598,6 +598,25 @@
         "ON",
         "TXN"
       ]
+    },
+    "aihighbandwidthflashhbf": {
+      "name": "AI 추론 워크로드용 고용량 저비용 메모리: High Bandwidth Flash (HBF)",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "WDC",
+        "MU",
+        "SMCI",
+        "AMD"
+      ]
+    },
+    "paas": {
+      "name": "로봇 공학 공급망의 새로운 기회 및 PaaS 모델",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "DAIO",
+        "CRDO",
+        "ADI"
+      ]
     }
   },
   "seen_tech": {
@@ -836,6 +855,22 @@
     "cducoolantdistributionunit": {
       "term": "CDU (Coolant Distribution Unit)",
       "first_seen": "2026-08-12"
+    },
+    "tritiumbatteries": {
+      "term": "Tritium Batteries",
+      "first_seen": "2026-08-13"
+    },
+    "ghostrocketlab": {
+      "term": "GHOST (Rocket Lab)",
+      "first_seen": "2026-08-13"
+    },
+    "aisupplychainbreach": {
+      "term": "AI Supply Chain Breach",
+      "first_seen": "2026-08-13"
+    },
+    "ghostsplice": {
+      "term": "GhostSplice",
+      "first_seen": "2026-08-13"
     }
   }
 }

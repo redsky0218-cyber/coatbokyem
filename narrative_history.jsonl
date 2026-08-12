@@ -83,3 +83,9 @@
 {"ts": "2026-08-12T20:29:05.180851+09:00", "name": "AI 데이터센터 액체 냉각 인프라 및 CDU 기술 발전", "tickers": ["VRT", "STRL", "CDAY"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-12T20:29:05.180851+09:00", "name": "GaN(질화갈륨) 전력 반도체의 소비자 전자제품 채택 가속화", "tickers": ["NVTS", "ON", "TXN"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-12T20:29:05.180851+09:00", "name": "SMR(소형모듈원자로)의 공랭식/하이브리드 냉각 시스템 도입", "tickers": ["SMR", "BWXT", "GE"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T00:46:32.312364+09:00", "name": "AI 추론 워크로드용 고용량 저비용 메모리: High Bandwidth Flash (HBF)", "tickers": ["WDC", "MU", "SMCI", "AMD"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-13T00:46:32.312364+09:00", "name": "소비자 가전 시장의 GaN(질화갈륨) 반도체 채택 확대", "tickers": ["NVTS", "ON"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-13T00:46:32.312364+09:00", "name": "차세대 원자력 발전소 냉각 기술: 강물 없는 공랭식 SMR", "tickers": ["BWXT", "GE", "XELA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T00:46:32.312364+09:00", "name": "AI 공급망 보안 및 AI 에이전트 공격 벡터 증가", "tickers": ["CRWD", "ZS", "PANW", "MSFT"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-13T00:46:32.312364+09:00", "name": "로봇 공학 공급망의 새로운 기회 및 PaaS 모델", "tickers": ["DAIO", "CRDO", "ADI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T00:46:32.312364+09:00", "name": "AI 에이전트를 활용한 신소재 발견 가속화 (반도체 열 관리 초점)", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "very_early", "confidence": "medium"}
