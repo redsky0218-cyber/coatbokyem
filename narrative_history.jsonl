@@ -78,3 +78,8 @@
 {"ts": "2026-08-12T14:36:38.265159+09:00", "name": "AI 에이전트의 새로운 사이버 보안 위협 (GhostSplice)", "tickers": ["CRWD", "ZS", "PANW", "FTNT"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-12T14:36:38.265159+09:00", "name": "AI 시대의 취약점 데이터베이스 재정비 (NIST)", "tickers": ["CRWD", "ZS", "MSFT"], "stage": "emerging", "confidence": "low"}
 {"ts": "2026-08-12T14:36:38.265159+09:00", "name": "AI 추론을 위한 한국형 AI 칩 인프라 확장", "tickers": ["SKM", "TER"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T20:29:05.180851+09:00", "name": "AI 에이전트 워크로드 증가에 따른 CPU 수요 급증", "tickers": ["AMD", "INTC", "MSFT"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-12T20:29:05.180851+09:00", "name": "HBM4 수율 개선 및 HBM 대체 고대역폭 플래시(HBF) 부상", "tickers": ["WDC", "MU"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-12T20:29:05.180851+09:00", "name": "AI 데이터센터 액체 냉각 인프라 및 CDU 기술 발전", "tickers": ["VRT", "STRL", "CDAY"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-12T20:29:05.180851+09:00", "name": "GaN(질화갈륨) 전력 반도체의 소비자 전자제품 채택 가속화", "tickers": ["NVTS", "ON", "TXN"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-12T20:29:05.180851+09:00", "name": "SMR(소형모듈원자로)의 공랭식/하이브리드 냉각 시스템 도입", "tickers": ["SMR", "BWXT", "GE"], "stage": "emerging", "confidence": "medium"}

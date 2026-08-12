@@ -563,6 +563,41 @@
         "ZS",
         "MSFT"
       ]
+    },
+    "aicpu": {
+      "name": "AI 에이전트 워크로드 증가에 따른 CPU 수요 급증",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "MSFT"
+      ]
+    },
+    "hbm4hbmhbf": {
+      "name": "HBM4 수율 개선 및 HBM 대체 고대역폭 플래시(HBF) 부상",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "WDC",
+        "MU"
+      ]
+    },
+    "aicdu": {
+      "name": "AI 데이터센터 액체 냉각 인프라 및 CDU 기술 발전",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "VRT",
+        "STRL",
+        "CDAY"
+      ]
+    },
+    "gan": {
+      "name": "GaN(질화갈륨) 전력 반도체의 소비자 전자제품 채택 가속화",
+      "first_seen": "2026-08-12",
+      "tickers": [
+        "NVTS",
+        "ON",
+        "TXN"
+      ]
     }
   },
   "seen_tech": {
@@ -776,6 +811,30 @@
     },
     "contextinducedactivationdrift": {
       "term": "Context-Induced Activation Drift",
+      "first_seen": "2026-08-12"
+    },
+    "highbandwidthflashhbf": {
+      "term": "High Bandwidth Flash (HBF)",
+      "first_seen": "2026-08-12"
+    },
+    "aiagentcpu": {
+      "term": "AI Agent CPU",
+      "first_seen": "2026-08-12"
+    },
+    "sourcefoundry": {
+      "term": "Source Foundry",
+      "first_seen": "2026-08-12"
+    },
+    "aienhancedvulnerabilitymanagement": {
+      "term": "AI-enhanced vulnerability management",
+      "first_seen": "2026-08-12"
+    },
+    "ganonsi": {
+      "term": "GaN-on-Si",
+      "first_seen": "2026-08-12"
+    },
+    "cducoolantdistributionunit": {
+      "term": "CDU (Coolant Distribution Unit)",
       "first_seen": "2026-08-12"
     }
   }
