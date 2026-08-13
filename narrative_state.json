@@ -752,6 +752,32 @@
         "RXT",
         "ALTR"
       ]
+    },
+    "armaisnapdragonc": {
+      "name": "Arm 기반 저가형 AI 노트북용 Snapdragon C 프로세서",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "QCOM",
+        "GOOGL",
+        "MSFT"
+      ]
+    },
+    "aiamdmi430xfp64": {
+      "name": "AI 워크로드용 AMD MI430X의 FP64 성능 향상",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "AMD"
+      ]
+    },
+    "highnaeuv": {
+      "name": "차세대 반도체 제조를 위한 High-NA EUV 기술 도입",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "TEL"
+      ]
     }
   },
   "seen_tech": {
@@ -1157,6 +1183,26 @@
     },
     "minimaxh3": {
       "term": "Minimax H3",
+      "first_seen": "2026-08-14"
+    },
+    "ucieuniversalchipletinterconnectexpress": {
+      "term": "UCIe (Universal Chiplet Interconnect Express)",
+      "first_seen": "2026-08-14"
+    },
+    "ellm": {
+      "term": "eLLM",
+      "first_seen": "2026-08-14"
+    },
+    "dots3notepreview": {
+      "term": "dots3-note preview",
+      "first_seen": "2026-08-14"
+    },
+    "promptsteeredreasoningeffort": {
+      "term": "prompt-steered reasoning effort",
+      "first_seen": "2026-08-14"
+    },
+    "tensorlevelquantizationallocation": {
+      "term": "Tensor-Level Quantization Allocation",
       "first_seen": "2026-08-14"
     }
   }

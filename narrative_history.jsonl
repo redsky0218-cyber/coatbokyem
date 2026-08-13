@@ -120,3 +120,8 @@
 {"ts": "2026-08-14T04:57:47.183534+09:00", "name": "차세대 인증 및 신원 확인 기술의 부상", "tickers": ["OKTA", "PING", "FORG", "MSFT"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-14T04:57:47.183534+09:00", "name": "칩렛 아키텍처를 위한 UCIe 표준 채택 확대", "tickers": ["INTC", "AMD", "TSM", "AVGO"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-14T04:57:47.183534+09:00", "name": "고성능 컴퓨팅을 위한 RISC-V 아키텍처의 초기 도입", "tickers": ["SIFIVE", "RXT", "ALTR"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-14T07:40:03.803790+09:00", "name": "AI 데이터센터를 위한 광학 인터커넥트 및 실리콘 포토닉스", "tickers": ["COHR", "LITE", "MRVL", "NVDA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-14T07:40:03.803790+09:00", "name": "Arm 기반 저가형 AI 노트북용 Snapdragon C 프로세서", "tickers": ["QCOM", "GOOGL", "MSFT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-14T07:40:03.803790+09:00", "name": "AI 워크로드용 AMD MI430X의 FP64 성능 향상", "tickers": ["AMD"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-14T07:40:03.803790+09:00", "name": "모듈형 데이터센터 아키텍처를 통한 AI 인프라 구축 가속화", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-14T07:40:03.803790+09:00", "name": "차세대 반도체 제조를 위한 High-NA EUV 기술 도입", "tickers": ["ASML", "AMAT", "LRCX", "TEL"], "stage": "gaining_traction", "confidence": "high"}
