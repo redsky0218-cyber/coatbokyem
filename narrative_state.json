@@ -714,6 +714,25 @@
         "MTRN",
         "TEG"
       ]
+    },
+    "armwindows": {
+      "name": "Arm 기반 Windows 노트북 시장 확대",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "QCOM",
+        "MSFT",
+        "DELL",
+        "HPQ"
+      ]
+    },
+    "hbmcowoswaferscale": {
+      "name": "HBM 및 CoWoS를 대체하는 Wafer-Scale 컴퓨팅 아키텍처",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "TSM",
+        "MU",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -1072,6 +1091,30 @@
     "capabilityadaptivecryptanalysiswithreducedspacequantumverification": {
       "term": "Capability-Adaptive Cryptanalysis with Reduced-Space Quantum Verification",
       "first_seen": "2026-08-13"
+    },
+    "claudaiforchipmaking": {
+      "term": "Claud (AI for chip making)",
+      "first_seen": "2026-08-14"
+    },
+    "waferscaleengine": {
+      "term": "Wafer Scale Engine",
+      "first_seen": "2026-08-14"
+    },
+    "zentracamerasuite": {
+      "term": "Zentra Camera Suite",
+      "first_seen": "2026-08-14"
+    },
+    "deepseekharness": {
+      "term": "DeepSeek Harness",
+      "first_seen": "2026-08-14"
+    },
+    "sensenovavision": {
+      "term": "SenseNova-Vision",
+      "first_seen": "2026-08-14"
+    },
+    "tritiumbatteriesforlunariot": {
+      "term": "Tritium Batteries (for Lunar IoT)",
+      "first_seen": "2026-08-14"
     }
   }
 }
