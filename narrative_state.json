@@ -733,6 +733,25 @@
         "MU",
         "NVDA"
       ]
+    },
+    "ucie": {
+      "name": "칩렛 아키텍처를 위한 UCIe 표준 채택 확대",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "TSM",
+        "AVGO"
+      ]
+    },
+    "riscv": {
+      "name": "고성능 컴퓨팅을 위한 RISC-V 아키텍처의 초기 도입",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "SIFIVE",
+        "RXT",
+        "ALTR"
+      ]
     }
   },
   "seen_tech": {
@@ -1114,6 +1133,30 @@
     },
     "tritiumbatteriesforlunariot": {
       "term": "Tritium Batteries (for Lunar IoT)",
+      "first_seen": "2026-08-14"
+    },
+    "highnaeuv": {
+      "term": "High-NA EUV",
+      "first_seen": "2026-08-14"
+    },
+    "tensorg6": {
+      "term": "Tensor G6",
+      "first_seen": "2026-08-14"
+    },
+    "mi430x": {
+      "term": "MI430X",
+      "first_seen": "2026-08-14"
+    },
+    "postquantumcryptographypqc": {
+      "term": "Post-Quantum Cryptography (PQC)",
+      "first_seen": "2026-08-14"
+    },
+    "nl2sh": {
+      "term": "nl2sh",
+      "first_seen": "2026-08-14"
+    },
+    "minimaxh3": {
+      "term": "Minimax H3",
       "first_seen": "2026-08-14"
     }
   }

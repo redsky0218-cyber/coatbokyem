@@ -115,3 +115,8 @@
 {"ts": "2026-08-14T00:49:08.413606+09:00", "name": "HBM 및 CoWoS를 대체하는 Wafer-Scale 컴퓨팅 아키텍처", "tickers": ["TSM", "MU", "NVDA"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-14T00:49:08.413606+09:00", "name": "AI 데이터센터 건설 수요 증가 및 드론 기반 모니터링 솔루션", "tickers": ["ZENA", "PLTR", "IRDM"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-14T00:49:08.413606+09:00", "name": "차세대 저니코틴 담배 제품 시장 성장", "tickers": ["XXII"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-14T04:57:47.183534+09:00", "name": "AI/HPC 데이터센터의 수직 통합 모델 및 빠른 구축", "tickers": ["IREN", "MSFT", "NVDA"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-14T04:57:47.183534+09:00", "name": "민간 사이버 작전 및 공격형 사이버 보안 시장 확대", "tickers": ["CRWD", "ZS", "PANW", "FTNT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-14T04:57:47.183534+09:00", "name": "차세대 인증 및 신원 확인 기술의 부상", "tickers": ["OKTA", "PING", "FORG", "MSFT"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-14T04:57:47.183534+09:00", "name": "칩렛 아키텍처를 위한 UCIe 표준 채택 확대", "tickers": ["INTC", "AMD", "TSM", "AVGO"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-14T04:57:47.183534+09:00", "name": "고성능 컴퓨팅을 위한 RISC-V 아키텍처의 초기 도입", "tickers": ["SIFIVE", "RXT", "ALTR"], "stage": "very_early", "confidence": "low"}
