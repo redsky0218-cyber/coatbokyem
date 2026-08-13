@@ -105,3 +105,8 @@
 {"ts": "2026-08-13T15:06:16.379090+09:00", "name": "AI 기반 로봇 및 물리적 AI 모델의 데이터 스케일링 및 다양성 중요성", "tickers": ["NVDA", "GOOGL", "AMZN"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-13T15:06:16.379090+09:00", "name": "양자 컴퓨팅의 '포스트 양자 암호화 준비' 요구사항 증가", "tickers": ["QNT", "IBM", "MSFT"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-13T15:06:16.379090+09:00", "name": "위성 인터넷 서비스의 지상망 보완 역할 및 공급망 기회", "tickers": ["TMUS", "AMZN", "GCTS"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-13T20:29:37.454332+09:00", "name": "AI 추론 워크로드를 위한 엔터프라이즈 SSD(eSSD) 수요 급증", "tickers": ["WDC", "MU"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-13T20:29:37.454332+09:00", "name": "HBM4 생산 수율 향상 및 공급 확대", "tickers": ["NVDA", "RMBS", "TER"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-13T20:29:37.454332+09:00", "name": "AI 기반 칩 설계 및 검증(TapeoutAI) 도구의 부상", "tickers": ["CDNS", "SNPS"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-13T20:29:37.454332+09:00", "name": "차량용 Snapdragon C 칩을 통한 저가형 노트북 시장 공략", "tickers": ["QCOM", "DELL", "HPQ"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T20:29:37.454332+09:00", "name": "열탄성(Thermoelastic) 에너지 하베스팅 기술의 부상", "tickers": ["MTRN", "TEG"], "stage": "very_early", "confidence": "low"}
