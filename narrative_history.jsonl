@@ -100,3 +100,8 @@
 {"ts": "2026-08-13T07:39:38.216412+09:00", "name": "로켓 랩의 컨테이너형 발사 시스템 'GHOST' 개발", "tickers": ["RKLB", "LMT", "BA"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-13T07:39:38.216412+09:00", "name": "차세대 배터리 기술: Enovix의 실리콘-특정 스마트폰 프로그램", "tickers": ["ENVX", "QS", "ALB"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-13T07:39:38.216412+09:00", "name": "AI 데이터센터 인프라의 전력, 냉각 및 네트워크 재설계", "tickers": ["SMCI", "AMAT", "ACMR", "VRT"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-13T15:06:16.379090+09:00", "name": "웨이퍼 스케일 엔진(Wafer Scale Engine) 아키텍처의 부상", "tickers": ["CBRS", "TSM"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-13T15:06:16.379090+09:00", "name": "차세대 통합 CPU/GPU 아키텍처의 고대역폭 메모리 경쟁", "tickers": ["INTC", "AMD"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-13T15:06:16.379090+09:00", "name": "AI 기반 로봇 및 물리적 AI 모델의 데이터 스케일링 및 다양성 중요성", "tickers": ["NVDA", "GOOGL", "AMZN"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-13T15:06:16.379090+09:00", "name": "양자 컴퓨팅의 '포스트 양자 암호화 준비' 요구사항 증가", "tickers": ["QNT", "IBM", "MSFT"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-13T15:06:16.379090+09:00", "name": "위성 인터넷 서비스의 지상망 보완 역할 및 공급망 기회", "tickers": ["TMUS", "AMZN", "GCTS"], "stage": "emerging", "confidence": "high"}

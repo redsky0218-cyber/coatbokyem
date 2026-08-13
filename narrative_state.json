@@ -665,6 +665,22 @@
         "QS",
         "ALB"
       ]
+    },
+    "waferscaleengine": {
+      "name": "웨이퍼 스케일 엔진(Wafer Scale Engine) 아키텍처의 부상",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "CBRS",
+        "TSM"
+      ]
+    },
+    "cpugpu": {
+      "name": "차세대 통합 CPU/GPU 아키텍처의 고대역폭 메모리 경쟁",
+      "first_seen": "2026-08-13",
+      "tickers": [
+        "INTC",
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -966,6 +982,34 @@
     },
     "hlpufshybridlockedphysicalunclonablefunctions": {
       "term": "HLPUFs (Hybrid Locked Physical Unclonable Functions)",
+      "first_seen": "2026-08-13"
+    },
+    "waferscaleenginewse": {
+      "term": "Wafer Scale Engine (WSE)",
+      "first_seen": "2026-08-13"
+    },
+    "razorlakeax": {
+      "term": "Razor Lake AX",
+      "first_seen": "2026-08-13"
+    },
+    "medusahalostrixhalo": {
+      "term": "Medusa Halo / Strix Halo",
+      "first_seen": "2026-08-13"
+    },
+    "physicalaifoundationmodels": {
+      "term": "Physical AI Foundation Models",
+      "first_seen": "2026-08-13"
+    },
+    "postquantumready": {
+      "term": "Post-Quantum Ready",
+      "first_seen": "2026-08-13"
+    },
+    "qwen38kimik3deepseekv4progrok46": {
+      "term": "Qwen 3.8 / Kimi K3 / DeepSeek V4 Pro / Grok 4.6",
+      "first_seen": "2026-08-13"
+    },
+    "isotopeproductionreactor": {
+      "term": "Isotope Production Reactor (동위원소 생산 원자로)",
       "first_seen": "2026-08-13"
     }
   }
