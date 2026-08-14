@@ -805,6 +805,25 @@
         "MRVL",
         "NVDA"
       ]
+    },
+    "aipim": {
+      "name": "AI 엣지 컴퓨팅을 위한 보안 인메모리 처리(PIM) 아키텍처 부상",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "ARM",
+        "NVDA",
+        "INTC",
+        "AMD"
+      ]
+    },
+    "aiworldmodel": {
+      "name": "AI 모델의 '세계 모델(World Model)' 진단 및 평가 도구 개발",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "PLTR",
+        "GOOG",
+        "MSFT"
+      ]
     }
   },
   "seen_tech": {
@@ -1270,6 +1289,18 @@
     },
     "quantumphasebicoherencespectroscopyqpbc": {
       "term": "Quantum Phase Bicoherence Spectroscopy (QPBC)",
+      "first_seen": "2026-08-14"
+    },
+    "inmemorycomputing": {
+      "term": "in-memory computing",
+      "first_seen": "2026-08-14"
+    },
+    "14nmnode": {
+      "term": "1.4nm node",
+      "first_seen": "2026-08-14"
+    },
+    "uciearchitecture": {
+      "term": "UCIe architecture",
       "first_seen": "2026-08-14"
     }
   }

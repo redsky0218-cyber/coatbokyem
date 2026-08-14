@@ -134,3 +134,8 @@
 {"ts": "2026-08-14T20:25:05.387578+09:00", "name": "LLM 추론 가속화를 위한 eFPGA (임베디드 FPGA)", "tickers": ["AMD", "INTC"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-14T20:25:05.387578+09:00", "name": "아날로그 AI 칩의 ADC 및 드리프트 문제 해결", "tickers": ["ADI", "TXN", "MSI"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-14T20:25:05.387578+09:00", "name": "고대역폭 메모리(HBM) 대체 전략으로서의 광자 콘텐츠 증가", "tickers": ["COHR", "LITE", "MRVL", "NVDA"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-14T21:49:14.241700+09:00", "name": "AI 데이터센터의 광학 인터커넥트 및 실리콘 포토닉스 채택 증가", "tickers": ["COHR", "LITE", "MRVL", "NVDA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-14T21:49:14.241700+09:00", "name": "HBM 공급 제약으로 인한 AI 가속기 내 포토닉스 콘텐츠 증가", "tickers": ["NVDA", "COHR", "LITE", "CRDO"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-14T21:49:14.241700+09:00", "name": "AI 엣지 컴퓨팅을 위한 보안 인메모리 처리(PIM) 아키텍처 부상", "tickers": ["ARM", "NVDA", "INTC", "AMD"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-14T21:49:14.241700+09:00", "name": "소형 모듈형 원자로(SMR)의 글로벌 도입 및 기술 발전", "tickers": ["BWXT", "SMR", "GE"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-14T21:49:14.241700+09:00", "name": "AI 모델의 '세계 모델(World Model)' 진단 및 평가 도구 개발", "tickers": ["PLTR", "GOOG", "MSFT"], "stage": "very_early", "confidence": "medium"}
