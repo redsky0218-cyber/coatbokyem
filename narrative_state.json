@@ -843,6 +843,24 @@
         "BWXT",
         "GE"
       ]
+    },
+    "aiprefillefpga": {
+      "name": "AI Prefill 작업에 eFPGA 활용 증가",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "PLXT",
+        "INTC",
+        "AMD"
+      ]
+    },
+    "pqc": {
+      "name": "기업 보안 설문지에 양자 내성 암호화(PQC) 요구사항 등장",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "QNCT",
+        "IBM",
+        "MSFT"
+      ]
     }
   },
   "seen_tech": {
@@ -1336,6 +1354,30 @@
     },
     "dramscrambling": {
       "term": "DRAM scrambling",
+      "first_seen": "2026-08-15"
+    },
+    "efpgaforprefill": {
+      "term": "eFPGA for prefill",
+      "first_seen": "2026-08-15"
+    },
+    "naturalstimulatedhydrogenconcept": {
+      "term": "natural/stimulated hydrogen concept",
+      "first_seen": "2026-08-15"
+    },
+    "inductivelyprotectedandreevipaspinqubit": {
+      "term": "Inductively-protected Andreev (IPA) spin qubit",
+      "first_seen": "2026-08-15"
+    },
+    "yavin": {
+      "term": "YAVIN",
+      "first_seen": "2026-08-15"
+    },
+    "quantumphasebicoherenceqpbcspectroscopy": {
+      "term": "Quantum Phase Bicoherence (QPBC) spectroscopy",
+      "first_seen": "2026-08-15"
+    },
+    "recurrentlatentreasoningsetup": {
+      "term": "recurrent latent reasoning setup",
       "first_seen": "2026-08-15"
     }
   }

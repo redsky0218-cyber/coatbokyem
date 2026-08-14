@@ -144,3 +144,8 @@
 {"ts": "2026-08-15T01:53:10.957728+09:00", "name": "AI 데이터센터 구축 가속화를 위한 모듈형 데이터센터 아키텍처", "tickers": ["AMAT", "CSCO", "MRVL", "LITE", "NVDA"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-15T01:53:10.957728+09:00", "name": "차세대 고속 데이터 전송을 위한 448G Full-duplex PAM4 Serdes 기술", "tickers": ["AVGO", "MRVL", "CRDO", "ADI"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-15T01:53:10.957728+09:00", "name": "인도 SMR 개발 목표를 통한 소형 모듈형 원자로(SMR) 시장 성장", "tickers": ["SMR", "BWXT", "GE"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-15T05:35:08.741943+09:00", "name": "HBM 병목 현상으로 인한 AI 가속기 내 포토닉스 콘텐츠 채택 증가", "tickers": ["AAOI", "CRDO", "LITE"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-15T05:35:08.741943+09:00", "name": "AI Prefill 작업에 eFPGA 활용 증가", "tickers": ["PLXT", "INTC", "AMD"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-15T05:35:08.741943+09:00", "name": "암반 수소 생산 기술의 부상", "tickers": ["EONE"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-15T05:35:08.741943+09:00", "name": "기업 보안 설문지에 양자 내성 암호화(PQC) 요구사항 등장", "tickers": ["QNCT", "IBM", "MSFT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-15T05:35:08.741943+09:00", "name": "데이터센터 전력 공급원으로 원자력(SMR 포함) 채택 논의", "tickers": ["SMR", "CCJ", "URA"], "stage": "gaining_traction", "confidence": "high"}
