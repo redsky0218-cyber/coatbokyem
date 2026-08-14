@@ -778,6 +778,33 @@
         "LRCX",
         "TEL"
       ]
+    },
+    "llmefpgafpga": {
+      "name": "LLM 추론 가속화를 위한 eFPGA (임베디드 FPGA)",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "AMD",
+        "INTC"
+      ]
+    },
+    "aiadc": {
+      "name": "아날로그 AI 칩의 ADC 및 드리프트 문제 해결",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "ADI",
+        "TXN",
+        "MSI"
+      ]
+    },
+    "hbm": {
+      "name": "고대역폭 메모리(HBM) 대체 전략으로서의 광자 콘텐츠 증가",
+      "first_seen": "2026-08-14",
+      "tickers": [
+        "COHR",
+        "LITE",
+        "MRVL",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -1227,6 +1254,22 @@
     },
     "auxon": {
       "term": "AUXON",
+      "first_seen": "2026-08-14"
+    },
+    "analogaichips": {
+      "term": "Analog AI chips",
+      "first_seen": "2026-08-14"
+    },
+    "448gfullduplexpam4serdes": {
+      "term": "448G Full-duplex PAM4 Serdes",
+      "first_seen": "2026-08-14"
+    },
+    "efpga": {
+      "term": "eFPGA",
+      "first_seen": "2026-08-14"
+    },
+    "quantumphasebicoherencespectroscopyqpbc": {
+      "term": "Quantum Phase Bicoherence Spectroscopy (QPBC)",
       "first_seen": "2026-08-14"
     }
   }
