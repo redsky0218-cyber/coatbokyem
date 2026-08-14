@@ -125,3 +125,7 @@
 {"ts": "2026-08-14T07:40:03.803790+09:00", "name": "AI 워크로드용 AMD MI430X의 FP64 성능 향상", "tickers": ["AMD"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-14T07:40:03.803790+09:00", "name": "모듈형 데이터센터 아키텍처를 통한 AI 인프라 구축 가속화", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-14T07:40:03.803790+09:00", "name": "차세대 반도체 제조를 위한 High-NA EUV 기술 도입", "tickers": ["ASML", "AMAT", "LRCX", "TEL"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-14T15:02:00.539767+09:00", "name": "AI 데이터센터를 위한 광학 인터커넥트 및 실리콘 포토닉스", "tickers": ["MRVL", "NVDA", "COHR", "LITE"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-14T15:02:00.539767+09:00", "name": "AI 워크로드 전용 기가와트급 사설 전력 인프라 구축", "tickers": ["IREN"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-14T15:02:00.539767+09:00", "name": "AI 기반 자율 사이버 작전 및 위협 탐지", "tickers": ["CRWD", "PANW", "MSFT"], "stage": "gaining_traction", "confidence": "medium"}
+{"ts": "2026-08-14T15:02:00.539767+09:00", "name": "로봇 공학의 저비용 다목적 재구성 가능성 및 초음파 통신", "tickers": ["IRBT", "RBTX"], "stage": "very_early", "confidence": "low"}

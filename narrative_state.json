@@ -1204,6 +1204,30 @@
     "tensorlevelquantizationallocation": {
       "term": "Tensor-Level Quantization Allocation",
       "first_seen": "2026-08-14"
+    },
+    "1nmclassnodes": {
+      "term": "1nm-class nodes",
+      "first_seen": "2026-08-14"
+    },
+    "indiumphosphide": {
+      "term": "indium phosphide (인듐 인화물)",
+      "first_seen": "2026-08-14"
+    },
+    "autonomousaiagentsincyberwarfare": {
+      "term": "autonomous AI agents in cyberwarfare",
+      "first_seen": "2026-08-14"
+    },
+    "city2graph": {
+      "term": "City2Graph",
+      "first_seen": "2026-08-14"
+    },
+    "worldproof": {
+      "term": "worldproof",
+      "first_seen": "2026-08-14"
+    },
+    "auxon": {
+      "term": "AUXON",
+      "first_seen": "2026-08-14"
     }
   }
 }
