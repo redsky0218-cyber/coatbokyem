@@ -824,6 +824,25 @@
         "GOOG",
         "MSFT"
       ]
+    },
+    "448gfullduplexpam4serdes": {
+      "name": "차세대 고속 데이터 전송을 위한 448G Full-duplex PAM4 Serdes 기술",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "AVGO",
+        "MRVL",
+        "CRDO",
+        "ADI"
+      ]
+    },
+    "smrsmr": {
+      "name": "인도 SMR 개발 목표를 통한 소형 모듈형 원자로(SMR) 시장 성장",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "SMR",
+        "BWXT",
+        "GE"
+      ]
     }
   },
   "seen_tech": {
@@ -1302,6 +1321,22 @@
     "uciearchitecture": {
       "term": "UCIe architecture",
       "first_seen": "2026-08-14"
+    },
+    "opticalinterconnects": {
+      "term": "optical interconnects",
+      "first_seen": "2026-08-15"
+    },
+    "siliconphotonics": {
+      "term": "silicon photonics",
+      "first_seen": "2026-08-15"
+    },
+    "echocancellationforserdes": {
+      "term": "echo-cancellation (for Serdes)",
+      "first_seen": "2026-08-15"
+    },
+    "dramscrambling": {
+      "term": "DRAM scrambling",
+      "first_seen": "2026-08-15"
     }
   }
 }

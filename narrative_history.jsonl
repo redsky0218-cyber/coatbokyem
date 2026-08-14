@@ -139,3 +139,8 @@
 {"ts": "2026-08-14T21:49:14.241700+09:00", "name": "AI 엣지 컴퓨팅을 위한 보안 인메모리 처리(PIM) 아키텍처 부상", "tickers": ["ARM", "NVDA", "INTC", "AMD"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-14T21:49:14.241700+09:00", "name": "소형 모듈형 원자로(SMR)의 글로벌 도입 및 기술 발전", "tickers": ["BWXT", "SMR", "GE"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-14T21:49:14.241700+09:00", "name": "AI 모델의 '세계 모델(World Model)' 진단 및 평가 도구 개발", "tickers": ["PLTR", "GOOG", "MSFT"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-15T01:53:10.957728+09:00", "name": "AI 데이터센터를 위한 광학 인터커넥트 및 실리콘 포토닉스 채택 가속화", "tickers": ["COHR", "LITE", "MRVL", "NVDA", "AAOI", "LPTH"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-15T01:53:10.957728+09:00", "name": "차세대 반도체 노드를 위한 High-NA EUV 기술 진화", "tickers": ["ASML", "INTC", "TSM", "SSNLF"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-15T01:53:10.957728+09:00", "name": "AI 데이터센터 구축 가속화를 위한 모듈형 데이터센터 아키텍처", "tickers": ["AMAT", "CSCO", "MRVL", "LITE", "NVDA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-15T01:53:10.957728+09:00", "name": "차세대 고속 데이터 전송을 위한 448G Full-duplex PAM4 Serdes 기술", "tickers": ["AVGO", "MRVL", "CRDO", "ADI"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-15T01:53:10.957728+09:00", "name": "인도 SMR 개발 목표를 통한 소형 모듈형 원자로(SMR) 시장 성장", "tickers": ["SMR", "BWXT", "GE"], "stage": "emerging", "confidence": "medium"}
