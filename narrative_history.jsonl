@@ -159,3 +159,7 @@
 {"ts": "2026-08-15T13:33:09.945026+09:00", "name": "자율주행 광산 트럭 및 물리적 AI 시스템의 확장", "tickers": ["NRED"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-15T13:33:09.945026+09:00", "name": "자연 수소(Natural Hydrogen) 생산 기술의 경제성 부상", "tickers": ["EONE"], "stage": "very_early", "confidence": "low"}
 {"ts": "2026-08-15T13:33:09.945026+09:00", "name": "바이오매스 기반 수소 및 재생 연료 생산 (Haffner Energy)", "tickers": ["ALHAF"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-15T21:27:36.505089+09:00", "name": "AI 가속기 내 광자 콘텐츠 증가 및 HBM 제약 완화", "tickers": ["NVDA", "LITE", "AAOI", "CRDO"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-15T21:27:36.505089+09:00", "name": "차세대 원자력 발전소 및 핵연료 시장 성장", "tickers": ["CCJ", "DNN", "NXE", "BWXT", "LEU"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-15T21:27:36.505089+09:00", "name": "AI 기반 침투 테스트(AI Pentesting) 기술 부상", "tickers": ["CRWD", "PANW", "ZS", "S"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-15T21:27:36.505089+09:00", "name": "DRAM 스크램블링을 통한 CPU 기능 잠금 해제 (Skitter Creek Bath Salts)", "tickers": ["AMD", "INTC", "ARM"], "stage": "very_early", "confidence": "low"}

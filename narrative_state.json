@@ -904,6 +904,35 @@
       "tickers": [
         "ALHAF"
       ]
+    },
+    "aihbm": {
+      "name": "AI 가속기 내 광자 콘텐츠 증가 및 HBM 제약 완화",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "NVDA",
+        "LITE",
+        "AAOI",
+        "CRDO"
+      ]
+    },
+    "aiaipentesting": {
+      "name": "AI 기반 침투 테스트(AI Pentesting) 기술 부상",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "ZS",
+        "S"
+      ]
+    },
+    "dramcpuskittercreekbathsalts": {
+      "name": "DRAM 스크램블링을 통한 CPU 기능 잠금 해제 (Skitter Creek Bath Salts)",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "ARM"
+      ]
     }
   },
   "seen_tech": {
@@ -1461,6 +1490,30 @@
     },
     "yavinunifiedarchitectureforsecureedgeprocessinginmemory": {
       "term": "YAVIN (Unified Architecture for Secure Edge Processing in Memory)",
+      "first_seen": "2026-08-15"
+    },
+    "moltensaltreactormsr": {
+      "term": "Molten Salt Reactor (MSR)",
+      "first_seen": "2026-08-15"
+    },
+    "crystallizingdrugcompoundsinspace": {
+      "term": "Crystallizing drug compounds in space",
+      "first_seen": "2026-08-15"
+    },
+    "thoughtdag": {
+      "term": "ThoughtDAG",
+      "first_seen": "2026-08-15"
+    },
+    "bdhcq": {
+      "term": "BDH-CQ",
+      "first_seen": "2026-08-15"
+    },
+    "skittercreekbathsalts": {
+      "term": "Skitter Creek Bath Salts",
+      "first_seen": "2026-08-15"
+    },
+    "deepseekharnessdsh": {
+      "term": "DeepSeek Harness (DSH)",
       "first_seen": "2026-08-15"
     }
   }
