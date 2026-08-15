@@ -154,3 +154,8 @@
 {"ts": "2026-08-15T09:41:42.209075+09:00", "name": "LLM 추론 가속화를 위한 eFPGA 활용", "tickers": ["AMD", "INTC"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-15T09:41:42.209075+09:00", "name": "AI 에이전트의 '문서화 요청'을 통한 시스템 프롬프트 유출 취약점", "tickers": ["S", "PANW", "CRWD", "CFLT"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-15T09:41:42.209075+09:00", "name": "AI 워터마킹 기술의 발전 및 제거 기술의 필요성", "tickers": ["GOOG", "MSFT", "ADBE", "S"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-15T13:33:09.945026+09:00", "name": "HBM 공급 제약에 따른 AI 가속기 내 포토닉스 콘텐츠 확대", "tickers": ["LITE", "AAOI", "CRDO", "NVDA"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-15T13:33:09.945026+09:00", "name": "데이터센터 전력 수요 증가 및 우라늄 채굴 기술 혁신 (ISR)", "tickers": ["UEC", "UUUU", "CCJ"], "stage": "gaining_traction", "confidence": "medium"}
+{"ts": "2026-08-15T13:33:09.945026+09:00", "name": "자율주행 광산 트럭 및 물리적 AI 시스템의 확장", "tickers": ["NRED"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-15T13:33:09.945026+09:00", "name": "자연 수소(Natural Hydrogen) 생산 기술의 경제성 부상", "tickers": ["EONE"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-15T13:33:09.945026+09:00", "name": "바이오매스 기반 수소 및 재생 연료 생산 (Haffner Energy)", "tickers": ["ALHAF"], "stage": "very_early", "confidence": "low"}

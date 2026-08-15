@@ -881,6 +881,29 @@
         "AMD",
         "INTC"
       ]
+    },
+    "isr": {
+      "name": "데이터센터 전력 수요 증가 및 우라늄 채굴 기술 혁신 (ISR)",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "UEC",
+        "UUUU",
+        "CCJ"
+      ]
+    },
+    "naturalhydrogen": {
+      "name": "자연 수소(Natural Hydrogen) 생산 기술의 경제성 부상",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "EONE"
+      ]
+    },
+    "haffnerenergy": {
+      "name": "바이오매스 기반 수소 및 재생 연료 생산 (Haffner Energy)",
+      "first_seen": "2026-08-15",
+      "tickers": [
+        "ALHAF"
+      ]
     }
   },
   "seen_tech": {
@@ -1418,6 +1441,26 @@
     },
     "yavinsecureedgeprocessinginmemory": {
       "term": "YAVIN (Secure Edge Processing in Memory)",
+      "first_seen": "2026-08-15"
+    },
+    "photoniccontentinaiaccelerators": {
+      "term": "Photonic content in AI accelerators",
+      "first_seen": "2026-08-15"
+    },
+    "448gfullduplexpam4serdeswithechocancellationandhighdynamicrangeadc": {
+      "term": "448G Full-duplex PAM4 Serdes with Echo-cancellation and high dynamic range ADC",
+      "first_seen": "2026-08-15"
+    },
+    "insiturecoveryisrforuraniummining": {
+      "term": "In-Situ Recovery (ISR) for uranium mining",
+      "first_seen": "2026-08-15"
+    },
+    "aipentestingengineegcascade": {
+      "term": "AI pentesting engine (e.g., Cascade)",
+      "first_seen": "2026-08-15"
+    },
+    "yavinunifiedarchitectureforsecureedgeprocessinginmemory": {
+      "term": "YAVIN (Unified Architecture for Secure Edge Processing in Memory)",
       "first_seen": "2026-08-15"
     }
   }
