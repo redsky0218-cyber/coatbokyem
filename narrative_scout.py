@@ -448,7 +448,13 @@ EARLIEST possible signal (like "HBF" before anyone knew which stock benefits).
 - Include an item here EVEN IF there is no clear public-stock beneficiary yet.
   This list is specifically for catching the technology itself as early as possible.
 - For each: term(정확한 용어/약어), what(무엇인지 한 줄), why_notable(왜 주목할 가치가
-  있는지), maybe_tickers(관련 상장사가 떠오르면 넣고, 없으면 빈 배열).
+  있는지), maybe_tickers(관련 상장사가 떠오르면 넣고, 없으면 빈 배열),
+  market_size(시장 규모), cagr(연평균 예상 성장률).
+- market_size/cagr 작성 요령: 그 기술 자체의 시장이 아직 없으면(대부분 그렇다),
+  그 기술이 노리는/대체하려는 인접 시장의 수치를 써라.
+  예: HBF -> market_size "HBM 시장 약 $250억 (2025)", cagr "연 ~30% (2030년까지)".
+  '(대상 시장명) + 규모' 형태. 알고 있는 시장조사 수치 기반의 대략치만 쓰고,
+  정말 모르면 "미상" 이라고 써라. 지어내지 마라.
 - Prefer genuinely novel/niche terms over well-known ones. Skip generic buzzwords.
 - term 은 원문 그대로(영문 약어 등), 설명은 한국어로.
 
@@ -489,10 +495,12 @@ GEMINI_SCHEMA = {
                     "what": {"type": "STRING"},
                     "why_notable": {"type": "STRING"},
                     "maybe_tickers": {"type": "ARRAY", "items": {"type": "STRING"}},
+                    "market_size": {"type": "STRING"},
+                    "cagr": {"type": "STRING"},
                     "source_ids": {"type": "ARRAY", "items": {"type": "INTEGER"}},
                 },
                 "required": ["term", "what", "why_notable", "maybe_tickers",
-                             "source_ids"],
+                             "market_size", "cagr", "source_ids"],
             },
         },
     },
@@ -971,6 +979,16 @@ def main():
             lines.append("")
             lines.append(f"💬 <i>{tt.get('why_notable','')}</i>")
             lines.append("")
+            ms = (tt.get("market_size") or "").strip()
+            cg = (tt.get("cagr") or "").strip()
+            if ms or cg:
+                seg = []
+                if ms and ms != "미상":
+                    seg.append(f"시장 {ms}")
+                if cg and cg != "미상":
+                    seg.append(f"성장률 {cg}")
+                if seg:
+                    lines.append("📊 " + " · ".join(seg) + " <i>(AI 추정)</i>")
             if mt:
                 lines.append("📈 관련주: " + " ".join(mt))
             else:
