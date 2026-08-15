@@ -168,3 +168,8 @@
 {"ts": "2026-08-16T01:24:59.734663+09:00", "name": "자율주행 채굴 트럭의 확산 및 물리적 AI 인프라 수요 증가", "tickers": ["NRED", "MBLY", "VLDR"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-16T01:24:59.734663+09:00", "name": "천연 수소(Natural Hydrogen) 및 자극 수소(Stimulated Hydrogen) 생산 기술의 경제성 부상", "tickers": ["EONE", "PLUG", "BE"], "stage": "very_early", "confidence": "low"}
 {"ts": "2026-08-16T01:24:59.734663+09:00", "name": "DeepSeek Harness (DSH) 생태계의 급부상", "tickers": ["MSFT", "GOOGL"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-16T05:21:33.829534+09:00", "name": "미국 내 AI 칩 첨단 패키징 제조 역량 강화", "tickers": ["AMAT", "LRCX", "KLAC", "TER", "MPWR"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-16T05:21:33.829534+09:00", "name": "AI 데이터센터 전력 수요 충족을 위한 SMR(소형 모듈형 원자로) 도입 논의 가속화", "tickers": ["PCOR", "BWXT", "GE"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-16T05:21:33.829534+09:00", "name": "AI 모델의 '블랙박스' 문제 해결을 위한 해석 가능성 (Interpretability Lenses)", "tickers": ["GOOG", "MSFT", "PLTR"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-16T05:21:33.829534+09:00", "name": "오픈소스 ASIC 흐름을 통한 RISC-V 기반 SoC 설계 및 최적화", "tickers": ["SNPS", "CDNS", "ARM"], "stage": "emerging", "confidence": "low"}
+{"ts": "2026-08-16T05:21:33.829534+09:00", "name": "로봇의 '인간적인 촉각' 구현을 위한 첨단 촉각 센서 및 전자 피부 기술", "tickers": ["ROBO", "IRBT", "MESA"], "stage": "very_early", "confidence": "medium"}

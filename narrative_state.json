@@ -959,6 +959,24 @@
         "MSFT",
         "GOOGL"
       ]
+    },
+    "aiinterpretabilitylenses": {
+      "name": "AI 모델의 '블랙박스' 문제 해결을 위한 해석 가능성 (Interpretability Lenses)",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "GOOG",
+        "MSFT",
+        "PLTR"
+      ]
+    },
+    "asicriscvsoc": {
+      "name": "오픈소스 ASIC 흐름을 통한 RISC-V 기반 SoC 설계 및 최적화",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "ARM"
+      ]
     }
   },
   "seen_tech": {
@@ -1548,6 +1566,34 @@
     },
     "allopticalswitchingofnonlinearstructuredlightincrystalengineeredvanderwaalsmaterials": {
       "term": "All-optical switching of nonlinear structured light in crystal-engineered van der Waals materials",
+      "first_seen": "2026-08-16"
+    },
+    "cxmtddr5memory": {
+      "term": "CXMT DDR5 memory",
+      "first_seen": "2026-08-16"
+    },
+    "cv32e40ponsky130": {
+      "term": "CV32E40P on SKY130",
+      "first_seen": "2026-08-16"
+    },
+    "moltensaltreactormsrfornuclearwaste": {
+      "term": "Molten Salt Reactor (MSR) for nuclear waste",
+      "first_seen": "2026-08-16"
+    },
+    "privatetokamaknuclearfusionreactor": {
+      "term": "Private Tokamak Nuclear Fusion Reactor",
+      "first_seen": "2026-08-16"
+    },
+    "tumorderivedorganoidbiobank": {
+      "term": "Tumor-Derived Organoid Biobank",
+      "first_seen": "2026-08-16"
+    },
+    "passkeys": {
+      "term": "Passkeys",
+      "first_seen": "2026-08-16"
+    },
+    "predictiveznezeronoiseextrapolationforphotonicsystems": {
+      "term": "Predictive ZNE (Zero-Noise Extrapolation) for photonic systems",
       "first_seen": "2026-08-16"
     }
   }
