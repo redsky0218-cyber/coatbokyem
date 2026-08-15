@@ -933,6 +933,32 @@
         "INTC",
         "ARM"
       ]
+    },
+    "aillm": {
+      "name": "AI 펜테스팅 엔진을 통한 LLM 가드레일 우회",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "PANW"
+      ]
+    },
+    "naturalhydrogenstimulatedhydrogen": {
+      "name": "천연 수소(Natural Hydrogen) 및 자극 수소(Stimulated Hydrogen) 생산 기술의 경제성 부상",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "EONE",
+        "PLUG",
+        "BE"
+      ]
+    },
+    "deepseekharnessdsh": {
+      "name": "DeepSeek Harness (DSH) 생태계의 급부상",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "MSFT",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -1515,6 +1541,14 @@
     "deepseekharnessdsh": {
       "term": "DeepSeek Harness (DSH)",
       "first_seen": "2026-08-15"
+    },
+    "kimik3textmodel": {
+      "term": "Kimi-K3 text model",
+      "first_seen": "2026-08-16"
+    },
+    "allopticalswitchingofnonlinearstructuredlightincrystalengineeredvanderwaalsmaterials": {
+      "term": "All-optical switching of nonlinear structured light in crystal-engineered van der Waals materials",
+      "first_seen": "2026-08-16"
     }
   }
 }

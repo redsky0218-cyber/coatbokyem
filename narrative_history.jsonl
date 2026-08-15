@@ -163,3 +163,8 @@
 {"ts": "2026-08-15T21:27:36.505089+09:00", "name": "차세대 원자력 발전소 및 핵연료 시장 성장", "tickers": ["CCJ", "DNN", "NXE", "BWXT", "LEU"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-15T21:27:36.505089+09:00", "name": "AI 기반 침투 테스트(AI Pentesting) 기술 부상", "tickers": ["CRWD", "PANW", "ZS", "S"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-15T21:27:36.505089+09:00", "name": "DRAM 스크램블링을 통한 CPU 기능 잠금 해제 (Skitter Creek Bath Salts)", "tickers": ["AMD", "INTC", "ARM"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-16T01:24:59.734663+09:00", "name": "인텔의 메모리 시장 재진입 가능성", "tickers": ["INTC"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-16T01:24:59.734663+09:00", "name": "AI 펜테스팅 엔진을 통한 LLM 가드레일 우회", "tickers": ["CRWD", "ZS", "PANW"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-16T01:24:59.734663+09:00", "name": "자율주행 채굴 트럭의 확산 및 물리적 AI 인프라 수요 증가", "tickers": ["NRED", "MBLY", "VLDR"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-16T01:24:59.734663+09:00", "name": "천연 수소(Natural Hydrogen) 및 자극 수소(Stimulated Hydrogen) 생산 기술의 경제성 부상", "tickers": ["EONE", "PLUG", "BE"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-16T01:24:59.734663+09:00", "name": "DeepSeek Harness (DSH) 생태계의 급부상", "tickers": ["MSFT", "GOOGL"], "stage": "emerging", "confidence": "medium"}
