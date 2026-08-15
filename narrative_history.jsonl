@@ -149,3 +149,8 @@
 {"ts": "2026-08-15T05:35:08.741943+09:00", "name": "암반 수소 생산 기술의 부상", "tickers": ["EONE"], "stage": "very_early", "confidence": "low"}
 {"ts": "2026-08-15T05:35:08.741943+09:00", "name": "기업 보안 설문지에 양자 내성 암호화(PQC) 요구사항 등장", "tickers": ["QNCT", "IBM", "MSFT"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-15T05:35:08.741943+09:00", "name": "데이터센터 전력 공급원으로 원자력(SMR 포함) 채택 논의", "tickers": ["SMR", "CCJ", "URA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-15T09:41:42.209075+09:00", "name": "HBM 공급 제약으로 인한 AI 가속기 설계 변화 및 광학/포토닉스 기술 채택 증가", "tickers": ["NVDA", "AAOI", "CRDO", "LITE", "IIVI"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-15T09:41:42.209075+09:00", "name": "AI 데이터센터 전력 공급을 위한 원자력 발전 (특히 SMR) 부상", "tickers": ["PCG", "GE", "BWXT", "SMR", "UUUU", "CCJ"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-15T09:41:42.209075+09:00", "name": "LLM 추론 가속화를 위한 eFPGA 활용", "tickers": ["AMD", "INTC"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-15T09:41:42.209075+09:00", "name": "AI 에이전트의 '문서화 요청'을 통한 시스템 프롬프트 유출 취약점", "tickers": ["S", "PANW", "CRWD", "CFLT"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-15T09:41:42.209075+09:00", "name": "AI 워터마킹 기술의 발전 및 제거 기술의 필요성", "tickers": ["GOOG", "MSFT", "ADBE", "S"], "stage": "emerging", "confidence": "medium"}
