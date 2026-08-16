@@ -1042,6 +1042,42 @@
         "IRBT",
         "MSTR"
       ]
+    },
+    "2nmhbmrd": {
+      "name": "2nm HBM 베이스 다이 생산을 위한 삼성 파운드리 R&D 라인 재편",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "NVDA",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ]
+    },
+    "fpgaagenticaillm": {
+      "name": "저전력 FPGA 기반 Agentic AI 및 LLM 온디바이스 구현",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "AMD",
+        "INTC"
+      ]
+    },
+    "llmgpu": {
+      "name": "LLM 추론을 위한 GPU 클라우드 인프라 확장",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "SMCI",
+        "DELL",
+        "HPE"
+      ]
+    },
+    "deepseekharness": {
+      "name": "DeepSeek Harness와 플러그인 생태계의 부상",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ]
     }
   },
   "seen_tech": {
@@ -1719,6 +1755,18 @@
     },
     "predictivezneforphotoniccvsystems": {
       "term": "Predictive ZNE for photonic/CV systems",
+      "first_seen": "2026-08-17"
+    },
+    "twillm3": {
+      "term": "TwIL-LM3",
+      "first_seen": "2026-08-17"
+    },
+    "novalake": {
+      "term": "Nova Lake",
+      "first_seen": "2026-08-17"
+    },
+    "qwen3827b": {
+      "term": "Qwen3.8-27B",
       "first_seen": "2026-08-17"
     }
   }
