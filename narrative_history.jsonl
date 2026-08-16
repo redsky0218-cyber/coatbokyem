@@ -178,3 +178,7 @@
 {"ts": "2026-08-16T09:42:43.286692+09:00", "name": "로컬 AI 모델 추론을 위한 최적화된 하드웨어 및 소프트웨어 스택", "tickers": ["AMD", "NVDA", "INTC", "AAPL", "SMCI"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-16T09:42:43.286692+09:00", "name": "AI 기반 자율 채굴 트럭 및 물리적 AI 시스템의 확산", "tickers": ["NRED", "CAT", "DE", "KOPN"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-16T09:42:43.286692+09:00", "name": "로봇 촉각 센싱 및 전자 피부 기술 발전", "tickers": ["ROBT", "MESA", "VECO", "PLAB"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-16T13:39:56.250324+09:00", "name": "미국 내 첨단 AI 칩 패키징 역량 강화 및 HBM 생산 확대", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-16T13:39:56.250324+09:00", "name": "AI 데이터센터의 전력 수요 해결을 위한 원자력 발전 활용", "tickers": ["NUE", "SMR", "CEG", "URG"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-16T13:39:56.250324+09:00", "name": "중국 Qwen 3.8 모델의 성능 향상 및 서구 기업의 대항마 요구", "tickers": ["GOOGL", "AMD", "INTC"], "stage": "gaining_traction", "confidence": "medium"}
+{"ts": "2026-08-16T13:39:56.250324+09:00", "name": "로봇 공학 분야의 촉각 센싱 및 전자 피부 기술 발전", "tickers": ["MESA", "HAPT"], "stage": "very_early", "confidence": "low"}

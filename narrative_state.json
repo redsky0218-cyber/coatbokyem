@@ -988,6 +988,15 @@
         "TER",
         "MU"
       ]
+    },
+    "qwen38": {
+      "name": "중국 Qwen 3.8 모델의 성능 향상 및 서구 기업의 대항마 요구",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "GOOGL",
+        "AMD",
+        "INTC"
+      ]
     }
   },
   "seen_tech": {
@@ -1617,6 +1626,22 @@
     },
     "aperiodicityformacroscopicthermalization": {
       "term": "Aperiodicity for macroscopic thermalization",
+      "first_seen": "2026-08-16"
+    },
+    "moltensaltreactormsrfromnuclearwaste": {
+      "term": "Molten Salt Reactor (MSR) from nuclear waste",
+      "first_seen": "2026-08-16"
+    },
+    "bdhcqincontextlearningwithrecurrentlatentreasoning": {
+      "term": "BDH-CQ (In-Context Learning with Recurrent Latent Reasoning)",
+      "first_seen": "2026-08-16"
+    },
+    "transformerbaseddoomrenderer": {
+      "term": "Transformer-based Doom Renderer",
+      "first_seen": "2026-08-16"
+    },
+    "torchpreflightpytorchlinter": {
+      "term": "torch-preflight (PyTorch Linter)",
       "first_seen": "2026-08-16"
     }
   }
