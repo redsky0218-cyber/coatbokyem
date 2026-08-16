@@ -1024,6 +1024,24 @@
         "GOOGL",
         "AMZN"
       ]
+    },
+    "ailongrangerecall": {
+      "name": "AI 모델의 장거리 정보 기억(Long-Range Recall) 문제 해결 노력",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "GOOG",
+        "MSFT",
+        "AMZN"
+      ]
+    },
+    "humanliketactilesensing": {
+      "name": "로봇의 인간과 유사한 촉각 감지(Human-like Tactile Sensing) 기술 발전",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "ROBT",
+        "IRBT",
+        "MSTR"
+      ]
     }
   },
   "seen_tech": {
@@ -1690,6 +1708,18 @@
     "quantuminspiredphasebicoherenceqpbcspectroscopy": {
       "term": "Quantum-Inspired Phase Bicoherence (QPBC) spectroscopy",
       "first_seen": "2026-08-16"
+    },
+    "agenticaiwithllmonagilex7": {
+      "term": "Agentic AI with LLM on Agilex7",
+      "first_seen": "2026-08-17"
+    },
+    "ssogattentionsumofseparablegaussiansattention": {
+      "term": "SSOG-Attention (Sum Of Separable Gaussians Attention)",
+      "first_seen": "2026-08-17"
+    },
+    "predictivezneforphotoniccvsystems": {
+      "term": "Predictive ZNE for photonic/CV systems",
+      "first_seen": "2026-08-17"
     }
   }
 }

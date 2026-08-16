@@ -189,3 +189,9 @@
 {"ts": "2026-08-16T21:27:38.813817+09:00", "name": "미국 내 AI 반도체 첨단 패키징 생산 능력 확대", "tickers": ["AMAT", "LRCX", "KLAC", "NVDA"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-16T21:27:38.813817+09:00", "name": "자율주행 채굴 트럭의 확산과 물리 AI 시스템의 성장", "tickers": ["NRED", "MRLN", "CAT"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-16T21:27:38.813817+09:00", "name": "딥시크 하네스(DeepSeek Harness) 기반의 LLM 플러그인 생태계 부상", "tickers": ["MSFT", "GOOGL", "AMZN"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-17T01:26:09.808190+09:00", "name": "미국 내 AI 반도체 첨단 패키징 제조 확장", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-17T01:26:09.808190+09:00", "name": "오픈소스 RISC-V 기반 칩 설계 및 활용 증가", "tickers": ["SI", "RKLB", "VRT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T01:26:09.808190+09:00", "name": "AI 에이전트 및 로컬 LLM 추론을 위한 엣지 하드웨어 최적화", "tickers": ["INTC", "NVDA", "AMD", "MRAM"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-17T01:26:09.808190+09:00", "name": "차세대 소형 모듈형 원자로(SMR) 기술 개발 및 확산", "tickers": ["BWXT", "SMR"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T01:26:09.808190+09:00", "name": "AI 모델의 장거리 정보 기억(Long-Range Recall) 문제 해결 노력", "tickers": ["GOOG", "MSFT", "AMZN"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-17T01:26:09.808190+09:00", "name": "로봇의 인간과 유사한 촉각 감지(Human-like Tactile Sensing) 기술 발전", "tickers": ["ROBT", "IRBT", "MSTR"], "stage": "emerging", "confidence": "medium"}
