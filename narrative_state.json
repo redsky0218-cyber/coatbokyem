@@ -977,6 +977,17 @@
         "CDNS",
         "ARM"
       ]
+    },
+    "skhbm": {
+      "name": "SK 하이닉스 인디애나 첨단 패키징 팹 건설 및 미국 내 HBM 생산 확장",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TER",
+        "MU"
+      ]
     }
   },
   "seen_tech": {
@@ -1594,6 +1605,18 @@
     },
     "predictiveznezeronoiseextrapolationforphotonicsystems": {
       "term": "Predictive ZNE (Zero-Noise Extrapolation) for photonic systems",
+      "first_seen": "2026-08-16"
+    },
+    "nonmarkoviandynamicalsystemsquantumsimulation": {
+      "term": "Non-Markovian dynamical systems quantum simulation",
+      "first_seen": "2026-08-16"
+    },
+    "hydrodynamicvolumeintegralequationhvieforplasmonicnanostructures": {
+      "term": "Hydrodynamic Volume Integral Equation (HVIE) for Plasmonic Nanostructures",
+      "first_seen": "2026-08-16"
+    },
+    "aperiodicityformacroscopicthermalization": {
+      "term": "Aperiodicity for macroscopic thermalization",
       "first_seen": "2026-08-16"
     }
   }
