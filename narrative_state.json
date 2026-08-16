@@ -997,6 +997,24 @@
         "AMD",
         "INTC"
       ]
+    },
+    "llmlocalllm": {
+      "name": "로컬 LLM (Local LLM) 추론 가속화를 위한 하드웨어 최적화 및 퀀타이제이션",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA"
+      ]
+    },
+    "msr": {
+      "name": "차세대 용융염 원자로(MSR)의 핵폐기물 재활용 잠재력",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "BWXT",
+        "LEU",
+        "UEC"
+      ]
     }
   },
   "seen_tech": {
@@ -1642,6 +1660,18 @@
     },
     "torchpreflightpytorchlinter": {
       "term": "torch-preflight (PyTorch Linter)",
+      "first_seen": "2026-08-16"
+    },
+    "2nmhbmbasedies": {
+      "term": "2nm HBM Base Dies",
+      "first_seen": "2026-08-16"
+    },
+    "iq2xxstensorlevelquantizationallocation": {
+      "term": "IQ2_XXS Tensor Level Quantization Allocation",
+      "first_seen": "2026-08-16"
+    },
+    "predictivezneforphotoniccvsystemsinjax": {
+      "term": "Predictive ZNE for Photonic/CV Systems in JAX",
       "first_seen": "2026-08-16"
     }
   }

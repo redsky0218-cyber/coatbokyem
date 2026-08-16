@@ -182,3 +182,7 @@
 {"ts": "2026-08-16T13:39:56.250324+09:00", "name": "AI 데이터센터의 전력 수요 해결을 위한 원자력 발전 활용", "tickers": ["NUE", "SMR", "CEG", "URG"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-16T13:39:56.250324+09:00", "name": "중국 Qwen 3.8 모델의 성능 향상 및 서구 기업의 대항마 요구", "tickers": ["GOOGL", "AMD", "INTC"], "stage": "gaining_traction", "confidence": "medium"}
 {"ts": "2026-08-16T13:39:56.250324+09:00", "name": "로봇 공학 분야의 촉각 센싱 및 전자 피부 기술 발전", "tickers": ["MESA", "HAPT"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-16T17:29:11.902177+09:00", "name": "데이터센터 액체 냉각 시스템 도입 가속화", "tickers": ["VERT", "STX", "AMAT", "LRCX"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-16T17:29:11.902177+09:00", "name": "로컬 LLM (Local LLM) 추론 가속화를 위한 하드웨어 최적화 및 퀀타이제이션", "tickers": ["INTC", "AMD", "NVDA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-16T17:29:11.902177+09:00", "name": "AI 광학 모듈 수요 급증과 미국 내 공급망 중요성 부각", "tickers": ["AAOI", "LITE", "COHR"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-16T17:29:11.902177+09:00", "name": "차세대 용융염 원자로(MSR)의 핵폐기물 재활용 잠재력", "tickers": ["BWXT", "LEU", "UEC"], "stage": "emerging", "confidence": "medium"}
