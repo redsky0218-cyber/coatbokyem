@@ -1015,6 +1015,15 @@
         "LEU",
         "UEC"
       ]
+    },
+    "deepseekharnessllm": {
+      "name": "딥시크 하네스(DeepSeek Harness) 기반의 LLM 플러그인 생태계 부상",
+      "first_seen": "2026-08-16",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ]
     }
   },
   "seen_tech": {
@@ -1672,6 +1681,14 @@
     },
     "predictivezneforphotoniccvsystemsinjax": {
       "term": "Predictive ZNE for Photonic/CV Systems in JAX",
+      "first_seen": "2026-08-16"
+    },
+    "llmasattackvectorsairedteaming": {
+      "term": "LLM as attack vectors / AI red-teaming",
+      "first_seen": "2026-08-16"
+    },
+    "quantuminspiredphasebicoherenceqpbcspectroscopy": {
+      "term": "Quantum-Inspired Phase Bicoherence (QPBC) spectroscopy",
       "first_seen": "2026-08-16"
     }
   }

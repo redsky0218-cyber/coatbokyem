@@ -186,3 +186,6 @@
 {"ts": "2026-08-16T17:29:11.902177+09:00", "name": "로컬 LLM (Local LLM) 추론 가속화를 위한 하드웨어 최적화 및 퀀타이제이션", "tickers": ["INTC", "AMD", "NVDA"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-16T17:29:11.902177+09:00", "name": "AI 광학 모듈 수요 급증과 미국 내 공급망 중요성 부각", "tickers": ["AAOI", "LITE", "COHR"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-16T17:29:11.902177+09:00", "name": "차세대 용융염 원자로(MSR)의 핵폐기물 재활용 잠재력", "tickers": ["BWXT", "LEU", "UEC"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-16T21:27:38.813817+09:00", "name": "미국 내 AI 반도체 첨단 패키징 생산 능력 확대", "tickers": ["AMAT", "LRCX", "KLAC", "NVDA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-16T21:27:38.813817+09:00", "name": "자율주행 채굴 트럭의 확산과 물리 AI 시스템의 성장", "tickers": ["NRED", "MRLN", "CAT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-16T21:27:38.813817+09:00", "name": "딥시크 하네스(DeepSeek Harness) 기반의 LLM 플러그인 생태계 부상", "tickers": ["MSFT", "GOOGL", "AMZN"], "stage": "very_early", "confidence": "medium"}
