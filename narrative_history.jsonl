@@ -201,3 +201,8 @@
 {"ts": "2026-08-17T05:21:36.027790+09:00", "name": "월면 지진을 활용한 달 지하 얼음 탐사", "tickers": ["LUNR", "IRDM", "MAXR"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-17T05:21:36.027790+09:00", "name": "LLM 추론을 위한 GPU 클라우드 인프라 확장", "tickers": ["SMCI", "DELL", "HPE"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-17T05:21:36.027790+09:00", "name": "DeepSeek Harness와 플러그인 생태계의 부상", "tickers": ["MSFT", "GOOGL", "AMZN"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-17T09:42:05.638211+09:00", "name": "2nm HBM 베이스 다이 생산 확대", "tickers": ["NVDA", "MU", "SMCI", "AMAT", "LRCX"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-17T09:42:05.638211+09:00", "name": "물리적 AI 및 로보틱스 시뮬레이션 활용 증가", "tickers": ["NVDA", "IRBT", "PATH", "PLTR"], "stage": "gaining_traction", "confidence": "medium"}
+{"ts": "2026-08-17T09:42:05.638211+09:00", "name": "AI 신뢰성 및 보안 강화를 위한 워터마크 기술", "tickers": ["MSFT", "GOOG", "IBM", "CRWD", "PLTR"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T09:42:05.638211+09:00", "name": "데이터센터 광통신 부품 수요 급증 및 공급 제약", "tickers": ["AAOI", "LITE", "COHR", "MRVL"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-17T09:42:05.638211+09:00", "name": "데이터센터 인프라 구축의 전력 공급 문제 심화", "tickers": ["NEE", "DUK", "PCG", "EQIX", "DLR"], "stage": "emerging", "confidence": "medium"}

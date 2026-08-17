@@ -1078,6 +1078,17 @@
         "GOOGL",
         "AMZN"
       ]
+    },
+    "2nmhbm": {
+      "name": "2nm HBM 베이스 다이 생산 확대",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "SMCI",
+        "AMAT",
+        "LRCX"
+      ]
     }
   },
   "seen_tech": {
@@ -1767,6 +1778,22 @@
     },
     "qwen3827b": {
       "term": "Qwen3.8-27B",
+      "first_seen": "2026-08-17"
+    },
+    "linearattentionlongrangerecall": {
+      "term": "Linear Attention (Long-Range Recall 개선)",
+      "first_seen": "2026-08-17"
+    },
+    "aitextwatermarking": {
+      "term": "AI Text Watermarking",
+      "first_seen": "2026-08-17"
+    },
+    "mathcodemathematicalcodingagent": {
+      "term": "MathCode (Mathematical Coding Agent)",
+      "first_seen": "2026-08-17"
+    },
+    "wifibasedidentification": {
+      "term": "WiFi-based Identification",
       "first_seen": "2026-08-17"
     }
   }
