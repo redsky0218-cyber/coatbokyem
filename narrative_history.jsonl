@@ -217,3 +217,7 @@
 {"ts": "2026-08-17T21:32:07.967284+09:00", "name": "AI 추론 전용 칩으로의 투자 전환 및 GPU 의존도 감소", "tickers": ["MRVL", "GOOG", "AMZN", "INTC"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-17T21:32:07.967284+09:00", "name": "분산 에너지 자원(DER)을 활용한 데이터센터 및 유틸리티 전력 공급", "tickers": ["RUN", "TSLA", "ENPH", "SPWR"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-17T21:32:07.967284+09:00", "name": "휴머노이드 로봇 액추에이터 수요 폭증 및 생산 확대", "tickers": ["IRBT", "ROBO", "ABB", "RKLY"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-18T01:28:35.233062+09:00", "name": "AI 기반 반도체 설계 및 테스트", "tickers": ["AMD", "SNPS", "CDNS", "TER", "VECO"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-18T01:28:35.233062+09:00", "name": "우주 발사체 시장의 경쟁 심화 및 다각화", "tickers": ["RKLB"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-18T01:28:35.233062+09:00", "name": "희토류 및 드론 공급망의 전략적 중요성 부각", "tickers": ["MP", "ZENA"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-18T01:28:35.233062+09:00", "name": "로컬 LLM 및 엣지 AI 에이전트의 성능 최적화", "tickers": ["AMD", "NVDA"], "stage": "gaining_traction", "confidence": "medium"}

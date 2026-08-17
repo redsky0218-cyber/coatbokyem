@@ -1125,6 +1125,14 @@
         "ENPH",
         "SPWR"
       ]
+    },
+    "llmai": {
+      "name": "로컬 LLM 및 엣지 AI 에이전트의 성능 최적화",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -1855,6 +1863,22 @@
     "agenticaisecurity": {
       "term": "Agentic AI Security",
       "first_seen": "2026-08-17"
+    },
+    "aiagentonlowendfpgaasic": {
+      "term": "AI agent on low-end FPGA/ASIC",
+      "first_seen": "2026-08-18"
+    },
+    "aiassistedchipdesignllmforeda": {
+      "term": "AI-assisted Chip Design (LLM for EDA)",
+      "first_seen": "2026-08-18"
+    },
+    "aitoolstotestfpgaboards": {
+      "term": "AI tools to test FPGA boards",
+      "first_seen": "2026-08-18"
+    },
+    "moonquakebasedwatericedetection": {
+      "term": "Moonquake-based water ice detection",
+      "first_seen": "2026-08-18"
     }
   }
 }
