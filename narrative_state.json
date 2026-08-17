@@ -1133,6 +1133,15 @@
         "AMD",
         "NVDA"
       ]
+    },
+    "aiasic": {
+      "name": "AI 에이전트 온디바이스 및 ASIC 최적화",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -1878,6 +1887,34 @@
     },
     "moonquakebasedwatericedetection": {
       "term": "Moonquake-based water ice detection",
+      "first_seen": "2026-08-18"
+    },
+    "tetheredring": {
+      "term": "Tethered Ring",
+      "first_seen": "2026-08-18"
+    },
+    "moonquakeseismicanalysisforwaterice": {
+      "term": "Moonquake Seismic Analysis for Water Ice",
+      "first_seen": "2026-08-18"
+    },
+    "synthetictissue": {
+      "term": "Synthetic Tissue",
+      "first_seen": "2026-08-18"
+    },
+    "biochemicalresearchinterfacingwithnervoussystemfunctioncomputercircuitry": {
+      "term": "Biochemical Research interfacing with Nervous System Function/Computer Circuitry",
+      "first_seen": "2026-08-18"
+    },
+    "qirllvmextension": {
+      "term": "QIR LLVM extension",
+      "first_seen": "2026-08-18"
+    },
+    "nandtreealgorithminqiskit": {
+      "term": "NAND-tree algorithm in Qiskit",
+      "first_seen": "2026-08-18"
+    },
+    "usb4stream": {
+      "term": "USB4STREAM",
       "first_seen": "2026-08-18"
     }
   }
