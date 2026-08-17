@@ -1105,6 +1105,26 @@
       "tickers": [
         "NVDA"
       ]
+    },
+    "hbm2nm": {
+      "name": "HBM 베이스 다이 생산을 위한 2nm 파운드리 라인 활용",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "NVDA",
+        "ASML",
+        "KLAC",
+        "LRCX"
+      ]
+    },
+    "der": {
+      "name": "분산 에너지 자원(DER)을 활용한 데이터센터 및 유틸리티 전력 공급",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "RUN",
+        "TSLA",
+        "ENPH",
+        "SPWR"
+      ]
     }
   },
   "seen_tech": {
@@ -1822,6 +1842,18 @@
     },
     "humanoidactuatorsdynamixelq": {
       "term": "Humanoid Actuators (Dynamixel-Q)",
+      "first_seen": "2026-08-17"
+    },
+    "qwen38": {
+      "term": "Qwen 3.8",
+      "first_seen": "2026-08-17"
+    },
+    "sinekan": {
+      "term": "SineKAN",
+      "first_seen": "2026-08-17"
+    },
+    "agenticaisecurity": {
+      "term": "Agentic AI Security",
       "first_seen": "2026-08-17"
     }
   }

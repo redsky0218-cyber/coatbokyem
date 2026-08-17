@@ -211,3 +211,9 @@
 {"ts": "2026-08-17T13:44:52.987201+09:00", "name": "저궤도 위성 통신망의 장기 유지보수 및 교체 전략", "tickers": ["ASTS", "RDW", "KTOS"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-17T13:44:52.987201+09:00", "name": "휴머노이드 로봇 액추에이터 수요 증가", "tickers": [], "stage": "gaining_traction", "confidence": "medium"}
 {"ts": "2026-08-17T13:44:52.987201+09:00", "name": "물리 AI(Physical AI) 및 로봇 공학 발전", "tickers": ["NVDA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T21:32:07.967284+09:00", "name": "HBM 베이스 다이 생산을 위한 2nm 파운드리 라인 활용", "tickers": ["NVDA", "ASML", "KLAC", "LRCX"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-17T21:32:07.967284+09:00", "name": "미국 내 AI 칩 첨단 패키징 시설 투자 증대", "tickers": ["AMKR", "ASE", "TER", "ACMR"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-17T21:32:07.967284+09:00", "name": "AI 에이전트 보안 취약성 및 관리 필요성 증대", "tickers": ["S", "CRWD", "PANW", "OKTA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T21:32:07.967284+09:00", "name": "AI 추론 전용 칩으로의 투자 전환 및 GPU 의존도 감소", "tickers": ["MRVL", "GOOG", "AMZN", "INTC"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T21:32:07.967284+09:00", "name": "분산 에너지 자원(DER)을 활용한 데이터센터 및 유틸리티 전력 공급", "tickers": ["RUN", "TSLA", "ENPH", "SPWR"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T21:32:07.967284+09:00", "name": "휴머노이드 로봇 액추에이터 수요 폭증 및 생산 확대", "tickers": ["IRBT", "ROBO", "ABB", "RKLY"], "stage": "emerging", "confidence": "medium"}
