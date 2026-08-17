@@ -2,7 +2,7 @@
   "zone": {
     "CRS": 0,
     "BWXT": 1,
-    "KLAC": 1,
+    "KLAC": 0,
     "TSLA": 1,
     "GOOGL": 1,
     "GLW": 1,
