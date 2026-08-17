@@ -206,3 +206,8 @@
 {"ts": "2026-08-17T09:42:05.638211+09:00", "name": "AI 신뢰성 및 보안 강화를 위한 워터마크 기술", "tickers": ["MSFT", "GOOG", "IBM", "CRWD", "PLTR"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-17T09:42:05.638211+09:00", "name": "데이터센터 광통신 부품 수요 급증 및 공급 제약", "tickers": ["AAOI", "LITE", "COHR", "MRVL"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-17T09:42:05.638211+09:00", "name": "데이터센터 인프라 구축의 전력 공급 문제 심화", "tickers": ["NEE", "DUK", "PCG", "EQIX", "DLR"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T13:44:52.987201+09:00", "name": "2nm HBM Base Die 생산 확대 및 NVIDIA 공급망 변화", "tickers": ["NVDA", "TSM", "MU"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-17T13:44:52.987201+09:00", "name": "데이터센터 광케이블 패칭 로봇 자동화", "tickers": [], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-17T13:44:52.987201+09:00", "name": "저궤도 위성 통신망의 장기 유지보수 및 교체 전략", "tickers": ["ASTS", "RDW", "KTOS"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-17T13:44:52.987201+09:00", "name": "휴머노이드 로봇 액추에이터 수요 증가", "tickers": [], "stage": "gaining_traction", "confidence": "medium"}
+{"ts": "2026-08-17T13:44:52.987201+09:00", "name": "물리 AI(Physical AI) 및 로봇 공학 발전", "tickers": ["NVDA"], "stage": "emerging", "confidence": "medium"}

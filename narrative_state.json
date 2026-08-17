@@ -1089,6 +1089,22 @@
         "AMAT",
         "LRCX"
       ]
+    },
+    "2nmhbmbasedienvidia": {
+      "name": "2nm HBM Base Die 생산 확대 및 NVIDIA 공급망 변화",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "MU"
+      ]
+    },
+    "aiphysicalai": {
+      "name": "물리 AI(Physical AI) 및 로봇 공학 발전",
+      "first_seen": "2026-08-17",
+      "tickers": [
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -1794,6 +1810,18 @@
     },
     "wifibasedidentification": {
       "term": "WiFi-based Identification",
+      "first_seen": "2026-08-17"
+    },
+    "physicalai": {
+      "term": "Physical AI",
+      "first_seen": "2026-08-17"
+    },
+    "sinekankolmogorovarnoldnetworksusingsinusoidalactivationfunctions": {
+      "term": "SineKAN (Kolmogorov-Arnold Networks Using Sinusoidal Activation Functions)",
+      "first_seen": "2026-08-17"
+    },
+    "humanoidactuatorsdynamixelq": {
+      "term": "Humanoid Actuators (Dynamixel-Q)",
       "first_seen": "2026-08-17"
     }
   }
