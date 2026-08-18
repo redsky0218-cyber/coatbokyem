@@ -1210,6 +1210,23 @@
         "INTC",
         "PLAB"
       ]
+    },
+    "ddr5ram": {
+      "name": "중국산 DDR5 RAM의 부상",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "MU",
+        "SMH"
+      ]
+    },
+    "loadfollowing": {
+      "name": "원자력 발전소의 유연 운영(Load-Following)",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "CEG",
+        "XELA",
+        "BWXT"
+      ]
     }
   },
   "seen_tech": {
@@ -2027,6 +2044,34 @@
     },
     "opticalaiaccelerators": {
       "term": "Optical AI accelerators",
+      "first_seen": "2026-08-18"
+    },
+    "waymakerridesharemission": {
+      "term": "Waymaker rideshare mission",
+      "first_seen": "2026-08-18"
+    },
+    "glp1blocker": {
+      "term": "GLP-1 blocker",
+      "first_seen": "2026-08-18"
+    },
+    "identityproviderconfigsasransomwaretarget": {
+      "term": "Identity Provider configs as ransomware target",
+      "first_seen": "2026-08-18"
+    },
+    "abacattributebasedaccesscontrol": {
+      "term": "ABAC (Attribute-Based Access Control)",
+      "first_seen": "2026-08-18"
+    },
+    "opticalai": {
+      "term": "Optical AI",
+      "first_seen": "2026-08-18"
+    },
+    "qwen3835ba3b": {
+      "term": "Qwen 3.8 35B A3B",
+      "first_seen": "2026-08-18"
+    },
+    "adaptivemtpmultitokenprediction": {
+      "term": "Adaptive MTP (Multi-Token Prediction)",
       "first_seen": "2026-08-18"
     }
   }
