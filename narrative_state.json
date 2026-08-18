@@ -1191,6 +1191,25 @@
         "PANW",
         "ZS"
       ]
+    },
+    "aipcram": {
+      "name": "AI 기능 요구사항 증가에 따른 PC RAM 용량 상향 압력",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "MU",
+        "SMCI",
+        "DELL",
+        "HPQ"
+      ]
+    },
+    "aifpgaai": {
+      "name": "저전력/엣지 AI를 위한 FPGA 기반 AI 에이전트 개발",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "PLAB"
+      ]
     }
   },
   "seen_tech": {
@@ -1996,6 +2015,18 @@
     },
     "qubitnet": {
       "term": "Qubit.NET",
+      "first_seen": "2026-08-18"
+    },
+    "aicachescheduling": {
+      "term": "AI cache scheduling",
+      "first_seen": "2026-08-18"
+    },
+    "aiagentonlowendfpga": {
+      "term": "AI agent on low-end FPGA",
+      "first_seen": "2026-08-18"
+    },
+    "opticalaiaccelerators": {
+      "term": "Optical AI accelerators",
       "first_seen": "2026-08-18"
     }
   }

@@ -236,3 +236,9 @@
 {"ts": "2026-08-18T13:39:01.033761+09:00", "name": "AI 에이전트의 물리적 구현을 위한 로봇 하드웨어 및 소프트웨어 통합", "tickers": ["NVDA", "INTC", "AMAT", "MRVL"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-18T13:39:01.033761+09:00", "name": "GLP-1 약물로 인한 미용 시술 시장 변화: 피부 탄력 및 볼륨 재건 수요 증가", "tickers": ["AIRS", "INMD", "APYX", "ESTA", "EOLS"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-18T13:39:01.033761+09:00", "name": "드론 산업의 국내 제조 및 수직 통합 강화", "tickers": ["ZENA", "AER", "KTOS"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-18T17:37:10.260706+09:00", "name": "AI 기능 요구사항 증가에 따른 PC RAM 용량 상향 압력", "tickers": ["MU", "SMCI", "DELL", "HPQ"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-18T17:37:10.260706+09:00", "name": "오픈소스 AI 모델의 지정학적 및 기술 표준 영향력 확대", "tickers": ["GOOG", "MSFT", "IBM", "HPE"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-18T17:37:10.260706+09:00", "name": "저전력/엣지 AI를 위한 FPGA 기반 AI 에이전트 개발", "tickers": ["AMD", "INTC", "PLAB"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-18T17:37:10.260706+09:00", "name": "위성 운영자들의 발사 서비스 시장 제약 심화", "tickers": ["RKLB", "VACQ", "MAXR", "IRDM"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-18T17:37:10.260706+09:00", "name": "미국 내 우라늄 공급망 취약성 및 서방 공급원 중요성 부각", "tickers": ["UUUU", "NXE", "DNN", "URA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-18T17:37:10.260706+09:00", "name": "광학 AI 가속기 및 초고속 푸리에 변환 기술", "tickers": ["LITE", "FNSR", "COHR"], "stage": "very_early", "confidence": "medium"}
