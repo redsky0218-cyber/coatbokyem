@@ -226,3 +226,7 @@
 {"ts": "2026-08-18T05:28:32.789946+09:00", "name": "AI 에이전트 온디바이스 및 ASIC 최적화", "tickers": ["AMD", "INTC", "GOOGL"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-18T05:28:32.789946+09:00", "name": "휴머노이드 로봇 액추에이터 및 AI 통합 시스템 수요 급증", "tickers": ["NVDA", "IRBT", "SYM"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-18T05:28:32.789946+09:00", "name": "딥시크 하네스(DeepSeek Harness) 플러그인 생태계 부상", "tickers": ["MSFT", "GOOGL", "CRWD"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-18T09:42:01.724003+09:00", "name": "Terafab 기반 차세대 반도체 제조", "tickers": ["ASML", "AMAT", "LRCX", "KLAC", "ONTO"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-18T09:42:01.724003+09:00", "name": "오픈소스/오픈웨이트 AI 모델의 지정학적 경쟁 심화", "tickers": ["GOOG", "MSFT", "IBM", "HPE"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-18T09:42:01.724003+09:00", "name": "상업용 위성 발사 시장의 공급 부족 심화", "tickers": ["RKLB", "ASTS", "VLD"], "stage": "gaining_traction", "confidence": "medium"}
+{"ts": "2026-08-18T09:42:01.724003+09:00", "name": "AI 하드웨어 가속을 위한 OS 캐시 스케줄링 최적화", "tickers": ["INTC", "AMD", "NVDA", "MRVL"], "stage": "emerging", "confidence": "medium"}

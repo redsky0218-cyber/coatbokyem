@@ -1142,6 +1142,27 @@
         "INTC",
         "GOOGL"
       ]
+    },
+    "terafab": {
+      "name": "Terafab 기반 차세대 반도체 제조",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ONTO"
+      ]
+    },
+    "aios": {
+      "name": "AI 하드웨어 가속을 위한 OS 캐시 스케줄링 최적화",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA",
+        "MRVL"
+      ]
     }
   },
   "seen_tech": {
@@ -1915,6 +1936,26 @@
     },
     "usb4stream": {
       "term": "USB4STREAM",
+      "first_seen": "2026-08-18"
+    },
+    "terafab": {
+      "term": "Terafab",
+      "first_seen": "2026-08-18"
+    },
+    "aiphysicalembodimentroboticsosforai": {
+      "term": "AI physical embodiment / Robotics OS for AI",
+      "first_seen": "2026-08-18"
+    },
+    "gpt56sol": {
+      "term": "GPT-5.6 Sol",
+      "first_seen": "2026-08-18"
+    },
+    "lowleveloptimizationsforcpumemoryandioperformanceforaiworkloads": {
+      "term": "Low-level optimizations for CPU, memory, and I/O performance (for AI workloads)",
+      "first_seen": "2026-08-18"
+    },
+    "gpuoffloadinrust": {
+      "term": "GPU Offload in Rust",
       "first_seen": "2026-08-18"
     }
   }
