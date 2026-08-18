@@ -1163,6 +1163,34 @@
         "NVDA",
         "MRVL"
       ]
+    },
+    "aipc16gbram": {
+      "name": "클라이언트 AI PC용 16GB RAM 표준화",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "MU",
+        "WDC",
+        "NVDA"
+      ]
+    },
+    "2nmhbmnvidia": {
+      "name": "삼성의 2nm HBM 베이스 다이 파운드리 전환 및 NVIDIA 타겟",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "NVDA",
+        "MU"
+      ]
+    },
+    "aisdlcappsec": {
+      "name": "AI 에이전트 기반 SDLC를 위한 애플리케이션 보안(AppSec) 통합",
+      "first_seen": "2026-08-18",
+      "tickers": [
+        "MSFT",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "ZS"
+      ]
     }
   },
   "seen_tech": {
@@ -1956,6 +1984,18 @@
     },
     "gpuoffloadinrust": {
       "term": "GPU Offload in Rust",
+      "first_seen": "2026-08-18"
+    },
+    "aidlcagenticsdlc": {
+      "term": "AI-DLC / agentic SDLC",
+      "first_seen": "2026-08-18"
+    },
+    "lorasubghzantennaoptimization": {
+      "term": "LoRa / Sub-GHz Antenna Optimization",
+      "first_seen": "2026-08-18"
+    },
+    "qubitnet": {
+      "term": "Qubit.NET",
       "first_seen": "2026-08-18"
     }
   }
