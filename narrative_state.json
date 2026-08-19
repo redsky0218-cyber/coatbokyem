@@ -1317,6 +1317,26 @@
         "GOOGL",
         "AMZN"
       ]
+    },
+    "mrna3": {
+      "name": "맞춤형 mRNA 암 백신의 긍정적인 임상 3상 결과",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "MRNA",
+        "MRK",
+        "BNTX",
+        "CRSP"
+      ]
+    },
+    "gpu": {
+      "name": "데이터센터 액체 냉각 GPU 시스템 수요 증가",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "VERT",
+        "DLR",
+        "EQIX",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -2239,6 +2259,38 @@
     "realtimetrackingsensorsfornuclearwaste": {
       "term": "Real-time tracking sensors for nuclear waste",
       "first_seen": "2026-08-19"
+    },
+    "flippmanufacturingprocess": {
+      "term": "FLiPP Manufacturing Process",
+      "first_seen": "2026-08-20"
+    },
+    "80plusrubycertification": {
+      "term": "80 PLUS Ruby certification",
+      "first_seen": "2026-08-20"
+    },
+    "computationallithographyopensourceecosystemopeniltlithobenchneuralilttorchlitho": {
+      "term": "Computational lithography open source ecosystem (OpenILT, LithoBench, Neural-ILT, TorchLitho)",
+      "first_seen": "2026-08-20"
+    },
+    "openpdks55nm28nm": {
+      "term": "Open PDKs (55nm, 28nm)",
+      "first_seen": "2026-08-20"
+    },
+    "opticalcomputing": {
+      "term": "Optical computing",
+      "first_seen": "2026-08-20"
+    },
+    "frcdirectconversionwithdhe": {
+      "term": "FRC + direct conversion with D-³He",
+      "first_seen": "2026-08-20"
+    },
+    "shadowai": {
+      "term": "Shadow AI",
+      "first_seen": "2026-08-20"
+    },
+    "cyscenariobench": {
+      "term": "CyScenarioBench",
+      "first_seen": "2026-08-20"
     }
   }
 }

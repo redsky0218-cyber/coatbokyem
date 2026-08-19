@@ -269,3 +269,8 @@
 {"ts": "2026-08-19T21:33:40.832353+09:00", "name": "DeepSeek Harness 및 AI 에이전트 플러그인 생태계 부상", "tickers": ["MSFT", "GOOGL", "AMZN"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-19T21:33:40.832353+09:00", "name": "사용후핵연료 재활용 및 원자력 폐기물 관리 기술 발전", "tickers": ["UUUU", "NXE", "DNN", "NNE"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-19T21:33:40.832353+09:00", "name": "로봇 공학의 '물리적 AI' 및 실시간 데이터 수집의 어려움", "tickers": ["NVDA", "PLTR", "IRBT", "XPENG"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T05:27:38.837902+09:00", "name": "AI 수요 급증에 따른 첨단 파운드리 가격 인상", "tickers": ["AMAT", "LRCX", "KLA", "NVDA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-20T05:27:38.837902+09:00", "name": "캘리포니아 SMR(소형모듈원자로) 도입 논의 재점화", "tickers": ["CEG", "BWXT", "GE"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T05:27:38.837902+09:00", "name": "맞춤형 mRNA 암 백신의 긍정적인 임상 3상 결과", "tickers": ["MRNA", "MRK", "BNTX", "CRSP"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-20T05:27:38.837902+09:00", "name": "데이터센터 액체 냉각 GPU 시스템 수요 증가", "tickers": ["VERT", "DLR", "EQIX", "SMCI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T05:27:38.837902+09:00", "name": "오픈소스 AI 에이전트 하네스 및 팀 협업 플랫폼 부상", "tickers": ["MSFT", "GOOGL", "CRM", "PATH"], "stage": "very_early", "confidence": "medium"}
