@@ -1261,6 +1261,15 @@
         "OKTA",
         "NET"
       ]
+    },
+    "sramcim": {
+      "name": "SRAM 기반 컴퓨트-인-메모리 (CiM) 기술의 부상",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "RMBS",
+        "WDC",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -2134,6 +2143,26 @@
     },
     "cdusmanifoldsdriplessdisconnects": {
       "term": "CDUs, manifolds, dripless disconnects",
+      "first_seen": "2026-08-19"
+    },
+    "etchedstartup": {
+      "term": "Etched (startup)",
+      "first_seen": "2026-08-19"
+    },
+    "srambasedcomputeinmemorycim": {
+      "term": "SRAM-based Compute-in-Memory (CiM)",
+      "first_seen": "2026-08-19"
+    },
+    "hpschighperformancespaceflightcomputing": {
+      "term": "HPSC (High-Performance Spaceflight Computing)",
+      "first_seen": "2026-08-19"
+    },
+    "aiorchestrationplatformssecurityvulnerabilities": {
+      "term": "AI Orchestration Platforms (security vulnerabilities)",
+      "first_seen": "2026-08-19"
+    },
+    "clopshcircuitlayeroperationspersecond": {
+      "term": "CLOPS_h (Circuit Layer Operations Per Second)",
       "first_seen": "2026-08-19"
     }
   }

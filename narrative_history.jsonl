@@ -252,3 +252,9 @@
 {"ts": "2026-08-19T09:41:34.094079+09:00", "name": "휴머노이드 로봇의 급부상과 Physical AI 확산", "tickers": ["XPEV", "IONQ"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-19T09:41:34.094079+09:00", "name": "차세대 AI 칩 개발 경쟁 심화 및 클라우드 서비스 제공업체의 자체 칩 강화", "tickers": ["MSFT", "TSM", "GOOGL", "AMZN"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-19T09:41:34.094079+09:00", "name": "AI 오케스트레이션 플랫폼의 보안 취약점과 RCE 공격 위험", "tickers": ["CRWD", "OKTA", "NET"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T13:40:10.099720+09:00", "name": "SRAM 기반 컴퓨트-인-메모리 (CiM) 기술의 부상", "tickers": ["RMBS", "WDC", "SMCI"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-19T13:40:10.099720+09:00", "name": "고속 원심분리기를 활용한 사용후 핵연료 재활용", "tickers": ["UUUU", "CCJ", "LEU"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T13:40:10.099720+09:00", "name": "원자력 산업에 AI 적용 및 엔비디아의 역할", "tickers": ["NVDA", "BWXT", "XELA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T13:40:10.099720+09:00", "name": "AI 오케스트레이션 플랫폼의 보안 취약점 증가", "tickers": ["CRWD", "PANW", "ZS"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-19T13:40:10.099720+09:00", "name": "AI 데이터센터 인프라 투자 펀드 조성", "tickers": ["NVDA", "AMT", "EQIX", "DLR"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-19T13:40:10.099720+09:00", "name": "로봇 공유 및 렌탈 운영 플랫폼의 부상", "tickers": ["FFIE", "IRBT", "SOFI"], "stage": "emerging", "confidence": "medium"}
