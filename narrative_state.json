@@ -1270,6 +1270,33 @@
         "WDC",
         "SMCI"
       ]
+    },
+    "ainvidiancpari": {
+      "name": "AI 데이터센터 인프라를 위한 NVIDIA NCP-ARI 인증 및 액체 냉각 기술 확산",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "NVDA",
+        "VRT",
+        "BYD"
+      ]
+    },
+    "ggufdflash": {
+      "name": "딥 러닝 모델의 메모리 효율성 향상 (GGUF, DFlash)",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "SNDK"
+      ]
+    },
+    "aipromptinjection": {
+      "name": "AI 에이전트 오케스트레이션 플랫폼의 보안 취약점과 Prompt Injection 방어",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "OKTA"
+      ]
     }
   },
   "seen_tech": {
@@ -2163,6 +2190,22 @@
     },
     "clopshcircuitlayeroperationspersecond": {
       "term": "CLOPS_h (Circuit Layer Operations Per Second)",
+      "first_seen": "2026-08-19"
+    },
+    "bllc": {
+      "term": "bLLC",
+      "first_seen": "2026-08-19"
+    },
+    "openpdksegsky13055nm28nm": {
+      "term": "Open PDKs (e.g., SKY130, 55nm, 28nm)",
+      "first_seen": "2026-08-19"
+    },
+    "ggufgptgeneratedunifiedformat": {
+      "term": "GGUF (GPT-Generated Unified Format)",
+      "first_seen": "2026-08-19"
+    },
+    "promptinjectioncontainmentasastructuralproperty": {
+      "term": "Prompt Injection Containment as a Structural Property",
       "first_seen": "2026-08-19"
     }
   }

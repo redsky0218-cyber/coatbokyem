@@ -258,3 +258,9 @@
 {"ts": "2026-08-19T13:40:10.099720+09:00", "name": "AI 오케스트레이션 플랫폼의 보안 취약점 증가", "tickers": ["CRWD", "PANW", "ZS"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-19T13:40:10.099720+09:00", "name": "AI 데이터센터 인프라 투자 펀드 조성", "tickers": ["NVDA", "AMT", "EQIX", "DLR"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-19T13:40:10.099720+09:00", "name": "로봇 공유 및 렌탈 운영 플랫폼의 부상", "tickers": ["FFIE", "IRBT", "SOFI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T17:36:19.675874+09:00", "name": "SRAM 기반 컴퓨트 인 메모리(CiM) 설계의 부상", "tickers": ["SKYT"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-19T17:36:19.675874+09:00", "name": "AI 데이터센터 인프라를 위한 NVIDIA NCP-ARI 인증 및 액체 냉각 기술 확산", "tickers": ["NVDA", "VRT", "BYD"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-19T17:36:19.675874+09:00", "name": "딥 러닝 모델의 메모리 효율성 향상 (GGUF, DFlash)", "tickers": ["NVDA", "MU", "SNDK"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-19T17:36:19.675874+09:00", "name": "AI 에이전트 오케스트레이션 플랫폼의 보안 취약점과 Prompt Injection 방어", "tickers": ["CRWD", "PANW", "OKTA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T17:36:19.675874+09:00", "name": "차세대 원자력 연료 재활용 및 AI 기반 운영 최적화", "tickers": ["UUUU", "CCJ", "NVDA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T17:36:19.675874+09:00", "name": "재사용 가능한 로켓 기술의 글로벌 확산 및 경쟁 심화", "tickers": ["RKLB", "VACQ"], "stage": "gaining_traction", "confidence": "high"}
