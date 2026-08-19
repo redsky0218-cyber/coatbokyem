@@ -247,3 +247,8 @@
 {"ts": "2026-08-18T21:33:46.053344+09:00", "name": "원자력 발전소의 유연 운영(Load-Following)", "tickers": ["CEG", "XELA", "BWXT"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-18T21:33:46.053344+09:00", "name": "DeepSeek Harness 기반 플러그인 생태계 확장", "tickers": ["MSFT", "GOOGL", "CRWD"], "stage": "very_early", "confidence": "high"}
 {"ts": "2026-08-18T21:33:46.053344+09:00", "name": "휴머노이드 로봇의 음성 및 시각 기반 상호작용 시스템", "tickers": ["NVDA", "IRBT", "SMCI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T09:41:34.094079+09:00", "name": "TSMC N2X 노드 및 Intel bLLC 노트북 SKU 채택", "tickers": ["TSM", "INTC"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-19T09:41:34.094079+09:00", "name": "AI 데이터센터 인프라의 액체 냉각 및 DC 버스바 중요성 부각", "tickers": ["NVDA", "VRT", "ETN"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T09:41:34.094079+09:00", "name": "휴머노이드 로봇의 급부상과 Physical AI 확산", "tickers": ["XPEV", "IONQ"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-19T09:41:34.094079+09:00", "name": "차세대 AI 칩 개발 경쟁 심화 및 클라우드 서비스 제공업체의 자체 칩 강화", "tickers": ["MSFT", "TSM", "GOOGL", "AMZN"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-19T09:41:34.094079+09:00", "name": "AI 오케스트레이션 플랫폼의 보안 취약점과 RCE 공격 위험", "tickers": ["CRWD", "OKTA", "NET"], "stage": "emerging", "confidence": "medium"}

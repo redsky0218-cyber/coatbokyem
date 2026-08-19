@@ -1227,6 +1227,40 @@
         "XELA",
         "BWXT"
       ]
+    },
+    "tsmcn2xintelbllcsku": {
+      "name": "TSMC N2X 노드 및 Intel bLLC 노트북 SKU 채택",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "TSM",
+        "INTC"
+      ]
+    },
+    "aidc": {
+      "name": "AI 데이터센터 인프라의 액체 냉각 및 DC 버스바 중요성 부각",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "NVDA",
+        "VRT",
+        "ETN"
+      ]
+    },
+    "physicalai": {
+      "name": "휴머노이드 로봇의 급부상과 Physical AI 확산",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "XPEV",
+        "IONQ"
+      ]
+    },
+    "airce": {
+      "name": "AI 오케스트레이션 플랫폼의 보안 취약점과 RCE 공격 위험",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "CRWD",
+        "OKTA",
+        "NET"
+      ]
     }
   },
   "seen_tech": {
@@ -2073,6 +2107,34 @@
     "adaptivemtpmultitokenprediction": {
       "term": "Adaptive MTP (Multi-Token Prediction)",
       "first_seen": "2026-08-18"
+    },
+    "n2xnode": {
+      "term": "N2X Node",
+      "first_seen": "2026-08-19"
+    },
+    "bllcbiglastlevelcache": {
+      "term": "bLLC (Big Last Level Cache)",
+      "first_seen": "2026-08-19"
+    },
+    "computationallithographyopensourceecosystem": {
+      "term": "Computational Lithography Open Source Ecosystem",
+      "first_seen": "2026-08-19"
+    },
+    "duvworkaroundfor7nm": {
+      "term": "DUV Workaround for 7nm",
+      "first_seen": "2026-08-19"
+    },
+    "400gqsfpdddr4": {
+      "term": "400G QSFP-DD DR4",
+      "first_seen": "2026-08-19"
+    },
+    "ncparinvidiacertifiedprofessionalairackandinterconnect": {
+      "term": "NCP-ARI (NVIDIA-Certified Professional: AI Rack and Interconnect)",
+      "first_seen": "2026-08-19"
+    },
+    "cdusmanifoldsdriplessdisconnects": {
+      "term": "CDUs, manifolds, dripless disconnects",
+      "first_seen": "2026-08-19"
     }
   }
 }
