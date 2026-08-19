@@ -264,3 +264,8 @@
 {"ts": "2026-08-19T17:36:19.675874+09:00", "name": "AI 에이전트 오케스트레이션 플랫폼의 보안 취약점과 Prompt Injection 방어", "tickers": ["CRWD", "PANW", "OKTA"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-19T17:36:19.675874+09:00", "name": "차세대 원자력 연료 재활용 및 AI 기반 운영 최적화", "tickers": ["UUUU", "CCJ", "NVDA"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-19T17:36:19.675874+09:00", "name": "재사용 가능한 로켓 기술의 글로벌 확산 및 경쟁 심화", "tickers": ["RKLB", "VACQ"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-19T21:33:40.832353+09:00", "name": "Arm 기반 노트북 칩의 성능 향상 및 시장 경쟁 심화", "tickers": ["QCOM", "INTC", "GOOGL", "MSFT", "AAPL"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-19T21:33:40.832353+09:00", "name": "AI 데이터센터 인프라를 위한 액체 냉각 및 DC 버스바 기술의 중요성 부각", "tickers": ["NVDA", "VERT", "ASTS", "AMET"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-19T21:33:40.832353+09:00", "name": "DeepSeek Harness 및 AI 에이전트 플러그인 생태계 부상", "tickers": ["MSFT", "GOOGL", "AMZN"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-19T21:33:40.832353+09:00", "name": "사용후핵연료 재활용 및 원자력 폐기물 관리 기술 발전", "tickers": ["UUUU", "NXE", "DNN", "NNE"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-19T21:33:40.832353+09:00", "name": "로봇 공학의 '물리적 AI' 및 실시간 데이터 수집의 어려움", "tickers": ["NVDA", "PLTR", "IRBT", "XPENG"], "stage": "emerging", "confidence": "medium"}

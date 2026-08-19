@@ -1297,6 +1297,26 @@
         "PANW",
         "OKTA"
       ]
+    },
+    "arm": {
+      "name": "Arm 기반 노트북 칩의 성능 향상 및 시장 경쟁 심화",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "QCOM",
+        "INTC",
+        "GOOGL",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    "deepseekharnessai": {
+      "name": "DeepSeek Harness 및 AI 에이전트 플러그인 생태계 부상",
+      "first_seen": "2026-08-19",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ]
     }
   },
   "seen_tech": {
@@ -2206,6 +2226,18 @@
     },
     "promptinjectioncontainmentasastructuralproperty": {
       "term": "Prompt Injection Containment as a Structural Property",
+      "first_seen": "2026-08-19"
+    },
+    "tsmcn2xnode": {
+      "term": "TSMC N2X node",
+      "first_seen": "2026-08-19"
+    },
+    "7nmduvworkaround": {
+      "term": "7nm DUV Workaround",
+      "first_seen": "2026-08-19"
+    },
+    "realtimetrackingsensorsfornuclearwaste": {
+      "term": "Real-time tracking sensors for nuclear waste",
       "first_seen": "2026-08-19"
     }
   }
