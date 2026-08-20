@@ -296,3 +296,7 @@
 {"ts": "2026-08-21T01:34:44.603797+09:00", "name": "중국의 첨단 패키징 기술 발전 (JCET XDFOI)", "tickers": ["AMKR", "ASE", "TER", "KLAC"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-21T01:34:44.603797+09:00", "name": "우라늄 및 핵심 광물 공급망 재편", "tickers": ["UUUU", "NXE", "DNN", "UEC"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-21T01:34:44.603797+09:00", "name": "AI 에이전트 기반 사이버 보안 공격 및 방어", "tickers": ["CRWD", "PANW", "FTNT", "S"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T05:30:56.230261+09:00", "name": "AI 에이전트 및 멀티 에이전트 시스템의 부상", "tickers": ["MSFT", "GOOG", "AMZN", "PLTR"], "stage": "very_early", "confidence": "high"}
+{"ts": "2026-08-21T05:30:56.230261+09:00", "name": "원자력 발전의 부활 및 핵연료 공급망 강화", "tickers": ["URNM", "URNJ", "NXE", "DNN", "UEC", "UUUU", "EU"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-21T05:30:56.230261+09:00", "name": "RNA 침묵 치료제(siRNA/ASO)의 고형암 적용 한계 극복 시도", "tickers": ["ALNY", "IONS", "ARWR", "DTIL"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T05:30:56.230261+09:00", "name": "고효율 데이터센터 전원 공급 장치 (80 PLUS Ruby 인증)", "tickers": ["STX", "WDC", "SMCI", "DELL"], "stage": "emerging", "confidence": "medium"}

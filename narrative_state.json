@@ -1427,6 +1427,16 @@
         "TER",
         "KLAC"
       ]
+    },
+    "80plusruby": {
+      "name": "고효율 데이터센터 전원 공급 장치 (80 PLUS Ruby 인증)",
+      "first_seen": "2026-08-21",
+      "tickers": [
+        "STX",
+        "WDC",
+        "SMCI",
+        "DELL"
+      ]
     }
   },
   "seen_tech": {
@@ -2456,6 +2466,30 @@
     },
     "arrayrefmaliciousrustcrate": {
       "term": "Arrayref (Malicious Rust Crate)",
+      "first_seen": "2026-08-21"
+    },
+    "dflash2drafting": {
+      "term": "DFlash2 drafting",
+      "first_seen": "2026-08-21"
+    },
+    "latentmoe": {
+      "term": "LatentMoE",
+      "first_seen": "2026-08-21"
+    },
+    "huzzah": {
+      "term": "Huzzah",
+      "first_seen": "2026-08-21"
+    },
+    "aiprovenancetraceswatermarking": {
+      "term": "AI provenance traces / watermarking",
+      "first_seen": "2026-08-21"
+    },
+    "apexinferencechip": {
+      "term": "APEX inference chip",
+      "first_seen": "2026-08-21"
+    },
+    "jspace": {
+      "term": "J-Space",
       "first_seen": "2026-08-21"
     }
   }
