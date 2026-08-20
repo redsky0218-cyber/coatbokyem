@@ -1337,6 +1337,33 @@
         "EQIX",
         "SMCI"
       ]
+    },
+    "oledflipp": {
+      "name": "첨단 OLED 패널 제조 공정 혁신 (FLiPP)",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "LPL",
+        "OLED"
+      ]
+    },
+    "smrhaleu": {
+      "name": "SMR 및 HALEU 연료 기반 원자력 발전 부활",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "SMR",
+        "CCJ",
+        "UUUU",
+        "UEC"
+      ]
+    },
+    "localllamallm": {
+      "name": "LocalLLaMA 커뮤니티의 오픈소스 LLM 최적화 및 경량화",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -2290,6 +2317,22 @@
     },
     "cyscenariobench": {
       "term": "CyScenarioBench",
+      "first_seen": "2026-08-20"
+    },
+    "aiagentsforcybersecurityblueteam": {
+      "term": "AI Agents for Cybersecurity (Blue Team)",
+      "first_seen": "2026-08-20"
+    },
+    "dflash2": {
+      "term": "DFlash2",
+      "first_seen": "2026-08-20"
+    },
+    "nvfp4": {
+      "term": "NVFP4",
+      "first_seen": "2026-08-20"
+    },
+    "weightedcheckpointmergingwsm": {
+      "term": "Weighted Checkpoint Merging (WSM)",
       "first_seen": "2026-08-20"
     }
   }

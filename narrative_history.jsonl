@@ -274,3 +274,9 @@
 {"ts": "2026-08-20T05:27:38.837902+09:00", "name": "맞춤형 mRNA 암 백신의 긍정적인 임상 3상 결과", "tickers": ["MRNA", "MRK", "BNTX", "CRSP"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-20T05:27:38.837902+09:00", "name": "데이터센터 액체 냉각 GPU 시스템 수요 증가", "tickers": ["VERT", "DLR", "EQIX", "SMCI"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-20T05:27:38.837902+09:00", "name": "오픈소스 AI 에이전트 하네스 및 팀 협업 플랫폼 부상", "tickers": ["MSFT", "GOOGL", "CRM", "PATH"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-20T09:42:42.218771+09:00", "name": "첨단 OLED 패널 제조 공정 혁신 (FLiPP)", "tickers": ["LPL", "OLED"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-20T09:42:42.218771+09:00", "name": "AI 수요에 따른 첨단 파운드리 가격 인상 및 캐파 부족", "tickers": ["TSM", "AMAT", "ASML", "LRCX", "KLAC"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-20T09:42:42.218771+09:00", "name": "SMR 및 HALEU 연료 기반 원자력 발전 부활", "tickers": ["SMR", "CCJ", "UUUU", "UEC"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-20T09:42:42.218771+09:00", "name": "AI 에이전트의 사이버 보안 활용 및 취약점", "tickers": ["CRWD", "PANW", "ZS"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T09:42:42.218771+09:00", "name": "LocalLLaMA 커뮤니티의 오픈소스 LLM 최적화 및 경량화", "tickers": ["NVDA", "AMD", "GOOGL"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T09:42:42.218771+09:00", "name": "로봇 공학의 특정 작업 전문화 및 AI 통합", "tickers": ["IRBT", "FFIE", "OSUR", "SSII"], "stage": "emerging", "confidence": "medium"}
