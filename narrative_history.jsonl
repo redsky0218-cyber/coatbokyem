@@ -290,3 +290,9 @@
 {"ts": "2026-08-20T21:35:09.582171+09:00", "name": "중국의 XDFOI® 어드밴스드 패키징 경쟁력 부상", "tickers": ["AMKR", "ASX", "AMAT"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-20T21:35:09.582171+09:00", "name": "RNA 침묵 치료제(siRNA/ASO)의 고형암 적용 확대 노력", "tickers": ["MRNA", "BNTX", "PHIO"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-20T21:35:09.582171+09:00", "name": "AI 에이전트를 위한 분산형 컴퓨팅 및 오케스트레이션", "tickers": ["CRDO", "SMCI", "GOOGL"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-21T01:34:44.603797+09:00", "name": "차세대 OLED 제조 공정: FLiPP 기술", "tickers": ["LPL", "AMAT", "ASML"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T01:34:44.603797+09:00", "name": "AI 데이터센터 인프라 병목 현상 및 해결책 모색", "tickers": ["PWR", "NEE", "ETN", "VERT", "APCD"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-21T01:34:44.603797+09:00", "name": "mRNA 기반 개인 맞춤형 암 백신 성공 가능성", "tickers": ["MRNA", "BNTX", "REGN"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-21T01:34:44.603797+09:00", "name": "중국의 첨단 패키징 기술 발전 (JCET XDFOI)", "tickers": ["AMKR", "ASE", "TER", "KLAC"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T01:34:44.603797+09:00", "name": "우라늄 및 핵심 광물 공급망 재편", "tickers": ["UUUU", "NXE", "DNN", "UEC"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-21T01:34:44.603797+09:00", "name": "AI 에이전트 기반 사이버 보안 공격 및 방어", "tickers": ["CRWD", "PANW", "FTNT", "S"], "stage": "emerging", "confidence": "medium"}

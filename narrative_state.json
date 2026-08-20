@@ -1407,6 +1407,26 @@
         "BNTX",
         "PHIO"
       ]
+    },
+    "mrna": {
+      "name": "mRNA 기반 개인 맞춤형 암 백신 성공 가능성",
+      "first_seen": "2026-08-21",
+      "tickers": [
+        "MRNA",
+        "BNTX",
+        "MRNA",
+        "REGN"
+      ]
+    },
+    "jcetxdfoi": {
+      "name": "중국의 첨단 패키징 기술 발전 (JCET XDFOI)",
+      "first_seen": "2026-08-21",
+      "tickers": [
+        "AMKR",
+        "ASE",
+        "TER",
+        "KLAC"
+      ]
     }
   },
   "seen_tech": {
@@ -2421,6 +2441,22 @@
     "rushhourlatticesurgeryarchitecture": {
       "term": "RushHour (Lattice-Surgery Architecture)",
       "first_seen": "2026-08-20"
+    },
+    "3dmetrologytool": {
+      "term": "3D Metrology Tool (반도체)",
+      "first_seen": "2026-08-21"
+    },
+    "aigeneratedcodedetectionincicd": {
+      "term": "AI-generated code detection in CI/CD",
+      "first_seen": "2026-08-21"
+    },
+    "spectralneuron": {
+      "term": "Spectral Neuron",
+      "first_seen": "2026-08-21"
+    },
+    "arrayrefmaliciousrustcrate": {
+      "term": "Arrayref (Malicious Rust Crate)",
+      "first_seen": "2026-08-21"
     }
   }
 }
