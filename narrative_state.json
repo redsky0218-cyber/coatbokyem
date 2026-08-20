@@ -1364,6 +1364,31 @@
         "AMD",
         "GOOGL"
       ]
+    },
+    "lgdisplayflippoled": {
+      "name": "LG Display의 FLiPP OLED 제조 공정",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "LPL"
+      ]
+    },
+    "advancedpackaging": {
+      "name": "중국 Advanced Packaging 기술의 급부상",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ]
+    },
+    "llm": {
+      "name": "로컬 LLM을 위한 하드웨어 최적화 및 양자화 기술 발전",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ]
     }
   },
   "seen_tech": {
@@ -2333,6 +2358,26 @@
     },
     "weightedcheckpointmergingwsm": {
       "term": "Weighted Checkpoint Merging (WSM)",
+      "first_seen": "2026-08-20"
+    },
+    "waferscaleengineoverclocking": {
+      "term": "Waferscale Engine Overclocking",
+      "first_seen": "2026-08-20"
+    },
+    "xdfoiplatform": {
+      "term": "XDFOI® platform",
+      "first_seen": "2026-08-20"
+    },
+    "cyphal": {
+      "term": "Cyphal",
+      "first_seen": "2026-08-20"
+    },
+    "kimik3": {
+      "term": "Kimi K3",
+      "first_seen": "2026-08-20"
+    },
+    "awshound": {
+      "term": "AWSHound",
       "first_seen": "2026-08-20"
     }
   }

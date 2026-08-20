@@ -280,3 +280,9 @@
 {"ts": "2026-08-20T09:42:42.218771+09:00", "name": "AI 에이전트의 사이버 보안 활용 및 취약점", "tickers": ["CRWD", "PANW", "ZS"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-20T09:42:42.218771+09:00", "name": "LocalLLaMA 커뮤니티의 오픈소스 LLM 최적화 및 경량화", "tickers": ["NVDA", "AMD", "GOOGL"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-20T09:42:42.218771+09:00", "name": "로봇 공학의 특정 작업 전문화 및 AI 통합", "tickers": ["IRBT", "FFIE", "OSUR", "SSII"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T13:39:44.514559+09:00", "name": "LG Display의 FLiPP OLED 제조 공정", "tickers": ["LPL"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-20T13:39:44.514559+09:00", "name": "AI 수요에 따른 삼성 파운드리 가격 인상 및 시장 역학 변화", "tickers": ["TSM", "ASML", "AMAT"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-20T13:39:44.514559+09:00", "name": "중국 Advanced Packaging 기술의 급부상", "tickers": ["AMAT", "LRCX", "KLAC"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T13:39:44.514559+09:00", "name": "AI 에이전트의 자율적인 사이버 공격 능력 발전", "tickers": ["CRWD", "PANW", "OKTA"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-20T13:39:44.514559+09:00", "name": "로컬 LLM을 위한 하드웨어 최적화 및 양자화 기술 발전", "tickers": ["NVDA", "AMD", "INTC"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T13:39:44.514559+09:00", "name": "AI 오케스트레이션 플랫폼의 보안 취약점 심화", "tickers": ["CRWD", "FTNT", "ZS"], "stage": "emerging", "confidence": "medium"}
