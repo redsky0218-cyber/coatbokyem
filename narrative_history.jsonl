@@ -286,3 +286,7 @@
 {"ts": "2026-08-20T13:39:44.514559+09:00", "name": "AI 에이전트의 자율적인 사이버 공격 능력 발전", "tickers": ["CRWD", "PANW", "OKTA"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-20T13:39:44.514559+09:00", "name": "로컬 LLM을 위한 하드웨어 최적화 및 양자화 기술 발전", "tickers": ["NVDA", "AMD", "INTC"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-20T13:39:44.514559+09:00", "name": "AI 오케스트레이션 플랫폼의 보안 취약점 심화", "tickers": ["CRWD", "FTNT", "ZS"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T21:35:09.582171+09:00", "name": "OLED 패널용 FLiPP 제조 공정", "tickers": ["OLED", "AMAT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T21:35:09.582171+09:00", "name": "중국의 XDFOI® 어드밴스드 패키징 경쟁력 부상", "tickers": ["AMKR", "ASX", "AMAT"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-20T21:35:09.582171+09:00", "name": "RNA 침묵 치료제(siRNA/ASO)의 고형암 적용 확대 노력", "tickers": ["MRNA", "BNTX", "PHIO"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-20T21:35:09.582171+09:00", "name": "AI 에이전트를 위한 분산형 컴퓨팅 및 오케스트레이션", "tickers": ["CRDO", "SMCI", "GOOGL"], "stage": "very_early", "confidence": "medium"}

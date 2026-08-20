@@ -1389,6 +1389,24 @@
         "AMD",
         "INTC"
       ]
+    },
+    "xdfoi": {
+      "name": "중국의 XDFOI® 어드밴스드 패키징 경쟁력 부상",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "AMKR",
+        "ASX",
+        "AMAT"
+      ]
+    },
+    "rnasirnaaso": {
+      "name": "RNA 침묵 치료제(siRNA/ASO)의 고형암 적용 확대 노력",
+      "first_seen": "2026-08-20",
+      "tickers": [
+        "MRNA",
+        "BNTX",
+        "PHIO"
+      ]
     }
   },
   "seen_tech": {
@@ -2378,6 +2396,30 @@
     },
     "awshound": {
       "term": "AWSHound",
+      "first_seen": "2026-08-20"
+    },
+    "fpganeuralnetworkaccelerator": {
+      "term": "FPGA Neural Network Accelerator",
+      "first_seen": "2026-08-20"
+    },
+    "numericalpythondirectlytofpga": {
+      "term": "Numerical Python directly to FPGA",
+      "first_seen": "2026-08-20"
+    },
+    "haleufuelfabricationfacility": {
+      "term": "HALEU fuel fabrication facility",
+      "first_seen": "2026-08-20"
+    },
+    "airllm": {
+      "term": "AirLLM",
+      "first_seen": "2026-08-20"
+    },
+    "quantumbackroomsgame": {
+      "term": "Quantum Backrooms game",
+      "first_seen": "2026-08-20"
+    },
+    "rushhourlatticesurgeryarchitecture": {
+      "term": "RushHour (Lattice-Surgery Architecture)",
       "first_seen": "2026-08-20"
     }
   }
