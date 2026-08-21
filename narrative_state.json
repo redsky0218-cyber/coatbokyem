@@ -1444,6 +1444,24 @@
       "tickers": [
         "LPL"
       ]
+    },
+    "mumimoofdmasic": {
+      "name": "대규모 MU-MIMO-OFDM 데이터 감지 ASIC",
+      "first_seen": "2026-08-21",
+      "tickers": [
+        "GFS"
+      ]
+    },
+    "icsai": {
+      "name": "산업 제어 시스템(ICS) 대상 AI 기반 사이버 공격 증가",
+      "first_seen": "2026-08-21",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "ZS",
+        "FTNT",
+        "RPT"
+      ]
     }
   },
   "seen_tech": {
@@ -2541,6 +2559,34 @@
     },
     "deepfocusdeeplearningenhancedfourierdomainintensitycouplingforscatteringcorrection": {
       "term": "DeepFOCUS (Deep-learning-enhanced Fourier-domain Intensity Coupling for Scattering Correction)",
+      "first_seen": "2026-08-21"
+    },
+    "apdsspadsinphotonicquantumcomputing": {
+      "term": "APDs/SPADs in Photonic Quantum Computing",
+      "first_seen": "2026-08-21"
+    },
+    "systolicarrayforfpgannaccelerators": {
+      "term": "Systolic Array for FPGA NN Accelerators",
+      "first_seen": "2026-08-21"
+    },
+    "aigeneratedexploitationscripts": {
+      "term": "AI-generated exploitation scripts",
+      "first_seen": "2026-08-21"
+    },
+    "huzzahaicodingeditor": {
+      "term": "Huzzah (AI coding editor)",
+      "first_seen": "2026-08-21"
+    },
+    "oxalpha": {
+      "term": "Ox Alpha",
+      "first_seen": "2026-08-21"
+    },
+    "strixhaloamdryzenaimax": {
+      "term": "Strix Halo (AMD Ryzen AI MAX+)",
+      "first_seen": "2026-08-21"
+    },
+    "ninfercudainferenceengineforturing": {
+      "term": "NInfer (CUDA inference engine for Turing)",
       "first_seen": "2026-08-21"
     }
   }

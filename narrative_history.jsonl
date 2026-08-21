@@ -310,3 +310,7 @@
 {"ts": "2026-08-21T13:42:22.838950+09:00", "name": "AI 기반 코드 생성 및 검출 기술의 발전", "tickers": ["CDNS", "SNPS", "MSFT"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-21T13:42:22.838950+09:00", "name": "고수율 저농축 우라늄 (HALEU) 연료 생산 인프라 구축", "tickers": ["LEU", "SMR", "BWXT"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-21T13:42:22.838950+09:00", "name": "AI 에이전트 기반 팀 협업 및 작업 자동화 플랫폼", "tickers": ["MSFT", "CRM", "GOOGL"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-21T17:39:35.531601+09:00", "name": "데이터센터 전력 및 냉각 인프라 병목 현상 심화", "tickers": ["PWR", "NEE", "ETR", "EMR", "APH", "STRL", "PCAR"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-21T17:39:35.531601+09:00", "name": "대규모 MU-MIMO-OFDM 데이터 감지 ASIC", "tickers": ["GFS"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T17:39:35.531601+09:00", "name": "AI 에이전트 기반 협업 및 자동화 도구 확산", "tickers": ["MSFT", "GOOGL", "SMCI", "NVDA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T17:39:35.531601+09:00", "name": "산업 제어 시스템(ICS) 대상 AI 기반 사이버 공격 증가", "tickers": ["CRWD", "PANW", "ZS", "FTNT", "RPT"], "stage": "gaining_traction", "confidence": "high"}
