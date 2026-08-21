@@ -1472,6 +1472,15 @@
         "PANW",
         "ZS"
       ]
+    },
+    "apdspad": {
+      "name": "포토닉 양자 컴퓨팅을 위한 APD/SPAD 기술 발전",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "LITE",
+        "RMBS",
+        "CRDO"
+      ]
     }
   },
   "seen_tech": {
@@ -2618,6 +2627,22 @@
     "neuralreflexmodelnrmforhumanoids": {
       "term": "Neural Reflex Model (NRM) for Humanoids",
       "first_seen": "2026-08-21"
+    },
+    "inponsiliconphotonicics": {
+      "term": "InP on Silicon Photonic ICs",
+      "first_seen": "2026-08-22"
+    },
+    "thespectralneuron": {
+      "term": "The Spectral Neuron",
+      "first_seen": "2026-08-22"
+    },
+    "cmp170hxunlocking": {
+      "term": "CMP 170HX unlocking",
+      "first_seen": "2026-08-22"
+    },
+    "traceinverter4b": {
+      "term": "Trace-Inverter-4B",
+      "first_seen": "2026-08-22"
     }
   }
 }
