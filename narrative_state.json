@@ -1462,6 +1462,16 @@
         "FTNT",
         "RPT"
       ]
+    },
+    "aiotics": {
+      "name": "AI 기반 사이버 공격 증가 및 OT/ICS 보안 강화 필요성",
+      "first_seen": "2026-08-21",
+      "tickers": [
+        "CRWD",
+        "PLTR",
+        "PANW",
+        "ZS"
+      ]
     }
   },
   "seen_tech": {
@@ -2587,6 +2597,26 @@
     },
     "ninfercudainferenceengineforturing": {
       "term": "NInfer (CUDA inference engine for Turing)",
+      "first_seen": "2026-08-21"
+    },
+    "apdsspadsforphotonicquantumcomputing": {
+      "term": "APDs/SPADs for Photonic Quantum Computing",
+      "first_seen": "2026-08-21"
+    },
+    "wunkusasic": {
+      "term": "WUNKUS ASIC",
+      "first_seen": "2026-08-21"
+    },
+    "aiinnuclearpowerplantriskmanagement": {
+      "term": "AI in Nuclear Power Plant Risk Management",
+      "first_seen": "2026-08-21"
+    },
+    "nvfp4quant": {
+      "term": "NVFP4 quant",
+      "first_seen": "2026-08-21"
+    },
+    "neuralreflexmodelnrmforhumanoids": {
+      "term": "Neural Reflex Model (NRM) for Humanoids",
       "first_seen": "2026-08-21"
     }
   }
