@@ -1437,6 +1437,13 @@
         "SMCI",
         "DELL"
       ]
+    },
+    "flippflexibledisplayphotolithographyprinting": {
+      "name": "FLiPP (Flexible-display Photolithography Printing) 제조 공정의 부상",
+      "first_seen": "2026-08-21",
+      "tickers": [
+        "LPL"
+      ]
     }
   },
   "seen_tech": {
@@ -2510,6 +2517,30 @@
     },
     "rushhourdynamicallyreconfigurablelatticesurgeryarchitecture": {
       "term": "RushHour (Dynamically Reconfigurable Lattice-Surgery Architecture)",
+      "first_seen": "2026-08-21"
+    },
+    "flipp": {
+      "term": "FLiPP",
+      "first_seen": "2026-08-21"
+    },
+    "kimideltaattention": {
+      "term": "Kimi Delta Attention",
+      "first_seen": "2026-08-21"
+    },
+    "latentmoelatentmixtureofexperts": {
+      "term": "LatentMoE (Latent Mixture-of-Experts)",
+      "first_seen": "2026-08-21"
+    },
+    "kvcacheindexing": {
+      "term": "KV Cache Indexing",
+      "first_seen": "2026-08-21"
+    },
+    "entropicscreefunction": {
+      "term": "Entropic Scree Function",
+      "first_seen": "2026-08-21"
+    },
+    "deepfocusdeeplearningenhancedfourierdomainintensitycouplingforscatteringcorrection": {
+      "term": "DeepFOCUS (Deep-learning-enhanced Fourier-domain Intensity Coupling for Scattering Correction)",
       "first_seen": "2026-08-21"
     }
   }

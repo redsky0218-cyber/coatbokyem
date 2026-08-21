@@ -305,3 +305,8 @@
 {"ts": "2026-08-21T09:44:12.914409+09:00", "name": "AI 기반 반도체 설계 및 검증 도구 확산", "tickers": ["SNPS", "CDNS", "AMD"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-21T09:44:12.914409+09:00", "name": "분산형/우주 기반 데이터센터 인프라 초기 논의", "tickers": ["ASTS", "PL", "IRDM"], "stage": "very_early", "confidence": "low"}
 {"ts": "2026-08-21T09:44:12.914409+09:00", "name": "모듈형 원자로(SMR) 및 핵연료 공급망 강화", "tickers": ["SMR", "LEU", "UEC", "DNN"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-21T13:42:22.838950+09:00", "name": "FLiPP (Flexible-display Photolithography Printing) 제조 공정의 부상", "tickers": ["LPL"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-21T13:42:22.838950+09:00", "name": "항구 및 해상 운송을 위한 소형모듈원자로(SMR) 도입 논의", "tickers": ["SMR", "BWXT", "LEU"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-21T13:42:22.838950+09:00", "name": "AI 기반 코드 생성 및 검출 기술의 발전", "tickers": ["CDNS", "SNPS", "MSFT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T13:42:22.838950+09:00", "name": "고수율 저농축 우라늄 (HALEU) 연료 생산 인프라 구축", "tickers": ["LEU", "SMR", "BWXT"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-21T13:42:22.838950+09:00", "name": "AI 에이전트 기반 팀 협업 및 작업 자동화 플랫폼", "tickers": ["MSFT", "CRM", "GOOGL"], "stage": "very_early", "confidence": "medium"}
