@@ -322,3 +322,8 @@
 {"ts": "2026-08-22T01:33:10.638494+09:00", "name": "미국 내 핵연료 생산 능력 확장 및 차세대 핵연료 도입", "tickers": ["UUUU", "LEU", "DNN"], "stage": "gaining_traction", "confidence": "high"}
 {"ts": "2026-08-22T01:33:10.638494+09:00", "name": "포토닉 양자 컴퓨팅을 위한 APD/SPAD 기술 발전", "tickers": ["LITE", "RMBS", "CRDO"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-22T01:33:10.638494+09:00", "name": "데이터센터 냉각 솔루션의 공랭식 전환 및 효율성 개선", "tickers": ["STRL", "PWR", "EMR"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T05:27:11.462677+09:00", "name": "InP on Silicon Photonic ICs for High-Bandwidth Interconnects", "tickers": ["CDNS", "AAOI", "LITE"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T05:27:11.462677+09:00", "name": "UCIe & CXL adoption for heterogeneous computing and chiplet architectures", "tickers": ["INTC", "AMD", "NVDA", "MRVL", "ALAB"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-22T05:27:11.462677+09:00", "name": "AI 랙 스케일 에너지 효율성 향상", "tickers": ["AMD", "SMCI", "VERT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T05:27:11.462677+09:00", "name": "차세대 AI 에이전트 및 로컬 LLM 추론 엔진 최적화", "tickers": ["AMD", "INTC", "GOOG", "MSFT"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-22T05:27:11.462677+09:00", "name": "멀티 암 조인트 로봇 및 로봇 운영체제(ROS) 대체 움직임", "tickers": ["IRBT", "FFIE", "NVDA"], "stage": "emerging", "confidence": "medium"}

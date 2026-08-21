@@ -1481,6 +1481,35 @@
         "RMBS",
         "CRDO"
       ]
+    },
+    "inponsiliconphotonicicsforhighbandwidthinterconnects": {
+      "name": "InP on Silicon Photonic ICs for High-Bandwidth Interconnects",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "CDNS",
+        "AAOI",
+        "LITE"
+      ]
+    },
+    "uciecxladoptionforheterogeneouscomputingandchipletarchitectures": {
+      "name": "UCIe & CXL adoption for heterogeneous computing and chiplet architectures",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA",
+        "MRVL",
+        "ALAB"
+      ]
+    },
+    "ros": {
+      "name": "멀티 암 조인트 로봇 및 로봇 운영체제(ROS) 대체 움직임",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "IRBT",
+        "FFIE",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -2642,6 +2671,30 @@
     },
     "traceinverter4b": {
       "term": "Trace-Inverter-4B",
+      "first_seen": "2026-08-22"
+    },
+    "ucie": {
+      "term": "UCIe",
+      "first_seen": "2026-08-22"
+    },
+    "cxl": {
+      "term": "CXL",
+      "first_seen": "2026-08-22"
+    },
+    "rackscaleaienergyefficiency": {
+      "term": "Rack-scale AI Energy Efficiency",
+      "first_seen": "2026-08-22"
+    },
+    "aiagentnetworks": {
+      "term": "AI Agent Networks",
+      "first_seen": "2026-08-22"
+    },
+    "nucleoinferenceengine": {
+      "term": "nucleo (inference engine)",
+      "first_seen": "2026-08-22"
+    },
+    "paddockinferenceengine": {
+      "term": "Paddock (inference engine)",
       "first_seen": "2026-08-22"
     }
   }
