@@ -300,3 +300,8 @@
 {"ts": "2026-08-21T05:30:56.230261+09:00", "name": "원자력 발전의 부활 및 핵연료 공급망 강화", "tickers": ["URNM", "URNJ", "NXE", "DNN", "UEC", "UUUU", "EU"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-21T05:30:56.230261+09:00", "name": "RNA 침묵 치료제(siRNA/ASO)의 고형암 적용 한계 극복 시도", "tickers": ["ALNY", "IONS", "ARWR", "DTIL"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-21T05:30:56.230261+09:00", "name": "고효율 데이터센터 전원 공급 장치 (80 PLUS Ruby 인증)", "tickers": ["STX", "WDC", "SMCI", "DELL"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T09:44:12.914409+09:00", "name": "고효율 데이터센터 전력 공급 장치 수요 증가", "tickers": ["VRT", "AMAT", "ASTS"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T09:44:12.914409+09:00", "name": "차세대 OLED 패널 제조 공정 'FLiPP' 부상", "tickers": ["LPL", "AMAT", "ASML"], "stage": "very_early", "confidence": "high"}
+{"ts": "2026-08-21T09:44:12.914409+09:00", "name": "AI 기반 반도체 설계 및 검증 도구 확산", "tickers": ["SNPS", "CDNS", "AMD"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-21T09:44:12.914409+09:00", "name": "분산형/우주 기반 데이터센터 인프라 초기 논의", "tickers": ["ASTS", "PL", "IRDM"], "stage": "very_early", "confidence": "low"}
+{"ts": "2026-08-21T09:44:12.914409+09:00", "name": "모듈형 원자로(SMR) 및 핵연료 공급망 강화", "tickers": ["SMR", "LEU", "UEC", "DNN"], "stage": "gaining_traction", "confidence": "high"}

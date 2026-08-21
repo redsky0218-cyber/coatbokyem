@@ -2491,6 +2491,26 @@
     "jspace": {
       "term": "J-Space",
       "first_seen": "2026-08-21"
+    },
+    "aiforchipdesignverilogrtl": {
+      "term": "AI for Chip Design (Verilog / RTL)",
+      "first_seen": "2026-08-21"
+    },
+    "orbitaldatacenters": {
+      "term": "Orbital Data Centers",
+      "first_seen": "2026-08-21"
+    },
+    "haleufuelfabrication": {
+      "term": "HALEU Fuel Fabrication",
+      "first_seen": "2026-08-21"
+    },
+    "quantummachinelearningbyinterferencebernsteinvaziraninetworks": {
+      "term": "Quantum Machine Learning by Interference (Bernstein-Vazirani Networks)",
+      "first_seen": "2026-08-21"
+    },
+    "rushhourdynamicallyreconfigurablelatticesurgeryarchitecture": {
+      "term": "RushHour (Dynamically Reconfigurable Lattice-Surgery Architecture)",
+      "first_seen": "2026-08-21"
     }
   }
 }
