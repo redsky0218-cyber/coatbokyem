@@ -1510,6 +1510,15 @@
         "FFIE",
         "NVDA"
       ]
+    },
+    "aiuciecxl": {
+      "name": "AI 기반 반도체 설계 및 검증 가속화 (UCIe, CXL 표준 포함)",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "ARM"
+      ]
     }
   },
   "seen_tech": {
@@ -2695,6 +2704,22 @@
     },
     "paddockinferenceengine": {
       "term": "Paddock (inference engine)",
+      "first_seen": "2026-08-22"
+    },
+    "cxlcomputeexpresslink": {
+      "term": "CXL (Compute Express Link)",
+      "first_seen": "2026-08-22"
+    },
+    "trisonuclearfuel": {
+      "term": "TRISO Nuclear Fuel",
+      "first_seen": "2026-08-22"
+    },
+    "aibasedsastscanners": {
+      "term": "AI-based SAST Scanners",
+      "first_seen": "2026-08-22"
+    },
+    "neuralreflexmodelnrm": {
+      "term": "Neural Reflex Model (NRM)",
       "first_seen": "2026-08-22"
     }
   }

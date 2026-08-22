@@ -327,3 +327,7 @@
 {"ts": "2026-08-22T05:27:11.462677+09:00", "name": "AI 랙 스케일 에너지 효율성 향상", "tickers": ["AMD", "SMCI", "VERT"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-22T05:27:11.462677+09:00", "name": "차세대 AI 에이전트 및 로컬 LLM 추론 엔진 최적화", "tickers": ["AMD", "INTC", "GOOG", "MSFT"], "stage": "emerging", "confidence": "high"}
 {"ts": "2026-08-22T05:27:11.462677+09:00", "name": "멀티 암 조인트 로봇 및 로봇 운영체제(ROS) 대체 움직임", "tickers": ["IRBT", "FFIE", "NVDA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T09:42:05.684186+09:00", "name": "AI 기반 반도체 설계 및 검증 가속화 (UCIe, CXL 표준 포함)", "tickers": ["SNPS", "CDNS", "ARM"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-22T09:42:05.684186+09:00", "name": "우주 기반 데이터 센터 및 능동형 우주 잔해 제거 서비스", "tickers": ["RKLB", "MAXR"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-22T09:42:05.684186+09:00", "name": "AI 기반 로봇 자율성 및 적응형 제어 기술", "tickers": ["IRBT", "UAVS", "NVDA"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T09:42:05.684186+09:00", "name": "차세대 핵연료 및 소형 모듈형 원자로(SMR) 기술", "tickers": ["IMSR", "UEC", "GSE"], "stage": "gaining_traction", "confidence": "high"}
