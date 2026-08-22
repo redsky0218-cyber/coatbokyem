@@ -1519,6 +1519,24 @@
         "CDNS",
         "ARM"
       ]
+    },
+    "smrgeniv": {
+      "name": "소형모듈원자로(SMR)의 보안 및 Gen IV 기술",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "IMSR",
+        "XELA",
+        "BWXT"
+      ]
+    },
+    "mced": {
+      "name": "다중 암 조기 진단 (MCED)",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "ILMN",
+        "LH",
+        "QUEST"
+      ]
     }
   },
   "seen_tech": {
@@ -2720,6 +2738,22 @@
     },
     "neuralreflexmodelnrm": {
       "term": "Neural Reflex Model (NRM)",
+      "first_seen": "2026-08-22"
+    },
+    "16nanometerprocessn16": {
+      "term": "1.6-nanometer process (N16)",
+      "first_seen": "2026-08-22"
+    },
+    "activedebrisremovaladr": {
+      "term": "Active Debris Removal (ADR)",
+      "first_seen": "2026-08-22"
+    },
+    "ozbrainagentfirstchatinterfaces": {
+      "term": "OzBrain / Agent-first chat interfaces",
+      "first_seen": "2026-08-22"
+    },
+    "freetoken": {
+      "term": "FreeToken",
       "first_seen": "2026-08-22"
     }
   }

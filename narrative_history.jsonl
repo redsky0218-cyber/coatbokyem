@@ -331,3 +331,9 @@
 {"ts": "2026-08-22T09:42:05.684186+09:00", "name": "우주 기반 데이터 센터 및 능동형 우주 잔해 제거 서비스", "tickers": ["RKLB", "MAXR"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-22T09:42:05.684186+09:00", "name": "AI 기반 로봇 자율성 및 적응형 제어 기술", "tickers": ["IRBT", "UAVS", "NVDA"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-22T09:42:05.684186+09:00", "name": "차세대 핵연료 및 소형 모듈형 원자로(SMR) 기술", "tickers": ["IMSR", "UEC", "GSE"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-22T13:36:07.365228+09:00", "name": "AI 랙스케일 에너지 효율성 증대", "tickers": ["AMD", "INTC", "NVDA"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-22T13:36:07.365228+09:00", "name": "포토닉스 기반 AI 컴퓨팅 및 고급 패키징", "tickers": ["CDNS", "LRCX", "KLAC", "MPWR"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-22T13:36:07.365228+09:00", "name": "소형모듈원자로(SMR)의 보안 및 Gen IV 기술", "tickers": ["IMSR", "XELA", "BWXT"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T13:36:07.365228+09:00", "name": "AI 에이전트 지식 관리 및 협업 플랫폼", "tickers": ["PLTR", "CRM", "MSFT", "GOOGL"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-22T13:36:07.365228+09:00", "name": "엣지 AI 및 로컬 LLM 최적화", "tickers": ["AMD", "INTC", "QCOM"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T13:36:07.365228+09:00", "name": "다중 암 조기 진단 (MCED)", "tickers": ["ILMN", "LH", "QUEST"], "stage": "gaining_traction", "confidence": "high"}
