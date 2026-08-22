@@ -264,7 +264,8 @@ def process_guru(g, state, cfg, alerts):
 
     # 공시 알림 구성
     title = "추적 시작 (현재 포트폴리오)" if first_run else "새 13F 공시"
-    al = [f"🚨 <b>{g['name']} {title}</b> "
+    al = ["🔵🔵🔵 <b>거장 추적 봇</b> 🔵🔵🔵",
+          f"🚨 <b>{g['name']} {title}</b> "
           f"<i>({info['filed']} 공시 · {info['period']} 분기말)</i>"]
     tag = {"new": "🆕 신규", "add": "➕ 추가", "top": "📌 상위보유"}
     for e in tracked:
@@ -291,7 +292,8 @@ def build_daily_message(state, now):
             all_tickers.append(e["ticker"])
     cur = current_prices(list(dict.fromkeys(all_tickers)))
 
-    lines = ["🐋 <b>거장 포트폴리오 추적</b>",
+    lines = ["🔵🔵🔵 <b>거장 추적 봇</b> 🔵🔵🔵",
+             "🐋 <b>거장 포트폴리오 추적</b>",
              f"<i>{now:%m-%d %H:%M} KST · 추정매수가(매수분기 평균) vs 현재가</i>",
              "<i>🟢 = 현재가가 거장 추정매수가보다 낮음</i>"]
     tag = {"new": "🆕", "add": "➕", "top": "📌"}

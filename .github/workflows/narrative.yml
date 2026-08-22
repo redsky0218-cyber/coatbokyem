@@ -2,8 +2,8 @@ name: narrative-scout
 
 on:
   schedule:
-    # 하루 6회 (4시간마다 UTC 0,4,8,12,16,20 = KST 09,13,17,21,01,05)
-    - cron: "0 */4 * * *"
+    # 하루 3회 (UTC 0,8,16 = KST 09,17,01)
+    - cron: "0 0,8,16 * * *"
   workflow_dispatch:   # 수동 실행 버튼
 
 permissions:

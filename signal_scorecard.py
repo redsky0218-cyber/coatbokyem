@@ -140,7 +140,8 @@ def main():
     alphas = [r["alpha"] for r in results if r["alpha"] is not None]
     avg_alpha = sum(alphas) / len(alphas) if alphas else None
 
-    lines = [f"📋 <b>신호 성적표</b> (자동 백테스트)  <i>{today:%Y-%m-%d} KST</i>",
+    lines = ["🟢🟢🟢 <b>성적표 봇</b> 🟢🟢🟢",
+             f"📋 <b>신호 성적표</b> (자동 백테스트)  <i>{today:%Y-%m-%d} KST</i>",
              f"<i>최근 {MAX_AGE_DAYS}일 내 첫 포착 · {MIN_AGE_DAYS}일 이상 경과 {n}개 티커</i>",
              "",
              f"전체: 평균 <b>{avg:+.1f}%</b> · 승률 <b>{wins}/{n} ({wins / n * 100:.0f}%)</b>"

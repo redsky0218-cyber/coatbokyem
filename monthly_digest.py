@@ -82,22 +82,49 @@ def tally(rows):
 DIGEST_SYSTEM = """\
 You are an emerging-technology equity strategist writing a MONTHLY digest.
 You are given aggregated statistics from a full month of automated narrative
-detection across technology and investing communities: how many times each
-US-listed ticker and each theme was surfaced, and on how many distinct days.
+detection: theme mention counts, ticker mention counts, and newly-detected
+technology terms (with what they are).
 
-Write a concise Korean monthly report that helps an investor see the big picture:
-- 이달의 핵심 테마 Top 5 (무엇이 왜 계속 언급됐는지, 한 줄 근거 포함)
-- 가장 많이·꾸준히 언급된 종목 (티커) 과 그 이유 — 특히 여러 날에 걸쳐 반복 등장한
-  종목을 '지속 신호'로 강조. 소형·중형주도 놓치지 말 것.
-- 이번 달 새로 부상한(신규) 테마 vs 식어가는 테마가 있으면 짚어줄 것.
-- 마지막에 '주목 리스트' 5~8개 티커를 한 줄 코멘트와 함께 정리.
+Write a Korean monthly report ORGANIZED BY THEME CATEGORY. Use only categories
+that actually appear in the data, chosen from:
+반도체·AI 하드웨어 / AI·소프트웨어 / 원자력·에너지 / 우주·방산 / 바이오·헬스 /
+사이버보안 / 양자컴퓨팅 / 로보틱스·자동화 / 기타
 
-규칙: 통계에 없는 종목/테마를 지어내지 말 것. 티커는 영문 그대로. 과장·펌핑 금지.
-간결하게. 전체 900자 내외.
+Format (텔레그램용, 카테고리마다):
+■ [카테고리명]
+- 이달 핵심 흐름 1~2문장 (무엇이 왜 계속 언급됐는지)
+- 관련 기술: 감지된 신기술 용어가 있으면 '용어 = 쉬운 한 줄 설명' 형태로.
+  전문지식 없는 사람도 이해하게 아주 쉽게 풀어써라.
+- 대표 종목: $티커 들 (반복 등장한 것 위주, 소형주 놓치지 말 것)
+
+마지막에:
+■ 이달의 주목 리스트 — 5~8개 티커, 각 한 줄 코멘트.
+■ 흐름 변화 — 새로 부상한 테마 vs 식어가는 테마 한두 줄.
+
+규칙: 통계에 없는 종목/테마/기술을 지어내지 말 것. 티커는 영문 그대로.
+과장·펌핑 금지. 전체 1300자 내외.
+마크다운(**, ##, - 목록기호 남발) 쓰지 말 것 — 일반 텍스트다.
+별도의 제목/연월/헤더를 만들지 말고 곧바로 첫 ■ 카테고리부터 시작하라.
 """
 
 
-def build_digest_prompt(rows, ticker_counts, theme_counts, ticker_days):
+def tally_tech(tech_rows):
+    """기술 용어별 언급 횟수 + 설명/시장정보."""
+    counts = Counter()
+    info = {}
+    for rec in tech_rows:
+        term = (rec.get("term") or "").strip()
+        if not term:
+            continue
+        counts[term] += 1
+        info[term] = {"what": rec.get("what", ""),
+                      "market_size": rec.get("market_size", ""),
+                      "cagr": rec.get("cagr", "")}
+    return counts, info
+
+
+def build_digest_prompt(rows, ticker_counts, theme_counts, ticker_days,
+                        tech_counts, tech_info):
     lines = [f"[집계 기간] 최근 {LOOKBACK_DAYS}일, 총 {len(rows)}건의 내러티브 감지", ""]
     lines.append("[티커별 언급 횟수 / 등장 일수]")
     for t, c in ticker_counts.most_common(TOP_TICKERS):
@@ -106,6 +133,12 @@ def build_digest_prompt(rows, ticker_counts, theme_counts, ticker_days):
     lines.append("[테마(내러티브)별 언급 횟수]")
     for name, c in theme_counts.most_common(TOP_THEMES):
         lines.append(f"- ({c}회) {name}")
+    if tech_counts:
+        lines.append("")
+        lines.append("[감지된 신기술 용어]")
+        for term, c in tech_counts.most_common(15):
+            inf = tech_info.get(term, {})
+            lines.append(f"- ({c}회) {term}: {inf.get('what', '')}")
     return "\n".join(lines)
 
 
@@ -158,6 +191,43 @@ def build_themes_block(theme_counts):
     for i, (name, c) in enumerate(theme_counts.most_common(15), 1):
         lines.append(f"{i}. ({c}회) {esc(name)}")
     return "\n".join(lines)
+
+
+def build_tech_block(tech_counts, tech_info):
+    """이달 감지된 신기술 정리 (쉬운 설명 + 시장 정보)."""
+    if not tech_counts:
+        return ""
+    lines = ["", "🔬 <b>이달의 신기술 정리</b>"]
+    for term, c in tech_counts.most_common(12):
+        inf = tech_info.get(term, {})
+        lines.append(f"• <b>{esc(term)}</b> ({c}회)")
+        if inf.get("what"):
+            lines.append(f"   {esc(inf['what'])}")
+        ms, cg = inf.get("market_size", ""), inf.get("cagr", "")
+        seg = [s for s in (ms, cg) if s and s != "미상"]
+        if seg:
+            lines.append(f"   📊 {esc(' · '.join(seg))}")
+    return "\n".join(lines)
+
+
+def build_guru_block():
+    """거장 추적 상태 요약 (guru_state.json 이 있으면)."""
+    gpath = ns.os.path.join(ns.BASE_DIR, "guru_state.json")
+    state = ns.load_json(gpath, default={})
+    gurus = state.get("gurus", {})
+    if not gurus:
+        return ""
+    tag = {"new": "🆕", "add": "➕", "top": "📌"}
+    lines = ["", "🐋 <b>거장 동향 (최신 13F 기준)</b>"]
+    for gs in gurus.values():
+        tracked = gs.get("tracked", [])
+        if not tracked:
+            continue
+        toks = [f"{tag.get(e.get('type'), '')}${e.get('ticker')}"
+                for e in tracked[:8]]
+        lines.append(f"• <b>{esc(gs.get('name', ''))}</b> "
+                     f"<i>({gs.get('period', '')})</i>: {' '.join(toks)}")
+    return "\n".join(lines) if len(lines) > 2 else ""
 
 
 # ----------------------------- 이메일 ----------------------------- #
@@ -255,27 +325,36 @@ def main():
         print("[오류] GEMINI/TELEGRAM 키가 없습니다.")
         sys.exit(1)
 
-    rows = load_history(LOOKBACK_DAYS)
-    print(f"최근 {LOOKBACK_DAYS}일 이력 {len(rows)}건 로드")
-    if not rows:
+    all_rows = load_history(LOOKBACK_DAYS)
+    rows = [r for r in all_rows if r.get("kind") != "tech"]
+    tech_rows = [r for r in all_rows if r.get("kind") == "tech"]
+    print(f"최근 {LOOKBACK_DAYS}일 이력: 내러티브 {len(rows)}건 / 기술 {len(tech_rows)}건")
+    if not rows and not tech_rows:
         print("이력이 없습니다. (아직 데이터가 쌓이지 않음) 종료.")
         return
 
     ticker_counts, theme_counts, ticker_days = tally(rows)
-    print(f"티커 {len(ticker_counts)}종 / 테마 {len(theme_counts)}종 집계")
+    tech_counts, tech_info = tally_tech(tech_rows)
+    print(f"티커 {len(ticker_counts)}종 / 테마 {len(theme_counts)}종 / "
+          f"기술 {len(tech_counts)}종 집계")
 
-    prompt_text = build_digest_prompt(rows, ticker_counts, theme_counts, ticker_days)
+    prompt_text = build_digest_prompt(rows, ticker_counts, theme_counts,
+                                      ticker_days, tech_counts, tech_info)
     summary = summarize_with_gemini(cfg, gemini_key, prompt_text)
     if not summary:
         print("요약 생성 실패. 종료.")
         return
 
     now = datetime.now(ns.KST)
+    banner = "🟡🟡🟡 <b>월간 정리 봇</b> 🟡🟡🟡"
     header = f"🗓️ <b>월간 내러티브 다이제스트</b>  <i>{now:%Y-%m-%d} KST</i>"
-    period = f"<i>최근 {LOOKBACK_DAYS}일 · 총 {len(rows)}건 감지</i>"
+    period = f"<i>최근 {LOOKBACK_DAYS}일 · 내러티브 {len(rows)}건 · 기술 {len(tech_rows)}건</i>"
+    guru = build_guru_block()
     stats = build_stats_block(ticker_counts, ticker_days)
     themes = build_themes_block(theme_counts)
-    msg = f"{header}\n{period}\n\n{esc(summary)}\n{stats}\n{themes}"
+    techs = build_tech_block(tech_counts, tech_info)
+    msg = (f"{banner}\n{header}\n{period}\n\n{esc(summary)}"
+           f"\n{guru}\n{stats}\n{themes}\n{techs}")
 
     # 텔레그램 4096자 제한 대응 분할
     try:

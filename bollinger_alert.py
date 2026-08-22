@@ -309,7 +309,8 @@ def main():
         blocks.append(boll_block("🗓️ <b>월봉 볼린저 신호</b>", monthly_hits))
 
     if blocks:
-        msg = f"<i>{now_kst:%Y-%m-%d %H:%M} KST</i>\n\n" + "\n\n".join(blocks)
+        msg = (f"🔴🔴🔴 <b>볼린저 감시 봇</b> 🔴🔴🔴\n"
+               f"<i>{now_kst:%Y-%m-%d %H:%M} KST</i>\n\n" + "\n\n".join(blocks))
         try:
             send_telegram(token, chat_id, msg)
             print(f"\n텔레그램 전송 완료 (급락 {len(crash_hits)}, "

@@ -66,20 +66,31 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def append_history(narratives):
-    """이번 실행에서 추출된 모든 내러티브를 이력(JSONL)에 한 줄씩 추가.
-    월간 다이제스트에서 '언급 횟수'(재등장 빈도)를 집계하는 데 사용."""
-    if not narratives:
+def append_history(narratives, tech=None):
+    """이번 실행에서 추출된 내러티브·기술신호를 이력(JSONL)에 한 줄씩 추가.
+    월간 다이제스트에서 '언급 횟수'(재등장 빈도)·기술 정리를 집계하는 데 사용."""
+    if not narratives and not tech:
         return
     ts = datetime.now(KST).isoformat()
     with open(HISTORY_PATH, "a", encoding="utf-8") as f:
-        for n in narratives:
+        for n in narratives or []:
             rec = {
                 "ts": ts,
                 "name": n.get("name", ""),
                 "tickers": clean_tickers(n.get("tickers", [])),
                 "stage": n.get("stage", ""),
                 "confidence": n.get("confidence", ""),
+            }
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        for tt in tech or []:
+            rec = {
+                "ts": ts,
+                "kind": "tech",
+                "term": tt.get("term", ""),
+                "what": tt.get("what", ""),
+                "market_size": tt.get("market_size", ""),
+                "cagr": tt.get("cagr", ""),
+                "tickers": clean_tickers(tt.get("maybe_tickers", [])),
             }
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
@@ -887,7 +898,7 @@ def main():
     print(f"   -> 내러티브 {len(narratives)}개 / 기술신호 {len(tech)}개 추출")
 
     # 이력 기록 (재등장 빈도 집계용 - 중복 제거 전 전체 기록)
-    append_history(narratives)
+    append_history(narratives, tech)
 
     # 3) 중복 제거
     state = load_json(STATE_PATH, default={"seen": {}})
@@ -920,7 +931,8 @@ def main():
 
     now_kst = datetime.now(KST)
     SEP = "──────────────────"
-    lines = [f"🔍 <b>새 유망 신호 감지</b>",
+    lines = [f"🟣🟣🟣 <b>신호 감지 봇</b> 🟣🟣🟣",
+             f"🔍 <b>새 유망 신호 감지</b>",
              f"<i>{now_kst:%m-%d %H:%M} KST · 🆕최초 🔁지속 ⚡가속 🔥거래량 🔗교차</i>"]
 
     # 4) 내러티브: 가격·모멘텀·신규성 enrich + 조기기회 점수순
