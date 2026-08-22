@@ -342,3 +342,7 @@
 {"ts": "2026-08-22T17:30:32.655278+09:00", "name": "인듐 인화물(InP) 온 실리콘 포토닉 집적회로 (PIC)", "tickers": ["CDNS", "MRVL", "ACMR"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-22T17:30:32.655278+09:00", "name": "AI 에이전트 기반 팀 협업 및 지식 관리 플랫폼", "tickers": ["MSFT", "GOOGL", "CRM", "NOW"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-22T17:30:32.655278+09:00", "name": "로컬 LLM 추론을 위한 AMD GPU 최적화 및 활용", "tickers": ["AMD", "SMCI"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T21:28:13.397856+09:00", "name": "실리콘 포토닉스 확장 및 InP 통합", "tickers": ["ACIA", "POET", "LUX", "MRVL"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-22T21:28:13.397856+09:00", "name": "AI 에이전트 협업 및 지식 관리 플랫폼", "tickers": ["MSFT", "GOOG", "SMCI"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-22T21:28:13.397856+09:00", "name": "차세대 반도체 인터커넥트 표준(UCIe, CXL)의 중요성 증대", "tickers": ["INTC", "AMD", "QCOM", "MRVL", "CDNS"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-22T21:28:13.397856+09:00", "name": "양자 컴퓨팅용 고성능 단일 광자 검출기 개발", "tickers": ["LITE", "RMBS", "IONQ"], "stage": "very_early", "confidence": "medium"}

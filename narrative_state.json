@@ -1554,6 +1554,27 @@
         "AMD",
         "SMCI"
       ]
+    },
+    "inp": {
+      "name": "실리콘 포토닉스 확장 및 InP 통합",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "ACIA",
+        "POET",
+        "LUX",
+        "MRVL"
+      ]
+    },
+    "uciecxl": {
+      "name": "차세대 반도체 인터커넥트 표준(UCIe, CXL)의 중요성 증대",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "QCOM",
+        "MRVL",
+        "CDNS"
+      ]
     }
   },
   "seen_tech": {
@@ -2791,6 +2812,22 @@
     },
     "agentfirstchatinterfaces": {
       "term": "Agent-first chat interfaces",
+      "first_seen": "2026-08-22"
+    },
+    "aiagentharnessagentnetwork": {
+      "term": "AI Agent Harness / Agent Network",
+      "first_seen": "2026-08-22"
+    },
+    "kvcacheblending": {
+      "term": "KV cache blending",
+      "first_seen": "2026-08-22"
+    },
+    "blackwell5000gpu": {
+      "term": "Blackwell 5000 GPU",
+      "first_seen": "2026-08-22"
+    },
+    "multivendoraiprovenancetracesremover": {
+      "term": "Multi-vendor AI provenance traces remover",
       "first_seen": "2026-08-22"
     }
   }
