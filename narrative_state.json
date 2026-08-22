@@ -1537,6 +1537,23 @@
         "LH",
         "QUEST"
       ]
+    },
+    "inppic": {
+      "name": "인듐 인화물(InP) 온 실리콘 포토닉 집적회로 (PIC)",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "CDNS",
+        "MRVL",
+        "ACMR"
+      ]
+    },
+    "llmamdgpu": {
+      "name": "로컬 LLM 추론을 위한 AMD GPU 최적화 및 활용",
+      "first_seen": "2026-08-22",
+      "tickers": [
+        "AMD",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -2754,6 +2771,26 @@
     },
     "freetoken": {
       "term": "FreeToken",
+      "first_seen": "2026-08-22"
+    },
+    "16nanometerprocessa16": {
+      "term": "1.6-nanometer process (A16)",
+      "first_seen": "2026-08-22"
+    },
+    "airackscaleenergyefficiency": {
+      "term": "AI rack-scale energy efficiency",
+      "first_seen": "2026-08-22"
+    },
+    "owasptop10forllmapplications": {
+      "term": "OWASP Top 10 for LLM Applications",
+      "first_seen": "2026-08-22"
+    },
+    "languagemodelsasanomalydetectors": {
+      "term": "Language Models as Anomaly Detectors",
+      "first_seen": "2026-08-22"
+    },
+    "agentfirstchatinterfaces": {
+      "term": "Agent-first chat interfaces",
       "first_seen": "2026-08-22"
     }
   }

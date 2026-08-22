@@ -337,3 +337,8 @@
 {"ts": "2026-08-22T13:36:07.365228+09:00", "name": "AI 에이전트 지식 관리 및 협업 플랫폼", "tickers": ["PLTR", "CRM", "MSFT", "GOOGL"], "stage": "very_early", "confidence": "medium"}
 {"ts": "2026-08-22T13:36:07.365228+09:00", "name": "엣지 AI 및 로컬 LLM 최적화", "tickers": ["AMD", "INTC", "QCOM"], "stage": "emerging", "confidence": "medium"}
 {"ts": "2026-08-22T13:36:07.365228+09:00", "name": "다중 암 조기 진단 (MCED)", "tickers": ["ILMN", "LH", "QUEST"], "stage": "gaining_traction", "confidence": "high"}
+{"ts": "2026-08-22T17:30:32.655278+09:00", "name": "AI 랙 규모 에너지 효율성 및 탄소 강도 감소", "tickers": ["AMD", "SMCI", "DELL", "HPQ"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-22T17:30:32.655278+09:00", "name": "첨단 패키징 및 HBM을 위한 반도체 검사/측정 장비 수요 증가", "tickers": ["KLAC", "ONTO", "ACMR"], "stage": "emerging", "confidence": "high"}
+{"ts": "2026-08-22T17:30:32.655278+09:00", "name": "인듐 인화물(InP) 온 실리콘 포토닉 집적회로 (PIC)", "tickers": ["CDNS", "MRVL", "ACMR"], "stage": "very_early", "confidence": "medium"}
+{"ts": "2026-08-22T17:30:32.655278+09:00", "name": "AI 에이전트 기반 팀 협업 및 지식 관리 플랫폼", "tickers": ["MSFT", "GOOGL", "CRM", "NOW"], "stage": "emerging", "confidence": "medium"}
+{"ts": "2026-08-22T17:30:32.655278+09:00", "name": "로컬 LLM 추론을 위한 AMD GPU 최적화 및 활용", "tickers": ["AMD", "SMCI"], "stage": "emerging", "confidence": "medium"}
