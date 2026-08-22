@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 미국 주식 실시간 감시 -> 텔레그램 알림 (15분마다, 장중)
-  1) 주봉 볼린저밴드 하단/중단 신호 (20주 SMA, 2σ)
-  2) 급락 신호: 전일종가 대비 -N% 이상 하락 (기본 -10%)
+  1) 주봉 볼린저밴드 '하단' 터치/이탈 신호 (20주 SMA, 2σ)
+  2) 월봉 볼린저밴드 '중단·하단' 터치/이탈 신호 (20개월 SMA, 2σ)
+  3) 급락 신호: 전일종가 대비 -N% 이상 하락 (기본 -10%)
 - 데이터: yfinance (무료, 약 15분 지연), 프리/정규/애프터장 현재가 반영
 - 중복방지(state.json):
     * 볼린저: 같은 신호구간 머무는 동안 1회만
@@ -127,8 +128,45 @@ def get_prev_close(tk):
     return None
 
 
+def _bands(tk, interval, hist_period, period, std_mult, live):
+    """해당 봉 기준 볼린저 (중단, 하단, 현재가) 계산. 부족하면 None."""
+    bars = tk.history(period=hist_period, interval=interval, auto_adjust=True)
+    if bars is None or bars.empty or len(bars) < period + 1:
+        return None
+    close = bars["Close"].astype(float).copy()
+    if live is not None:
+        close.iloc[-1] = live          # 진행 중인 봉의 종가 = 현재가
+    ma = close.rolling(period).mean()
+    std = close.rolling(period).std()
+    return {"last": float(close.iloc[-1]),
+            "middle": float(ma.iloc[-1]),
+            "lower": float((ma - std_mult * std).iloc[-1])}
+
+
+def _classify_weekly(b, prox):
+    """주봉: 하단밴드만 감시."""
+    if b["last"] <= b["lower"]:
+        return ("🔴", "주봉 하단밴드 이탈 (과매도)"), 2
+    if b["last"] <= b["lower"] * (1 + prox):
+        return ("🟠", "주봉 하단밴드 근접"), 2
+    return None, 0
+
+
+def _classify_monthly(b, prox):
+    """월봉: 하단(심각) + 중단(주의) 감시."""
+    if b["last"] <= b["lower"]:
+        return ("🔴", "월봉 하단밴드 이탈 (강력 과매도)"), 2
+    if b["last"] <= b["lower"] * (1 + prox):
+        return ("🟠", "월봉 하단밴드 근접"), 2
+    if b["middle"] * (1 - prox) <= b["last"] <= b["middle"] * (1 + prox):
+        return ("🟢", "월봉 중단밴드 터치"), 1
+    if b["last"] < b["middle"]:
+        return ("🟡", "월봉 중단밴드 하향 이탈"), 1
+    return None, 0
+
+
 def evaluate_ticker(ticker, period, std_mult, prox_pct):
-    """볼린저 신호 + 일간등락률 계산. 데이터 부족 시 볼린저만 None 처리."""
+    """주봉 하단 + 월봉 중단/하단 신호 + 일간등락률 계산."""
     tk = yf.Ticker(ticker)
 
     live = get_live_price(tk)
@@ -141,54 +179,27 @@ def evaluate_ticker(ticker, period, std_mult, prox_pct):
         "ticker": ticker,
         "close": live,
         "daily_change": daily_change,
-        "signal": None,
-        "severity": 0,   # 0=없음, 1=중단권, 2=하단권
-        "middle": None,
-        "lower": None,
-        "bollinger_ok": False,
+        "weekly": None,    # {signal, severity, middle, lower}
+        "monthly": None,
         "error": None,
     }
 
-    weekly = tk.history(period="3y", interval="1wk", auto_adjust=True)
-    if weekly is None or weekly.empty or len(weekly) < period + 1:
-        # 볼린저 계산 불가(신규상장 등) -> 급락감지는 계속 유효
-        if live is None:
-            result["error"] = "시세 조회 실패"
-        return result
-
-    close = weekly["Close"].astype(float).copy()
-    if live is not None:
-        close.iloc[-1] = live
-    last_close = float(close.iloc[-1])
-
-    ma = close.rolling(period).mean()
-    std = close.rolling(period).std()
-    mid = float(ma.iloc[-1])
-    lo = float((ma - std_mult * std).iloc[-1])
-
     prox = prox_pct / 100.0
-    label = None
-    severity = 0
-    if last_close <= lo:
-        label = ("🔴", "하단밴드 이탈 (과매도)")
-        severity = 2
-    elif last_close <= lo * (1 + prox):
-        label = ("🟠", "하단밴드 근접")
-        severity = 2
-    elif mid * (1 - prox) <= last_close <= mid * (1 + prox):
-        label = ("🟢", "중단밴드 근접")
-        severity = 1
-    elif last_close < mid:
-        label = ("🟡", "중단밴드 하향 이탈")
-        severity = 1
 
-    result.update({
-        "signal": label,
-        "severity": severity,
-        "middle": mid,
-        "lower": lo,
-        "bollinger_ok": True,
-    })
+    wb = _bands(tk, "1wk", "3y", period, std_mult, live)
+    if wb:
+        sig, sev = _classify_weekly(wb, prox)
+        result["weekly"] = {"signal": sig, "severity": sev,
+                            "middle": wb["middle"], "lower": wb["lower"]}
+
+    mb = _bands(tk, "1mo", "10y", period, std_mult, live)
+    if mb:
+        sig, sev = _classify_monthly(mb, prox)
+        result["monthly"] = {"signal": sig, "severity": sev,
+                             "middle": mb["middle"], "lower": mb["lower"]}
+
+    if live is None and not wb and not mb:
+        result["error"] = "시세 조회 실패"
     return result
 
 
@@ -214,10 +225,12 @@ def main():
 
     today = datetime.now(KST).strftime("%Y-%m-%d")
     state = load_state()
-    zone_state = state.setdefault("zone", {})
+    zone_w = state.setdefault("zone_w", {})    # 주봉 하단권 상태
+    zone_m = state.setdefault("zone_m", {})    # 월봉 중단/하단권 상태
     crash_state = state.setdefault("crash", {})
 
-    boll_hits = []
+    weekly_hits = []
+    monthly_hits = []
     crash_hits = []
     errors = []
 
@@ -233,18 +246,22 @@ def main():
 
         nm = names.get(t, t)
 
-        # --- 볼린저 신호: 밴드권에 '새로 진입'하거나 '더 깊은 권역'으로 갈 때만 1회 ---
-        #   severity 0=없음, 1=중단권(근접/이탈), 2=하단권(근접/이탈)
-        #   같은 권역에 머무는 동안(근접<->이탈 오가도) 재알림 안 함. 회복(하락권->상단)도 조용.
-        cur_label = r["signal"][1] if r["signal"] else "none"
-        sev = r["severity"]
-        if r["bollinger_ok"]:
+        # --- 볼린저 신호: '새로 진입'하거나 '더 깊은 권역'으로 갈 때만 1회 ---
+        #   같은 권역에 머무는 동안 재알림 안 함. 회복하면 조용히 리셋.
+        labels = []
+        for key, zone_state, hits in (("weekly", zone_w, weekly_hits),
+                                      ("monthly", zone_m, monthly_hits)):
+            tf = r.get(key)
+            if not tf:
+                continue
+            sev = tf["severity"]
             prev_sev = zone_state.get(t, 0)
             if not isinstance(prev_sev, int):
                 prev_sev = 0
             if sev > 0 and sev > prev_sev:
-                boll_hits.append(r)
+                hits.append({**tf, "ticker": t, "close": r["close"]})
             zone_state[t] = sev
+            labels.append(tf["signal"][1] if tf["signal"] else "-")
 
         # --- 급락 신호(하루 1회) ---
         dc = r["daily_change"]
@@ -252,12 +269,10 @@ def main():
         if is_crash and crash_state.get(t) != today:
             crash_hits.append(r)
             crash_state[t] = today
-        elif not is_crash and crash_state.get(t) == today:
-            # 반등해서 회복되면 리셋 (다음날/재하락 대비)
-            pass
 
         dc_str = f"{dc:+.1f}%" if dc is not None else "N/A"
-        print(f"검사 {t}({nm}): 현재 {r['close']} 등락 {dc_str} / 볼린저 {cur_label}"
+        print(f"검사 {t}({nm}): 현재 {r['close']} 등락 {dc_str} / "
+              f"{' | '.join(labels) if labels else '볼린저 데이터 없음'}"
               f"{' [급락!]' if is_crash else ''}")
         time.sleep(0.3)
 
@@ -274,25 +289,31 @@ def main():
             lines.append(f"💥 <b>{r['ticker']}</b> {nm} — {r['daily_change']:+.1f}% (${r['close']:.2f})")
         blocks.append("\n".join(lines))
 
-    if boll_hits:
-        lines = ["📊 <b>주봉 볼린저밴드 신호</b>"]
-        for r in boll_hits:
-            nm = names.get(r["ticker"], r["ticker"])
-            emoji, label = r["signal"]
-            mid_gap = (r["close"] - r["middle"]) / r["middle"] * 100
-            low_gap = (r["close"] - r["lower"]) / r["lower"] * 100
+    def boll_block(title, hits):
+        lines = [title]
+        for h in hits:
+            nm = names.get(h["ticker"], h["ticker"])
+            emoji, label = h["signal"]
+            mid_gap = (h["close"] - h["middle"]) / h["middle"] * 100
+            low_gap = (h["close"] - h["lower"]) / h["lower"] * 100
             lines.append(
-                f"{emoji} <b>{r['ticker']}</b> {nm} — {label}\n"
-                f"   현재 ${r['close']:.2f} | 중단 ${r['middle']:.2f} ({mid_gap:+.1f}%) "
-                f"| 하단 ${r['lower']:.2f} ({low_gap:+.1f}%)"
+                f"{emoji} <b>{h['ticker']}</b> {nm} — {label}\n"
+                f"   현재 ${h['close']:.2f} | 중단 ${h['middle']:.2f} ({mid_gap:+.1f}%) "
+                f"| 하단 ${h['lower']:.2f} ({low_gap:+.1f}%)"
             )
-        blocks.append("\n".join(lines))
+        return "\n".join(lines)
+
+    if weekly_hits:
+        blocks.append(boll_block("📊 <b>주봉 볼린저 하단 신호</b>", weekly_hits))
+    if monthly_hits:
+        blocks.append(boll_block("🗓️ <b>월봉 볼린저 신호</b>", monthly_hits))
 
     if blocks:
         msg = f"<i>{now_kst:%Y-%m-%d %H:%M} KST</i>\n\n" + "\n\n".join(blocks)
         try:
             send_telegram(token, chat_id, msg)
-            print(f"\n텔레그램 전송 완료 (급락 {len(crash_hits)}, 볼린저 {len(boll_hits)}).")
+            print(f"\n텔레그램 전송 완료 (급락 {len(crash_hits)}, "
+                  f"주봉 {len(weekly_hits)}, 월봉 {len(monthly_hits)}).")
         except Exception as e:  # noqa: BLE001
             print(f"\n[오류] 텔레그램 전송 실패: {e}")
     else:
