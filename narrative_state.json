@@ -1575,6 +1575,13 @@
         "MRVL",
         "CDNS"
       ]
+    },
+    "bliss": {
+      "name": "레이저 경고 수신기 시스템(BLISS)의 군사적 활용 증가",
+      "first_seen": "2026-08-23",
+      "tickers": [
+        "DFSC"
+      ]
     }
   },
   "seen_tech": {
@@ -2829,6 +2836,18 @@
     "multivendoraiprovenancetracesremover": {
       "term": "Multi-vendor AI provenance traces remover",
       "first_seen": "2026-08-22"
+    },
+    "currentsteeringdac": {
+      "term": "Current Steering DAC",
+      "first_seen": "2026-08-23"
+    },
+    "nuclearpoweredshipping": {
+      "term": "Nuclear-Powered Shipping",
+      "first_seen": "2026-08-23"
+    },
+    "dots3note": {
+      "term": "dots3-note",
+      "first_seen": "2026-08-23"
     }
   }
 }
