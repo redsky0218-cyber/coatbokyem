@@ -1,0 +1,16 @@
+{
+  "_note": "거장 13F 추적 대상. cik 는 SEC EDGAR 등록번호. 추가하려면 dataroma 등에서 펀드명 확인 후 SEC 에서 CIK 검색.",
+
+  "gurus": [
+    { "name": "버핏 (Berkshire)", "cik": 1067983 },
+    { "name": "드러켄밀러 (Duquesne)", "cik": 1536411 },
+    { "name": "클라먼 (Baupost)", "cik": 1061768 },
+    { "name": "리 루 (Himalaya)", "cik": 1709323 },
+    { "name": "파브라이 (Dalal Street)", "cik": 1549575 },
+    { "name": "테퍼 (Appaloosa)", "cik": 1656456 },
+    { "name": "애크먼 (Pershing Square)", "cik": 1336528 }
+  ],
+
+  "top_holdings": 8,
+  "max_tracked": 10
+}
