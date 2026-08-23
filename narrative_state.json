@@ -1582,6 +1582,17 @@
       "tickers": [
         "DFSC"
       ]
+    },
+    "16nm": {
+      "name": "첨단 반도체 제조 공정 (1.6nm 및 그 이하)",
+      "first_seen": "2026-08-23",
+      "tickers": [
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ]
     }
   },
   "seen_tech": {
@@ -2847,6 +2858,26 @@
     },
     "dots3note": {
       "term": "dots3-note",
+      "first_seen": "2026-08-23"
+    },
+    "16nanometerprocess": {
+      "term": "1.6-nanometer process",
+      "first_seen": "2026-08-23"
+    },
+    "dsparkdraftmodel": {
+      "term": "dspark draft model",
+      "first_seen": "2026-08-23"
+    },
+    "mtphead": {
+      "term": "MTP head",
+      "first_seen": "2026-08-23"
+    },
+    "quantizedllm": {
+      "term": "Quantized LLM",
+      "first_seen": "2026-08-23"
+    },
+    "vlatrack": {
+      "term": "VLA track",
       "first_seen": "2026-08-23"
     }
   }
