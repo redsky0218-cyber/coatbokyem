@@ -1601,6 +1601,33 @@
         "TSM",
         "LITE"
       ]
+    },
+    "3d": {
+      "name": "궤도 내 3D 프린팅 및 제조",
+      "first_seen": "2026-08-24",
+      "tickers": [
+        "VLD",
+        "RKLB",
+        "SPCE"
+      ]
+    },
+    "llmgpuvram": {
+      "name": "로컬 LLM을 위한 GPU VRAM 최적화",
+      "first_seen": "2026-08-24",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ]
+    },
+    "vrfb": {
+      "name": "바나듐 흐름 배터리(VRFB) 데이터센터 에너지 저장",
+      "first_seen": "2026-08-24",
+      "tickers": [
+        "AVL",
+        "UVRM",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -2915,6 +2942,38 @@
     "hybridqubitrotorquantumsystems": {
       "term": "Hybrid Qubit-Rotor Quantum Systems",
       "first_seen": "2026-08-23"
+    },
+    "epoxygraniteprecisiongraniteplatforms": {
+      "term": "Epoxy Granite / Precision Granite Platforms",
+      "first_seen": "2026-08-24"
+    },
+    "inorbitmanufacturing3dprinting": {
+      "term": "In-orbit Manufacturing (3D Printing)",
+      "first_seen": "2026-08-24"
+    },
+    "datacentersinspace": {
+      "term": "Data Centers in Space",
+      "first_seen": "2026-08-24"
+    },
+    "apogeelocalllmbrowsersummarizer": {
+      "term": "Apogee (Local LLM Browser Summarizer)",
+      "first_seen": "2026-08-24"
+    },
+    "quantizationfragiletasksllm": {
+      "term": "Quantization-Fragile Tasks (LLM)",
+      "first_seen": "2026-08-24"
+    },
+    "qwen3827bwithxhighthinking": {
+      "term": "Qwen 3.8 27B with xhigh thinking",
+      "first_seen": "2026-08-24"
+    },
+    "vlatrackvisionlanguageaction": {
+      "term": "VLA Track (Vision-Language-Action)",
+      "first_seen": "2026-08-24"
+    },
+    "molecularlyengineereddropinfuels": {
+      "term": "Molecularly Engineered Drop-in Fuels",
+      "first_seen": "2026-08-24"
     }
   }
 }
