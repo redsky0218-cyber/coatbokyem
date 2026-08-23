@@ -1593,6 +1593,14 @@
         "LRCX",
         "KLAC"
       ]
+    },
+    "tsmc16nmai": {
+      "name": "TSMC의 1.6nm 공정 및 AI용 포토닉스 통합",
+      "first_seen": "2026-08-23",
+      "tickers": [
+        "TSM",
+        "LITE"
+      ]
     }
   },
   "seen_tech": {
@@ -2878,6 +2886,34 @@
     },
     "vlatrack": {
       "term": "VLA track",
+      "first_seen": "2026-08-23"
+    },
+    "photonicdevicesphotonictestconsumables": {
+      "term": "Photonic Devices / Photonic Test Consumables",
+      "first_seen": "2026-08-23"
+    },
+    "sinsoisiliconnitrideonsilicononinsulator": {
+      "term": "SiN SOI (Silicon Nitride on Silicon-on-Insulator)",
+      "first_seen": "2026-08-23"
+    },
+    "llmwatermarking": {
+      "term": "LLM Watermarking",
+      "first_seen": "2026-08-23"
+    },
+    "vlatrackvisionlanguageactiontrack": {
+      "term": "VLA Track (Vision-Language-Action Track)",
+      "first_seen": "2026-08-23"
+    },
+    "agentskillaiagentskill": {
+      "term": "Agent Skill (AI Agent Skill)",
+      "first_seen": "2026-08-23"
+    },
+    "a2aagentnetworksagenttoagentnetworks": {
+      "term": "A2A Agent Networks (Agent-to-Agent Networks)",
+      "first_seen": "2026-08-23"
+    },
+    "hybridqubitrotorquantumsystems": {
+      "term": "Hybrid Qubit-Rotor Quantum Systems",
       "first_seen": "2026-08-23"
     }
   }
