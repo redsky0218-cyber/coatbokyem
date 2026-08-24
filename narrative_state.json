@@ -1636,6 +1636,41 @@
         "AMD",
         "ARM"
       ]
+    },
+    "hbm3ddram": {
+      "name": "HBM 대체재로서 3D-DRAM 가속기 부상",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "TSM",
+        "MU",
+        "WDC"
+      ]
+    },
+    "lpddr63nmsoc": {
+      "name": "LPDDR6 메모리 표준 및 3nm 모바일 SoC의 초기 채택",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "TSM",
+        "MU"
+      ]
+    },
+    "ainonhumanid": {
+      "name": "AI/워크로드 확산에 따른 비인간(Non-human) ID 보안 시장 성장",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "OKTA",
+        "CYBR",
+        "ZS"
+      ]
+    },
+    "aipciegen5x8x8": {
+      "name": "고성능 AI 연산 가속을 위한 PCIe Gen5 x8/x8 구성의 효율성 증대",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "AMD",
+        "SMCI",
+        "CDNS"
+      ]
     }
   },
   "seen_tech": {
@@ -3014,6 +3049,38 @@
     "herdr": {
       "term": "herdr",
       "first_seen": "2026-08-24"
+    },
+    "raptor3ddram": {
+      "term": "Raptor 3D-DRAM",
+      "first_seen": "2026-08-25"
+    },
+    "lpddr6": {
+      "term": "LPDDR6",
+      "first_seen": "2026-08-25"
+    },
+    "nonhumanidentitysecurity": {
+      "term": "Non-human Identity Security",
+      "first_seen": "2026-08-25"
+    },
+    "neutralatomquantumcomputer": {
+      "term": "Neutral-Atom Quantum Computer",
+      "first_seen": "2026-08-25"
+    },
+    "laserisotopeseparationlis": {
+      "term": "Laser Isotope Separation (LIS)",
+      "first_seen": "2026-08-25"
+    },
+    "aipresentervideoverified": {
+      "term": "AI Presenter Video (Verified)",
+      "first_seen": "2026-08-25"
+    },
+    "aiwatermarkremover": {
+      "term": "AI Watermark Remover",
+      "first_seen": "2026-08-25"
+    },
+    "mcpmodelcontextprotocolpluginforx64dbg": {
+      "term": "MCP (Model Context Protocol) Plugin for x64dbg",
+      "first_seen": "2026-08-25"
     }
   }
 }
