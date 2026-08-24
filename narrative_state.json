@@ -1628,6 +1628,14 @@
         "UVRM",
         "SMCI"
       ]
+    },
+    "aiasiccpu": {
+      "name": "하이브리드 AI ASIC (온패키지 CPU 코어 통합)",
+      "first_seen": "2026-08-24",
+      "tickers": [
+        "AMD",
+        "ARM"
+      ]
     }
   },
   "seen_tech": {
@@ -2973,6 +2981,38 @@
     },
     "molecularlyengineereddropinfuels": {
       "term": "Molecularly Engineered Drop-in Fuels",
+      "first_seen": "2026-08-24"
+    },
+    "photonicpredictivezeronoiseextrapolation": {
+      "term": "Photonic Predictive Zero-Noise Extrapolation",
+      "first_seen": "2026-08-24"
+    },
+    "epoxygraniteorprecisiongranite": {
+      "term": "epoxy granite or precision granite",
+      "first_seen": "2026-08-24"
+    },
+    "wifi8": {
+      "term": "Wi-Fi 8",
+      "first_seen": "2026-08-24"
+    },
+    "gainmapforhdrscreens": {
+      "term": "gain-map for HDR screens",
+      "first_seen": "2026-08-24"
+    },
+    "sprixaisagerouter": {
+      "term": "Sprix AI Sage Router",
+      "first_seen": "2026-08-24"
+    },
+    "x64dbgmcpserver": {
+      "term": "x64dbg-MCP Server",
+      "first_seen": "2026-08-24"
+    },
+    "aipresentervideo": {
+      "term": "AI presenter video",
+      "first_seen": "2026-08-24"
+    },
+    "herdr": {
+      "term": "herdr",
       "first_seen": "2026-08-24"
     }
   }
