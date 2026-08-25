@@ -1671,6 +1671,42 @@
         "SMCI",
         "CDNS"
       ]
+    },
+    "raptor3ddramhbm": {
+      "name": "Raptor 3D-DRAM을 활용한 HBM 대안 메모리 솔루션",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "TSM",
+        "MU",
+        "WDC"
+      ]
+    },
+    "hbm5aimrmuf": {
+      "name": "HBM5 및 차세대 AI 메모리를 위한 하이브리드 본딩 및 MR-MUF 기술 도입",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "AMAT",
+        "KLA",
+        "RMBS"
+      ]
+    },
+    "lpddr6soc": {
+      "name": "LPDDR6 메모리 표준의 초기 도입 및 모바일 SoC 시장 영향",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "MU",
+        "TSM",
+        "QCOM"
+      ]
+    },
+    "lis": {
+      "name": "우라늄 농축을 위한 레이저 동위원소 분리(LIS) 기술의 재부상",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "CCJ",
+        "UEC",
+        "UUUU"
+      ]
     }
   },
   "seen_tech": {
@@ -3080,6 +3116,26 @@
     },
     "mcpmodelcontextprotocolpluginforx64dbg": {
       "term": "MCP (Model Context Protocol) Plugin for x64dbg",
+      "first_seen": "2026-08-25"
+    },
+    "hybridbonding": {
+      "term": "하이브리드 본딩 (Hybrid Bonding)",
+      "first_seen": "2026-08-25"
+    },
+    "mrmufmassreflowmoldedunderfill": {
+      "term": "MR-MUF (Mass Reflow Molded Underfill)",
+      "first_seen": "2026-08-25"
+    },
+    "aiasaspatialsoftwaregenerator": {
+      "term": "AI as a spatial software generator",
+      "first_seen": "2026-08-25"
+    },
+    "idnonhumanidentitysecurity": {
+      "term": "비인간 ID 보안 (Non-human identity security)",
+      "first_seen": "2026-08-25"
+    },
+    "kern": {
+      "term": "Kern",
       "first_seen": "2026-08-25"
     }
   }
