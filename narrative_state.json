@@ -1707,6 +1707,25 @@
         "UEC",
         "UUUU"
       ]
+    },
+    "3ddramfacetoface": {
+      "name": "3D-DRAM 기반 Face-to-Face 스태킹 기술의 부상",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "TSM",
+        "MU",
+        "SKYY",
+        "SMCI"
+      ]
+    },
+    "soclpddr6": {
+      "name": "모바일 SoC를 위한 LPDDR6 메모리 표준 채택 가속화",
+      "first_seen": "2026-08-25",
+      "tickers": [
+        "MU",
+        "SMH",
+        "SOXX"
+      ]
     }
   },
   "seen_tech": {
@@ -3136,6 +3155,22 @@
     },
     "kern": {
       "term": "Kern",
+      "first_seen": "2026-08-25"
+    },
+    "xringo3": {
+      "term": "Xring O3",
+      "first_seen": "2026-08-25"
+    },
+    "photonicpredictivezeronoiseextrapolationzne": {
+      "term": "Photonic Predictive Zero-Noise Extrapolation (ZNE)",
+      "first_seen": "2026-08-25"
+    },
+    "zeptosecondphysics": {
+      "term": "Zeptosecond physics",
+      "first_seen": "2026-08-25"
+    },
+    "layerstorm": {
+      "term": "LayerStoRm",
       "first_seen": "2026-08-25"
     }
   }
