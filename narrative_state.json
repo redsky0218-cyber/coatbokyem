@@ -1726,6 +1726,16 @@
         "SMH",
         "SOXX"
       ]
+    },
+    "bbbsirna": {
+      "name": "혈뇌장벽(BBB) 투과 siRNA 치료제",
+      "first_seen": "2026-08-26",
+      "tickers": [
+        "ALNY",
+        "ARWR",
+        "IONS",
+        "RNA"
+      ]
     }
   },
   "seen_tech": {
@@ -3172,6 +3182,34 @@
     "layerstorm": {
       "term": "LayerStoRm",
       "first_seen": "2026-08-25"
+    },
+    "opensourcepdksforanalogcomponents": {
+      "term": "Open-source PDKs for Analog Components",
+      "first_seen": "2026-08-26"
+    },
+    "quantumbattery": {
+      "term": "Quantum Battery",
+      "first_seen": "2026-08-26"
+    },
+    "delaycorrectedbellmanoperatorccpl": {
+      "term": "Delay-corrected Bellman operator (CCPL)",
+      "first_seen": "2026-08-26"
+    },
+    "interventionalconsequenceneticn": {
+      "term": "Interventional Consequence Net (ICN)",
+      "first_seen": "2026-08-26"
+    },
+    "llmspicemixerigel": {
+      "term": "LLM-SPICEMixer (IGEL)",
+      "first_seen": "2026-08-26"
+    },
+    "syntlog": {
+      "term": "SYNTLOG",
+      "first_seen": "2026-08-26"
+    },
+    "chiralwaveguideforquantumsensing": {
+      "term": "Chiral Waveguide for Quantum Sensing",
+      "first_seen": "2026-08-26"
     }
   }
 }
