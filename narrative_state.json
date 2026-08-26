@@ -1736,6 +1736,15 @@
         "IONS",
         "RNA"
       ]
+    },
+    "aisdla": {
+      "name": "AI 가속을 위한 소프트웨어 정의 데이터플로우 아키텍처 (SDLA)",
+      "first_seen": "2026-08-26",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -3209,6 +3218,30 @@
     },
     "chiralwaveguideforquantumsensing": {
       "term": "Chiral Waveguide for Quantum Sensing",
+      "first_seen": "2026-08-26"
+    },
+    "ankhdjet": {
+      "term": "Ankhdjet",
+      "first_seen": "2026-08-26"
+    },
+    "wjglwaterjetguidedlaser": {
+      "term": "WJGL (Water Jet Guided Laser)",
+      "first_seen": "2026-08-26"
+    },
+    "qwen38flashnext": {
+      "term": "Qwen3.8-Flash-Next",
+      "first_seen": "2026-08-26"
+    },
+    "ferroelectricbasedmitigationforopticalinterconnects": {
+      "term": "Ferroelectric-Based Mitigation (for optical interconnects)",
+      "first_seen": "2026-08-26"
+    },
+    "horizondnastoragefirmware": {
+      "term": "HORIZON (DNA Storage Firmware)",
+      "first_seen": "2026-08-26"
+    },
+    "maia200": {
+      "term": "Maia 200",
       "first_seen": "2026-08-26"
     }
   }
