@@ -33,19 +33,100 @@ SEC_HEADERS = {"User-Agent": "guru-tracker/1.0 (redsky0218@gmail.com)"}
 
 
 # ----------------------------- EDGAR ----------------------------- #
-def latest_13f(cik):
-    """해당 CIK 의 최신 13F-HR 접수번호/공시일/분기말."""
+def list_13f(cik, limit=13):
+    """해당 CIK 의 13F-HR 목록 (최신순). [{entity, acc, filed, period}]"""
     url = f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json"
     d = requests.get(url, headers=SEC_HEADERS, timeout=30).json()
     rec = d.get("filings", {}).get("recent", {})
+    out = []
     for form, acc, fdate, rdate in zip(rec.get("form", []),
                                        rec.get("accessionNumber", []),
                                        rec.get("filingDate", []),
                                        rec.get("reportDate", [])):
         if form == "13F-HR":
-            return {"entity": d.get("name", ""), "acc": acc,
-                    "filed": fdate, "period": rdate}
-    return None
+            out.append({"entity": d.get("name", ""), "acc": acc,
+                        "filed": fdate, "period": rdate})
+            if len(out) >= limit:
+                break
+    return out
+
+
+def latest_13f(cik):
+    """해당 CIK 의 최신 13F-HR 접수번호/공시일/분기말."""
+    lst = list_13f(cik, limit=1)
+    return lst[0] if lst else None
+
+
+# ------------------- 매수시점 추정 (과거 13F 최초 등장 분기) ------------------- #
+def quarter_label(period):
+    """'2026-06-30' -> '26.2Q'"""
+    try:
+        d = datetime.fromisoformat(period)
+        return f"{d.year % 100}.{(d.month - 1) // 3 + 1}Q"
+    except (ValueError, TypeError):
+        return period or ""
+
+
+def quarter_months(period):
+    """'2026-06-30' -> '4~6월'"""
+    try:
+        d = datetime.fromisoformat(period)
+        return {1: "1~3월", 2: "4~6월", 3: "7~9월", 4: "10~12월"}[(d.month - 1) // 3 + 1]
+    except (ValueError, TypeError):
+        return ""
+
+
+def backfill_first_seen(cik, gs, quarters=12):
+    """과거 13F 를 거슬러 각 종목(cusip)이 처음 등장한 분기 기록 (1회 실행 후 캐시).
+    보유 시작 분기 ≈ 대략적 매수 시점."""
+    if gs.get("first_seen_done"):
+        return
+    filings = list_13f(cik, limit=quarters)
+    if not filings:
+        return
+    print(f"  매수시점 백필: {gs.get('name')} — 과거 {len(filings)}개 분기 조회 중…")
+    fs = {}
+    for f in reversed(filings):              # 과거 -> 현재 순으로
+        try:
+            holds = fetch_holdings(cik, f["acc"])
+        except Exception as e:  # noqa: BLE001
+            print(f"    [경고] {f['period']} 조회 실패: {e}")
+            continue
+        for cusip in holds:
+            fs.setdefault(cusip, f["period"])
+        time.sleep(0.4)
+    gs["first_seen"] = fs
+    gs["first_seen_oldest"] = filings[-1]["period"]
+    gs["first_seen_done"] = True
+    print(f"    -> {len(fs)}개 종목 매수시점 기록")
+
+
+def since_label(e, gs):
+    """추적 항목의 보유 시작(매수시점) 라벨."""
+    if e.get("type") == "new":
+        return f"{quarter_months(e.get('period'))} 매수"
+    s = e.get("since")
+    if not s:
+        return ""
+    if s == gs.get("first_seen_oldest"):
+        return "3년+ 보유"
+    return f"{quarter_label(s)}~ 보유"
+
+
+def attach_since(gs, cache):
+    """tracked 항목에 매수시점(since) 붙이기 (기존 상태 복구 겸용)."""
+    fs = gs.get("first_seen") or {}
+    if not fs:
+        return
+    rev = {}
+    for c, t in cache.items():
+        if t:
+            rev.setdefault(t, c)
+    for e in gs.get("tracked", []):
+        if "since" not in e:
+            c = e.get("cusip") or rev.get(e.get("ticker"))
+            if c and c in fs:
+                e["since"] = fs[c]
 
 
 def fetch_holdings(cik, acc):
@@ -237,7 +318,7 @@ def process_guru(g, state, cfg, alerts):
         t = cache.get(cusip)
         if not t:
             return None
-        return {"ticker": t, "type": typ,
+        return {"ticker": t, "type": typ, "cusip": cusip,
                 "ref": round(qavg.get(t) or 0, 2) or None,
                 "weight": round(h["value"] / total * 100, 1),
                 "issuer": h.get("issuer", ""), "period": info["period"]}
@@ -271,8 +352,10 @@ def process_guru(g, state, cfg, alerts):
     for e in tracked:
         ref = f" 추정매수가 ~${e['ref']}" if e.get("ref") else ""
         inc = f" (+{e['inc']}%)" if e.get("inc") else ""
+        when = (f" · 🕐{quarter_months(info['period'])} 매수"
+                if e["type"] in ("new", "add") else "")
         al.append(f"{tag[e['type']]}: <b>${e['ticker']}</b> "
-                  f"비중 {e['weight']}%{inc}{ref}")
+                  f"비중 {e['weight']}%{inc}{ref}{when}")
     if exits:
         al.append("➖ 청산: " + ", ".join(exits[:8]))
     alerts.append("\n".join(al))
@@ -282,6 +365,10 @@ def process_guru(g, state, cfg, alerts):
                "period": info["period"], "tracked": tracked,
                "holdings": {c: {"issuer": h["issuer"], "shares": h["shares"],
                                 "value": h["value"]} for c, h in holdings.items()}})
+    # 이번 분기에 처음 등장한 종목의 매수시점 기록
+    fs = gs.setdefault("first_seen", {})
+    for c in holdings:
+        fs.setdefault(c, info["period"])
 
 
 def build_daily_message(state, now):
@@ -306,14 +393,16 @@ def build_daily_message(state, now):
         for e in tracked:
             t, ref = e["ticker"], e.get("ref")
             p = cur.get(t)
+            lab = since_label(e, gs)
+            when = f" · 🕐{lab}" if lab else ""
             if ref and p:
                 diff = (p / ref - 1) * 100
                 mark = "🟢" if diff < 0 else ""
                 lines.append(f"• {tag.get(e['type'], '')} <b>${t}</b> {e['weight']}% "
-                             f"~${ref:g} → ${p:.2f} {mark}{diff:+.1f}%")
+                             f"~${ref:g} → ${p:.2f} {mark}{diff:+.1f}%{when}")
             elif p:
                 lines.append(f"• {tag.get(e['type'], '')} <b>${t}</b> {e['weight']}% "
-                             f"현재 ${p:.2f}")
+                             f"현재 ${p:.2f}{when}")
     return "\n".join(lines)
 
 
@@ -335,6 +424,10 @@ def main():
     for g in cfg.get("gurus", []):
         try:
             process_guru(g, state, cfg, alerts)
+            gs = state["gurus"].get(str(g["cik"]))
+            if gs:
+                backfill_first_seen(str(g["cik"]), gs)
+                attach_since(gs, state["cusip_ticker"])
         except Exception as e:  # noqa: BLE001
             print(f"[경고] {g.get('name')}: {e}")
 
