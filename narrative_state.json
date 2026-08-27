@@ -1745,6 +1745,23 @@
         "AMD",
         "NVDA"
       ]
+    },
+    "aihbmnvlinkfusion": {
+      "name": "고밀도 AI 칩을 위한 커스텀 HBM 및 NVLink Fusion",
+      "first_seen": "2026-08-27",
+      "tickers": [
+        "NVDA",
+        "MU"
+      ]
+    },
+    "llmngramvsmoe": {
+      "name": "오픈소스 LLM 아키텍처 혁신: N-gram vs. MoE",
+      "first_seen": "2026-08-27",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU"
+      ]
     }
   },
   "seen_tech": {
@@ -3243,6 +3260,34 @@
     "maia200": {
       "term": "Maia 200",
       "first_seen": "2026-08-26"
+    },
+    "multidieassembliesat2nm": {
+      "term": "Multi-Die Assemblies at 2nm",
+      "first_seen": "2026-08-27"
+    },
+    "riscvserverplatform": {
+      "term": "RISC-V Server Platform",
+      "first_seen": "2026-08-27"
+    },
+    "openaijalapeoaichip": {
+      "term": "OpenAI Jalapeño AI chip",
+      "first_seen": "2026-08-27"
+    },
+    "nvhbmcustomhighbandwidthmemory": {
+      "term": "NVHBM (Custom High-Bandwidth Memory)",
+      "first_seen": "2026-08-27"
+    },
+    "llmweightsintochipmaskscomputeinrom": {
+      "term": "LLM weights into chip masks / Compute-in-ROM",
+      "first_seen": "2026-08-27"
+    },
+    "ngramvsexpertsllmarchitecture": {
+      "term": "N-gram vs. Experts (LLM Architecture)",
+      "first_seen": "2026-08-27"
+    },
+    "orbitalaiinfrastructurepartnerships": {
+      "term": "Orbital AI Infrastructure Partnerships",
+      "first_seen": "2026-08-27"
     }
   }
 }
