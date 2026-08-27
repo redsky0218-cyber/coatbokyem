@@ -1762,6 +1762,35 @@
         "AMD",
         "MU"
       ]
+    },
+    "heterogeneousintegration": {
+      "name": "첨단 패키징 및 이종 통합(Heterogeneous Integration) 기술의 부상",
+      "first_seen": "2026-08-28",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "ASML",
+        "KLAC",
+        "TSM"
+      ]
+    },
+    "microreactor": {
+      "name": "군사 및 원격지용 마이크로리액터(Microreactor) 배치 확대",
+      "first_seen": "2026-08-28",
+      "tickers": [
+        "SMR",
+        "BWXT",
+        "NPO"
+      ]
+    },
+    "mdc": {
+      "name": "엣지 컴퓨팅을 위한 마이크로 모듈러 데이터센터(MDC) 도입",
+      "first_seen": "2026-08-28",
+      "tickers": [
+        "STX",
+        "WDC",
+        "APC"
+      ]
     }
   },
   "seen_tech": {
@@ -3288,6 +3317,34 @@
     "orbitalaiinfrastructurepartnerships": {
       "term": "Orbital AI Infrastructure Partnerships",
       "first_seen": "2026-08-27"
+    },
+    "jalapeoaichip": {
+      "term": "Jalapeño AI chip",
+      "first_seen": "2026-08-28"
+    },
+    "25d3dpackagingandheterogeneousintegration": {
+      "term": "2.5D/3D Packaging and Heterogeneous Integration",
+      "first_seen": "2026-08-28"
+    },
+    "nanospice": {
+      "term": "nanospice",
+      "first_seen": "2026-08-28"
+    },
+    "uciuniversalchipletinterconnectexpress": {
+      "term": "UCI (Universal Chiplet Interconnect Express)",
+      "first_seen": "2026-08-28"
+    },
+    "calutron": {
+      "term": "calutron",
+      "first_seen": "2026-08-28"
+    },
+    "micromodulardatacentermdc": {
+      "term": "micro modular data center (MDC)",
+      "first_seen": "2026-08-28"
+    },
+    "engramtables": {
+      "term": "Engram tables",
+      "first_seen": "2026-08-28"
     }
   }
 }
