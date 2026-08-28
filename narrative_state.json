@@ -1791,6 +1791,43 @@
         "WDC",
         "APC"
       ]
+    },
+    "ainand": {
+      "name": "AI 수요에 따른 낸드(NAND) 및 메모리 생산 확대",
+      "first_seen": "2026-08-28",
+      "tickers": [
+        "WDC",
+        "MU"
+      ]
+    },
+    "nvidiahuggingfaceai": {
+      "name": "NVIDIA의 Hugging Face 인수 및 AI 생태계 확장",
+      "first_seen": "2026-08-28",
+      "tickers": [
+        "NVDA",
+        "CRM",
+        "GOOGL"
+      ]
+    },
+    "2nmmultidieassemblies": {
+      "name": "2nm 이하 공정에서 멀티 다이 어셈블리(Multi-Die Assemblies) 기술의 부상",
+      "first_seen": "2026-08-28",
+      "tickers": [
+        "TSM",
+        "ASX",
+        "AMKR",
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "ailaserweeding": {
+      "name": "AI 기반 농업 로봇 및 레이저 위딩(Laser Weeding) 기술",
+      "first_seen": "2026-08-28",
+      "tickers": [
+        "IRDM",
+        "LRCX",
+        "AMAT"
+      ]
     }
   },
   "seen_tech": {
@@ -3344,6 +3381,34 @@
     },
     "engramtables": {
       "term": "Engram tables",
+      "first_seen": "2026-08-28"
+    },
+    "pantherlake": {
+      "term": "Panther Lake",
+      "first_seen": "2026-08-28"
+    },
+    "jalapeoaichipopenai": {
+      "term": "Jalapeño AI chip (OpenAI)",
+      "first_seen": "2026-08-28"
+    },
+    "nvhbmnvidiacustomhighbandwidthmemory": {
+      "term": "NVHBM (NVIDIA Custom High-Bandwidth Memory)",
+      "first_seen": "2026-08-28"
+    },
+    "modelhardwarestandard": {
+      "term": "Model Hardware Standard",
+      "first_seen": "2026-08-28"
+    },
+    "gemini35transcribe": {
+      "term": "Gemini-3.5-Transcribe",
+      "first_seen": "2026-08-28"
+    },
+    "aiengineernotebooks": {
+      "term": "AI Engineer Notebooks",
+      "first_seen": "2026-08-28"
+    },
+    "mcpmodelcontextprotocol": {
+      "term": "MCP (Model Context Protocol)",
       "first_seen": "2026-08-28"
     }
   }
