@@ -1828,6 +1828,15 @@
         "LRCX",
         "AMAT"
       ]
+    },
+    "chiponboardcobchiponflexcof": {
+      "name": "고급 패키징 기술: Chip-on-Board (CoB) 및 Chip-on-Flex (CoF)",
+      "first_seen": "2026-08-29",
+      "tickers": [
+        "AMKR",
+        "ASEI",
+        "COHR"
+      ]
     }
   },
   "seen_tech": {
@@ -3410,6 +3419,38 @@
     "mcpmodelcontextprotocol": {
       "term": "MCP (Model Context Protocol)",
       "first_seen": "2026-08-28"
+    },
+    "1nmmobilesoclayouttheoretical": {
+      "term": "1nm mobile SoC layout (theoretical)",
+      "first_seen": "2026-08-29"
+    },
+    "chiponboardcob": {
+      "term": "Chip-on-Board (CoB)",
+      "first_seen": "2026-08-29"
+    },
+    "chiponflexcof": {
+      "term": "Chip-on-Flex (CoF)",
+      "first_seen": "2026-08-29"
+    },
+    "leadcooledsmrs": {
+      "term": "Lead-Cooled SMRs",
+      "first_seen": "2026-08-29"
+    },
+    "atlasatomictechnologieslicensedforapplicationsatsea": {
+      "term": "ATLAS (Atomic Technologies Licensed for Applications at Sea)",
+      "first_seen": "2026-08-29"
+    },
+    "warpstate": {
+      "term": "WarpState",
+      "first_seen": "2026-08-29"
+    },
+    "gsqgumbelsoftmaxquantization": {
+      "term": "GSQ (Gumbel-Softmax Quantization)",
+      "first_seen": "2026-08-29"
+    },
+    "rcoriemannianconstrainedoptimization": {
+      "term": "RCO (Riemannian Constrained Optimization)",
+      "first_seen": "2026-08-29"
     }
   }
 }
