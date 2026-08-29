@@ -1855,6 +1855,23 @@
         "AMKR",
         "COHR"
       ]
+    },
+    "tritium": {
+      "name": "핵폐기물에서 삼중수소(Tritium) 생산을 통한 핵융합 에너지 경제성 개선",
+      "first_seen": "2026-08-30",
+      "tickers": [
+        "PLUG",
+        "BE"
+      ]
+    },
+    "localllmgpucpuram": {
+      "name": "Local LLM 추론을 위한 이종 GPU 및 CPU/RAM 하이브리드 활용 기술 발전",
+      "first_seen": "2026-08-30",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ]
     }
   },
   "seen_tech": {
@@ -3485,6 +3502,30 @@
     "recursiveselfimprovementrsiofai": {
       "term": "Recursive Self-Improvement (RSI) of AI",
       "first_seen": "2026-08-29"
+    },
+    "2dmaterialstmdsliketwistedwse2": {
+      "term": "2D materials (TMDs like twisted WSe2)",
+      "first_seen": "2026-08-30"
+    },
+    "tritiumfromnuclearwaste": {
+      "term": "Tritium from Nuclear Waste",
+      "first_seen": "2026-08-30"
+    },
+    "layersplitmodellamacpp": {
+      "term": "Layer-split mode (llama.cpp)",
+      "first_seen": "2026-08-30"
+    },
+    "ninfer": {
+      "term": "NInfer",
+      "first_seen": "2026-08-30"
+    },
+    "neutralatomcomputingroadmap": {
+      "term": "Neutral Atom Computing Roadmap",
+      "first_seen": "2026-08-30"
+    },
+    "aiassistedsiliconvalidation": {
+      "term": "AI-assisted Silicon Validation",
+      "first_seen": "2026-08-30"
     }
   }
 }
