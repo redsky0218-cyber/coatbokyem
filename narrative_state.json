@@ -1837,6 +1837,24 @@
         "ASEI",
         "COHR"
       ]
+    },
+    "lpddr6": {
+      "name": "LPDDR6 메모리 표준 확산 및 중국 내 생산 확대",
+      "first_seen": "2026-08-29",
+      "tickers": [
+        "MU",
+        "SMH",
+        "SOXX"
+      ]
+    },
+    "asiccobcof": {
+      "name": "고급 ASIC 패키징 기술 (CoB, CoF) 발전",
+      "first_seen": "2026-08-29",
+      "tickers": [
+        "ASEI",
+        "AMKR",
+        "COHR"
+      ]
     }
   },
   "seen_tech": {
@@ -3450,6 +3468,22 @@
     },
     "rcoriemannianconstrainedoptimization": {
       "term": "RCO (Riemannian Constrained Optimization)",
+      "first_seen": "2026-08-29"
+    },
+    "tritiumproductionfromnuclearwaste": {
+      "term": "Tritium production from nuclear waste",
+      "first_seen": "2026-08-29"
+    },
+    "neutralatomcomputing": {
+      "term": "Neutral Atom Computing",
+      "first_seen": "2026-08-29"
+    },
+    "gsqrcoquantization": {
+      "term": "GSQ + RCO Quantization",
+      "first_seen": "2026-08-29"
+    },
+    "recursiveselfimprovementrsiofai": {
+      "term": "Recursive Self-Improvement (RSI) of AI",
       "first_seen": "2026-08-29"
     }
   }
