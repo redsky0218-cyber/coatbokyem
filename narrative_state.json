@@ -1872,6 +1872,22 @@
         "AMD",
         "INTC"
       ]
+    },
+    "aitsmc3nm": {
+      "name": "구글 커스텀 AI 칩 확장 및 TSMC 3nm 공정 활용",
+      "first_seen": "2026-08-30",
+      "tickers": [
+        "GOOG",
+        "GOOGL",
+        "TSM"
+      ]
+    },
+    "oklosmr": {
+      "name": "Oklo의 미공개 SMR 프로젝트 개발 가속화",
+      "first_seen": "2026-08-30",
+      "tickers": [
+        "OKLO"
+      ]
     }
   },
   "seen_tech": {
@@ -3525,6 +3541,18 @@
     },
     "aiassistedsiliconvalidation": {
       "term": "AI-assisted Silicon Validation",
+      "first_seen": "2026-08-30"
+    },
+    "ryzenaimax395": {
+      "term": "Ryzen AI Max+ 395",
+      "first_seen": "2026-08-30"
+    },
+    "intel14a": {
+      "term": "Intel 14A",
+      "first_seen": "2026-08-30"
+    },
+    "persistentcomputationarchitecture": {
+      "term": "Persistent Computation Architecture",
       "first_seen": "2026-08-30"
     }
   }
