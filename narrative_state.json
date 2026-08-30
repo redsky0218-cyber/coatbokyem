@@ -1888,6 +1888,25 @@
       "tickers": [
         "OKLO"
       ]
+    },
+    "hbfllm": {
+      "name": "고대역폭 플래시 (HBF) 기반 LLM 추론 가속",
+      "first_seen": "2026-08-30",
+      "tickers": [
+        "WDC",
+        "MU",
+        "SKM",
+        "INTC"
+      ]
+    },
+    "serdescom224glane": {
+      "name": "고속 SerDes 채널 운영 마진(COM) 표준화 및 224G/lane 이상 데이터 전송",
+      "first_seen": "2026-08-30",
+      "tickers": [
+        "MRVL",
+        "CRDO",
+        "MTSI"
+      ]
     }
   },
   "seen_tech": {
@@ -3553,6 +3572,26 @@
     },
     "persistentcomputationarchitecture": {
       "term": "Persistent Computation Architecture",
+      "first_seen": "2026-08-30"
+    },
+    "lga1954novalakessocket": {
+      "term": "LGA1954 (Nova Lake-S socket)",
+      "first_seen": "2026-08-30"
+    },
+    "comchanneloperatingmargin": {
+      "term": "COM (Channel Operating Margin)",
+      "first_seen": "2026-08-30"
+    },
+    "dflash2speculativedecoding": {
+      "term": "DFLASH2 speculative decoding",
+      "first_seen": "2026-08-30"
+    },
+    "hostramkvtier": {
+      "term": "Host-RAM KV tier",
+      "first_seen": "2026-08-30"
+    },
+    "synthetictactiledataset": {
+      "term": "합성 촉각 데이터셋 (Synthetic Tactile Dataset)",
       "first_seen": "2026-08-30"
     }
   }
