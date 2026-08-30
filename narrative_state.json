@@ -1907,6 +1907,16 @@
         "CRDO",
         "MTSI"
       ]
+    },
+    "serdescom": {
+      "name": "고속 SerDes 채널 성능 평가 표준 COM의 중요성 증대",
+      "first_seen": "2026-08-31",
+      "tickers": [
+        "CRDO",
+        "MRVL",
+        "ADI",
+        "MPWR"
+      ]
     }
   },
   "seen_tech": {
@@ -3593,6 +3603,18 @@
     "synthetictactiledataset": {
       "term": "합성 촉각 데이터셋 (Synthetic Tactile Dataset)",
       "first_seen": "2026-08-30"
+    },
+    "lga1954": {
+      "term": "LGA1954",
+      "first_seen": "2026-08-31"
+    },
+    "ferroelectriccrystalsforsinglephotondetection": {
+      "term": "Ferroelectric Crystals for Single Photon Detection",
+      "first_seen": "2026-08-31"
+    },
+    "webbotauth": {
+      "term": "Web Bot Auth",
+      "first_seen": "2026-08-31"
     }
   }
 }
