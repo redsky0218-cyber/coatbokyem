@@ -1917,6 +1917,15 @@
         "ADI",
         "MPWR"
       ]
+    },
+    "llmpentesting": {
+      "name": "LLM 기반 침투 테스트 (Pentesting) 및 사이버 보안 강화",
+      "first_seen": "2026-08-31",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "MSFT"
+      ]
     }
   },
   "seen_tech": {
@@ -3614,6 +3623,30 @@
     },
     "webbotauth": {
       "term": "Web Bot Auth",
+      "first_seen": "2026-08-31"
+    },
+    "novalakes": {
+      "term": "Nova Lake-S",
+      "first_seen": "2026-08-31"
+    },
+    "r9vkernelsforrdna4gpus": {
+      "term": "R9V Kernels (for RDNA4 GPUs)",
+      "first_seen": "2026-08-31"
+    },
+    "qwen38flashnextnvfp4": {
+      "term": "Qwen3.8-Flash-Next-NVFP4",
+      "first_seen": "2026-08-31"
+    },
+    "audiogroundedlmsori1b": {
+      "term": "Audio-Grounded LM (Sori-1B)",
+      "first_seen": "2026-08-31"
+    },
+    "autonomousmathematicaldiscoveryaiagents": {
+      "term": "Autonomous Mathematical Discovery (AI Agents)",
+      "first_seen": "2026-08-31"
+    },
+    "continuousdiffusionlanguagemodelscdlms": {
+      "term": "Continuous Diffusion Language Models (CDLMs)",
       "first_seen": "2026-08-31"
     }
   }
