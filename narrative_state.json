@@ -1926,6 +1926,24 @@
         "PANW",
         "MSFT"
       ]
+    },
+    "ups": {
+      "name": "데이터센터 전력 백업을 위한 플라이휠 UPS 재평가",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "EATON",
+        "VERT",
+        "CUBI"
+      ]
+    },
+    "ailpu": {
+      "name": "차세대 AI 칩셋으로서 레이저 기반 LPU의 부상",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "CLGN",
+        "LITE",
+        "COHR"
+      ]
     }
   },
   "seen_tech": {
@@ -3648,6 +3666,26 @@
     "continuousdiffusionlanguagemodelscdlms": {
       "term": "Continuous Diffusion Language Models (CDLMs)",
       "first_seen": "2026-08-31"
+    },
+    "slidingwindowattentionattentionsinks": {
+      "term": "Sliding-Window Attention + Attention Sinks",
+      "first_seen": "2026-09-01"
+    },
+    "intelautoroundint4quant": {
+      "term": "Intel AutoRound int4 quant",
+      "first_seen": "2026-09-01"
+    },
+    "agentmemoryasafileformatmemoryfields": {
+      "term": "Agent Memory as a File Format (MemoryFields)",
+      "first_seen": "2026-09-01"
+    },
+    "lpulaserprocessingunit": {
+      "term": "LPU (Laser Processing Unit)",
+      "first_seen": "2026-09-01"
+    },
+    "praxist": {
+      "term": "PRAXIST",
+      "first_seen": "2026-09-01"
     }
   }
 }
