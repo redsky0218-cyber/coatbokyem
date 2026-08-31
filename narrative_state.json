@@ -1944,6 +1944,39 @@
         "LITE",
         "COHR"
       ]
+    },
+    "hbm4e": {
+      "name": "HBM4E 베이스 다이 제조를 위한 인텔 파운드리 활용",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "INTC"
+      ]
+    },
+    "lpddr6dramcxmt": {
+      "name": "LPDDR6 모바일 DRAM의 등장 및 중국 CXMT의 생산",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "MU",
+        "SMCI"
+      ]
+    },
+    "aipraxist": {
+      "name": "AI 에이전트 기반의 자율 연구 시스템 (PRAXIST)",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "ANSS"
+      ]
+    },
+    "hflow": {
+      "name": "로봇 공학 데이터 파이프라인 표준화 및 품질 관리 (HFlow)",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "IRBT",
+        "FFIE",
+        "ROBT"
+      ]
     }
   },
   "seen_tech": {
@@ -3685,6 +3718,30 @@
     },
     "praxist": {
       "term": "PRAXIST",
+      "first_seen": "2026-09-01"
+    },
+    "hbm4ebasedie": {
+      "term": "HBM4E Base Die",
+      "first_seen": "2026-09-01"
+    },
+    "nvlinkfusion": {
+      "term": "NVLink Fusion",
+      "first_seen": "2026-09-01"
+    },
+    "autonomousredteamingwithllms": {
+      "term": "Autonomous Red Teaming with LLMs",
+      "first_seen": "2026-09-01"
+    },
+    "miniproteindesignsbyai": {
+      "term": "Miniprotein Designs by AI",
+      "first_seen": "2026-09-01"
+    },
+    "nianticspatial": {
+      "term": "Niantic Spatial",
+      "first_seen": "2026-09-01"
+    },
+    "physicsverificationforrobotpolicieshaga": {
+      "term": "Physics Verification for Robot Policies (Haga)",
       "first_seen": "2026-09-01"
     }
   }
