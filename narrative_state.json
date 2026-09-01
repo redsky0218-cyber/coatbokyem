@@ -1977,6 +1977,32 @@
         "FFIE",
         "ROBT"
       ]
+    },
+    "skhbm4e": {
+      "name": "SK 하이닉스-인텔 파운드리 HBM4E 베이스 다이 협력",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "INTC",
+        "MU",
+        "NVDA"
+      ]
+    },
+    "aiecb": {
+      "name": "AI 기반 사이버 보안 솔루션 수요 증가 (ECB 규제 촉발)",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "ZS",
+        "PANW",
+        "CRWD",
+        "OKTA"
+      ]
+    },
+    "lpulaserprocessingunit": {
+      "name": "LPU (Laser Processing Unit) 칩셋 개발",
+      "first_seen": "2026-09-01",
+      "tickers": [
+        "CLGN"
+      ]
     }
   },
   "seen_tech": {
@@ -3742,6 +3768,26 @@
     },
     "physicsverificationforrobotpolicieshaga": {
       "term": "Physics Verification for Robot Policies (Haga)",
+      "first_seen": "2026-09-01"
+    },
+    "hbm4ebasediewithcustomlogic": {
+      "term": "HBM4E Base Die with Custom Logic",
+      "first_seen": "2026-09-01"
+    },
+    "dlss45rayreconstructiontransformerimproved": {
+      "term": "DLSS 4.5 Ray Reconstruction - Transformer Improved",
+      "first_seen": "2026-09-01"
+    },
+    "jetsonorinnano2": {
+      "term": "Jetson Orin Nano 2",
+      "first_seen": "2026-09-01"
+    },
+    "ferroelectriccrystalsinquantumcomputing": {
+      "term": "Ferroelectric Crystals in Quantum Computing",
+      "first_seen": "2026-09-01"
+    },
+    "qwen3827bnvfp4gguf": {
+      "term": "Qwen 3.8 27B NVFP4 GGUF",
       "first_seen": "2026-09-01"
     }
   }
