@@ -2003,6 +2003,22 @@
       "tickers": [
         "CLGN"
       ]
+    },
+    "hbm3e": {
+      "name": "중국 HBM3E 메모리 생산",
+      "first_seen": "2026-09-02",
+      "tickers": [
+        "MU"
+      ]
+    },
+    "wifi8": {
+      "name": "Wi-Fi 8 표준 도입",
+      "first_seen": "2026-09-02",
+      "tickers": [
+        "QCOM",
+        "MRVL",
+        "SWKS"
+      ]
     }
   },
   "seen_tech": {
@@ -3789,6 +3805,30 @@
     "qwen3827bnvfp4gguf": {
       "term": "Qwen 3.8 27B NVFP4 GGUF",
       "first_seen": "2026-09-01"
+    },
+    "llmfordesignverification": {
+      "term": "LLM for design verification",
+      "first_seen": "2026-09-02"
+    },
+    "aifirstapproachtosiliconandsoftwaredevelopment": {
+      "term": "AI-first approach to silicon and software development",
+      "first_seen": "2026-09-02"
+    },
+    "synchronalbimodalnuclearrocket": {
+      "term": "Synchronal Bimodal Nuclear Rocket",
+      "first_seen": "2026-09-02"
+    },
+    "syntheticmicrometeors": {
+      "term": "Synthetic micro meteors",
+      "first_seen": "2026-09-02"
+    },
+    "nonmicrowavereadoutandpreponsuperconductingqubits": {
+      "term": "Non-microwave readout and prep on superconducting qubits",
+      "first_seen": "2026-09-02"
+    },
+    "latentreasoning": {
+      "term": "Latent Reasoning",
+      "first_seen": "2026-09-02"
     }
   }
 }
