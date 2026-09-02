@@ -2019,6 +2019,16 @@
         "MRVL",
         "SWKS"
       ]
+    },
+    "dlss5ai": {
+      "name": "DLSS 5와 AI 기반 실시간 렌더링 확산",
+      "first_seen": "2026-09-03",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -3829,6 +3839,38 @@
     "latentreasoning": {
       "term": "Latent Reasoning",
       "first_seen": "2026-09-02"
+    },
+    "dlss5realtimegenerativerendering": {
+      "term": "DLSS 5: Real-Time Generative Rendering",
+      "first_seen": "2026-09-03"
+    },
+    "rdna5gpuipon2nmnode": {
+      "term": "RDNA 5 GPU IP on 2 nm Node",
+      "first_seen": "2026-09-03"
+    },
+    "mxfp4w4a8": {
+      "term": "MXFP4 (W4A8)",
+      "first_seen": "2026-09-03"
+    },
+    "scaffoldcotchainofthoughtdataset": {
+      "term": "Scaffold CoT (Chain-of-Thought) Dataset",
+      "first_seen": "2026-09-03"
+    },
+    "predictivecodingnetworkspcns": {
+      "term": "Predictive Coding Networks (PCNs)",
+      "first_seen": "2026-09-03"
+    },
+    "h3worldlanguagenativecontrol": {
+      "term": "H3-World: Language-Native Control",
+      "first_seen": "2026-09-03"
+    },
+    "quantumcentricsupercomputingqcsc": {
+      "term": "Quantum-Centric SuperComputing (QCSC)",
+      "first_seen": "2026-09-03"
+    },
+    "metalensesforopticalmarginassessment": {
+      "term": "Metalenses for Optical Margin Assessment",
+      "first_seen": "2026-09-03"
     }
   }
 }
