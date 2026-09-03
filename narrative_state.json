@@ -2050,6 +2050,39 @@
       "tickers": [
         "AXG"
       ]
+    },
+    "nvidiadlss5gpu": {
+      "name": "NVIDIA DLSS 5 블랙웰 GPU 독점 전략",
+      "first_seen": "2026-09-04",
+      "tickers": [
+        "NVDA"
+      ]
+    },
+    "froresystemsairjet": {
+      "name": "Frore Systems AirJet 팬리스 쿨링 기술 도입",
+      "first_seen": "2026-09-04",
+      "tickers": [
+        "ACER",
+        "HPQ",
+        "DELL"
+      ]
+    },
+    "utgultrathinglass": {
+      "name": "폴더블폰 듀얼 UTG(Ultra-Thin Glass) 채택 확대",
+      "first_seen": "2026-09-04",
+      "tickers": [
+        "GLW"
+      ]
+    },
+    "aiess": {
+      "name": "AI 데이터센터의 에너지 저장 시스템(ESS) 활용 확대",
+      "first_seen": "2026-09-04",
+      "tickers": [
+        "ENPH",
+        "SEDG",
+        "STEM",
+        "NEE"
+      ]
     }
   },
   "seen_tech": {
@@ -3916,6 +3949,30 @@
     "softsyncflexhandv1": {
       "term": "SoftSync FlexHand V1",
       "first_seen": "2026-09-03"
+    },
+    "hbm5": {
+      "term": "HBM5",
+      "first_seen": "2026-09-04"
+    },
+    "rdna5": {
+      "term": "RDNA 5",
+      "first_seen": "2026-09-04"
+    },
+    "airjet": {
+      "term": "AirJet",
+      "first_seen": "2026-09-04"
+    },
+    "dualutg": {
+      "term": "Dual UTG",
+      "first_seen": "2026-09-04"
+    },
+    "ai": {
+      "term": "AI 가속 칩 설계",
+      "first_seen": "2026-09-04"
+    },
+    "grpogradientregularizedpolicyoptimization": {
+      "term": "GRPO (Gradient Regularized Policy Optimization)",
+      "first_seen": "2026-09-04"
     }
   }
 }
