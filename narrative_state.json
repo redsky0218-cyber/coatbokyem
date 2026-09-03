@@ -2029,6 +2029,27 @@
         "INTC",
         "SMCI"
       ]
+    },
+    "nvidiadlss5blackwellgpu": {
+      "name": "NVIDIA의 DLSS 5 독점 및 Blackwell GPU 판매 전략",
+      "first_seen": "2026-09-03",
+      "tickers": [
+        "NVDA"
+      ]
+    },
+    "nvidiamediatekai": {
+      "name": "NVIDIA-MediaTek 파트너십을 통한 AI 생태계 확장",
+      "first_seen": "2026-09-03",
+      "tickers": [
+        "NVDA"
+      ]
+    },
+    "aievolveeqfinq": {
+      "name": "금융 인프라를 위한 AI 및 양자 컴퓨팅 통합 (EvolveEQ FinQ)",
+      "first_seen": "2026-09-03",
+      "tickers": [
+        "AXG"
+      ]
     }
   },
   "seen_tech": {
@@ -3870,6 +3891,30 @@
     },
     "metalensesforopticalmarginassessment": {
       "term": "Metalenses for Optical Margin Assessment",
+      "first_seen": "2026-09-03"
+    },
+    "aiacceleratedchipdesign": {
+      "term": "AI-accelerated chip design",
+      "first_seen": "2026-09-03"
+    },
+    "finqplatform": {
+      "term": "FinQ platform",
+      "first_seen": "2026-09-03"
+    },
+    "sortiesuit": {
+      "term": "Sortie Suit",
+      "first_seen": "2026-09-03"
+    },
+    "inspaceservicingassemblyandmanufacturingisam": {
+      "term": "In-Space Servicing, Assembly and Manufacturing (ISAM)",
+      "first_seen": "2026-09-03"
+    },
+    "webdraw": {
+      "term": "Web Draw",
+      "first_seen": "2026-09-03"
+    },
+    "softsyncflexhandv1": {
+      "term": "SoftSync FlexHand V1",
       "first_seen": "2026-09-03"
     }
   }
