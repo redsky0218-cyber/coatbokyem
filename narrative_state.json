@@ -2121,6 +2121,42 @@
       "tickers": [
         "LQWC"
       ]
+    },
+    "airtlagenticrtldesign": {
+      "name": "AI 에이전트를 활용한 RTL 설계 (Agentic RTL Design)",
+      "first_seen": "2026-09-05",
+      "tickers": [
+        "CDNS",
+        "SNPS",
+        "ANSS"
+      ]
+    },
+    "smracceleratedsmradoptionfordatacenterpower": {
+      "name": "데이터센터 전력 공급을 위한 SMR 도입 가속화 (Accelerated SMR Adoption for Data Center Power)",
+      "first_seen": "2026-09-05",
+      "tickers": [
+        "GEV",
+        "BWXT",
+        "XELA"
+      ]
+    },
+    "aipiiaiagentpaymentpiileaksecurityvulnerabilities": {
+      "name": "AI 에이전트의 결제 및 PII 유출 보안 취약점 (AI Agent Payment & PII Leak Security Vulnerabilities)",
+      "first_seen": "2026-09-05",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "PANW"
+      ]
+    },
+    "bridgingthesimtorealgapinrobotics": {
+      "name": "로봇 시뮬레이션의 현실 격차 해소 기술 (Bridging the Sim-to-Real Gap in Robotics)",
+      "first_seen": "2026-09-05",
+      "tickers": [
+        "NVDA",
+        "IRBT",
+        "RBTX"
+      ]
     }
   },
   "seen_tech": {
@@ -4047,6 +4083,34 @@
     "paddock": {
       "term": "Paddock",
       "first_seen": "2026-09-04"
+    },
+    "agenticrtldesign": {
+      "term": "Agentic RTL Design",
+      "first_seen": "2026-09-05"
+    },
+    "natriumreactor": {
+      "term": "Natrium reactor",
+      "first_seen": "2026-09-05"
+    },
+    "haleufuel": {
+      "term": "HALEU fuel",
+      "first_seen": "2026-09-05"
+    },
+    "agenticsecurity": {
+      "term": "Agentic Security",
+      "first_seen": "2026-09-05"
+    },
+    "multimodelorchestrationprojecthydrafusion": {
+      "term": "Multi-Model Orchestration (Project HydraFusion)",
+      "first_seen": "2026-09-05"
+    },
+    "einkbikecomputer": {
+      "term": "eInk Bike Computer",
+      "first_seen": "2026-09-05"
+    },
+    "quantumldpccodesqldpccodes": {
+      "term": "Quantum LDPC Codes (qLDPC Codes)",
+      "first_seen": "2026-09-05"
     }
   }
 }
