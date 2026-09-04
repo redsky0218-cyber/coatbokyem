@@ -2088,6 +2088,39 @@
       "name": "고체 냉각(Solid-State Cooling) 기술의 노트북 적용",
       "first_seen": "2026-09-04",
       "tickers": []
+    },
+    "aiairjet": {
+      "name": "고성능 노트북 및 AI 엣지 디바이스를 위한 고체 냉각 솔루션 (AirJet)",
+      "first_seen": "2026-09-04",
+      "tickers": []
+    },
+    "dualutg": {
+      "name": "폴더블폰 시장의 Dual UTG(초박형 유리) 채택 증가",
+      "first_seen": "2026-09-04",
+      "tickers": [
+        "GLW"
+      ]
+    },
+    "amdaihpcinstinctmi350p": {
+      "name": "AMD의 데이터센터 및 AI HPC 시장 공략 강화 (Instinct MI350P)",
+      "first_seen": "2026-09-04",
+      "tickers": [
+        "AMD"
+      ]
+    },
+    "cpunovalakesrazorlakehammerlake": {
+      "name": "차세대 인텔 CPU 로드맵 공개 (Nova Lake-S, Razor Lake, Hammer Lake)",
+      "first_seen": "2026-09-04",
+      "tickers": [
+        "INTC"
+      ]
+    },
+    "biopipeglobal": {
+      "name": "탈중앙화 폐수 처리 솔루션의 확산과 BioPipe Global의 기회",
+      "first_seen": "2026-09-04",
+      "tickers": [
+        "LQWC"
+      ]
     }
   },
   "seen_tech": {
@@ -3993,6 +4026,26 @@
     },
     "rsim": {
       "term": "RSim",
+      "first_seen": "2026-09-04"
+    },
+    "dlss5": {
+      "term": "DLSS 5",
+      "first_seen": "2026-09-04"
+    },
+    "lga1954socket": {
+      "term": "LGA 1954 socket",
+      "first_seen": "2026-09-04"
+    },
+    "instinctmi350pgpus": {
+      "term": "Instinct MI350P GPUs",
+      "first_seen": "2026-09-04"
+    },
+    "moljepa": {
+      "term": "Mol-JEPA",
+      "first_seen": "2026-09-04"
+    },
+    "paddock": {
+      "term": "Paddock",
       "first_seen": "2026-09-04"
     }
   }
