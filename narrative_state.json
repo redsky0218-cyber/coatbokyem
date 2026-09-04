@@ -2083,6 +2083,11 @@
         "STEM",
         "NEE"
       ]
+    },
+    "solidstatecooling": {
+      "name": "고체 냉각(Solid-State Cooling) 기술의 노트북 적용",
+      "first_seen": "2026-09-04",
+      "tickers": []
     }
   },
   "seen_tech": {
@@ -3972,6 +3977,22 @@
     },
     "grpogradientregularizedpolicyoptimization": {
       "term": "GRPO (Gradient Regularized Policy Optimization)",
+      "first_seen": "2026-09-04"
+    },
+    "novalakeslga1954": {
+      "term": "Nova Lake-S / LGA 1954",
+      "first_seen": "2026-09-04"
+    },
+    "pinkcorridorproject": {
+      "term": "Pink Corridor Project",
+      "first_seen": "2026-09-04"
+    },
+    "sanotts": {
+      "term": "sanoTTS",
+      "first_seen": "2026-09-04"
+    },
+    "rsim": {
+      "term": "RSim",
       "first_seen": "2026-09-04"
     }
   }
