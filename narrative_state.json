@@ -2157,6 +2157,15 @@
         "IRBT",
         "RBTX"
       ]
+    },
+    "aisim2real": {
+      "name": "로봇 공학에서 AI 기반 모션 생성 및 시뮬레이션-실세계 전환 (Sim2Real)",
+      "first_seen": "2026-09-05",
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -4110,6 +4119,34 @@
     },
     "quantumldpccodesqldpccodes": {
       "term": "Quantum LDPC Codes (qLDPC Codes)",
+      "first_seen": "2026-09-05"
+    },
+    "dlss5neuralrendering": {
+      "term": "DLSS 5 Neural Rendering",
+      "first_seen": "2026-09-05"
+    },
+    "airjetsolidstatecooling": {
+      "term": "AirJet (Solid-state cooling)",
+      "first_seen": "2026-09-05"
+    },
+    "dualutgultrathinglass": {
+      "term": "Dual UTG (Ultra-Thin Glass)",
+      "first_seen": "2026-09-05"
+    },
+    "hybrid3dbeolmetalmesh": {
+      "term": "Hybrid 3D BEOL Metal Mesh",
+      "first_seen": "2026-09-05"
+    },
+    "physicalaistack": {
+      "term": "Physical AI Stack",
+      "first_seen": "2026-09-05"
+    },
+    "vlmvisuallanguagemodelforrobotics": {
+      "term": "VLM (Visual Language Model) for Robotics",
+      "first_seen": "2026-09-05"
+    },
+    "projecthydrafusion": {
+      "term": "Project HydraFusion",
       "first_seen": "2026-09-05"
     }
   }
