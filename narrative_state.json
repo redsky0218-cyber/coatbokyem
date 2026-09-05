@@ -2166,6 +2166,16 @@
         "INTC",
         "AMD"
       ]
+    },
+    "aiamd": {
+      "name": "고성능 AI/데이터센터를 위한 AMD의 확장",
+      "first_seen": "2026-09-05",
+      "tickers": [
+        "AMD",
+        "SMCI",
+        "DELL",
+        "HPQ"
+      ]
     }
   },
   "seen_tech": {
@@ -4147,6 +4157,18 @@
     },
     "projecthydrafusion": {
       "term": "Project HydraFusion",
+      "first_seen": "2026-09-05"
+    },
+    "3dbeolmetalmesh": {
+      "term": "3D BEOL Metal Mesh",
+      "first_seen": "2026-09-05"
+    },
+    "spacesituationawarenessssa": {
+      "term": "Space Situation Awareness (SSA)",
+      "first_seen": "2026-09-05"
+    },
+    "declarativeattentionda": {
+      "term": "Declarative Attention (DA)",
       "first_seen": "2026-09-05"
     }
   }
