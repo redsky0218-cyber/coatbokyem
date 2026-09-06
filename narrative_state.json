@@ -2202,6 +2202,14 @@
         "INTC",
         "SMCI"
       ]
+    },
+    "dlss5": {
+      "name": "DLSS 5 뉴럴 렌더링 도입 및 전력 소모 증가",
+      "first_seen": "2026-09-07",
+      "tickers": [
+        "NVDA",
+        "MSI"
+      ]
     }
   },
   "seen_tech": {
@@ -4252,6 +4260,26 @@
     "confidencegatedadmissionforhardwareprefetching": {
       "term": "Confidence-Gated Admission for Hardware Prefetching",
       "first_seen": "2026-09-06"
+    },
+    "neuralrendering": {
+      "term": "Neural Rendering",
+      "first_seen": "2026-09-07"
+    },
+    "crowdstrikesafemind": {
+      "term": "CrowdStrike SafeMind",
+      "first_seen": "2026-09-07"
+    },
+    "sparkx25": {
+      "term": "Spark-X2.5",
+      "first_seen": "2026-09-07"
+    },
+    "gptastra": {
+      "term": "GPT Astra",
+      "first_seen": "2026-09-07"
+    },
+    "quantumoracleengineering": {
+      "term": "Quantum Oracle Engineering",
+      "first_seen": "2026-09-07"
     }
   }
 }
