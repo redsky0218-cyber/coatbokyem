@@ -2176,6 +2176,15 @@
         "DELL",
         "HPQ"
       ]
+    },
+    "llmdeclarativeattention": {
+      "name": "LLM의 'Declarative Attention'을 통한 추론 효율성 향상",
+      "first_seen": "2026-09-06",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "GOOG"
+      ]
     }
   },
   "seen_tech": {
@@ -4170,6 +4179,30 @@
     "declarativeattentionda": {
       "term": "Declarative Attention (DA)",
       "first_seen": "2026-09-05"
+    },
+    "3dchiphuawei": {
+      "term": "3D chip (Huawei)",
+      "first_seen": "2026-09-06"
+    },
+    "valleytronics": {
+      "term": "Valleytronics",
+      "first_seen": "2026-09-06"
+    },
+    "tinytapeout": {
+      "term": "Tiny Tapeout",
+      "first_seen": "2026-09-06"
+    },
+    "aiagentmemorygitnativepersistentmemory": {
+      "term": "AI Agent Memory (Git-native persistent memory)",
+      "first_seen": "2026-09-06"
+    },
+    "nvfp4quantization": {
+      "term": "NVFP4 quantization",
+      "first_seen": "2026-09-06"
+    },
+    "distributedsmsbombingvulnerability": {
+      "term": "Distributed SMS bombing vulnerability",
+      "first_seen": "2026-09-06"
     }
   }
 }
