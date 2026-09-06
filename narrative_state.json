@@ -2185,6 +2185,23 @@
         "AMD",
         "GOOG"
       ]
+    },
+    "oklo": {
+      "name": "Oklo의 차세대 원자로 파이프라인 확장",
+      "first_seen": "2026-09-06",
+      "tickers": [
+        "OKLO"
+      ]
+    },
+    "llmswa": {
+      "name": "LLM을 위한 슬라이딩 윈도우 어텐션 (SWA) 도입",
+      "first_seen": "2026-09-06",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -4202,6 +4219,38 @@
     },
     "distributedsmsbombingvulnerability": {
       "term": "Distributed SMS bombing vulnerability",
+      "first_seen": "2026-09-06"
+    },
+    "aaaaalithiumionwithusbc": {
+      "term": "AA/AAA Lithium-ion with USB-C",
+      "first_seen": "2026-09-06"
+    },
+    "dlss5swappertooldlssnronamd": {
+      "term": "DLSS 5 Swapper Tool / DLSS-NR-on-AMD",
+      "first_seen": "2026-09-06"
+    },
+    "virtualsemiconductorlabs": {
+      "term": "Virtual Semiconductor Labs",
+      "first_seen": "2026-09-06"
+    },
+    "3dtopologicalquantummaterials": {
+      "term": "3D Topological Quantum Materials",
+      "first_seen": "2026-09-06"
+    },
+    "intelligentamhs": {
+      "term": "Intelligent AMHS",
+      "first_seen": "2026-09-06"
+    },
+    "qubitmappingoptimizationforqldpccodes": {
+      "term": "Qubit Mapping Optimization for qLDPC Codes",
+      "first_seen": "2026-09-06"
+    },
+    "algebraicoperatordecompositionaod": {
+      "term": "Algebraic Operator Decomposition (AOD)",
+      "first_seen": "2026-09-06"
+    },
+    "confidencegatedadmissionforhardwareprefetching": {
+      "term": "Confidence-Gated Admission for Hardware Prefetching",
       "first_seen": "2026-09-06"
     }
   }
