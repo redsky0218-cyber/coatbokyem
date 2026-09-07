@@ -4320,6 +4320,38 @@
     "expertexpansionwithmoemodels": {
       "term": "Expert expansion with MOE models",
       "first_seen": "2026-09-07"
+    },
+    "customhbmbasedie": {
+      "term": "Custom HBM base die",
+      "first_seen": "2026-09-07"
+    },
+    "compactdietodielink": {
+      "term": "Compact die-to-die link",
+      "first_seen": "2026-09-07"
+    },
+    "offloadingmemorycontrolleroffthegpu": {
+      "term": "Offloading memory controller off the GPU",
+      "first_seen": "2026-09-07"
+    },
+    "sadpsaqpselfaligneddoublequadruplepatterning": {
+      "term": "SADP/SAQP (Self-Aligned Double/Quadruple Patterning)",
+      "first_seen": "2026-09-07"
+    },
+    "quantumfinetuningoffoundationaltimeseriesmodels": {
+      "term": "Quantum Fine-Tuning of Foundational Time Series Models",
+      "first_seen": "2026-09-07"
+    },
+    "quantumgenerativemodelsforsarinsarchangedetection": {
+      "term": "Quantum Generative Models for SAR/InSAR Change Detection",
+      "first_seen": "2026-09-07"
+    },
+    "tetrisq": {
+      "term": "TETRIS-Q",
+      "first_seen": "2026-09-07"
+    },
+    "memoryoptimalsequentialsynthesisofmultimodegaussiantransformations": {
+      "term": "Memory-Optimal Sequential Synthesis of Multimode Gaussian Transformations",
+      "first_seen": "2026-09-07"
     }
   }
 }
