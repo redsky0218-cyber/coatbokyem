@@ -2226,6 +2226,17 @@
         "KLAC",
         "AMAT"
       ]
+    },
+    "aihbm4": {
+      "name": "AI 가속기 내 메모리 비용 비중 급증 및 HBM4 조기 도입",
+      "first_seen": "2026-09-08",
+      "tickers": [
+        "MU",
+        "SMCI",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ]
     }
   },
   "seen_tech": {
@@ -4352,6 +4363,22 @@
     "memoryoptimalsequentialsynthesisofmultimodegaussiantransformations": {
       "term": "Memory-Optimal Sequential Synthesis of Multimode Gaussian Transformations",
       "first_seen": "2026-09-07"
+    },
+    "sadpsaqpwithouteuvforhbm3e": {
+      "term": "SADP/SAQP (without EUV for HBM3E)",
+      "first_seen": "2026-09-08"
+    },
+    "llmguidedprogramevolution": {
+      "term": "LLM-guided program evolution",
+      "first_seen": "2026-09-08"
+    },
+    "kvcacheasanagentruntime": {
+      "term": "KV cache as an agent runtime",
+      "first_seen": "2026-09-08"
+    },
+    "evie8bevie45bvisualdocumentretrieval": {
+      "term": "EVIE-8B / EVIE-4.5B (Visual Document Retrieval)",
+      "first_seen": "2026-09-08"
     }
   }
 }
