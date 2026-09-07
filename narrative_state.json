@@ -2210,6 +2210,22 @@
         "NVDA",
         "MSI"
       ]
+    },
+    "xpu": {
+      "name": "이기종 컴퓨팅 및 맞춤형 XPU 칩의 부상",
+      "first_seen": "2026-09-07",
+      "tickers": [
+        "AVGO",
+        "MRVL"
+      ]
+    },
+    "duvhbm3e": {
+      "name": "DUV 기반 HBM3E 생산 기술 발전",
+      "first_seen": "2026-09-07",
+      "tickers": [
+        "KLAC",
+        "AMAT"
+      ]
     }
   },
   "seen_tech": {
@@ -4279,6 +4295,30 @@
     },
     "quantumoracleengineering": {
       "term": "Quantum Oracle Engineering",
+      "first_seen": "2026-09-07"
+    },
+    "customhbmbasedieon4nmlogic": {
+      "term": "Custom HBM base die on 4nm logic",
+      "first_seen": "2026-09-07"
+    },
+    "xpu": {
+      "term": "XPU",
+      "first_seen": "2026-09-07"
+    },
+    "slidingwindowattentionswa": {
+      "term": "Sliding Window Attention (SWA)",
+      "first_seen": "2026-09-07"
+    },
+    "pinnstudio": {
+      "term": "PINNStudio",
+      "first_seen": "2026-09-07"
+    },
+    "fieldintelligencearchitecture": {
+      "term": "Field Intelligence architecture",
+      "first_seen": "2026-09-07"
+    },
+    "expertexpansionwithmoemodels": {
+      "term": "Expert expansion with MOE models",
       "first_seen": "2026-09-07"
     }
   }
