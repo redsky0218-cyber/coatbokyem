@@ -2262,6 +2262,25 @@
       "tickers": [
         "TXN"
       ]
+    },
+    "armainative": {
+      "name": "ARM의 AI-Native 모바일 컴퓨팅 플랫폼 확장",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "ARM",
+        "QCOM",
+        "GOOGL",
+        "AAPL"
+      ]
+    },
+    "aiedavlsi": {
+      "name": "AI 기반 EDA 도구의 VLSI 설계 자동화",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "AMAT"
+      ]
     }
   },
   "seen_tech": {
@@ -4440,6 +4459,38 @@
     "h3worldmodel": {
       "term": "H3 World Model",
       "first_seen": "2026-09-08"
+    },
+    "ainativecomputeplatform": {
+      "term": "AI-native compute platform",
+      "first_seen": "2026-09-09"
+    },
+    "aiedatoolsforrtlgeneration": {
+      "term": "AI EDA tools for RTL generation",
+      "first_seen": "2026-09-09"
+    },
+    "searchbasedcircuitsynthesizer": {
+      "term": "Search-based circuit synthesizer",
+      "first_seen": "2026-09-09"
+    },
+    "qwendrive": {
+      "term": "Qwen-Drive",
+      "first_seen": "2026-09-09"
+    },
+    "ling30flashvl": {
+      "term": "Ling-3.0-flash-VL",
+      "first_seen": "2026-09-09"
+    },
+    "aidrivenmineralexploration": {
+      "term": "AI-driven mineral exploration",
+      "first_seen": "2026-09-09"
+    },
+    "llmabliterationrefusalguardrails": {
+      "term": "LLM Abliteration (Refusal Guardrails)",
+      "first_seen": "2026-09-09"
+    },
+    "alphagenomeatlas": {
+      "term": "AlphaGenome Atlas",
+      "first_seen": "2026-09-09"
     }
   }
 }
