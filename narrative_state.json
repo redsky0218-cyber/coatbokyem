@@ -2237,6 +2237,31 @@
         "LRCX",
         "KLAC"
       ]
+    },
+    "vram": {
+      "name": "VRAM 수요 증가 및 고성능 메모리 중요성 부각",
+      "first_seen": "2026-09-08",
+      "tickers": [
+        "MU",
+        "WDC",
+        "SMCI"
+      ]
+    },
+    "ainativecomputeplatformnpu": {
+      "name": "AI-Native Compute Platform 및 NPU 확산",
+      "first_seen": "2026-09-08",
+      "tickers": [
+        "ARM",
+        "QCOM",
+        "MRVL"
+      ]
+    },
+    "dlpdiy": {
+      "name": "DLP 기반 마스크리스 포토리소그래피의 DIY 및 연구 활용",
+      "first_seen": "2026-09-08",
+      "tickers": [
+        "TXN"
+      ]
     }
   },
   "seen_tech": {
@@ -4386,6 +4411,34 @@
     },
     "taskawarequantizationtak": {
       "term": "task-aware quantization (TAK)",
+      "first_seen": "2026-09-08"
+    },
+    "systolicarraynpu": {
+      "term": "Systolic Array NPU",
+      "first_seen": "2026-09-08"
+    },
+    "directionalabliteration": {
+      "term": "Directional Abliteration",
+      "first_seen": "2026-09-08"
+    },
+    "aicustomerserviceagentshacking": {
+      "term": "AI Customer Service Agents Hacking",
+      "first_seen": "2026-09-08"
+    },
+    "fullyautonomoushumanoidfightworldmodelcontrol": {
+      "term": "Fully Autonomous Humanoid Fight (World Model Control)",
+      "first_seen": "2026-09-08"
+    },
+    "workflowsaspolicyorchestratorsrobotics": {
+      "term": "Workflows as Policy Orchestrators (Robotics)",
+      "first_seen": "2026-09-08"
+    },
+    "magicquant": {
+      "term": "MagicQuant",
+      "first_seen": "2026-09-08"
+    },
+    "h3worldmodel": {
+      "term": "H3 World Model",
       "first_seen": "2026-09-08"
     }
   }
