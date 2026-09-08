@@ -4379,6 +4379,14 @@
     "evie8bevie45bvisualdocumentretrieval": {
       "term": "EVIE-8B / EVIE-4.5B (Visual Document Retrieval)",
       "first_seen": "2026-09-08"
+    },
+    "logicfolding": {
+      "term": "logic folding",
+      "first_seen": "2026-09-08"
+    },
+    "taskawarequantizationtak": {
+      "term": "task-aware quantization (TAK)",
+      "first_seen": "2026-09-08"
     }
   }
 }
