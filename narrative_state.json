@@ -2330,6 +2330,26 @@
         "F",
         "GOOGL"
       ]
+    },
+    "aibiofouling": {
+      "name": "액체 냉각 AI 데이터센터의 생물학적 오염(Biofouling) 감지 및 예방",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "APH",
+        "ITW",
+        "HON",
+        "EMR"
+      ]
+    },
+    "rd": {
+      "name": "양자 컴퓨팅 R&D를 위한 정부 자금 지원 확대",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "QBTS",
+        "IONQ",
+        "RGTI",
+        "GTN"
+      ]
     }
   },
   "seen_tech": {
@@ -4555,6 +4575,30 @@
     },
     "neuralrenderingonamdgpudlssnronamd": {
       "term": "Neural Rendering on AMD GPU (DLSS-NR-on-AMD)",
+      "first_seen": "2026-09-09"
+    },
+    "chineseduvlithography": {
+      "term": "Chinese DUV lithography",
+      "first_seen": "2026-09-09"
+    },
+    "circuitsynthesizernonllm": {
+      "term": "Circuit Synthesizer (non-LLM)",
+      "first_seen": "2026-09-09"
+    },
+    "parameterizedsystolicarraynpu": {
+      "term": "Parameterized Systolic Array NPU",
+      "first_seen": "2026-09-09"
+    },
+    "biofoulinginliquidcooleddatacenters": {
+      "term": "Biofouling in Liquid-Cooled Data Centers",
+      "first_seen": "2026-09-09"
+    },
+    "weworm": {
+      "term": "WeWorm",
+      "first_seen": "2026-09-09"
+    },
+    "deepseekv4flashvisionexp285bmoe": {
+      "term": "DeepSeek-V4-Flash-Vision-Exp (285B MoE)",
       "first_seen": "2026-09-09"
     }
   }
