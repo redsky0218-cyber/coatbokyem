@@ -2350,6 +2350,14 @@
         "RGTI",
         "GTN"
       ]
+    },
+    "cpuopensilpdk": {
+      "name": "오픈소스 CPU 펌웨어 (openSIL) 및 오픈소스 하드웨어 PDK의 부상",
+      "first_seen": "2026-09-10",
+      "tickers": [
+        "AMD",
+        "GOOG"
+      ]
     }
   },
   "seen_tech": {
@@ -4600,6 +4608,38 @@
     "deepseekv4flashvisionexp285bmoe": {
       "term": "DeepSeek-V4-Flash-Vision-Exp (285B MoE)",
       "first_seen": "2026-09-09"
+    },
+    "biggermasksforsmallerchips": {
+      "term": "Bigger Masks for Smaller Chips",
+      "first_seen": "2026-09-10"
+    },
+    "2nmsmartphonechip": {
+      "term": "2nm Smartphone Chip",
+      "first_seen": "2026-09-10"
+    },
+    "aidesigneddrug": {
+      "term": "AI-Designed Drug",
+      "first_seen": "2026-09-10"
+    },
+    "knowledgegraphforhardwaredesign": {
+      "term": "Knowledge Graph for Hardware Design",
+      "first_seen": "2026-09-10"
+    },
+    "photomodulatedgasdesorption": {
+      "term": "Photomodulated Gas Desorption",
+      "first_seen": "2026-09-10"
+    },
+    "1bitllm": {
+      "term": "1-bit LLM",
+      "first_seen": "2026-09-10"
+    },
+    "webgpullminference": {
+      "term": "WebGPU LLM Inference",
+      "first_seen": "2026-09-10"
+    },
+    "2t1rrramarchitecture": {
+      "term": "2T1R RRAM Architecture",
+      "first_seen": "2026-09-10"
     }
   }
 }
