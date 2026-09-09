@@ -2281,6 +2281,55 @@
         "CDNS",
         "AMAT"
       ]
+    },
+    "armai": {
+      "name": "Arm의 모바일 AI-네이티브 컴퓨팅 플랫폼",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "ARM",
+        "QCOM",
+        "AAPL",
+        "GOOGL"
+      ]
+    },
+    "60co60": {
+      "name": "미국 내 코발트-60 (Co-60) 생산 증대",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "WEC",
+        "EXC",
+        "PNM"
+      ]
+    },
+    "gpurl": {
+      "name": "로봇 공학의 대규모 GPU 시뮬레이션 및 RL 훈련",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "DELL",
+        "HPQ"
+      ]
+    },
+    "aikv": {
+      "name": "AI 에이전트의 KV 캐시 최적화 및 상호작용성 향상",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MRVL",
+        "SMCI"
+      ]
+    },
+    "qwendrive": {
+      "name": "자율주행용 비전-언어 파운데이션 모델 (Qwen-Drive)",
+      "first_seen": "2026-09-09",
+      "tickers": [
+        "TSLA",
+        "GM",
+        "F",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -4490,6 +4539,22 @@
     },
     "alphagenomeatlas": {
       "term": "AlphaGenome Atlas",
+      "first_seen": "2026-09-09"
+    },
+    "ainativegraphics": {
+      "term": "AI-native graphics",
+      "first_seen": "2026-09-09"
+    },
+    "yuliangshengduvmachine": {
+      "term": "Yuliangsheng DUV machine",
+      "first_seen": "2026-09-09"
+    },
+    "aidrivensportsentertainmentandfanengagementplatform": {
+      "term": "AI-driven sports entertainment and fan engagement platform",
+      "first_seen": "2026-09-09"
+    },
+    "neuralrenderingonamdgpudlssnronamd": {
+      "term": "Neural Rendering on AMD GPU (DLSS-NR-on-AMD)",
       "first_seen": "2026-09-09"
     }
   }
