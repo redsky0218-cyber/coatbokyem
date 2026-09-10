@@ -2415,6 +2415,34 @@
         "RKLB",
         "VACQ"
       ]
+    },
+    "hbfhighbandwidthflashai": {
+      "name": "HBF(High-Bandwidth Flash)를 통한 AI 추론 효율성 향상",
+      "first_seen": "2026-09-11",
+      "tickers": [
+        "WDC",
+        "MU",
+        "SKYY"
+      ]
+    },
+    "cxlcomputeexpresslinkai": {
+      "name": "CXL(Compute Express Link)을 활용한 AI 데이터센터 메모리 확장",
+      "first_seen": "2026-09-11",
+      "tickers": [
+        "MRVL",
+        "NVDA",
+        "AMAT",
+        "LRCX"
+      ]
+    },
+    "aimledaelectronicdesignautomation": {
+      "name": "AI/ML 기반 EDA(Electronic Design Automation) 툴 도입",
+      "first_seen": "2026-09-11",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "ANSS"
+      ]
     }
   },
   "seen_tech": {
@@ -4745,6 +4773,22 @@
     "humanatlas": {
       "term": "Human-Atlas",
       "first_seen": "2026-09-10"
+    },
+    "hollowfibernanoporoushydrophobicmembranesfordatacentercooling": {
+      "term": "Hollow-fiber nanoporous hydrophobic membranes (for Data Center Cooling)",
+      "first_seen": "2026-09-11"
+    },
+    "sirirecaps": {
+      "term": "Siri Recaps",
+      "first_seen": "2026-09-11"
+    },
+    "deepseekv41flash": {
+      "term": "DeepSeek v4.1 Flash",
+      "first_seen": "2026-09-11"
+    },
+    "pascalphaseawaresharedcachemodelforparallelscans": {
+      "term": "PASCAL (Phase-Aware Shared-Cache Model for Parallel Scans)",
+      "first_seen": "2026-09-11"
     }
   }
 }
