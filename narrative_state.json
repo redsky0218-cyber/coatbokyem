@@ -2358,6 +2358,29 @@
         "AMD",
         "GOOG"
       ]
+    },
+    "applec22nm": {
+      "name": "Apple의 자체 C2 모뎀 탑재 및 2nm 칩 도입",
+      "first_seen": "2026-09-10",
+      "tickers": [
+        "AAPL",
+        "TSM"
+      ]
+    },
+    "qwen38flashnextllm": {
+      "name": "Qwen 3.8 Flash Next 모델을 통한 로컬 LLM 성능 향상",
+      "first_seen": "2026-09-10",
+      "tickers": [
+        "AMD",
+        "INTC"
+      ]
+    },
+    "opensilcoreboot": {
+      "name": "개방형 펌웨어(openSIL, Coreboot) 채택 확대",
+      "first_seen": "2026-09-10",
+      "tickers": [
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -4639,6 +4662,30 @@
     },
     "2t1rrramarchitecture": {
       "term": "2T1R RRAM Architecture",
+      "first_seen": "2026-09-10"
+    },
+    "c2modem": {
+      "term": "C2 Modem",
+      "first_seen": "2026-09-10"
+    },
+    "orbitalsemiconductorfactory": {
+      "term": "orbital semiconductor factory",
+      "first_seen": "2026-09-10"
+    },
+    "shapeshiftingquantumcomputer": {
+      "term": "shape-shifting quantum computer",
+      "first_seen": "2026-09-10"
+    },
+    "opensil": {
+      "term": "openSIL",
+      "first_seen": "2026-09-10"
+    },
+    "adaptivememorygovernor": {
+      "term": "adaptive memory governor",
+      "first_seen": "2026-09-10"
+    },
+    "macarraycomputationforneuralnetworkinference": {
+      "term": "MAC Array Computation for Neural Network Inference",
       "first_seen": "2026-09-10"
     }
   }
