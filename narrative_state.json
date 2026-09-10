@@ -2381,6 +2381,40 @@
       "tickers": [
         "AMD"
       ]
+    },
+    "sandiskhbfhighbandwidthflash": {
+      "name": "SanDisk의 HBF (High-Bandwidth Flash) 기술",
+      "first_seen": "2026-09-10",
+      "tickers": [
+        "WDC",
+        "MU"
+      ]
+    },
+    "marvellstructuraxcxl": {
+      "name": "Marvell의 Structura-X를 통한 CXL 메모리 확장",
+      "first_seen": "2026-09-10",
+      "tickers": [
+        "MRVL",
+        "NVDA"
+      ]
+    },
+    "llmceagpu": {
+      "name": "LLM 추론을 위한 CEA 아키텍처 (인코더/디코더 분리 및 이종 GPU 풀링)",
+      "first_seen": "2026-09-10",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MRVL"
+      ]
+    },
+    "orbitalsemiconductorfactory": {
+      "name": "궤도 내 반도체 제조 시설 (Orbital Semiconductor Factory)",
+      "first_seen": "2026-09-10",
+      "tickers": [
+        "SPCE",
+        "RKLB",
+        "VACQ"
+      ]
     }
   },
   "seen_tech": {
@@ -4686,6 +4720,30 @@
     },
     "macarraycomputationforneuralnetworkinference": {
       "term": "MAC Array Computation for Neural Network Inference",
+      "first_seen": "2026-09-10"
+    },
+    "structurax": {
+      "term": "Structura-X",
+      "first_seen": "2026-09-10"
+    },
+    "spikecontractfabricscf": {
+      "term": "Spike-Contract Fabric (SCF)",
+      "first_seen": "2026-09-10"
+    },
+    "pascalphaseawaresharedcachemodel": {
+      "term": "PASCAL (Phase-Aware Shared-Cache Model)",
+      "first_seen": "2026-09-10"
+    },
+    "kvarn4": {
+      "term": "kvarn4",
+      "first_seen": "2026-09-10"
+    },
+    "ceaarchitecturecoherentencoderdecoderarchitecture": {
+      "term": "CEA Architecture (Coherent Encoder-Decoder Architecture)",
+      "first_seen": "2026-09-10"
+    },
+    "humanatlas": {
+      "term": "Human-Atlas",
       "first_seen": "2026-09-10"
     }
   }
