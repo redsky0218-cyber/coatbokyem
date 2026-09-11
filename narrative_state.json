@@ -2477,6 +2477,32 @@
       "name": "중국 국내 DUV 리소그래피 장비 생산 확대",
       "first_seen": "2026-09-11",
       "tickers": []
+    },
+    "nvidiarubinai": {
+      "name": "NVIDIA Rubin 플랫폼 및 AI 팩토리 효율성 지표",
+      "first_seen": "2026-09-12",
+      "tickers": [
+        "NVDA",
+        "MPWR",
+        "CRDO",
+        "MRVL"
+      ]
+    },
+    "openaiai": {
+      "name": "OpenAI의 차세대 AI 프로세서 제조 이원화 전략",
+      "first_seen": "2026-09-12",
+      "tickers": [
+        "TSM",
+        "SMCI"
+      ]
+    },
+    "microledaigpu": {
+      "name": "MicroLED 기반 광학 인터커넥트를 통한 AI/GPU 클러스터 병목 현상 해결",
+      "first_seen": "2026-09-12",
+      "tickers": [
+        "FABC",
+        "KOPN"
+      ]
     }
   },
   "seen_tech": {
@@ -4875,6 +4901,26 @@
     "quantumhermitetransform": {
       "term": "Quantum Hermite Transform",
       "first_seen": "2026-09-11"
+    },
+    "tokenspersecondpermegawatt": {
+      "term": "tokens per second per megawatt",
+      "first_seen": "2026-09-12"
+    },
+    "nvlink6": {
+      "term": "NVLink 6",
+      "first_seen": "2026-09-12"
+    },
+    "mgxtrays": {
+      "term": "MGX trays",
+      "first_seen": "2026-09-12"
+    },
+    "microledopticalinterconnectsneuralio": {
+      "term": "MicroLED optical interconnects (Neural I/o)",
+      "first_seen": "2026-09-12"
+    },
+    "hotexpertreloadongpu": {
+      "term": "Hot Expert Reload on GPU",
+      "first_seen": "2026-09-12"
     }
   }
 }
