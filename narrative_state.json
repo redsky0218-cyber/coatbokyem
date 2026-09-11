@@ -2443,6 +2443,35 @@
         "CDNS",
         "ANSS"
       ]
+    },
+    "hbfhighbandwidthflash": {
+      "name": "HBF (High-Bandwidth Flash) 메모리 기술의 부상",
+      "first_seen": "2026-09-11",
+      "tickers": [
+        "WDC",
+        "MU",
+        "SKYY"
+      ]
+    },
+    "28nmduv": {
+      "name": "중국의 28nm급 DUV 리소그래피 장비 국내 생산 시작",
+      "first_seen": "2026-09-11",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLA"
+      ]
+    },
+    "cxlcomputeexpresslink": {
+      "name": "CXL (Compute Express Link) 기반 메모리 확장 및 풀링 기술 확산",
+      "first_seen": "2026-09-11",
+      "tickers": [
+        "MRVL",
+        "NVDA",
+        "CRDO",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -4788,6 +4817,30 @@
     },
     "pascalphaseawaresharedcachemodelforparallelscans": {
       "term": "PASCAL (Phase-Aware Shared-Cache Model for Parallel Scans)",
+      "first_seen": "2026-09-11"
+    },
+    "oryonv3": {
+      "term": "Oryon V3",
+      "first_seen": "2026-09-11"
+    },
+    "ailatentphasechangeheatrejection": {
+      "term": "AI 데이터센터 액체 냉각 (Latent Phase-Change Heat Rejection)",
+      "first_seen": "2026-09-11"
+    },
+    "swaboundedreplay": {
+      "term": "SWA Bounded Replay",
+      "first_seen": "2026-09-11"
+    },
+    "cherenkov": {
+      "term": "Cherenkov (추론 엔진)",
+      "first_seen": "2026-09-11"
+    },
+    "multimatte": {
+      "term": "MultiMatte",
+      "first_seen": "2026-09-11"
+    },
+    "aiincadmlbasedautomationforcad": {
+      "term": "AI in CAD (ML-based Automation for CAD)",
       "first_seen": "2026-09-11"
     }
   }
