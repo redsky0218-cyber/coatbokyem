@@ -2472,6 +2472,11 @@
         "CRDO",
         "SMCI"
       ]
+    },
+    "duv": {
+      "name": "중국 국내 DUV 리소그래피 장비 생산 확대",
+      "first_seen": "2026-09-11",
+      "tickers": []
     }
   },
   "seen_tech": {
@@ -4841,6 +4846,34 @@
     },
     "aiincadmlbasedautomationforcad": {
       "term": "AI in CAD (ML-based Automation for CAD)",
+      "first_seen": "2026-09-11"
+    },
+    "a20pro": {
+      "term": "A20 Pro",
+      "first_seen": "2026-09-11"
+    },
+    "apxadvancedperformanceextensions": {
+      "term": "APX (Advanced Performance Extensions)",
+      "first_seen": "2026-09-11"
+    },
+    "x86s": {
+      "term": "x86S",
+      "first_seen": "2026-09-11"
+    },
+    "binarytranslationonarmforx8664": {
+      "term": "Binary Translation on Arm for x86-64",
+      "first_seen": "2026-09-11"
+    },
+    "riscv": {
+      "term": "RISC-V",
+      "first_seen": "2026-09-11"
+    },
+    "aimlincad": {
+      "term": "AI-ML in CAD",
+      "first_seen": "2026-09-11"
+    },
+    "quantumhermitetransform": {
+      "term": "Quantum Hermite Transform",
       "first_seen": "2026-09-11"
     }
   }
