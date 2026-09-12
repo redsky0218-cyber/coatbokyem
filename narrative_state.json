@@ -2530,6 +2530,25 @@
         "SMCI",
         "GOOGL"
       ]
+    },
+    "cxmtdram": {
+      "name": "중국 CXMT의 공격적인 DRAM 생산 능력 확장",
+      "first_seen": "2026-09-13",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ASML"
+      ]
+    },
+    "aiiceda": {
+      "name": "AI 기반 아날로그 IC 설계 EDA 툴의 부상",
+      "first_seen": "2026-09-13",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "ANSS"
+      ]
     }
   },
   "seen_tech": {
@@ -4964,6 +4983,18 @@
     "deepfissionboreholedemonstration": {
       "term": "Deep Fission (Borehole Demonstration)",
       "first_seen": "2026-09-12"
+    },
+    "800vdcdistribution": {
+      "term": "800 VDC distribution",
+      "first_seen": "2026-09-13"
+    },
+    "aicapabilitiesinanalogicdesigneda": {
+      "term": "AI-capabilities in Analog IC Design EDA",
+      "first_seen": "2026-09-13"
+    },
+    "codefinetuner": {
+      "term": "CodeFinetuner",
+      "first_seen": "2026-09-13"
     }
   }
 }
