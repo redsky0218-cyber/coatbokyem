@@ -2503,6 +2503,33 @@
         "FABC",
         "KOPN"
       ]
+    },
+    "microledneuralio": {
+      "name": "MicroLED 기반 광학 인터커넥트 (Neural I/o)",
+      "first_seen": "2026-09-12",
+      "tickers": [
+        "FABC",
+        "KOPN",
+        "NVDA"
+      ]
+    },
+    "dtcdirecttochip": {
+      "name": "데이터센터 액체 냉각 및 DTC(Direct-to-Chip) 기술",
+      "first_seen": "2026-09-12",
+      "tickers": [
+        "ASTS",
+        "AMAT",
+        "APH"
+      ]
+    },
+    "ailpddr5x": {
+      "name": "AI 폰 및 LPDDR5X 메모리",
+      "first_seen": "2026-09-12",
+      "tickers": [
+        "MU",
+        "SMCI",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -4920,6 +4947,22 @@
     },
     "hotexpertreloadongpu": {
       "term": "Hot Expert Reload on GPU",
+      "first_seen": "2026-09-12"
+    },
+    "rubingpu": {
+      "term": "Rubin GPU",
+      "first_seen": "2026-09-12"
+    },
+    "gaananosheet": {
+      "term": "GAA Nanosheet",
+      "first_seen": "2026-09-12"
+    },
+    "agnes30flash": {
+      "term": "Agnes-3.0-Flash",
+      "first_seen": "2026-09-12"
+    },
+    "deepfissionboreholedemonstration": {
+      "term": "Deep Fission (Borehole Demonstration)",
       "first_seen": "2026-09-12"
     }
   }
