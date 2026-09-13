@@ -2566,6 +2566,23 @@
         "FABC",
         "KOPN"
       ]
+    },
+    "uvm": {
+      "name": "UVM 기반 검증 자동화 도구의 부상",
+      "first_seen": "2026-09-14",
+      "tickers": [
+        "CDNS",
+        "SNPS"
+      ]
+    },
+    "esoguard": {
+      "name": "차세대 의료 진단: 바렛 식도 조기 진단 기술 (EsoGuard)",
+      "first_seen": "2026-09-14",
+      "tickers": [
+        "LUCD",
+        "ILMN",
+        "GH"
+      ]
     }
   },
   "seen_tech": {
@@ -5044,6 +5061,30 @@
     "worldactionmodelswams": {
       "term": "World Action Models (WAMs)",
       "first_seen": "2026-09-13"
+    },
+    "cudaforamdonwindows": {
+      "term": "CUDA for AMD on Windows",
+      "first_seen": "2026-09-14"
+    },
+    "verechek": {
+      "term": "VereChek",
+      "first_seen": "2026-09-14"
+    },
+    "automatedstandardcellplacementandroutingvirtuoso": {
+      "term": "Automated Standard Cell Placement and Routing (Virtuoso)",
+      "first_seen": "2026-09-14"
+    },
+    "hypersoftxraysources": {
+      "term": "Hypersoft X-ray Sources",
+      "first_seen": "2026-09-14"
+    },
+    "spacenuclearpower": {
+      "term": "Space Nuclear Power",
+      "first_seen": "2026-09-14"
+    },
+    "uraniumconversionpilotplant": {
+      "term": "Uranium Conversion Pilot Plant",
+      "first_seen": "2026-09-14"
     }
   }
 }
