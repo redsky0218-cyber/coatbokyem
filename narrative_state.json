@@ -2549,6 +2549,15 @@
         "CDNS",
         "ANSS"
       ]
+    },
+    "airealswe": {
+      "name": "AI 모델의 실세계 기업 코드베이스 벤치마킹 (Real-SWE)",
+      "first_seen": "2026-09-13",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "IBM"
+      ]
     }
   },
   "seen_tech": {
@@ -4994,6 +5003,14 @@
     },
     "codefinetuner": {
       "term": "CodeFinetuner",
+      "first_seen": "2026-09-13"
+    },
+    "realswebenchmark": {
+      "term": "Real-SWE Benchmark",
+      "first_seen": "2026-09-13"
+    },
+    "aukflash": {
+      "term": "AuK-Flash",
       "first_seen": "2026-09-13"
     }
   }
