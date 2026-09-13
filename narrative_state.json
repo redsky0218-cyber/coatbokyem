@@ -2558,6 +2558,14 @@
         "GOOGL",
         "IBM"
       ]
+    },
+    "ledaigpu": {
+      "name": "마이크로LED 기반 AI/GPU 클러스터용 광학 인터커넥트",
+      "first_seen": "2026-09-13",
+      "tickers": [
+        "FABC",
+        "KOPN"
+      ]
     }
   },
   "seen_tech": {
@@ -5011,6 +5019,30 @@
     },
     "aukflash": {
       "term": "AuK-Flash",
+      "first_seen": "2026-09-13"
+    },
+    "aipoweredanalogicdesigneda": {
+      "term": "AI-powered Analog IC Design EDA",
+      "first_seen": "2026-09-13"
+    },
+    "majoranaqubitstopologicalquantumcomputing": {
+      "term": "Majorana Qubits / Topological Quantum Computing",
+      "first_seen": "2026-09-13"
+    },
+    "acousticdronedetectorfiberopticfpvdrones": {
+      "term": "Acoustic Drone Detector (Fiber-optic FPV drones)",
+      "first_seen": "2026-09-13"
+    },
+    "aiintegratedvmmanagerqemurusttauri": {
+      "term": "AI-Integrated VM Manager (QEMU, Rust, Tauri)",
+      "first_seen": "2026-09-13"
+    },
+    "neuraliomicroledopticalinterconnect": {
+      "term": "Neural I/o (MicroLED Optical Interconnect)",
+      "first_seen": "2026-09-13"
+    },
+    "worldactionmodelswams": {
+      "term": "World Action Models (WAMs)",
       "first_seen": "2026-09-13"
     }
   }
