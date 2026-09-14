@@ -5144,6 +5144,30 @@
     "echelongraphbot": {
       "term": "EchelonGraphBot",
       "first_seen": "2026-09-14"
+    },
+    "thunderbolt5": {
+      "term": "Thunderbolt 5",
+      "first_seen": "2026-09-14"
+    },
+    "oculink": {
+      "term": "OCuLink",
+      "first_seen": "2026-09-14"
+    },
+    "aiforanalogicdesignautomation": {
+      "term": "AI for Analog IC Design Automation",
+      "first_seen": "2026-09-14"
+    },
+    "aiagentssecurity": {
+      "term": "AI Agents Security",
+      "first_seen": "2026-09-14"
+    },
+    "deepseekv41flashkvcacheengram": {
+      "term": "DeepSeek-V4.1-Flash (KVCache + Engram)",
+      "first_seen": "2026-09-14"
+    },
+    "ternarymoearchitecture": {
+      "term": "Ternary MoE Architecture",
+      "first_seen": "2026-09-14"
     }
   }
 }
