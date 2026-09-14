@@ -2583,6 +2583,33 @@
         "ILMN",
         "GH"
       ]
+    },
+    "esmc": {
+      "name": "유럽 내 반도체 제조 역량 확장 (ESMC 프로젝트)",
+      "first_seen": "2026-09-14",
+      "tickers": [
+        "LRCX",
+        "KLAC",
+        "AMAT"
+      ]
+    },
+    "t": {
+      "name": "비특이적 종양 내 T세포 활성화를 통한 암 치료 접근법",
+      "first_seen": "2026-09-14",
+      "tickers": [
+        "BMY",
+        "MRK",
+        "NVS"
+      ]
+    },
+    "tsmc": {
+      "name": "로봇 부품 및 표준 플랫폼의 'TSMC' 모델 부상 가능성",
+      "first_seen": "2026-09-14",
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -5084,6 +5111,38 @@
     },
     "uraniumconversionpilotplant": {
       "term": "Uranium Conversion Pilot Plant",
+      "first_seen": "2026-09-14"
+    },
+    "steamframe": {
+      "term": "Steam Frame",
+      "first_seen": "2026-09-14"
+    },
+    "advancedsemiconductormetrologysurfacetopography": {
+      "term": "Advanced Semiconductor Metrology (Surface Topography)",
+      "first_seen": "2026-09-14"
+    },
+    "intratumoraltcellactivation": {
+      "term": "Intratumoral T cell activation",
+      "first_seen": "2026-09-14"
+    },
+    "openwamworldactionmodels": {
+      "term": "OpenWAM (World Action Models)",
+      "first_seen": "2026-09-14"
+    },
+    "tahunaaitraininginfrastructure": {
+      "term": "Tahuna (AI Training Infrastructure)",
+      "first_seen": "2026-09-14"
+    },
+    "zeroknowledgeproofsforsignalregistration": {
+      "term": "Zero-knowledge proofs for Signal registration",
+      "first_seen": "2026-09-14"
+    },
+    "aigeneratedvulnerabilitypatches": {
+      "term": "AI-generated vulnerability patches",
+      "first_seen": "2026-09-14"
+    },
+    "echelongraphbot": {
+      "term": "EchelonGraphBot",
       "first_seen": "2026-09-14"
     }
   }
