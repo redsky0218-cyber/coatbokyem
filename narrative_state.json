@@ -2690,6 +2690,17 @@
         "POCI",
         "RKLB"
       ]
+    },
+    "21d3d": {
+      "name": "2.1D/3D 첨단 패키징 기술 동맹 강화",
+      "first_seen": "2026-09-16",
+      "tickers": [
+        "AMKR",
+        "ASX",
+        "LRCX",
+        "AMAT",
+        "TSM"
+      ]
     }
   },
   "seen_tech": {
@@ -5304,6 +5315,34 @@
     "clickfixsocialengineering": {
       "term": "ClickFix (Social Engineering)",
       "first_seen": "2026-09-15"
+    },
+    "21dpackaging": {
+      "term": "2.1D Packaging",
+      "first_seen": "2026-09-16"
+    },
+    "aiinferencehardwarepivot": {
+      "term": "AI Inference Hardware Pivot",
+      "first_seen": "2026-09-16"
+    },
+    "gpnstargenomiclanguageaimodel": {
+      "term": "GPN-Star (Genomic Language AI Model)",
+      "first_seen": "2026-09-16"
+    },
+    "shadow50mquantizedllm": {
+      "term": "SHADOW-50M (Quantized LLM)",
+      "first_seen": "2026-09-16"
+    },
+    "voodoodynamicquant": {
+      "term": "Voodoo Dynamic Quant",
+      "first_seen": "2026-09-16"
+    },
+    "webagentswithvisualinformation": {
+      "term": "Web Agents with Visual Information",
+      "first_seen": "2026-09-16"
+    },
+    "monocularvideobasedrobottraining": {
+      "term": "Monocular Video-based Robot Training",
+      "first_seen": "2026-09-16"
     }
   }
 }
