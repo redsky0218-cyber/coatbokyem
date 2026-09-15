@@ -2634,6 +2634,34 @@
       "tickers": [
         "AIMD"
       ]
+    },
+    "aiic": {
+      "name": "AI 기반 아날로그 IC 설계 자동화",
+      "first_seen": "2026-09-15",
+      "tickers": [
+        "CDNS",
+        "SNPS",
+        "ANSS"
+      ]
+    },
+    "aishadowairedteaming": {
+      "name": "AI 기반 사이버보안: Shadow AI 탐지 및 Red-Teaming",
+      "first_seen": "2026-09-15",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "S",
+        "OKTA"
+      ]
+    },
+    "uav": {
+      "name": "국방 및 우주 산업의 광학 어셈블리 및 UAV 수요 증가",
+      "first_seen": "2026-09-15",
+      "tickers": [
+        "POCI",
+        "AVAV",
+        "RKLB"
+      ]
     }
   },
   "seen_tech": {
@@ -5215,6 +5243,26 @@
     },
     "aivideolearningtoolingskills": {
       "term": "AI Video Learning/Tooling Skills",
+      "first_seen": "2026-09-15"
+    },
+    "scanningacousticmicroscopysam": {
+      "term": "Scanning Acoustic Microscopy (SAM)",
+      "first_seen": "2026-09-15"
+    },
+    "malecns": {
+      "term": "MaleCNS",
+      "first_seen": "2026-09-15"
+    },
+    "shadowaidetection": {
+      "term": "Shadow AI Detection",
+      "first_seen": "2026-09-15"
+    },
+    "airedteamingengine": {
+      "term": "AI Red-Teaming Engine",
+      "first_seen": "2026-09-15"
+    },
+    "gddr7memory": {
+      "term": "GDDR7 Memory",
       "first_seen": "2026-09-15"
     }
   }
