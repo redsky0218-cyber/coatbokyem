@@ -2662,6 +2662,34 @@
         "AVAV",
         "RKLB"
       ]
+    },
+    "loopedtransformer": {
+      "name": "루프드 트랜스포머(Looped Transformer) 아키텍처의 부상",
+      "first_seen": "2026-09-15",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MRVL"
+      ]
+    },
+    "aipagerdutypd": {
+      "name": "AI 기반 운영 관리 플랫폼으로 전환하는 PagerDuty (PD)",
+      "first_seen": "2026-09-15",
+      "tickers": [
+        "PD"
+      ]
+    },
+    "spacecontrol": {
+      "name": "우주 통제(Space Control) 무기 및 인프라의 군사적 중요성 증대",
+      "first_seen": "2026-09-15",
+      "tickers": [
+        "NOC",
+        "LMT",
+        "RTX",
+        "POCI",
+        "RKLB"
+      ]
     }
   },
   "seen_tech": {
@@ -5263,6 +5291,18 @@
     },
     "gddr7memory": {
       "term": "GDDR7 Memory",
+      "first_seen": "2026-09-15"
+    },
+    "physicalintelligence": {
+      "term": "Physical Intelligence",
+      "first_seen": "2026-09-15"
+    },
+    "aiagentforautomatedanalogcircuitsizing": {
+      "term": "AI agent for automated analog circuit sizing",
+      "first_seen": "2026-09-15"
+    },
+    "clickfixsocialengineering": {
+      "term": "ClickFix (Social Engineering)",
       "first_seen": "2026-09-15"
     }
   }
