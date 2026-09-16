@@ -2734,6 +2734,33 @@
         "MRK",
         "PFE"
       ]
+    },
+    "ainvlink": {
+      "name": "AI 클러스터용 차세대 네트워킹 솔루션 경쟁 심화 (NVLink 대안)",
+      "first_seen": "2026-09-17",
+      "tickers": [
+        "CRDO",
+        "ANET",
+        "AAOI"
+      ]
+    },
+    "lofic": {
+      "name": "차세대 이미지 센서 기술 LOFIC의 부상",
+      "first_seen": "2026-09-17",
+      "tickers": [
+        "ON",
+        "SLAB"
+      ]
+    },
+    "fdaexpeditedindpilot": {
+      "name": "FDA의 신약 개발 가속화 프로그램 (Expedited IND Pilot)",
+      "first_seen": "2026-09-17",
+      "tickers": [
+        "XBI",
+        "IBB",
+        "MRNA",
+        "BNTX"
+      ]
     }
   },
   "seen_tech": {
@@ -5396,6 +5423,38 @@
     "embodiedaiforrobotics": {
       "term": "Embodied AI for Robotics",
       "first_seen": "2026-09-16"
+    },
+    "rdna5at2at0": {
+      "term": "RDNA 5 (AT2, AT0)",
+      "first_seen": "2026-09-17"
+    },
+    "loficlateraloverflowintegrationcapacitor": {
+      "term": "LOFIC (Lateral OverFlow Integration Capacitor)",
+      "first_seen": "2026-09-17"
+    },
+    "aiclusterruntimevalidationdeploymentmetrics": {
+      "term": "AI Cluster Runtime Validation/Deployment Metrics",
+      "first_seen": "2026-09-17"
+    },
+    "satelliteuserterminalsiliconforleo": {
+      "term": "Satellite User-Terminal Silicon for LEO",
+      "first_seen": "2026-09-17"
+    },
+    "laralightweightadditiveresidualadaptation": {
+      "term": "LARA (Lightweight Additive Residual Adaptation)",
+      "first_seen": "2026-09-17"
+    },
+    "neuralreflexmodelnrmforrobotics": {
+      "term": "Neural Reflex Model (NRM) for Robotics",
+      "first_seen": "2026-09-17"
+    },
+    "postquantumcryptographypqcmigrationstandards": {
+      "term": "Post-Quantum Cryptography (PQC) Migration Standards",
+      "first_seen": "2026-09-17"
+    },
+    "adaptivealgorithmiccontrola2c": {
+      "term": "Adaptive Algorithmic Control (A2C)",
+      "first_seen": "2026-09-17"
     }
   }
 }
