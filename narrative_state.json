@@ -2701,6 +2701,39 @@
         "AMAT",
         "TSM"
       ]
+    },
+    "recurrentloopedtransformer": {
+      "name": "루프 트랜스포머 아키텍처 (Recurrent Looped Transformer)",
+      "first_seen": "2026-09-16",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "MRVL",
+        "CDNS",
+        "SNPS"
+      ]
+    },
+    "21d": {
+      "name": "2.1D 첨단 패키징 기술 동맹",
+      "first_seen": "2026-09-16",
+      "tickers": [
+        "AMKR",
+        "ASE",
+        "TSM",
+        "QCOM",
+        "SMCI"
+      ]
+    },
+    "rasonvansertib3": {
+      "name": "RAS 변이 대장암 치료제 '온반서팁(Onvansertib)'의 임상 3상 진입",
+      "first_seen": "2026-09-16",
+      "tickers": [
+        "CRDF",
+        "AMGN",
+        "MRK",
+        "PFE"
+      ]
     }
   },
   "seen_tech": {
@@ -5342,6 +5375,26 @@
     },
     "monocularvideobasedrobottraining": {
       "term": "Monocular Video-based Robot Training",
+      "first_seen": "2026-09-16"
+    },
+    "shapelearnggufs": {
+      "term": "ShapeLearn GGUFs",
+      "first_seen": "2026-09-16"
+    },
+    "jinfer": {
+      "term": "jinfer",
+      "first_seen": "2026-09-16"
+    },
+    "postquantumcryptographypqcmigration": {
+      "term": "Post-Quantum Cryptography (PQC) Migration",
+      "first_seen": "2026-09-16"
+    },
+    "webagents": {
+      "term": "Web Agents",
+      "first_seen": "2026-09-16"
+    },
+    "embodiedaiforrobotics": {
+      "term": "Embodied AI for Robotics",
       "first_seen": "2026-09-16"
     }
   }
