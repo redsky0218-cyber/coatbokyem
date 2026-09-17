@@ -2779,6 +2779,15 @@
         "OKTA",
         "ZS"
       ]
+    },
+    "3ddramtsmc": {
+      "name": "3D DRAM의 로직 파운드리 통합 및 TSMC 협력 확대",
+      "first_seen": "2026-09-18",
+      "tickers": [
+        "TSM",
+        "KLAC",
+        "AMAT"
+      ]
     }
   },
   "seen_tech": {
@@ -5497,6 +5506,34 @@
     "tabpfn35": {
       "term": "TabPFN-3.5",
       "first_seen": "2026-09-17"
+    },
+    "npobasedascend960superpod": {
+      "term": "NPO-based Ascend 960 SuperPoD",
+      "first_seen": "2026-09-18"
+    },
+    "tsmcn2p": {
+      "term": "TSMC N2P",
+      "first_seen": "2026-09-18"
+    },
+    "armagicpu": {
+      "term": "Arm AGI CPU",
+      "first_seen": "2026-09-18"
+    },
+    "curvilinearopcilt": {
+      "term": "Curvilinear OPC / ILT",
+      "first_seen": "2026-09-18"
+    },
+    "graphiteinsmrs": {
+      "term": "Graphite in SMRs",
+      "first_seen": "2026-09-18"
+    },
+    "hydrogenboronfusionhelong2": {
+      "term": "Hydrogen-Boron fusion (Helong-2)",
+      "first_seen": "2026-09-18"
+    },
+    "agenticaiintelecomnetworkoperations": {
+      "term": "Agentic AI in Telecom Network Operations",
+      "first_seen": "2026-09-18"
     }
   }
 }
