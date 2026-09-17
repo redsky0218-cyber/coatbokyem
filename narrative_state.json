@@ -2761,6 +2761,24 @@
         "MRNA",
         "BNTX"
       ]
+    },
+    "nvlinkai": {
+      "name": "NVLink 대체 AI 네트워킹 스타트업 경쟁",
+      "first_seen": "2026-09-17",
+      "tickers": [
+        "CRDO",
+        "MRVL",
+        "CDNS"
+      ]
+    },
+    "aisoc": {
+      "name": "AI 에이전트 기반의 사이버 보안 SOC 도입",
+      "first_seen": "2026-09-17",
+      "tickers": [
+        "CRWD",
+        "OKTA",
+        "ZS"
+      ]
     }
   },
   "seen_tech": {
@@ -5454,6 +5472,30 @@
     },
     "adaptivealgorithmiccontrola2c": {
       "term": "Adaptive Algorithmic Control (A2C)",
+      "first_seen": "2026-09-17"
+    },
+    "hydrogenboronfusion": {
+      "term": "Hydrogen-boron fusion (수소-붕소 핵융합)",
+      "first_seen": "2026-09-17"
+    },
+    "xe100": {
+      "term": "Xe-100",
+      "first_seen": "2026-09-17"
+    },
+    "thresholdkeysquorumapprovedroles": {
+      "term": "Threshold Keys / Quorum-Approved Roles",
+      "first_seen": "2026-09-17"
+    },
+    "agenticsoc": {
+      "term": "Agentic SOC",
+      "first_seen": "2026-09-17"
+    },
+    "jevarchitecturesystemonemodels": {
+      "term": "Jev architecture / System One Models",
+      "first_seen": "2026-09-17"
+    },
+    "tabpfn35": {
+      "term": "TabPFN-3.5",
       "first_seen": "2026-09-17"
     }
   }
