@@ -2815,6 +2815,14 @@
         "AAPL",
         "NVDA"
       ]
+    },
+    "riscvai": {
+      "name": "데이터센터용 RISC-V AI 워크로드 확장",
+      "first_seen": "2026-09-18",
+      "tickers": [
+        "AMD",
+        "ARM"
+      ]
     }
   },
   "seen_tech": {
@@ -5584,6 +5592,30 @@
     },
     "jev": {
       "term": "jev",
+      "first_seen": "2026-09-18"
+    },
+    "agicpu": {
+      "term": "AGI CPU",
+      "first_seen": "2026-09-18"
+    },
+    "ternaryweightsllm": {
+      "term": "Ternary Weights (LLM)",
+      "first_seen": "2026-09-18"
+    },
+    "jevsystemonemodels": {
+      "term": "Jev (System One Models)",
+      "first_seen": "2026-09-18"
+    },
+    "cactusneedle3": {
+      "term": "Cactus Needle 3",
+      "first_seen": "2026-09-18"
+    },
+    "volumetricevanescentedgecoupling": {
+      "term": "Volumetric Evanescent Edge Coupling",
+      "first_seen": "2026-09-18"
+    },
+    "floppingmodespinqubitingermanium": {
+      "term": "Flopping-mode spin qubit in germanium",
       "first_seen": "2026-09-18"
     }
   }
