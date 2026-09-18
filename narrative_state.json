@@ -2788,6 +2788,33 @@
         "KLAC",
         "AMAT"
       ]
+    },
+    "3ddram": {
+      "name": "3D DRAM과 로직 파운드리 통합",
+      "first_seen": "2026-09-18",
+      "tickers": [
+        "TSM",
+        "MU",
+        "AMAT"
+      ]
+    },
+    "airiscv": {
+      "name": "데이터센터 AI 워크로드용 RISC-V 아키텍처 확장",
+      "first_seen": "2026-09-18",
+      "tickers": [
+        "AMD",
+        "PLAB",
+        "CEVA"
+      ]
+    },
+    "aim8ultra": {
+      "name": "AI 서버 시장 성장 및 M8 Ultra 칩 기반 서버",
+      "first_seen": "2026-09-18",
+      "tickers": [
+        "SMCI",
+        "AAPL",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -5533,6 +5560,30 @@
     },
     "agenticaiintelecomnetworkoperations": {
       "term": "Agentic AI in Telecom Network Operations",
+      "first_seen": "2026-09-18"
+    },
+    "3ddram": {
+      "term": "3D DRAM",
+      "first_seen": "2026-09-18"
+    },
+    "rocmaiworkloadsonriscvdatacenterplatform": {
+      "term": "ROCm AI Workloads on RISC-V Datacenter Platform",
+      "first_seen": "2026-09-18"
+    },
+    "dual16corenpu": {
+      "term": "dual 16 core NPU",
+      "first_seen": "2026-09-18"
+    },
+    "mcpmulticloudplatformsecuritycontrols": {
+      "term": "MCP (Multi-Cloud Platform) Security Controls",
+      "first_seen": "2026-09-18"
+    },
+    "agrusscanner": {
+      "term": "Agrus Scanner",
+      "first_seen": "2026-09-18"
+    },
+    "jev": {
+      "term": "jev",
       "first_seen": "2026-09-18"
     }
   }
