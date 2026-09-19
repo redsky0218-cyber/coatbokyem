@@ -2823,6 +2823,13 @@
         "AMD",
         "ARM"
       ]
+    },
+    "amdrdna5gpuai": {
+      "name": "AMD RDNA 5 아키텍처의 소비자 GPU AI 가속화",
+      "first_seen": "2026-09-19",
+      "tickers": [
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -5617,6 +5624,30 @@
     "floppingmodespinqubitingermanium": {
       "term": "Flopping-mode spin qubit in germanium",
       "first_seen": "2026-09-18"
+    },
+    "fp4fp8matmul": {
+      "term": "FP4/FP8 matmul",
+      "first_seen": "2026-09-19"
+    },
+    "mldenoisersfsrdiamondrr": {
+      "term": "ML denoisers (FSR Diamond, RR)",
+      "first_seen": "2026-09-19"
+    },
+    "snapdragonx2eliteoryoncores": {
+      "term": "Snapdragon X2 Elite / Oryon Cores",
+      "first_seen": "2026-09-19"
+    },
+    "llmsforchipdesign": {
+      "term": "LLMs for chip design",
+      "first_seen": "2026-09-19"
+    },
+    "floppingmodespinqubit": {
+      "term": "Flopping-mode spin qubit",
+      "first_seen": "2026-09-19"
+    },
+    "llmsecuritypromptinjection": {
+      "term": "LLM security / Prompt injection",
+      "first_seen": "2026-09-19"
     }
   }
 }
