@@ -2830,6 +2830,30 @@
       "tickers": [
         "AMD"
       ]
+    },
+    "globalfoundriesgfsai": {
+      "name": "GlobalFoundries(GFS)의 엣지 AI/로봇공학용 대형 노드, 포토닉스, 양자 제조 분야 성장 잠재력",
+      "first_seen": "2026-09-20",
+      "tickers": [
+        "GFS",
+        "MRVL"
+      ]
+    },
+    "hbm3ehbm4sca": {
+      "name": "HBM3e/HBM4 및 전략적 고객 계약(SCA)을 통한 메모리 산업의 탈(脫)주기화",
+      "first_seen": "2026-09-20",
+      "tickers": [
+        "MU",
+        "WDC"
+      ]
+    },
+    "micronuclear20mw": {
+      "name": "MicroNuclear의 20MW 용융염 원자력 배터리 기술 발전",
+      "first_seen": "2026-09-20",
+      "tickers": [
+        "BWXT",
+        "SMR"
+      ]
     }
   },
   "seen_tech": {
@@ -5648,6 +5672,30 @@
     "llmsecuritypromptinjection": {
       "term": "LLM security / Prompt injection",
       "first_seen": "2026-09-19"
+    },
+    "duvrouteto3nmgaa": {
+      "term": "DUV route to 3nm GAA",
+      "first_seen": "2026-09-20"
+    },
+    "jalapeochip": {
+      "term": "Jalapeño Chip",
+      "first_seen": "2026-09-20"
+    },
+    "moltensaltnuclearbattery": {
+      "term": "Molten Salt Nuclear Battery",
+      "first_seen": "2026-09-20"
+    },
+    "approachagnosticquantummanufacturingcapability": {
+      "term": "Approach-agnostic quantum manufacturing capability",
+      "first_seen": "2026-09-20"
+    },
+    "abliteratedmodels": {
+      "term": "abliterated models",
+      "first_seen": "2026-09-20"
+    },
+    "onpandaonpolicyalignmentdataannotator": {
+      "term": "onPanda (on-Policy Alignment Data Annotator)",
+      "first_seen": "2026-09-20"
     }
   }
 }
