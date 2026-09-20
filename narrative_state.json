@@ -2854,6 +2854,13 @@
         "BWXT",
         "SMR"
       ]
+    },
+    "xnpupc": {
+      "name": "퀄컴 스냅드래곤 X 엘리트 기반 고성능 NPU 미니 PC 시장 진입",
+      "first_seen": "2026-09-20",
+      "tickers": [
+        "QCOM"
+      ]
     }
   },
   "seen_tech": {
@@ -5695,6 +5702,30 @@
     },
     "onpandaonpolicyalignmentdataannotator": {
       "term": "onPanda (on-Policy Alignment Data Annotator)",
+      "first_seen": "2026-09-20"
+    },
+    "fp4fp8matmulonconsumergpus": {
+      "term": "FP4/FP8 matmul on consumer GPUs",
+      "first_seen": "2026-09-20"
+    },
+    "duvbased3nmgaa": {
+      "term": "DUV-based 3nm GAA",
+      "first_seen": "2026-09-20"
+    },
+    "aidrivenchipdesignusingllms": {
+      "term": "AI-driven chip design (using LLMs)",
+      "first_seen": "2026-09-20"
+    },
+    "ncfetsnegativecapacitancefieldeffecttransistors": {
+      "term": "NCFETs (Negative Capacitance Field Effect Transistors)",
+      "first_seen": "2026-09-20"
+    },
+    "jevtypesafessystemonemodel": {
+      "term": "Jev (TypeSafe's System One model)",
+      "first_seen": "2026-09-20"
+    },
+    "kvcachecompressiondeepseekv41flash": {
+      "term": "KV Cache Compression (DeepSeek-V4.1-Flash)",
       "first_seen": "2026-09-20"
     }
   }
