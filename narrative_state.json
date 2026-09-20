@@ -2861,6 +2861,31 @@
       "tickers": [
         "QCOM"
       ]
+    },
+    "applesiliconainvidia": {
+      "name": "Apple Silicon의 AI/그래픽 성능 향상 및 Nvidia 경쟁 구도",
+      "first_seen": "2026-09-20",
+      "tickers": [
+        "AAPL",
+        "NVDA"
+      ]
+    },
+    "nonautoregressiveaijev": {
+      "name": "비자기회적(Non-Autoregressive) AI 결정 모델 'Jev'의 부상",
+      "first_seen": "2026-09-20",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ]
+    },
+    "iovolumetricevanescentedgecoupling": {
+      "name": "차세대 광학 I/O를 위한 'Volumetric Evanescent Edge Coupling' 기술",
+      "first_seen": "2026-09-20",
+      "tickers": [
+        "LITE",
+        "COHR",
+        "MRVL"
+      ]
     }
   },
   "seen_tech": {
@@ -5726,6 +5751,26 @@
     },
     "kvcachecompressiondeepseekv41flash": {
       "term": "KV Cache Compression (DeepSeek-V4.1-Flash)",
+      "first_seen": "2026-09-20"
+    },
+    "duv3nmgaa": {
+      "term": "DUV 3nm GAA",
+      "first_seen": "2026-09-20"
+    },
+    "jevnonautoregressivedecisionmodels": {
+      "term": "Jev (Non-Autoregressive Decision Models)",
+      "first_seen": "2026-09-20"
+    },
+    "ncfetnegativecapacitancefieldeffecttransistors": {
+      "term": "NCFET (Negative Capacitance Field Effect Transistors)",
+      "first_seen": "2026-09-20"
+    },
+    "pqcpostquantumcryptography": {
+      "term": "PQC (Post-Quantum Cryptography)",
+      "first_seen": "2026-09-20"
+    },
+    "riscvinmachinelearning": {
+      "term": "RISC-V in Machine Learning",
       "first_seen": "2026-09-20"
     }
   }
