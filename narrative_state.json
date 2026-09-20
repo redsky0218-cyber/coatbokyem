@@ -2886,6 +2886,36 @@
         "COHR",
         "MRVL"
       ]
+    },
+    "hbm4hbm4e": {
+      "name": "HBM4/HBM4E 및 글래스 캐리어 기술의 부상",
+      "first_seen": "2026-09-21",
+      "tickers": [
+        "MU",
+        "WDC",
+        "AMKR",
+        "COHR",
+        "ASML"
+      ]
+    },
+    "ppa": {
+      "name": "데이터센터 전력 공급을 위한 원자력 PPA 확대",
+      "first_seen": "2026-09-21",
+      "tickers": [
+        "CEG",
+        "EXC",
+        "NFE"
+      ]
+    },
+    "aigoalhijack": {
+      "name": "AI 에이전트 보안 취약점 및 'Goal Hijack' 공격",
+      "first_seen": "2026-09-21",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "OKTA",
+        "MSFT"
+      ]
     }
   },
   "seen_tech": {
@@ -5772,6 +5802,30 @@
     "riscvinmachinelearning": {
       "term": "RISC-V in Machine Learning",
       "first_seen": "2026-09-20"
+    },
+    "hbm4hbm4edram": {
+      "term": "HBM4/HBM4E DRAM",
+      "first_seen": "2026-09-21"
+    },
+    "glasscarriers": {
+      "term": "Glass Carriers (유리 기판)",
+      "first_seen": "2026-09-21"
+    },
+    "lunarmassdriver": {
+      "term": "Lunar Mass Driver",
+      "first_seen": "2026-09-21"
+    },
+    "programasweightspaw": {
+      "term": "ProgramAsWeights (PAW)",
+      "first_seen": "2026-09-21"
+    },
+    "jevlayaosjev": {
+      "term": "Jev / Laya (OS Jev)",
+      "first_seen": "2026-09-21"
+    },
+    "aigeneratedexploit": {
+      "term": "AI-Generated Exploit",
+      "first_seen": "2026-09-21"
     }
   }
 }
