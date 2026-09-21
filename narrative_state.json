@@ -2958,6 +2958,14 @@
         "PL",
         "VSAT"
       ]
+    },
+    "cxmt5dram": {
+      "name": "중국 메모리 칩 제조업체 CXMT의 5세대 DRAM 플랫폼 양산",
+      "first_seen": "2026-09-22",
+      "tickers": [
+        "MU",
+        "WDC"
+      ]
     }
   },
   "seen_tech": {
@@ -5899,6 +5907,22 @@
     },
     "miniagi": {
       "term": "Mini-AGI",
+      "first_seen": "2026-09-22"
+    },
+    "laya": {
+      "term": "Laya",
+      "first_seen": "2026-09-22"
+    },
+    "nebulamatrixnetworkdriver": {
+      "term": "Nebula Matrix Network Driver",
+      "first_seen": "2026-09-22"
+    },
+    "http3quic": {
+      "term": "HTTP/3 QUIC 강제 적용",
+      "first_seen": "2026-09-22"
+    },
+    "reapmtp": {
+      "term": "REAP/MTP",
       "first_seen": "2026-09-22"
     }
   }
