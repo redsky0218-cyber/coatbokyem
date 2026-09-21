@@ -2916,6 +2916,30 @@
         "OKTA",
         "MSFT"
       ]
+    },
+    "aiaiforchipdesign": {
+      "name": "AI 기반 칩 설계 자동화 (AI for Chip Design)",
+      "first_seen": "2026-09-21",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "NVDA"
+      ]
+    },
+    "armpcai": {
+      "name": "ARM 기반 미니 PC 및 AI 가속기 시장 성장",
+      "first_seen": "2026-09-21",
+      "tickers": [
+        "QCOM",
+        "ARM"
+      ]
+    },
+    "lunarmassdriver": {
+      "name": "월면 전자기 질량 발사기(Lunar Mass Driver) 개발 개념",
+      "first_seen": "2026-09-21",
+      "tickers": [
+        "RKLB"
+      ]
     }
   },
   "seen_tech": {
@@ -5825,6 +5849,18 @@
     },
     "aigeneratedexploit": {
       "term": "AI-Generated Exploit",
+      "first_seen": "2026-09-21"
+    },
+    "jalapeochipopenaisaidesignedchip": {
+      "term": "Jalapeño Chip (OpenAI's AI-designed chip)",
+      "first_seen": "2026-09-21"
+    },
+    "formalverificationincreasingadoption": {
+      "term": "Formal Verification (increasing adoption)",
+      "first_seen": "2026-09-21"
+    },
+    "qwenimage21": {
+      "term": "Qwen-Image-2.1",
       "first_seen": "2026-09-21"
     }
   }
