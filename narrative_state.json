@@ -2940,6 +2940,24 @@
       "tickers": [
         "RKLB"
       ]
+    },
+    "bci": {
+      "name": "비침습적 뇌-컴퓨터 인터페이스 (BCI) 기술 상용화",
+      "first_seen": "2026-09-22",
+      "tickers": [
+        "IDKFF",
+        "HPQ",
+        "SONO"
+      ]
+    },
+    "starlinkv3": {
+      "name": "Starlink V3 플랫폼의 상업 위성 페이로드 호스팅 전환",
+      "first_seen": "2026-09-22",
+      "tickers": [
+        "RKLB",
+        "PL",
+        "VSAT"
+      ]
     }
   },
   "seen_tech": {
@@ -5862,6 +5880,26 @@
     "qwenimage21": {
       "term": "Qwen-Image-2.1",
       "first_seen": "2026-09-21"
+    },
+    "gddr7": {
+      "term": "GDDR7",
+      "first_seen": "2026-09-22"
+    },
+    "2nmchip2": {
+      "term": "2 nm chip (2나노 칩)",
+      "first_seen": "2026-09-22"
+    },
+    "jevbench": {
+      "term": "JevBench",
+      "first_seen": "2026-09-22"
+    },
+    "splashengineq8metalruntimefork": {
+      "term": "Splash Engine (Q8 Metal runtime fork)",
+      "first_seen": "2026-09-22"
+    },
+    "miniagi": {
+      "term": "Mini-AGI",
+      "first_seen": "2026-09-22"
     }
   }
 }
