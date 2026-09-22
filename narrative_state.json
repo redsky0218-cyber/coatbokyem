@@ -2966,6 +2966,33 @@
         "MU",
         "WDC"
       ]
+    },
+    "gddr7": {
+      "name": "GDDR7 메모리 확산 및 공급망 변화",
+      "first_seen": "2026-09-23",
+      "tickers": [
+        "MU",
+        "AMD",
+        "NVDA"
+      ]
+    },
+    "sdv": {
+      "name": "상업용 차량용 소프트웨어 정의 차량(SDV) 플랫폼 채택",
+      "first_seen": "2026-09-23",
+      "tickers": [
+        "BB",
+        "NVDA",
+        "QCOM"
+      ]
+    },
+    "aiagenticsoftwaredevelopment": {
+      "name": "AI 에이전트 기반 소프트웨어 개발 (Agentic Software Development)",
+      "first_seen": "2026-09-23",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "VMW"
+      ]
     }
   },
   "seen_tech": {
@@ -5924,6 +5951,26 @@
     "reapmtp": {
       "term": "REAP/MTP",
       "first_seen": "2026-09-22"
+    },
+    "moltensaltnuclearreactormsr": {
+      "term": "Molten Salt Nuclear Reactor (MSR)",
+      "first_seen": "2026-09-23"
+    },
+    "agenticsoftwaredevelopment": {
+      "term": "Agentic Software Development",
+      "first_seen": "2026-09-23"
+    },
+    "jevlayatypeddecisionmodels": {
+      "term": "Jev / Laya (Typed Decision Models)",
+      "first_seen": "2026-09-23"
+    },
+    "postcompromiseblockingcybersecurity": {
+      "term": "Post-Compromise Blocking (Cybersecurity)",
+      "first_seen": "2026-09-23"
+    },
+    "3dfoodprintingwholecutplantbased": {
+      "term": "3D Food Printing (Whole-Cut Plant-Based)",
+      "first_seen": "2026-09-23"
     }
   }
 }
