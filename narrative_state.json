@@ -3002,6 +3002,14 @@
         "SMCI",
         "NVDA"
       ]
+    },
+    "qualcommsnapdragonx2": {
+      "name": "Qualcomm Snapdragon X2 시리즈의 리눅스 지원 확대",
+      "first_seen": "2026-09-24",
+      "tickers": [
+        "QCOM",
+        "MSFT"
+      ]
     }
   },
   "seen_tech": {
@@ -5999,6 +6007,26 @@
     },
     "jevdecisionengine": {
       "term": "Jev decision engine",
+      "first_seen": "2026-09-24"
+    },
+    "snapdragon8elitegen6extreme": {
+      "term": "Snapdragon 8 Elite Gen 6 Extreme",
+      "first_seen": "2026-09-24"
+    },
+    "haleu": {
+      "term": "HALEU",
+      "first_seen": "2026-09-24"
+    },
+    "photonicaichips": {
+      "term": "Photonic AI chips",
+      "first_seen": "2026-09-24"
+    },
+    "vlsgrating": {
+      "term": "VLS grating",
+      "first_seen": "2026-09-24"
+    },
+    "quantumreservoircomputingqrc": {
+      "term": "Quantum Reservoir Computing (QRC)",
       "first_seen": "2026-09-24"
     }
   }
