@@ -3047,6 +3047,33 @@
       "tickers": [
         "QCOM"
       ]
+    },
+    "hbf": {
+      "name": "고대역폭 플래시 (HBF)의 부상",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "WDC",
+        "MU"
+      ]
+    },
+    "thrc": {
+      "name": "데이터센터 액체 냉각 시스템의 지능형 협업 모듈 (THRC)",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "VERT",
+        "STX",
+        "AMAT",
+        "JBL"
+      ]
+    },
+    "aisbcarduinoventunoq": {
+      "name": "엣지 AI 및 로보틱스용 고성능 저전력 SBC (Arduino VENTUNO Q)",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "QCOM",
+        "NVDA",
+        "TXN"
+      ]
     }
   },
   "seen_tech": {
@@ -6109,6 +6136,26 @@
     "acousticimagingfordatacenters": {
       "term": "Acoustic Imaging for Data Centers",
       "first_seen": "2026-09-25"
+    },
+    "pciegen6withpam4dspphy": {
+      "term": "PCIe Gen6 with PAM4/DSP PHY",
+      "first_seen": "2026-09-26"
+    },
+    "thrc": {
+      "term": "THRC (資料中心液冷系統的智慧協同模組)",
+      "first_seen": "2026-09-26"
+    },
+    "agenticcudakerneloptimizer": {
+      "term": "Agentic CUDA Kernel Optimizer",
+      "first_seen": "2026-09-26"
+    },
+    "llmdrivensemanticguidanceforpdr": {
+      "term": "LLM-Driven Semantic Guidance for PDR",
+      "first_seen": "2026-09-26"
+    },
+    "legtiedtensornetworkstatesletta": {
+      "term": "Leg-Tied Tensor Network States (LETTA)",
+      "first_seen": "2026-09-26"
     }
   }
 }
