@@ -3018,6 +3018,35 @@
         "BWXT",
         "GE"
       ]
+    },
+    "highbandwidthflashhbf": {
+      "name": "고대역폭 플래시 (High Bandwidth Flash, HBF) 메모리 부상",
+      "first_seen": "2026-09-25",
+      "tickers": [
+        "WDC"
+      ]
+    },
+    "appleaimlxcoreml": {
+      "name": "Apple 실리콘 기반 온디바이스 AI 추론 최적화 (MLX, Core ML)",
+      "first_seen": "2026-09-25",
+      "tickers": [
+        "AAPL"
+      ]
+    },
+    "bloomenergy": {
+      "name": "차세대 데이터센터 전력 인프라 구축의 난관 및 Bloom Energy의 역할",
+      "first_seen": "2026-09-25",
+      "tickers": [
+        "BE",
+        "ORCL"
+      ]
+    },
+    "sbcai": {
+      "name": "차세대 소형 보드 컴퓨터(SBC)를 통한 엣지 AI 및 로봇 공학 확산",
+      "first_seen": "2026-09-25",
+      "tickers": [
+        "QCOM"
+      ]
     }
   },
   "seen_tech": {
@@ -6063,6 +6092,22 @@
     },
     "nonautoregressivesystem1decisionengine": {
       "term": "non-autoregressive System 1 decision engine",
+      "first_seen": "2026-09-25"
+    },
+    "arduinoventunoq": {
+      "term": "Arduino VENTUNO Q",
+      "first_seen": "2026-09-25"
+    },
+    "mlxruntimelayatypeddecisionmodels": {
+      "term": "MLX runtime / Laya typed decision models",
+      "first_seen": "2026-09-25"
+    },
+    "aicodingagentharness": {
+      "term": "AI Coding Agent Harness",
+      "first_seen": "2026-09-25"
+    },
+    "acousticimagingfordatacenters": {
+      "term": "Acoustic Imaging for Data Centers",
       "first_seen": "2026-09-25"
     }
   }
