@@ -3010,6 +3010,14 @@
         "QCOM",
         "MSFT"
       ]
+    },
+    "deepfissiongravityreactor": {
+      "name": "심층 지층 중력 원자로 (Deep Fission Gravity Reactor)",
+      "first_seen": "2026-09-25",
+      "tickers": [
+        "BWXT",
+        "GE"
+      ]
     }
   },
   "seen_tech": {
@@ -6028,6 +6036,34 @@
     "quantumreservoircomputingqrc": {
       "term": "Quantum Reservoir Computing (QRC)",
       "first_seen": "2026-09-24"
+    },
+    "cognitivesharding": {
+      "term": "Cognitive Sharding",
+      "first_seen": "2026-09-25"
+    },
+    "deepfissiongravityreactor": {
+      "term": "Deep Fission Gravity Reactor",
+      "first_seen": "2026-09-25"
+    },
+    "photonicmoleculeinmicrocombs": {
+      "term": "Photonic Molecule (in microcombs)",
+      "first_seen": "2026-09-25"
+    },
+    "vlsgratingvariablelinespacinggrating": {
+      "term": "VLS Grating (Variable-Line-Spacing Grating)",
+      "first_seen": "2026-09-25"
+    },
+    "singlefiberhyperspectralimaging": {
+      "term": "Single-fiber hyperspectral imaging",
+      "first_seen": "2026-09-25"
+    },
+    "layatypeddecisionmodels": {
+      "term": "Laya typed decision models",
+      "first_seen": "2026-09-25"
+    },
+    "nonautoregressivesystem1decisionengine": {
+      "term": "non-autoregressive System 1 decision engine",
+      "first_seen": "2026-09-25"
     }
   }
 }
