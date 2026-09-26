@@ -3074,6 +3074,33 @@
         "NVDA",
         "TXN"
       ]
+    },
+    "teslaai5": {
+      "name": "Tesla AI5 칩의 삼성 파운드리 시험 생산",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "TSLA",
+        "AMAT",
+        "LRCX"
+      ]
+    },
+    "arduinoventunoqai": {
+      "name": "Arduino VENTUNO Q를 통한 엣지 AI 및 로보틱스 개발 가속화",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "QCOM",
+        "ARM",
+        "TXN"
+      ]
+    },
+    "tat": {
+      "name": "타겟 알파 치료제(TAT)를 위한 방사성 동위원소 생산 기술 발전",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "ABUS",
+        "FATE",
+        "BMBL"
+      ]
     }
   },
   "seen_tech": {
@@ -6155,6 +6182,26 @@
     },
     "legtiedtensornetworkstatesletta": {
       "term": "Leg-Tied Tensor Network States (LETTA)",
+      "first_seen": "2026-09-26"
+    },
+    "qwengram08b": {
+      "term": "Qwengram-0.8B",
+      "first_seen": "2026-09-26"
+    },
+    "micav014b": {
+      "term": "Mica v0.1 4B",
+      "first_seen": "2026-09-26"
+    },
+    "kvcachetransplants": {
+      "term": "KV Cache Transplants",
+      "first_seen": "2026-09-26"
+    },
+    "vibecoding": {
+      "term": "Vibecoding",
+      "first_seen": "2026-09-26"
+    },
+    "ollamaforopensourcejevstyledecisionmodelsollaya": {
+      "term": "Ollama for open-source, Jev-style decision models (Ollaya)",
       "first_seen": "2026-09-26"
     }
   }
