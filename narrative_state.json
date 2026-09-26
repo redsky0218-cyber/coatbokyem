@@ -3130,6 +3130,32 @@
         "RKLB",
         "ASTS"
       ]
+    },
+    "teslaai5ai": {
+      "name": "Tesla AI5 칩의 삼성 테일러 팹 시험 생산 및 AI 칩 수직 통합 가속화",
+      "first_seen": "2026-09-27",
+      "tickers": [
+        "TSLA",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ]
+    },
+    "socrt": {
+      "name": "모바일 SoC의 레이트레이싱(RT) 성능 격차 심화",
+      "first_seen": "2026-09-27",
+      "tickers": [
+        "AAPL",
+        "QCOM"
+      ]
+    },
+    "shackletondegerlacheridge": {
+      "name": "달 남극 'Shackleton-de Gerlache Ridge' 전략적 요충지 부상",
+      "first_seen": "2026-09-27",
+      "tickers": [
+        "LUNR",
+        "RKLB"
+      ]
     }
   },
   "seen_tech": {
@@ -6264,6 +6290,34 @@
     "clmcontrastivelanguagemodel": {
       "term": "CLM (Contrastive Language Model)",
       "first_seen": "2026-09-26"
+    },
+    "shaderexecutionreorderingser": {
+      "term": "Shader Execution Reordering (SER)",
+      "first_seen": "2026-09-27"
+    },
+    "micropacitymaps": {
+      "term": "Micropacity Maps",
+      "first_seen": "2026-09-27"
+    },
+    "apxextension": {
+      "term": "APX extension",
+      "first_seen": "2026-09-27"
+    },
+    "probabilisticerrorcancellationpec": {
+      "term": "Probabilistic Error Cancellation (PEC)",
+      "first_seen": "2026-09-27"
+    },
+    "nonabeliansheafquantumldpccodes": {
+      "term": "Non-Abelian sheaf quantum LDPC codes",
+      "first_seen": "2026-09-27"
+    },
+    "hlpemehierarchicallocallyperiodiceigenmodeexpansion": {
+      "term": "HLP-EME (Hierarchical Locally Periodic Eigenmode Expansion)",
+      "first_seen": "2026-09-27"
+    },
+    "llm4pdr": {
+      "term": "LLM4PDR",
+      "first_seen": "2026-09-27"
     }
   }
 }
