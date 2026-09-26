@@ -3101,6 +3101,35 @@
         "FATE",
         "BMBL"
       ]
+    },
+    "raytracing": {
+      "name": "모바일 Raytracing 성능 격차 심화",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "AAPL",
+        "QCOM",
+        "ARM"
+      ]
+    },
+    "teslaai": {
+      "name": "Tesla의 AI 반도체 자체 개발 및 생산 확대",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "TSLA",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ]
+    },
+    "artemis": {
+      "name": "달 탐사 및 우주 인프라 경쟁 심화 (Artemis 프로그램 중심)",
+      "first_seen": "2026-09-26",
+      "tickers": [
+        "BA",
+        "LMT",
+        "RKLB",
+        "ASTS"
+      ]
     }
   },
   "seen_tech": {
@@ -6202,6 +6231,38 @@
     },
     "ollamaforopensourcejevstyledecisionmodelsollaya": {
       "term": "Ollama for open-source, Jev-style decision models (Ollaya)",
+      "first_seen": "2026-09-26"
+    },
+    "hardwareacceleratedbvhtraversal": {
+      "term": "hardware accelerated BVH traversal",
+      "first_seen": "2026-09-26"
+    },
+    "shaderexecutionreordering": {
+      "term": "Shader Execution Reordering",
+      "first_seen": "2026-09-26"
+    },
+    "hardwareacceleratedmicropacitymaps": {
+      "term": "hardware accelerated Micropacity Maps",
+      "first_seen": "2026-09-26"
+    },
+    "ai5chip": {
+      "term": "AI5 Chip",
+      "first_seen": "2026-09-26"
+    },
+    "hydrogenfastbreederreactor": {
+      "term": "Hydrogen Fast Breeder Reactor",
+      "first_seen": "2026-09-26"
+    },
+    "shackletondegerlacheridge": {
+      "term": "Shackleton–de Gerlache Ridge",
+      "first_seen": "2026-09-26"
+    },
+    "mlxui": {
+      "term": "MLXUI",
+      "first_seen": "2026-09-26"
+    },
+    "clmcontrastivelanguagemodel": {
+      "term": "CLM (Contrastive Language Model)",
       "first_seen": "2026-09-26"
     }
   }
