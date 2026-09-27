@@ -3201,6 +3201,15 @@
         "AMZN",
         "META"
       ]
+    },
+    "cpuzen6epyc9006venice": {
+      "name": "차세대 서버 CPU 아키텍처 경쟁 심화 (Zen 6, EPYC 9006 Venice)",
+      "first_seen": "2026-09-28",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -6399,6 +6408,18 @@
     "llm4pdrllmdrivensemanticguidanceforpdr": {
       "term": "LLM4PDR (LLM-Driven Semantic Guidance for PDR)",
       "first_seen": "2026-09-27"
+    },
+    "sensenovavision7bmot": {
+      "term": "SenseNova-Vision-7B-MoT",
+      "first_seen": "2026-09-28"
+    },
+    "tauonoptimizer": {
+      "term": "Tauon optimizer",
+      "first_seen": "2026-09-28"
+    },
+    "julia1": {
+      "term": "Julia-1",
+      "first_seen": "2026-09-28"
     }
   }
 }
