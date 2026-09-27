@@ -3173,6 +3173,34 @@
         "IONQ",
         "NVDA"
       ]
+    },
+    "apx": {
+      "name": "APX 확장 기능 채택 가속화",
+      "first_seen": "2026-09-27",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "rdsonopenrdson": {
+      "name": "오픈소스 전력 소자 Rds(on) 추출 툴 OpenRdson 부상",
+      "first_seen": "2026-09-27",
+      "tickers": [
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "genai": {
+      "name": "GenAI 에이전트의 자율적/무단 토큰 소비 문제 부상",
+      "first_seen": "2026-09-27",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ]
     }
   },
   "seen_tech": {
@@ -6354,6 +6382,22 @@
     },
     "ringoscillatorpufphysicalunclonablefunction": {
       "term": "Ring Oscillator PUF (Physical Unclonable Function)",
+      "first_seen": "2026-09-27"
+    },
+    "macbookneo": {
+      "term": "MacBook Neo",
+      "first_seen": "2026-09-27"
+    },
+    "openrdson": {
+      "term": "OpenRdson",
+      "first_seen": "2026-09-27"
+    },
+    "consolenamedpipeinjection": {
+      "term": "Console Named-Pipe Injection",
+      "first_seen": "2026-09-27"
+    },
+    "llm4pdrllmdrivensemanticguidanceforpdr": {
+      "term": "LLM4PDR (LLM-Driven Semantic Guidance for PDR)",
       "first_seen": "2026-09-27"
     }
   }
