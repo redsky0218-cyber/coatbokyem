@@ -3156,6 +3156,23 @@
         "LUNR",
         "RKLB"
       ]
+    },
+    "intelapxadvancedperformanceextensions": {
+      "name": "Intel의 APX(Advanced Performance Extensions) 도입 전략",
+      "first_seen": "2026-09-27",
+      "tickers": [
+        "INTC",
+        "AMD"
+      ]
+    },
+    "quantumerrorcorrection": {
+      "name": "양자 오류 수정(Quantum Error Correction) 소프트웨어 기술 발전",
+      "first_seen": "2026-09-27",
+      "tickers": [
+        "IBM",
+        "IONQ",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -6317,6 +6334,26 @@
     },
     "llm4pdr": {
       "term": "LLM4PDR",
+      "first_seen": "2026-09-27"
+    },
+    "bvhtraversalaccelerationhardware": {
+      "term": "BVH traversal acceleration (hardware)",
+      "first_seen": "2026-09-27"
+    },
+    "sme2scalablematrixextension2": {
+      "term": "SME2 (Scalable Matrix Extension 2)",
+      "first_seen": "2026-09-27"
+    },
+    "teslaai5chip": {
+      "term": "Tesla AI5 Chip",
+      "first_seen": "2026-09-27"
+    },
+    "modelcontextprotocolmcpagents": {
+      "term": "Model Context Protocol (MCP) agents",
+      "first_seen": "2026-09-27"
+    },
+    "ringoscillatorpufphysicalunclonablefunction": {
+      "term": "Ring Oscillator PUF (Physical Unclonable Function)",
       "first_seen": "2026-09-27"
     }
   }
