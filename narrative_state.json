@@ -3217,6 +3217,26 @@
       "tickers": [
         "CEVA"
       ]
+    },
+    "starlinkv3starship": {
+      "name": "차세대 Starlink V3 위성을 탑재한 Starship의 궤도 발사",
+      "first_seen": "2026-09-29",
+      "tickers": [
+        "RKLB",
+        "IRDM",
+        "TMUS",
+        "VZ"
+      ]
+    },
+    "5g": {
+      "name": "자율 이동 로봇 및 머신 비전을 위한 프라이빗 5G 도입",
+      "first_seen": "2026-09-29",
+      "tickers": [
+        "QRVO",
+        "SWKS",
+        "ADI",
+        "ROK"
+      ]
     }
   },
   "seen_tech": {
@@ -6447,6 +6467,30 @@
     "airrefuelingspacecraft": {
       "term": "Air-refueling spacecraft",
       "first_seen": "2026-09-28"
+    },
+    "openshell": {
+      "term": "OpenShell",
+      "first_seen": "2026-09-29"
+    },
+    "sentryreferencesystemdesign": {
+      "term": "Sentry reference system design",
+      "first_seen": "2026-09-29"
+    },
+    "oracledistillation": {
+      "term": "Oracle Distillation",
+      "first_seen": "2026-09-29"
+    },
+    "thinfilmlithiumtantalate": {
+      "term": "Thin-Film Lithium Tantalate",
+      "first_seen": "2026-09-29"
+    },
+    "measurementbaseduncomputationmbu": {
+      "term": "Measurement-Based Uncomputation (MBU)",
+      "first_seen": "2026-09-29"
+    },
+    "contrastivelm": {
+      "term": "Contrastive-LM",
+      "first_seen": "2026-09-29"
     }
   }
 }
