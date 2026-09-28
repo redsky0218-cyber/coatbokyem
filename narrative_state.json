@@ -3210,6 +3210,13 @@
         "INTC",
         "SMCI"
       ]
+    },
+    "uwb": {
+      "name": "초저전력 UWB 트래킹 칩 확산",
+      "first_seen": "2026-09-28",
+      "tickers": [
+        "CEVA"
+      ]
     }
   },
   "seen_tech": {
@@ -6419,6 +6426,26 @@
     },
     "julia1": {
       "term": "Julia-1",
+      "first_seen": "2026-09-28"
+    },
+    "dfircompanion": {
+      "term": "DFIR-Companion",
+      "first_seen": "2026-09-28"
+    },
+    "prism32": {
+      "term": "Prism32",
+      "first_seen": "2026-09-28"
+    },
+    "textclfquantfactory": {
+      "term": "TextCLF Quant Factory",
+      "first_seen": "2026-09-28"
+    },
+    "ssdstreaminginferenceengine": {
+      "term": "SSD streaming inference engine",
+      "first_seen": "2026-09-28"
+    },
+    "airrefuelingspacecraft": {
+      "term": "Air-refueling spacecraft",
       "first_seen": "2026-09-28"
     }
   }
