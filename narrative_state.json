@@ -3246,6 +3246,25 @@
         "NVDA",
         "IRBT"
       ]
+    },
+    "simreadyasset": {
+      "name": "로봇 시뮬레이션을 위한 'SimReady Asset' 및 자동화 도구",
+      "first_seen": "2026-09-30",
+      "tickers": [
+        "ADSK",
+        "SNPS",
+        "CDNS",
+        "RBTX"
+      ]
+    },
+    "edapdk": {
+      "name": "오픈소스 EDA 툴체인 및 PDK 활용 증가",
+      "first_seen": "2026-09-30",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "GOOG"
+      ]
     }
   },
   "seen_tech": {
@@ -6532,6 +6551,34 @@
     "imajev4b": {
       "term": "ImaJev-4b",
       "first_seen": "2026-09-29"
+    },
+    "nvidiavera": {
+      "term": "NVIDIA Vera",
+      "first_seen": "2026-09-30"
+    },
+    "mrdimms": {
+      "term": "MRDIMMs",
+      "first_seen": "2026-09-30"
+    },
+    "edaaicopilot": {
+      "term": "EDA AI Copilot",
+      "first_seen": "2026-09-30"
+    },
+    "superion256qubitsplatform": {
+      "term": "Superion 256 qubits platform",
+      "first_seen": "2026-09-30"
+    },
+    "q2kquantization": {
+      "term": "Q2_K quantization",
+      "first_seen": "2026-09-30"
+    },
+    "inferenceenginesninferdwarfstarsplashllamamperegufo": {
+      "term": "Inference Engines (ninfer, dwarfstar, Splash, llamAmpere, gufo 등)",
+      "first_seen": "2026-09-30"
+    },
+    "dotsopenai": {
+      "term": "Dots (OpenAI)",
+      "first_seen": "2026-09-30"
     }
   }
 }
