@@ -3237,6 +3237,15 @@
         "ADI",
         "ROK"
       ]
+    },
+    "llmvlm": {
+      "name": "오픈소스 동반자 로봇 및 로컬 LLM/VLM 기반 로봇 지능 개발",
+      "first_seen": "2026-09-29",
+      "tickers": [
+        "ALGM",
+        "NVDA",
+        "IRBT"
+      ]
     }
   },
   "seen_tech": {
@@ -6490,6 +6499,38 @@
     },
     "contrastivelm": {
       "term": "Contrastive-LM",
+      "first_seen": "2026-09-29"
+    },
+    "gorgonhalo": {
+      "term": "Gorgon Halo",
+      "first_seen": "2026-09-29"
+    },
+    "maxpro495": {
+      "term": "Max+ PRO 495",
+      "first_seen": "2026-09-29"
+    },
+    "nvidiaverasmt": {
+      "term": "NVIDIA Vera SMT",
+      "first_seen": "2026-09-29"
+    },
+    "kurnal": {
+      "term": "Kurnal",
+      "first_seen": "2026-09-29"
+    },
+    "epyc9006venice": {
+      "term": "EPYC 9006 Venice",
+      "first_seen": "2026-09-29"
+    },
+    "zen6": {
+      "term": "Zen 6",
+      "first_seen": "2026-09-29"
+    },
+    "sqalequantumcomputer": {
+      "term": "Sqale Quantum Computer",
+      "first_seen": "2026-09-29"
+    },
+    "imajev4b": {
+      "term": "ImaJev-4b",
       "first_seen": "2026-09-29"
     }
   }
