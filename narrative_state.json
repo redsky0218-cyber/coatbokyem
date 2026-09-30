@@ -3298,6 +3298,32 @@
         "MSFT",
         "IBM"
       ]
+    },
+    "amdepycvenice": {
+      "name": "AMD EPYC \"Venice\" 수요 폭증 및 데이터센터 시장 지배력 강화",
+      "first_seen": "2026-10-01",
+      "tickers": [
+        "AMD",
+        "HPE"
+      ]
+    },
+    "ip": {
+      "name": "하이퍼스케일러 맞춤형 반도체 및 IP 생태계 확장",
+      "first_seen": "2026-10-01",
+      "tickers": [
+        "SNPS",
+        "QCOM",
+        "AMZN"
+      ]
+    },
+    "starshipstarlinkv3": {
+      "name": "Starship의 Starlink V3 대규모 위성 배치 능력",
+      "first_seen": "2026-10-01",
+      "tickers": [
+        "RKLB",
+        "IRDM",
+        "ASTS"
+      ]
     }
   },
   "seen_tech": {
@@ -6656,6 +6682,22 @@
     "pssanontransformerlanguagemodel": {
       "term": "PSSA (non-transformer language model)",
       "first_seen": "2026-09-30"
+    },
+    "openaijalapeo": {
+      "term": "OpenAI Jalapeño",
+      "first_seen": "2026-10-01"
+    },
+    "cojump": {
+      "term": "CO₂Jump",
+      "first_seen": "2026-10-01"
+    },
+    "lessthinkqwen34b": {
+      "term": "LessThink-Qwen3-4B",
+      "first_seen": "2026-10-01"
+    },
+    "magnitudeinferenceengine": {
+      "term": "Magnitude Inference Engine",
+      "first_seen": "2026-10-01"
     }
   }
 }
