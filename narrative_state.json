@@ -3265,6 +3265,15 @@
         "CDNS",
         "GOOG"
       ]
+    },
+    "aieda": {
+      "name": "AI 기반 EDA(전자 설계 자동화) 워크플로우 가속화",
+      "first_seen": "2026-09-30",
+      "tickers": [
+        "CDNS",
+        "SNPS",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -6578,6 +6587,26 @@
     },
     "dotsopenai": {
       "term": "Dots (OpenAI)",
+      "first_seen": "2026-09-30"
+    },
+    "qwenfamilyllmsinaudiomodels": {
+      "term": "Qwen-family LLMs in Audio Models",
+      "first_seen": "2026-09-30"
+    },
+    "openbao": {
+      "term": "OpenBao",
+      "first_seen": "2026-09-30"
+    },
+    "sherrys34ternaryformatt34": {
+      "term": "Sherry's 3:4 ternary format (T34)",
+      "first_seen": "2026-09-30"
+    },
+    "typevet": {
+      "term": "typevet",
+      "first_seen": "2026-09-30"
+    },
+    "nslwslforlinux": {
+      "term": "NSL (WSL for Linux)",
       "first_seen": "2026-09-30"
     }
   }
