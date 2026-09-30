@@ -3274,6 +3274,30 @@
         "SNPS",
         "NVDA"
       ]
+    },
+    "amdepyc9006venicecpu": {
+      "name": "AMD EPYC 9006 (Venice) 서버 CPU의 강력한 수요",
+      "first_seen": "2026-09-30",
+      "tickers": [
+        "AMD"
+      ]
+    },
+    "aivlsi": {
+      "name": "AI 기반 VLSI 칩 설계 자동화",
+      "first_seen": "2026-09-30",
+      "tickers": [
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "hashicorpvaultopenbaorce": {
+      "name": "HashiCorp Vault 및 OpenBao의 심각한 RCE 취약점 및 보안 대응",
+      "first_seen": "2026-09-30",
+      "tickers": [
+        "HCP",
+        "MSFT",
+        "IBM"
+      ]
     }
   },
   "seen_tech": {
@@ -6607,6 +6631,30 @@
     },
     "nslwslforlinux": {
       "term": "NSL (WSL for Linux)",
+      "first_seen": "2026-09-30"
+    },
+    "bwrx300": {
+      "term": "BWRX-300",
+      "first_seen": "2026-09-30"
+    },
+    "aivlsi": {
+      "term": "AI + VLSI",
+      "first_seen": "2026-09-30"
+    },
+    "engineeredbacterialbiologic": {
+      "term": "Engineered Bacterial Biologic",
+      "first_seen": "2026-09-30"
+    },
+    "starlinkv3": {
+      "term": "Starlink V3",
+      "first_seen": "2026-09-30"
+    },
+    "thzlens": {
+      "term": "THz lens",
+      "first_seen": "2026-09-30"
+    },
+    "pssanontransformerlanguagemodel": {
+      "term": "PSSA (non-transformer language model)",
       "first_seen": "2026-09-30"
     }
   }
