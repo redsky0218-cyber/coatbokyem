@@ -3324,6 +3324,32 @@
         "IRDM",
         "ASTS"
       ]
+    },
+    "ipedaserdes": {
+      "name": "하이퍼스케일러의 커스텀 실리콘 개발 가속 및 관련 IP/EDA/SerDes 공급망 수혜",
+      "first_seen": "2026-10-01",
+      "tickers": [
+        "SNPS",
+        "QCOM",
+        "CRDO",
+        "ARM"
+      ]
+    },
+    "amdepycvenicecpu": {
+      "name": "AMD EPYC Venice 서버 CPU의 강력한 수요",
+      "first_seen": "2026-10-01",
+      "tickers": [
+        "AMD",
+        "HPE"
+      ]
+    },
+    "aiaiinedachipdesign": {
+      "name": "AI 기반 반도체 설계 자동화 (AI in EDA/Chip Design)",
+      "first_seen": "2026-10-01",
+      "tickers": [
+        "SNPS",
+        "CDNS"
+      ]
     }
   },
   "seen_tech": {
@@ -6697,6 +6723,34 @@
     },
     "magnitudeinferenceengine": {
       "term": "Magnitude Inference Engine",
+      "first_seen": "2026-10-01"
+    },
+    "jalapeo": {
+      "term": "Jalapeño",
+      "first_seen": "2026-10-01"
+    },
+    "gptsynopsysfrontierintelligence": {
+      "term": "GPT-Synopsys-Frontier Intelligence",
+      "first_seen": "2026-10-01"
+    },
+    "goldnanoclustersasqubitplatform": {
+      "term": "Gold Nanoclusters as Qubit Platform",
+      "first_seen": "2026-10-01"
+    },
+    "functionalultrasoundimagingfusi": {
+      "term": "Functional Ultrasound Imaging (fUSI)",
+      "first_seen": "2026-10-01"
+    },
+    "moistelectricwallpaper": {
+      "term": "Moist-Electric Wallpaper",
+      "first_seen": "2026-10-01"
+    },
+    "qwenfamilyllmsasaudiobackbone": {
+      "term": "Qwen-family LLMs as Audio Backbone",
+      "first_seen": "2026-10-01"
+    },
+    "neurosymbolicaispecificationgaming": {
+      "term": "Neuro-Symbolic AI Specification Gaming",
       "first_seen": "2026-10-01"
     }
   }
