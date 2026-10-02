@@ -3350,6 +3350,15 @@
         "SNPS",
         "CDNS"
       ]
+    },
+    "aigptsynopsys": {
+      "name": "AI 기반 칩 설계 자동화 (GPT-Synopsys)",
+      "first_seen": "2026-10-02",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "ANSS"
+      ]
     }
   },
   "seen_tech": {
@@ -6752,6 +6761,34 @@
     "neurosymbolicaispecificationgaming": {
       "term": "Neuro-Symbolic AI Specification Gaming",
       "first_seen": "2026-10-01"
+    },
+    "gptsynopsys": {
+      "term": "GPT-Synopsys",
+      "first_seen": "2026-10-02"
+    },
+    "qssraidrivenupscalingforps5": {
+      "term": "QSSR (AI-Driven Upscaling for PS5)",
+      "first_seen": "2026-10-02"
+    },
+    "wifi880211bn": {
+      "term": "Wi-Fi 8 (802.11bn)",
+      "first_seen": "2026-10-02"
+    },
+    "2dsemiconductor": {
+      "term": "2D Semiconductor",
+      "first_seen": "2026-10-02"
+    },
+    "siliconphotoniccircuits": {
+      "term": "Silicon Photonic Circuits",
+      "first_seen": "2026-10-02"
+    },
+    "reactortapefusion": {
+      "term": "Reactor Tape (Fusion)",
+      "first_seen": "2026-10-02"
+    },
+    "clefopenweightsdecisionmodel": {
+      "term": "Clef (Open Weights Decision Model)",
+      "first_seen": "2026-10-02"
     }
   }
 }
