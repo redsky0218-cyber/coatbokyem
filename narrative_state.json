@@ -6789,6 +6789,22 @@
     "clefopenweightsdecisionmodel": {
       "term": "Clef (Open Weights Decision Model)",
       "first_seen": "2026-10-02"
+    },
+    "jalapeoaiaccelerator": {
+      "term": "Jalapeño AI accelerator",
+      "first_seen": "2026-10-02"
+    },
+    "foldedchip": {
+      "term": "Folded Chip",
+      "first_seen": "2026-10-02"
+    },
+    "genomespy": {
+      "term": "GenomeSpy",
+      "first_seen": "2026-10-02"
+    },
+    "decodedquantuminterferometrydqi": {
+      "term": "Decoded Quantum Interferometry (DQI)",
+      "first_seen": "2026-10-02"
     }
   }
 }
