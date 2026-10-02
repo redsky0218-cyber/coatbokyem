@@ -6805,6 +6805,26 @@
     "decodedquantuminterferometrydqi": {
       "term": "Decoded Quantum Interferometry (DQI)",
       "first_seen": "2026-10-02"
+    },
+    "photonicssiliconphotonics": {
+      "term": "Photonics / Silicon Photonics",
+      "first_seen": "2026-10-03"
+    },
+    "sramscalingwithverticalcomplementarymosfets": {
+      "term": "SRAM scaling with Vertical complementary MOSFETs",
+      "first_seen": "2026-10-03"
+    },
+    "perceptaspotlightarchitecture": {
+      "term": "Percepta Spotlight architecture",
+      "first_seen": "2026-10-03"
+    },
+    "tokenefficientlanguageforllmstl": {
+      "term": "Token-efficient language for LLMs (TL)",
+      "first_seen": "2026-10-03"
+    },
+    "um1evobiomechanicalhand": {
+      "term": "UM1-Evo (Biomechanical Hand)",
+      "first_seen": "2026-10-03"
     }
   }
 }
