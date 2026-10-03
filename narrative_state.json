@@ -3396,6 +3396,26 @@
         "AMD",
         "MU"
       ]
+    },
+    "aipdkai": {
+      "name": "AI 칩 설계에서 기밀 PDK를 위한 AI 에이전트 활용 및 보안",
+      "first_seen": "2026-10-03",
+      "tickers": [
+        "CDNS",
+        "SNPS",
+        "MSFT",
+        "GOOG"
+      ]
+    },
+    "cpugpufpga": {
+      "name": "양자 기술을 위한 CPU, GPU, FPGA 통합 솔루션",
+      "first_seen": "2026-10-03",
+      "tickers": [
+        "AMD",
+        "RGTI",
+        "IONQ",
+        "QBTS"
+      ]
     }
   },
   "seen_tech": {
@@ -6889,6 +6909,26 @@
     },
     "topologicaloutofdomaingeneralizationoodg": {
       "term": "Topological Out-of-Domain Generalization (OODG)",
+      "first_seen": "2026-10-03"
+    },
+    "backline": {
+      "term": "Backline",
+      "first_seen": "2026-10-03"
+    },
+    "aiagentforchipdesign": {
+      "term": "AI Agent for Chip Design",
+      "first_seen": "2026-10-03"
+    },
+    "qac0": {
+      "term": "QAC0",
+      "first_seen": "2026-10-03"
+    },
+    "spikingneuralnetworksforqubitreadout": {
+      "term": "Spiking Neural Networks for Qubit Readout",
+      "first_seen": "2026-10-03"
+    },
+    "catscancpuperformancesimulation": {
+      "term": "Catscan (CPU Performance Simulation)",
       "first_seen": "2026-10-03"
     }
   }
