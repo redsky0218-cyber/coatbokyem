@@ -3359,6 +3359,43 @@
         "CDNS",
         "ANSS"
       ]
+    },
+    "openaiaijalapeo": {
+      "name": "OpenAI의 맞춤형 AI 추론 가속기 'Jalapeño' 개발",
+      "first_seen": "2026-10-03",
+      "tickers": [
+        "MSFT",
+        "AMD",
+        "MU"
+      ]
+    },
+    "aisiliconphotonicsopticalinterconnects": {
+      "name": "AI 데이터센터의 전력 및 대역폭 제약 해결을 위한 Silicon Photonics 및 Optical Interconnects 부상",
+      "first_seen": "2026-10-03",
+      "tickers": [
+        "LITE",
+        "AAOI",
+        "CRDO",
+        "INTC"
+      ]
+    },
+    "radhardcircuits": {
+      "name": "방사선 경화 회로(Rad-Hard Circuits) 수요 증가 및 기술 발전",
+      "first_seen": "2026-10-03",
+      "tickers": [
+        "BA",
+        "LMT",
+        "RTX"
+      ]
+    },
+    "aistratamegacapybara": {
+      "name": "AI 모델의 로컬 실행 최적화 및 경량화 기술 발전 (Strata, MegaCapybara)",
+      "first_seen": "2026-10-03",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU"
+      ]
     }
   },
   "seen_tech": {
@@ -6824,6 +6861,34 @@
     },
     "um1evobiomechanicalhand": {
       "term": "UM1-Evo (Biomechanical Hand)",
+      "first_seen": "2026-10-03"
+    },
+    "processinginmemorypim": {
+      "term": "Processing In Memory (PIM)",
+      "first_seen": "2026-10-03"
+    },
+    "radhardcircuits": {
+      "term": "Rad-Hard Circuits",
+      "first_seen": "2026-10-03"
+    },
+    "appimagepackagingforedatools": {
+      "term": "AppImage packaging for EDA tools",
+      "first_seen": "2026-10-03"
+    },
+    "aiassistedicdesignwithconfidentialpdks": {
+      "term": "AI-assisted IC design with confidential PDKs",
+      "first_seen": "2026-10-03"
+    },
+    "unboundedrle8splashimagesvulnerabilitycve202671972": {
+      "term": "Unbounded RLE8 Splash Images vulnerability (CVE-2026-71972)",
+      "first_seen": "2026-10-03"
+    },
+    "qtrexinterconnect": {
+      "term": "QTREX Interconnect",
+      "first_seen": "2026-10-03"
+    },
+    "topologicaloutofdomaingeneralizationoodg": {
+      "term": "Topological Out-of-Domain Generalization (OODG)",
       "first_seen": "2026-10-03"
     }
   }
