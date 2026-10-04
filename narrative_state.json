@@ -3435,6 +3435,46 @@
         "AMD",
         "ARM"
       ]
+    },
+    "aitpu": {
+      "name": "우주 기반 AI 데이터센터 및 TPU",
+      "first_seen": "2026-10-04",
+      "tickers": [
+        "GOOGL",
+        "RKLB",
+        "IRDM",
+        "MAXR"
+      ]
+    },
+    "aigrc": {
+      "name": "AI 기반 GRC(거버넌스, 리스크, 컴플라이언스) 자동화",
+      "first_seen": "2026-10-04",
+      "tickers": [
+        "PANW",
+        "CRWD",
+        "OKTA",
+        "SAIC"
+      ]
+    },
+    "llm3bit": {
+      "name": "로컬 LLM 성능 최적화를 위한 3-bit 양자화 및 캐싱 기술",
+      "first_seen": "2026-10-04",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "INTC",
+        "SMCI"
+      ]
+    },
+    "dramhbm": {
+      "name": "DRAM 및 HBM 시장의 특허 전쟁과 새로운 비즈니스 모델",
+      "first_seen": "2026-10-04",
+      "tickers": [
+        "NLST",
+        "MU",
+        "WDC",
+        "RMBS"
+      ]
     }
   },
   "seen_tech": {
@@ -6972,6 +7012,30 @@
     },
     "opencat": {
       "term": "OpenCat",
+      "first_seen": "2026-10-04"
+    },
+    "quantumdotsforquantumcommunication": {
+      "term": "Quantum Dots for Quantum Communication",
+      "first_seen": "2026-10-04"
+    },
+    "spacedeployedaidatacenters": {
+      "term": "Space-deployed AI datacenters",
+      "first_seen": "2026-10-04"
+    },
+    "openroadopenlaneflow": {
+      "term": "OpenROAD/OpenLane flow",
+      "first_seen": "2026-10-04"
+    },
+    "directwritelithographywithmicrodisplays": {
+      "term": "Direct-write lithography with micro-displays",
+      "first_seen": "2026-10-04"
+    },
+    "c2pacontentauthenticityinitiative": {
+      "term": "C2PA (Content Authenticity Initiative)",
+      "first_seen": "2026-10-04"
+    },
+    "conversationparkinginllms": {
+      "term": "Conversation Parking (in LLMs)",
       "first_seen": "2026-10-04"
     }
   }
