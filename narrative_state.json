@@ -3475,6 +3475,15 @@
         "WDC",
         "RMBS"
       ]
+    },
+    "localllm": {
+      "name": "Local LLM 추론 엔진 최적화 및 경량화",
+      "first_seen": "2026-10-05",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ]
     }
   },
   "seen_tech": {
@@ -7037,6 +7046,34 @@
     "conversationparkinginllms": {
       "term": "Conversation Parking (in LLMs)",
       "first_seen": "2026-10-04"
+    },
+    "quantumphotoninterferencevisibility": {
+      "term": "Quantum Photon Interference Visibility",
+      "first_seen": "2026-10-05"
+    },
+    "lowresolutionlithographywithuvtv": {
+      "term": "Low Resolution Lithography with UV TV",
+      "first_seen": "2026-10-05"
+    },
+    "lunarpowertower": {
+      "term": "Lunar Power Tower",
+      "first_seen": "2026-10-05"
+    },
+    "aiagentsforgamemodding": {
+      "term": "AI Agents for Game Modding",
+      "first_seen": "2026-10-05"
+    },
+    "moeexpansionllm": {
+      "term": "MoE Expansion (LLM)",
+      "first_seen": "2026-10-05"
+    },
+    "terahertzdrivenparticleaccelerator": {
+      "term": "Terahertz-driven Particle Accelerator",
+      "first_seen": "2026-10-05"
+    },
+    "flexibletactilesensorsforrobotics": {
+      "term": "Flexible Tactile Sensors for Robotics",
+      "first_seen": "2026-10-05"
     }
   }
 }
