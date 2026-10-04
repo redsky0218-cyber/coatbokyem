@@ -3416,6 +3416,25 @@
         "IONQ",
         "QBTS"
       ]
+    },
+    "hbm4ai": {
+      "name": "HBM4 및 커스텀 AI 가속기 개발",
+      "first_seen": "2026-10-04",
+      "tickers": [
+        "MU",
+        "TSM",
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "moeai": {
+      "name": "MoE 모델을 위한 효율적인 로컬 AI 추론 엔진",
+      "first_seen": "2026-10-04",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "ARM"
+      ]
     }
   },
   "seen_tech": {
@@ -6930,6 +6949,30 @@
     "catscancpuperformancesimulation": {
       "term": "Catscan (CPU Performance Simulation)",
       "first_seen": "2026-10-03"
+    },
+    "moeawareunifiedscheduling": {
+      "term": "MoE-aware unified scheduling",
+      "first_seen": "2026-10-04"
+    },
+    "kyojin": {
+      "term": "Kyojin",
+      "first_seen": "2026-10-04"
+    },
+    "ninfer4080": {
+      "term": "NInfer 4080",
+      "first_seen": "2026-10-04"
+    },
+    "flexibletactilesensors": {
+      "term": "flexible tactile sensors",
+      "first_seen": "2026-10-04"
+    },
+    "containersmugglingphishingattack": {
+      "term": "container smuggling phishing attack",
+      "first_seen": "2026-10-04"
+    },
+    "opencat": {
+      "term": "OpenCat",
+      "first_seen": "2026-10-04"
     }
   }
 }
