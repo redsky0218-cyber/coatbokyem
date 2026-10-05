@@ -3494,6 +3494,26 @@
         "SMTC",
         "COHR"
       ]
+    },
+    "llmkv": {
+      "name": "LLM 추론을 위한 하이브리드 아키텍처 및 KV 캐시 최적화",
+      "first_seen": "2026-10-06",
+      "tickers": [
+        "ARM",
+        "NVDA",
+        "SMCI",
+        "MRVL"
+      ]
+    },
+    "huaweilogicfolding": {
+      "name": "Huawei의 LogicFolding 칩 기술 라이선싱",
+      "first_seen": "2026-10-06",
+      "tickers": [
+        "QCOM",
+        "ARM",
+        "CDNS",
+        "SNPS"
+      ]
     }
   },
   "seen_tech": {
@@ -7108,6 +7128,26 @@
     "nonobench": {
       "term": "Nonobench",
       "first_seen": "2026-10-05"
+    },
+    "spidercss": {
+      "term": "SpiderCSS",
+      "first_seen": "2026-10-06"
+    },
+    "pseudorandomunitariesprus": {
+      "term": "Pseudorandom Unitaries (PRUs)",
+      "first_seen": "2026-10-06"
+    },
+    "scalablepassiveqram": {
+      "term": "Scalable Passive QRAM",
+      "first_seen": "2026-10-06"
+    },
+    "historycompression": {
+      "term": "History Compression",
+      "first_seen": "2026-10-06"
+    },
+    "arcagi3": {
+      "term": "ARC-AGI-3",
+      "first_seen": "2026-10-06"
     }
   }
 }
