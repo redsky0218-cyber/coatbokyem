@@ -3484,6 +3484,16 @@
         "AMD",
         "INTC"
       ]
+    },
+    "llmfpga": {
+      "name": "LLM 추론을 위한 FPGA 활용 및 최적화",
+      "first_seen": "2026-10-05",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "SMTC",
+        "COHR"
+      ]
     }
   },
   "seen_tech": {
@@ -7073,6 +7083,30 @@
     },
     "flexibletactilesensorsforrobotics": {
       "term": "Flexible Tactile Sensors for Robotics",
+      "first_seen": "2026-10-05"
+    },
+    "qwen35archimplementationinfpga": {
+      "term": "Qwen3.5 arch implementation in FPGA",
+      "first_seen": "2026-10-05"
+    },
+    "aiagentforgamemodding": {
+      "term": "AI Agent for Game Modding",
+      "first_seen": "2026-10-05"
+    },
+    "aicoworkersopendots": {
+      "term": "AI Coworkers (OpenDots)",
+      "first_seen": "2026-10-05"
+    },
+    "adaptivesparserecurrencenetworkasrn": {
+      "term": "Adaptive Sparse Recurrence Network (ASRN)",
+      "first_seen": "2026-10-05"
+    },
+    "dynabase": {
+      "term": "DynaBase",
+      "first_seen": "2026-10-05"
+    },
+    "nonobench": {
+      "term": "Nonobench",
       "first_seen": "2026-10-05"
     }
   }
