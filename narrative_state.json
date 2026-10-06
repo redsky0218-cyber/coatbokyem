@@ -3514,6 +3514,32 @@
         "CDNS",
         "SNPS"
       ]
+    },
+    "logicfolding": {
+      "name": "화웨이 LogicFolding 칩 기술의 퀄컴 라이선싱",
+      "first_seen": "2026-10-06",
+      "tickers": [
+        "QCOM"
+      ]
+    },
+    "rustaiml": {
+      "name": "Rust 기반 고성능 시스템 소프트웨어 및 AI/ML 라이브러리",
+      "first_seen": "2026-10-06",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "GOOG"
+      ]
+    },
+    "gpt6opus55llm": {
+      "name": "GPT-6 및 Opus 5.5 등 차세대 LLM 기반 로봇 제어 및 인지",
+      "first_seen": "2026-10-06",
+      "tickers": [
+        "NVDA",
+        "GOOG",
+        "MSFT",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -7147,6 +7173,38 @@
     },
     "arcagi3": {
       "term": "ARC-AGI-3",
+      "first_seen": "2026-10-06"
+    },
+    "logicfoldingchiptech": {
+      "term": "LogicFolding Chip Tech",
+      "first_seen": "2026-10-06"
+    },
+    "olympuscore": {
+      "term": "Olympus Core",
+      "first_seen": "2026-10-06"
+    },
+    "jevdecisionmodelarchitectures": {
+      "term": "Jev (decision-model architectures)",
+      "first_seen": "2026-10-06"
+    },
+    "banrmicroreactor": {
+      "term": "BANR microreactor",
+      "first_seen": "2026-10-06"
+    },
+    "nucleardatacenter": {
+      "term": "Nuclear Data Center",
+      "first_seen": "2026-10-06"
+    },
+    "chunkr": {
+      "term": "chunkr",
+      "first_seen": "2026-10-06"
+    },
+    "photocraft": {
+      "term": "photocraft",
+      "first_seen": "2026-10-06"
+    },
+    "universalmodder": {
+      "term": "universal-modder",
       "first_seen": "2026-10-06"
     }
   }
