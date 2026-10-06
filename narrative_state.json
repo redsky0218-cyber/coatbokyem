@@ -3540,6 +3540,22 @@
         "MSFT",
         "SMCI"
       ]
+    },
+    "hbmnetlist": {
+      "name": "HBM 특허 라이선싱 시장의 부상과 Netlist의 수혜",
+      "first_seen": "2026-10-07",
+      "tickers": [
+        "NLST",
+        "MU"
+      ]
+    },
+    "postquantumcryptographypqczerotrust": {
+      "name": "Post-Quantum Cryptography (PQC) 표준화 및 Zero Trust 보안으로의 전환",
+      "first_seen": "2026-10-07",
+      "tickers": [
+        "QTUM",
+        "QNCX"
+      ]
     }
   },
   "seen_tech": {
@@ -7206,6 +7222,30 @@
     "universalmodder": {
       "term": "universal-modder",
       "first_seen": "2026-10-06"
+    },
+    "jalapeoasics": {
+      "term": "Jalapeño ASICs",
+      "first_seen": "2026-10-07"
+    },
+    "epycturincpus": {
+      "term": "EPYC 'Turin' CPUs",
+      "first_seen": "2026-10-07"
+    },
+    "transportablenuclearpowerplanttnpp": {
+      "term": "Transportable Nuclear Power Plant (TNPP)",
+      "first_seen": "2026-10-07"
+    },
+    "recyclablethermoplasticsforspaceinfrastructure": {
+      "term": "Recyclable Thermoplastics for Space Infrastructure",
+      "first_seen": "2026-10-07"
+    },
+    "opensourceguiforupfgenerationpowerintentstudio": {
+      "term": "Open-source GUI for UPF generation (Power Intent Studio)",
+      "first_seen": "2026-10-07"
+    },
+    "noiseshapingsaradc": {
+      "term": "Noise Shaping SAR ADC",
+      "first_seen": "2026-10-07"
     }
   }
 }
