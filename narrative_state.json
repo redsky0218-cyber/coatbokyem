@@ -3565,6 +3565,17 @@
         "CDNS",
         "ARM"
       ]
+    },
+    "ainvidiaveraopenaijalapeoasic": {
+      "name": "차세대 AI 컴퓨팅을 위한 NVIDIA Vera 및 OpenAI Jalapeño ASIC 경쟁",
+      "first_seen": "2026-10-08",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MRVL",
+        "CRDO"
+      ]
     }
   },
   "seen_tech": {
@@ -7275,6 +7286,26 @@
     "unifiedmemory": {
       "term": "unified memory",
       "first_seen": "2026-10-07"
+    },
+    "afpgicadaptivefusedpriortransferforgenerativeimagecompression": {
+      "term": "AFP-GIC (Adaptive Fused Prior Transfer for Generative Image Compression)",
+      "first_seen": "2026-10-08"
+    },
+    "ssmsstatespacemodels": {
+      "term": "SSMs (State Space Models)",
+      "first_seen": "2026-10-08"
+    },
+    "x32abi": {
+      "term": "x32 ABI",
+      "first_seen": "2026-10-08"
+    },
+    "fauxlogramengravings": {
+      "term": "fauxlogram engravings",
+      "first_seen": "2026-10-08"
+    },
+    "diagng": {
+      "term": "DiagNG",
+      "first_seen": "2026-10-08"
     }
   }
 }
