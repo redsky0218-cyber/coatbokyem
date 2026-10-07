@@ -3556,6 +3556,15 @@
         "QTUM",
         "QNCX"
       ]
+    },
+    "aiopentpuai": {
+      "name": "오픈소스 AI 가속기 'OpenTPU'와 AI 기반 칩 설계의 부상",
+      "first_seen": "2026-10-07",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "ARM"
+      ]
     }
   },
   "seen_tech": {
@@ -7245,6 +7254,26 @@
     },
     "noiseshapingsaradc": {
       "term": "Noise Shaping SAR ADC",
+      "first_seen": "2026-10-07"
+    },
+    "novalakescoreultra4000": {
+      "term": "Nova Lake-S Core Ultra 4000",
+      "first_seen": "2026-10-07"
+    },
+    "opentpu": {
+      "term": "OpenTPU",
+      "first_seen": "2026-10-07"
+    },
+    "afpgicadaptivefusedpriortransfergenerativeimagecompression": {
+      "term": "AFP-GIC (Adaptive Fused Prior Transfer Generative Image Compression)",
+      "first_seen": "2026-10-07"
+    },
+    "swerace": {
+      "term": "SWE-Race",
+      "first_seen": "2026-10-07"
+    },
+    "unifiedmemory": {
+      "term": "unified memory",
       "first_seen": "2026-10-07"
     }
   }
