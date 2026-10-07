@@ -3576,6 +3576,15 @@
         "MRVL",
         "CRDO"
       ]
+    },
+    "nvidiaverahpc": {
+      "name": "NVIDIA Vera HPC 플랫폼의 성능 부상",
+      "first_seen": "2026-10-08",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ]
     }
   },
   "seen_tech": {
@@ -7305,6 +7314,34 @@
     },
     "diagng": {
       "term": "DiagNG",
+      "first_seen": "2026-10-08"
+    },
+    "opticalserdes": {
+      "term": "Optical SerDes",
+      "first_seen": "2026-10-08"
+    },
+    "dietodieinterconnects": {
+      "term": "Die-to-Die Interconnects",
+      "first_seen": "2026-10-08"
+    },
+    "agentdefencekit": {
+      "term": "Agent Defence Kit",
+      "first_seen": "2026-10-08"
+    },
+    "holocronengine": {
+      "term": "Holocron Engine",
+      "first_seen": "2026-10-08"
+    },
+    "slmsmalllanguagemodelsevaluations": {
+      "term": "SLM (Small Language Models) Evaluations",
+      "first_seen": "2026-10-08"
+    },
+    "riscvforedgeai": {
+      "term": "RISC-V for Edge AI",
+      "first_seen": "2026-10-08"
+    },
+    "temporaltlbprefetchingviapagetableembeddeddeltastrail": {
+      "term": "Temporal TLB Prefetching via Page-Table-Embedded Deltas (Trail)",
       "first_seen": "2026-10-08"
     }
   }
