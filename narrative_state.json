@@ -3585,6 +3585,14 @@
         "AMD",
         "INTC"
       ]
+    },
+    "fsr4": {
+      "name": "핸드헬드 기기용 FSR 4 특수 버전",
+      "first_seen": "2026-10-08",
+      "tickers": [
+        "AMD",
+        "QCOM"
+      ]
     }
   },
   "seen_tech": {
@@ -7342,6 +7350,34 @@
     },
     "temporaltlbprefetchingviapagetableembeddeddeltastrail": {
       "term": "Temporal TLB Prefetching via Page-Table-Embedded Deltas (Trail)",
+      "first_seen": "2026-10-08"
+    },
+    "rtxspark": {
+      "term": "RTX Spark",
+      "first_seen": "2026-10-08"
+    },
+    "agenticai": {
+      "term": "Agentic AI",
+      "first_seen": "2026-10-08"
+    },
+    "quantumchipmanufacturing": {
+      "term": "Quantum Chip Manufacturing",
+      "first_seen": "2026-10-08"
+    },
+    "aiforrtldesign": {
+      "term": "AI for RTL Design",
+      "first_seen": "2026-10-08"
+    },
+    "neuralnetworkimplementedinplwithpsplcommunicationviadma": {
+      "term": "Neural Network implemented in PL with PS/PL communication via DMA",
+      "first_seen": "2026-10-08"
+    },
+    "robium": {
+      "term": "Robium",
+      "first_seen": "2026-10-08"
+    },
+    "qidquantumbasedauthentication": {
+      "term": "Q-ID (Quantum-based Authentication)",
       "first_seen": "2026-10-08"
     }
   }
