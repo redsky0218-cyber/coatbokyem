@@ -3593,6 +3593,24 @@
         "AMD",
         "QCOM"
       ]
+    },
+    "aiairiscv": {
+      "name": "온디바이스 AI/엣지 AI를 위한 RISC-V 및 매트릭스 가속기 채택 증가",
+      "first_seen": "2026-10-09",
+      "tickers": [
+        "INTC",
+        "QCOM",
+        "RIVN"
+      ]
+    },
+    "aiapi": {
+      "name": "AI 에이전트의 직접 API 호출 및 감사 우회 문제에 대한 사이버 보안 강화",
+      "first_seen": "2026-10-09",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "OKTA"
+      ]
     }
   },
   "seen_tech": {
@@ -7379,6 +7397,30 @@
     "qidquantumbasedauthentication": {
       "term": "Q-ID (Quantum-based Authentication)",
       "first_seen": "2026-10-08"
+    },
+    "fsr4specialversionforhandhelds": {
+      "term": "FSR 4 special version for handhelds",
+      "first_seen": "2026-10-09"
+    },
+    "hypernaeuv": {
+      "term": "Hyper NA EUV",
+      "first_seen": "2026-10-09"
+    },
+    "shaihuludworm": {
+      "term": "Shai-Hulud worm",
+      "first_seen": "2026-10-09"
+    },
+    "slsaprovenance": {
+      "term": "SLSA provenance",
+      "first_seen": "2026-10-09"
+    },
+    "qconform": {
+      "term": "qconform",
+      "first_seen": "2026-10-09"
+    },
+    "faulttolerantfoundationmodels": {
+      "term": "Fault-tolerant foundation models",
+      "first_seen": "2026-10-09"
     }
   }
 }
