@@ -3611,6 +3611,20 @@
         "PANW",
         "OKTA"
       ]
+    },
+    "arvr": {
+      "name": "AR/VR 하드웨어 시장 재편 및 메타의 특허 흡수",
+      "first_seen": "2026-10-09",
+      "tickers": [
+        "META"
+      ]
+    },
+    "alectorbraincarrierabc": {
+      "name": "뇌 장벽 통과 약물 전달을 위한 Alector Brain Carrier (ABC) 플랫폼",
+      "first_seen": "2026-10-09",
+      "tickers": [
+        "ALEC"
+      ]
     }
   },
   "seen_tech": {
@@ -7420,6 +7434,22 @@
     },
     "faulttolerantfoundationmodels": {
       "term": "Fault-tolerant foundation models",
+      "first_seen": "2026-10-09"
+    },
+    "agenticaiai": {
+      "term": "Agentic AI (에이전트 AI)",
+      "first_seen": "2026-10-09"
+    },
+    "artex": {
+      "term": "ARTEX",
+      "first_seen": "2026-10-09"
+    },
+    "alectorbraincarrierabc": {
+      "term": "Alector Brain Carrier (ABC) 플랫폼",
+      "first_seen": "2026-10-09"
+    },
+    "suspmv": {
+      "term": "SUSpMV",
       "first_seen": "2026-10-09"
     }
   }
