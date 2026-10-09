@@ -3625,6 +3625,15 @@
       "tickers": [
         "ALEC"
       ]
+    },
+    "hypernaeuv": {
+      "name": "Hyper NA EUV 리소그래피 기술 발전",
+      "first_seen": "2026-10-09",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX"
+      ]
     }
   },
   "seen_tech": {
@@ -7450,6 +7459,26 @@
     },
     "suspmv": {
       "term": "SUSpMV",
+      "first_seen": "2026-10-09"
+    },
+    "decisionmodels": {
+      "term": "Decision Models",
+      "first_seen": "2026-10-09"
+    },
+    "lowbitquantizationultralowbitquantization": {
+      "term": "Low-Bit Quantization (Ultra Low-Bit Quantization)",
+      "first_seen": "2026-10-09"
+    },
+    "reareverseengineeranything": {
+      "term": "REA (Reverse Engineer Anything)",
+      "first_seen": "2026-10-09"
+    },
+    "msrfuelcyclemoltensaltreactorfuelcycle": {
+      "term": "MSR Fuel Cycle (Molten Salt Reactor Fuel Cycle)",
+      "first_seen": "2026-10-09"
+    },
+    "diffusionmixturetransformer": {
+      "term": "Diffusion Mixture Transformer",
       "first_seen": "2026-10-09"
     }
   }
