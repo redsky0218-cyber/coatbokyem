@@ -7480,6 +7480,30 @@
     "diffusionmixturetransformer": {
       "term": "Diffusion Mixture Transformer",
       "first_seen": "2026-10-09"
+    },
+    "openramromlibgen": {
+      "term": "openram-rom-libgen",
+      "first_seen": "2026-10-10"
+    },
+    "moltensaltreactormsrfuelcyclecooperation": {
+      "term": "Molten Salt Reactor (MSR) fuel cycle cooperation",
+      "first_seen": "2026-10-10"
+    },
+    "directtodevicesatellitecommunicationd2dsatcom": {
+      "term": "Direct-to-Device Satellite Communication (D2D SatCom)",
+      "first_seen": "2026-10-10"
+    },
+    "qwenimage21turbo": {
+      "term": "Qwen-Image-2.1-Turbo",
+      "first_seen": "2026-10-10"
+    },
+    "mldrift": {
+      "term": "ML Drift",
+      "first_seen": "2026-10-10"
+    },
+    "youtuparsingomni": {
+      "term": "Youtu-Parsing-Omni",
+      "first_seen": "2026-10-10"
     }
   }
 }
