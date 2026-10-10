@@ -3634,6 +3634,15 @@
         "AMAT",
         "LRCX"
       ]
+    },
+    "nvidiagb202gpu": {
+      "name": "NVIDIA의 GB202 GPU 전문가용 시장 집중",
+      "first_seen": "2026-10-10",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU"
+      ]
     }
   },
   "seen_tech": {
@@ -7519,6 +7528,34 @@
     },
     "thinkingbox": {
       "term": "ThinkingBox",
+      "first_seen": "2026-10-10"
+    },
+    "sky130standardcelllibraryuserdesigned": {
+      "term": "Sky130 standard-cell library (user-designed)",
+      "first_seen": "2026-10-10"
+    },
+    "virtualerrorcancellationforlogicalquantumcircuits": {
+      "term": "Virtual Error Cancellation (for Logical Quantum Circuits)",
+      "first_seen": "2026-10-10"
+    },
+    "quasiparticleprotectedsuperconductingqubit": {
+      "term": "Quasiparticle-protected superconducting qubit",
+      "first_seen": "2026-10-10"
+    },
+    "securequantumhandshakesquantumnetworkverificationviasimonsalgorithm": {
+      "term": "Secure Quantum Handshakes / Quantum Network Verification Via Simon's Algorithm",
+      "first_seen": "2026-10-10"
+    },
+    "autonomouscodemigrationforquantumprogramminglanguages": {
+      "term": "Autonomous Code Migration for Quantum Programming Languages",
+      "first_seen": "2026-10-10"
+    },
+    "spatiotemporalcomputingfortemporalnonlineartasksusingfewmodefiberandsoanonlinearity": {
+      "term": "Spatiotemporal computing for temporal nonlinear tasks using few-mode fiber and SOA nonlinearity",
+      "first_seen": "2026-10-10"
+    },
+    "rapiddnnreliabilityawarepartitioningforrobustdnninferencedeploymentonedgeai": {
+      "term": "RAPID-DNN: Reliability-Aware Partitioning for Robust DNN Inference Deployment on Edge AI",
       "first_seen": "2026-10-10"
     }
   }
