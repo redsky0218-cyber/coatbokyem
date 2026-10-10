@@ -7504,6 +7504,22 @@
     "youtuparsingomni": {
       "term": "Youtu-Parsing-Omni",
       "first_seen": "2026-10-10"
+    },
+    "dlooploopedspeculativedecoding": {
+      "term": "DLoop (Looped Speculative Decoding)",
+      "first_seen": "2026-10-10"
+    },
+    "alhradaptivelearnablehierarchicalrouting": {
+      "term": "ALHR (Adaptive Learnable Hierarchical Routing)",
+      "first_seen": "2026-10-10"
+    },
+    "marnmappingnetworks": {
+      "term": "MaRN (Mapping Networks)",
+      "first_seen": "2026-10-10"
+    },
+    "thinkingbox": {
+      "term": "ThinkingBox",
+      "first_seen": "2026-10-10"
     }
   }
 }
