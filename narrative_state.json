@@ -3643,6 +3643,31 @@
         "AMD",
         "MU"
       ]
+    },
+    "nvidiagb202gpurtxpro": {
+      "name": "NVIDIA의 GB202 GPU가 RTX PRO 시리즈로 전환",
+      "first_seen": "2026-10-11",
+      "tickers": [
+        "NVDA"
+      ]
+    },
+    "globalfoundries7nmfdsoi": {
+      "name": "GlobalFoundries의 7nm급 FD-SOI 기술 확장",
+      "first_seen": "2026-10-11",
+      "tickers": [
+        "GFS",
+        "NXP",
+        "MBLY"
+      ]
+    },
+    "aisovereignai": {
+      "name": "정부/보안 인프라를 위한 온프레미스 '주권 AI(Sovereign AI)' 수요 증가",
+      "first_seen": "2026-10-11",
+      "tickers": [
+        "AISP",
+        "HPE",
+        "DELL"
+      ]
     }
   },
   "seen_tech": {
@@ -7557,6 +7582,30 @@
     "rapiddnnreliabilityawarepartitioningforrobustdnninferencedeploymentonedgeai": {
       "term": "RAPID-DNN: Reliability-Aware Partitioning for Robust DNN Inference Deployment on Edge AI",
       "first_seen": "2026-10-10"
+    },
+    "fdxfusion": {
+      "term": "FDX Fusion",
+      "first_seen": "2026-10-11"
+    },
+    "aelyrionnerythp8": {
+      "term": "AELYRION-NERYTH P8",
+      "first_seen": "2026-10-11"
+    },
+    "sovereignai": {
+      "term": "Sovereign AI",
+      "first_seen": "2026-10-11"
+    },
+    "virtualerrorcancellation": {
+      "term": "Virtual Error Cancellation",
+      "first_seen": "2026-10-11"
+    },
+    "photoassistedtwoelectrontomography": {
+      "term": "Photo-assisted two-electron tomography",
+      "first_seen": "2026-10-11"
+    },
+    "rapiddnn": {
+      "term": "RAPID-DNN",
+      "first_seen": "2026-10-11"
     }
   }
 }
