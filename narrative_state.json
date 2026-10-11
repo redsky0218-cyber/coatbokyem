@@ -3668,6 +3668,14 @@
         "HPE",
         "DELL"
       ]
+    },
+    "aiaiagentharness": {
+      "name": "AI 기반 반도체 설계 및 검증 자동화 (AI Agent Harness)",
+      "first_seen": "2026-10-11",
+      "tickers": [
+        "SNPS",
+        "CDNS"
+      ]
     }
   },
   "seen_tech": {
@@ -7605,6 +7613,30 @@
     },
     "rapiddnn": {
       "term": "RAPID-DNN",
+      "first_seen": "2026-10-11"
+    },
+    "fdxfusion7nmclassfdsoi": {
+      "term": "FDX Fusion (7nm-class FD-SOI)",
+      "first_seen": "2026-10-11"
+    },
+    "4farchitecture": {
+      "term": "4F² Architecture",
+      "first_seen": "2026-10-11"
+    },
+    "aiagentharnessforchipdesign": {
+      "term": "AI Agent Harness for Chip Design",
+      "first_seen": "2026-10-11"
+    },
+    "embeddinggemma2": {
+      "term": "EmbeddingGemma 2",
+      "first_seen": "2026-10-11"
+    },
+    "aiagentsecurity": {
+      "term": "AI Agent Security",
+      "first_seen": "2026-10-11"
+    },
+    "lunarreactor": {
+      "term": "Lunar Reactor (달 원자로)",
       "first_seen": "2026-10-11"
     }
   }
