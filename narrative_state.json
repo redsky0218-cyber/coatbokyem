@@ -3676,6 +3676,31 @@
         "SNPS",
         "CDNS"
       ]
+    },
+    "7nmfdsoiai": {
+      "name": "7nm급 FD-SOI 기술 확장 및 엣지/오토모티브 AI 적용",
+      "first_seen": "2026-10-11",
+      "tickers": [
+        "GFS"
+      ]
+    },
+    "aiaiai": {
+      "name": "AI 데이터센터를 위한 소버린 AI 및 온프레미스 AI 인프라 수요 증가",
+      "first_seen": "2026-10-11",
+      "tickers": [
+        "AISP",
+        "AIB",
+        "BE"
+      ]
+    },
+    "mash": {
+      "name": "MASH 치료제 개발에서 간지방 감소 외 조직학적 개선의 중요성 부각",
+      "first_seen": "2026-10-11",
+      "tickers": [
+        "MDGL",
+        "LLY",
+        "NVO"
+      ]
     }
   },
   "seen_tech": {
@@ -7637,6 +7662,30 @@
     },
     "lunarreactor": {
       "term": "Lunar Reactor (달 원자로)",
+      "first_seen": "2026-10-11"
+    },
+    "qlasp": {
+      "term": "Q-LASP",
+      "first_seen": "2026-10-11"
+    },
+    "cudamegakernel": {
+      "term": "CUDA megakernel",
+      "first_seen": "2026-10-11"
+    },
+    "bonsaiternarytransformerweights": {
+      "term": "Bonsai (ternary transformer weights)",
+      "first_seen": "2026-10-11"
+    },
+    "recursivebitnetv2": {
+      "term": "Recursive BitNet-v2",
+      "first_seen": "2026-10-11"
+    },
+    "metaldriverfornvidiageforcertxcardsonmacos15sequoia": {
+      "term": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia",
+      "first_seen": "2026-10-11"
+    },
+    "aureliofinance": {
+      "term": "Aurelio Finance",
       "first_seen": "2026-10-11"
     }
   }
