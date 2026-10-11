@@ -3701,6 +3701,16 @@
         "LLY",
         "NVO"
       ]
+    },
+    "ai1000": {
+      "name": "온디바이스 AI를 위한 모바일 칩의 1000억 파라미터 모델 지원",
+      "first_seen": "2026-10-12",
+      "tickers": [
+        "QCOM",
+        "ARM",
+        "GOOGL",
+        "AAPL"
+      ]
     }
   },
   "seen_tech": {
@@ -7687,6 +7697,30 @@
     "aureliofinance": {
       "term": "Aurelio Finance",
       "first_seen": "2026-10-11"
+    },
+    "quantumerrorcorrection": {
+      "term": "Quantum Error Correction",
+      "first_seen": "2026-10-12"
+    },
+    "photonicquantumchipproduction": {
+      "term": "Photonic Quantum Chip Production",
+      "first_seen": "2026-10-12"
+    },
+    "agentharness": {
+      "term": "Agent Harness",
+      "first_seen": "2026-10-12"
+    },
+    "wetprocessphosphoricacidstreamsforyellowcake": {
+      "term": "Wet-Process Phosphoric Acid Streams for Yellowcake",
+      "first_seen": "2026-10-12"
+    },
+    "aisessionsecuritymspepv6": {
+      "term": "AI Session Security (MSPEP v6)",
+      "first_seen": "2026-10-12"
+    },
+    "projectmayaglm53flashoptimization": {
+      "term": "Project Maya (GLM-5.3-Flash optimization)",
+      "first_seen": "2026-10-12"
     }
   }
 }
