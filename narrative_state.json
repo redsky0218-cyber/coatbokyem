@@ -3711,6 +3711,22 @@
         "GOOGL",
         "AAPL"
       ]
+    },
+    "sovereignaiai": {
+      "name": "데이터 주권(Sovereign AI)을 위한 온프레미스 AI 솔루션",
+      "first_seen": "2026-10-12",
+      "tickers": [
+        "AISP",
+        "PLTR"
+      ]
+    },
+    "llmvram": {
+      "name": "로컬 LLM을 위한 VRAM 관리 및 추론 최적화",
+      "first_seen": "2026-10-12",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -7720,6 +7736,26 @@
     },
     "projectmayaglm53flashoptimization": {
       "term": "Project Maya (GLM-5.3-Flash optimization)",
+      "first_seen": "2026-10-12"
+    },
+    "photonicquantumchip": {
+      "term": "Photonic Quantum Chip",
+      "first_seen": "2026-10-12"
+    },
+    "aiagentsforchipdesignrtldesignagents": {
+      "term": "AI Agents for Chip Design / RTL Design Agents",
+      "first_seen": "2026-10-12"
+    },
+    "vramleasingberth": {
+      "term": "VRAM Leasing / Berth",
+      "first_seen": "2026-10-12"
+    },
+    "worldactionmodelswamsvlasvisuallanguageagents": {
+      "term": "World Action Models (WAMs) / VLAs (Visual Language Agents)",
+      "first_seen": "2026-10-12"
+    },
+    "multisourcephysicalentropypoolencryptionmspep": {
+      "term": "Multi-Source Physical Entropy Pool Encryption (MSPEP)",
       "first_seen": "2026-10-12"
     }
   }
