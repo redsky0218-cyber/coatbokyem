@@ -3727,6 +3727,44 @@
         "NVDA",
         "AMD"
       ]
+    },
+    "aipluggableopticsforaiservers": {
+      "name": "AI 서버용 플러그형 광학 장치 (Pluggable Optics for AI Servers)",
+      "first_seen": "2026-10-13",
+      "tickers": [
+        "NVDA",
+        "CSCO",
+        "CRDO",
+        "AAOI",
+        "LITE"
+      ]
+    },
+    "aiphysicalaifdxfusion": {
+      "name": "물리적 AI(Physical AI)를 위한 FDX Fusion 공정 기술",
+      "first_seen": "2026-10-13",
+      "tickers": [
+        "GFS",
+        "QCOM",
+        "ARM"
+      ]
+    },
+    "sdk": {
+      "name": "오픈소스 로봇 SDK 및 시뮬레이션 환경의 발전",
+      "first_seen": "2026-10-13",
+      "tickers": [
+        "UI",
+        "ROBO",
+        "IRBT"
+      ]
+    },
+    "vr": {
+      "name": "데이터센터 인력 교육을 위한 VR/시뮬레이션 도입",
+      "first_seen": "2026-10-13",
+      "tickers": [
+        "VUZI",
+        "MSFT",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -7757,6 +7795,30 @@
     "multisourcephysicalentropypoolencryptionmspep": {
       "term": "Multi-Source Physical Entropy Pool Encryption (MSPEP)",
       "first_seen": "2026-10-12"
+    },
+    "agenticaiservers": {
+      "term": "Agentic AI servers",
+      "first_seen": "2026-10-13"
+    },
+    "newpluggableopticsformfactor": {
+      "term": "New Pluggable Optics Form Factor",
+      "first_seen": "2026-10-13"
+    },
+    "smrforge": {
+      "term": "SMRFORGE",
+      "first_seen": "2026-10-13"
+    },
+    "crescentislanddseriesgpu": {
+      "term": "Crescent Island D-Series GPU",
+      "first_seen": "2026-10-13"
+    },
+    "hadamardternarymath": {
+      "term": "Hadamard Ternary math",
+      "first_seen": "2026-10-13"
+    },
+    "githubauthenticatedpusheridentities": {
+      "term": "GitHub Authenticated Pusher Identities",
+      "first_seen": "2026-10-13"
     }
   }
 }
