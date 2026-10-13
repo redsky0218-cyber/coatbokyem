@@ -3765,6 +3765,22 @@
         "MSFT",
         "GOOGL"
       ]
+    },
+    "intellpddr5xgpuai": {
+      "name": "Intel의 LPDDR5X 기반 데이터센터 GPU, AI 추론 시장 공략",
+      "first_seen": "2026-10-14",
+      "tickers": [
+        "INTC",
+        "MU"
+      ]
+    },
+    "http": {
+      "name": "클라우드 제공업체의 서버리스 HTTP 애플리케이션 호스팅 확장",
+      "first_seen": "2026-10-14",
+      "tickers": [
+        "AMZN",
+        "NET"
+      ]
     }
   },
   "seen_tech": {
@@ -7819,6 +7835,34 @@
     "githubauthenticatedpusheridentities": {
       "term": "GitHub Authenticated Pusher Identities",
       "first_seen": "2026-10-13"
+    },
+    "bfcbiglastlevelcache": {
+      "term": "BFC (Big Last Level Cache)",
+      "first_seen": "2026-10-14"
+    },
+    "maia300accelerator": {
+      "term": "Maia 300 Accelerator",
+      "first_seen": "2026-10-14"
+    },
+    "fdxfusionforphysicalai": {
+      "term": "FDX Fusion for Physical AI",
+      "first_seen": "2026-10-14"
+    },
+    "awslambdawebfunctions": {
+      "term": "AWS Lambda Web Functions",
+      "first_seen": "2026-10-14"
+    },
+    "megovista": {
+      "term": "MEgoVista",
+      "first_seen": "2026-10-14"
+    },
+    "askrealsenseai": {
+      "term": "Ask RealSense AI",
+      "first_seen": "2026-10-14"
+    },
+    "densearmor": {
+      "term": "Dense-Armor",
+      "first_seen": "2026-10-14"
     }
   }
 }
