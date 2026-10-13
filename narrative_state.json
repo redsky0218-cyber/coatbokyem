@@ -7863,6 +7863,30 @@
     "densearmor": {
       "term": "Dense-Armor",
       "first_seen": "2026-10-14"
+    },
+    "lpddr5xfordatacenters": {
+      "term": "LPDDR5X for Data Centers",
+      "first_seen": "2026-10-14"
+    },
+    "intelbfcbiglastlevelcache": {
+      "term": "Intel BFC (Big Last Level Cache)",
+      "first_seen": "2026-10-14"
+    },
+    "pluggableopticsformfactorforaifactories": {
+      "term": "Pluggable Optics Form Factor for AI Factories",
+      "first_seen": "2026-10-14"
+    },
+    "aiagentsecuritycontrols": {
+      "term": "AI Agent Security Controls",
+      "first_seen": "2026-10-14"
+    },
+    "lerobotso101soarm101": {
+      "term": "LeRobot SO-101 (SO-ARM101)",
+      "first_seen": "2026-10-14"
+    },
+    "lfm2524ba2b": {
+      "term": "LFM2.5-24B-A2B",
+      "first_seen": "2026-10-14"
     }
   }
 }
