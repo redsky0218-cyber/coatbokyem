@@ -3825,6 +3825,31 @@
         "PANW",
         "ZS"
       ]
+    },
+    "quantumcomputinghardwaremanufacturing": {
+      "name": "Quantum Computing Hardware Manufacturing",
+      "first_seen": "2026-10-15",
+      "tickers": [
+        "SKYT",
+        "QBTS"
+      ]
+    },
+    "moltenchloridereactordevelopment": {
+      "name": "Molten Chloride Reactor Development",
+      "first_seen": "2026-10-15",
+      "tickers": [
+        "BWXT",
+        "GE"
+      ]
+    },
+    "bmcbaseboardmanagementcontroller": {
+      "name": "재구성 가능한 BMC (Baseboard Management Controller)",
+      "first_seen": "2026-10-15",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -7967,6 +7992,30 @@
     "taktoone": {
       "term": "TAKTO ONE",
       "first_seen": "2026-10-14"
+    },
+    "moltenchloridereactor": {
+      "term": "Molten Chloride Reactor",
+      "first_seen": "2026-10-15"
+    },
+    "deceptiontechnologycybersecurity": {
+      "term": "Deception Technology (Cybersecurity)",
+      "first_seen": "2026-10-15"
+    },
+    "ragpipelinesecurity": {
+      "term": "RAG Pipeline Security",
+      "first_seen": "2026-10-15"
+    },
+    "vcselphotonicaccelerator": {
+      "term": "VCSEL Photonic Accelerator",
+      "first_seen": "2026-10-15"
+    },
+    "reconfigurablebmc": {
+      "term": "Reconfigurable BMC",
+      "first_seen": "2026-10-15"
+    },
+    "posttransformerarchitectures": {
+      "term": "Post-Transformer Architectures",
+      "first_seen": "2026-10-15"
     }
   }
 }
