@@ -3816,6 +3816,15 @@
       "name": "AI 모델이 생성하는 과도한 코드(Excess Code) 측정 벤치마크의 중요성 부각",
       "first_seen": "2026-10-14",
       "tickers": []
+    },
+    "iotot": {
+      "name": "노후 IoT/OT 시스템의 사이버 보안 취약성 증가",
+      "first_seen": "2026-10-14",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "ZS"
+      ]
     }
   },
   "seen_tech": {
@@ -7937,6 +7946,26 @@
     },
     "yamarms": {
       "term": "YAM arms",
+      "first_seen": "2026-10-14"
+    },
+    "jitllm": {
+      "term": "jitllm",
+      "first_seen": "2026-10-14"
+    },
+    "event2vec": {
+      "term": "Event2Vec",
+      "first_seen": "2026-10-14"
+    },
+    "localizedneurallearning": {
+      "term": "Localized Neural Learning",
+      "first_seen": "2026-10-14"
+    },
+    "passagesystemgalbot": {
+      "term": "PASSAGE system (Galbot)",
+      "first_seen": "2026-10-14"
+    },
+    "taktoone": {
+      "term": "TAKTO ONE",
       "first_seen": "2026-10-14"
     }
   }
