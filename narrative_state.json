@@ -3781,6 +3781,41 @@
         "AMZN",
         "NET"
       ]
+    },
+    "intelbfc": {
+      "name": "Intel의 빅 라스트 레벨 캐시(BFC)를 통한 게이밍 성능 향상",
+      "first_seen": "2026-10-14",
+      "tickers": [
+        "INTC"
+      ]
+    },
+    "armoryoncpu": {
+      "name": "퀄컴의 Arm 라이선스 계약 위반 소송 승리 및 Oryon CPU 개발 가속화",
+      "first_seen": "2026-10-14",
+      "tickers": [
+        "QCOM"
+      ]
+    },
+    "aimaia300": {
+      "name": "마이크로소프트의 맞춤형 AI 가속기 'Maia 300' 및 고대역폭 메모리 활용",
+      "first_seen": "2026-10-14",
+      "tickers": [
+        "MSFT",
+        "MU"
+      ]
+    },
+    "aigpucrescentislanddserieslpddr5x": {
+      "name": "인텔의 AI GPU 'Crescent Island' (D-Series) 및 LPDDR5X 채택",
+      "first_seen": "2026-10-14",
+      "tickers": [
+        "INTC",
+        "MU"
+      ]
+    },
+    "aiexcesscode": {
+      "name": "AI 모델이 생성하는 과도한 코드(Excess Code) 측정 벤치마크의 중요성 부각",
+      "first_seen": "2026-10-14",
+      "tickers": []
     }
   },
   "seen_tech": {
@@ -7886,6 +7921,22 @@
     },
     "lfm2524ba2b": {
       "term": "LFM2.5-24B-A2B",
+      "first_seen": "2026-10-14"
+    },
+    "lambdawebfunctions": {
+      "term": "Lambda Web Functions",
+      "first_seen": "2026-10-14"
+    },
+    "flama": {
+      "term": "Flama",
+      "first_seen": "2026-10-14"
+    },
+    "parsimony": {
+      "term": "Parsimony",
+      "first_seen": "2026-10-14"
+    },
+    "yamarms": {
+      "term": "YAM arms",
       "first_seen": "2026-10-14"
     }
   }
