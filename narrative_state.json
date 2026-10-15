@@ -3867,6 +3867,45 @@
         "CRWD",
         "OKTA"
       ]
+    },
+    "nvidiartxsparkn1xsoc": {
+      "name": "NVIDIA RTX Spark (N1X SoC) 기반 윈도우 노트북 시장 공략",
+      "first_seen": "2026-10-16",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "QCOM"
+      ]
+    },
+    "smrfsr": {
+      "name": "데이터센터 전력 공급을 위한 차세대 원자로(SMR/FSR) 개발 가속화",
+      "first_seen": "2026-10-16",
+      "tickers": [
+        "SMR",
+        "BWXT",
+        "GOOGL",
+        "BBU"
+      ]
+    },
+    "aideceptiontechnology": {
+      "name": "AI 에이전트 보안 및 고급 위협 탐지를 위한 기만 기술(Deception Technology) 도입",
+      "first_seen": "2026-10-16",
+      "tickers": [
+        "PANW",
+        "CRWD",
+        "FTNT",
+        "ZS"
+      ]
+    },
+    "photonicaccelerator": {
+      "name": "저비용 광자 가속기(Photonic Accelerator) 기술 발전",
+      "first_seen": "2026-10-16",
+      "tickers": [
+        "LITE",
+        "COHR",
+        "AOI",
+        "CRDO"
+      ]
     }
   },
   "seen_tech": {
@@ -8077,6 +8116,30 @@
     "aisapiens": {
       "term": "AI Sapiens",
       "first_seen": "2026-10-15"
+    },
+    "rtxsparkn1xsoc": {
+      "term": "RTX Spark (N1X SoC)",
+      "first_seen": "2026-10-16"
+    },
+    "3dscalingmaterials": {
+      "term": "3D Scaling Materials",
+      "first_seen": "2026-10-16"
+    },
+    "aiforfaboperations": {
+      "term": "AI for Fab Operations",
+      "first_seen": "2026-10-16"
+    },
+    "deceptiontechnology": {
+      "term": "Deception Technology",
+      "first_seen": "2026-10-16"
+    },
+    "vcsellessphotonicaccelerator": {
+      "term": "VCSEL-less Photonic Accelerator",
+      "first_seen": "2026-10-16"
+    },
+    "robotmetabolism": {
+      "term": "Robot Metabolism",
+      "first_seen": "2026-10-16"
     }
   }
 }
