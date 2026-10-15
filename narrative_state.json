@@ -3850,6 +3850,14 @@
         "INTC",
         "SMCI"
       ]
+    },
+    "aiagenticaiinchipdesign": {
+      "name": "AI 기반 칩 설계 도구 (Agentic AI in Chip Design)",
+      "first_seen": "2026-10-15",
+      "tickers": [
+        "SNPS",
+        "CDNS"
+      ]
     }
   },
   "seen_tech": {
@@ -8015,6 +8023,30 @@
     },
     "posttransformerarchitectures": {
       "term": "Post-Transformer Architectures",
+      "first_seen": "2026-10-15"
+    },
+    "3dscaling": {
+      "term": "3D Scaling",
+      "first_seen": "2026-10-15"
+    },
+    "agenticaiinchipdesigntools": {
+      "term": "Agentic AI in Chip Design Tools",
+      "first_seen": "2026-10-15"
+    },
+    "fluoridesaltcooledreactorfsr": {
+      "term": "Fluoride Salt-Cooled Reactor (FSR)",
+      "first_seen": "2026-10-15"
+    },
+    "moltenchloridereactorexperimentmcre": {
+      "term": "Molten Chloride Reactor Experiment (MCRE)",
+      "first_seen": "2026-10-15"
+    },
+    "pulsarlm": {
+      "term": "PulsarLM",
+      "first_seen": "2026-10-15"
+    },
+    "userrepgen4b": {
+      "term": "UserRepGen-4B",
       "first_seen": "2026-10-15"
     }
   }
