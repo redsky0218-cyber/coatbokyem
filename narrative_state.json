@@ -3858,6 +3858,15 @@
         "SNPS",
         "CDNS"
       ]
+    },
+    "airag": {
+      "name": "AI 에이전트 보안 및 RAG 파이프라인 방어",
+      "first_seen": "2026-10-15",
+      "tickers": [
+        "PANW",
+        "CRWD",
+        "OKTA"
+      ]
     }
   },
   "seen_tech": {
@@ -8047,6 +8056,26 @@
     },
     "userrepgen4b": {
       "term": "UserRepGen-4B",
+      "first_seen": "2026-10-15"
+    },
+    "3dfabtwin": {
+      "term": "3D Fab Twin",
+      "first_seen": "2026-10-15"
+    },
+    "agenticaiinchipdesign": {
+      "term": "Agentic AI in Chip Design",
+      "first_seen": "2026-10-15"
+    },
+    "spacebasedquantumcomputing": {
+      "term": "Space-based Quantum Computing",
+      "first_seen": "2026-10-15"
+    },
+    "ragpipelinessecurity": {
+      "term": "RAG Pipelines Security",
+      "first_seen": "2026-10-15"
+    },
+    "aisapiens": {
+      "term": "AI Sapiens",
       "first_seen": "2026-10-15"
     }
   }
