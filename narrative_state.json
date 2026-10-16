@@ -3906,6 +3906,35 @@
         "AOI",
         "CRDO"
       ]
+    },
+    "nvidiaarmwindowsrtxspark": {
+      "name": "Nvidia의 ARM 기반 Windows 노트북 시장 진출 (RTX Spark)",
+      "first_seen": "2026-10-16",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "QCOM"
+      ]
+    },
+    "mcr": {
+      "name": "차세대 원자로 기술: 용융염 원자로(MCR) 개발 가속화",
+      "first_seen": "2026-10-16",
+      "tickers": [
+        "GE",
+        "BWXT",
+        "XELA",
+        "TRNU"
+      ]
+    },
+    "uiintelligentuiaiui": {
+      "name": "지능형 UI (Intelligent UI) 및 AI 에이전트 기반 UI 생성",
+      "first_seen": "2026-10-16",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "ADBE",
+        "CRM"
+      ]
     }
   },
   "seen_tech": {
@@ -8139,6 +8168,22 @@
     },
     "robotmetabolism": {
       "term": "Robot Metabolism",
+      "first_seen": "2026-10-16"
+    },
+    "moltenchloridereactormcr": {
+      "term": "Molten Chloride Reactor (MCR)",
+      "first_seen": "2026-10-16"
+    },
+    "perovskitematerials": {
+      "term": "Perovskite materials (페로브스카이트 물질)",
+      "first_seen": "2026-10-16"
+    },
+    "orbitalmirrors": {
+      "term": "Orbital Mirrors (궤도 거울)",
+      "first_seen": "2026-10-16"
+    },
+    "openui": {
+      "term": "OpenUI",
       "first_seen": "2026-10-16"
     }
   }
