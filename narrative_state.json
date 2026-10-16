@@ -3935,6 +3935,15 @@
         "ADBE",
         "CRM"
       ]
+    },
+    "windowsonarmwoartxspark": {
+      "name": "Windows on ARM (WoA) 게이밍 노트북 시장 부상 및 RTX Spark의 역할",
+      "first_seen": "2026-10-17",
+      "tickers": [
+        "NVDA",
+        "QCOM",
+        "MSFT"
+      ]
     }
   },
   "seen_tech": {
@@ -8185,6 +8194,30 @@
     "openui": {
       "term": "OpenUI",
       "first_seen": "2026-10-16"
+    },
+    "pwnescapecve202699999": {
+      "term": "PwnEscape (CVE-2026-99999)",
+      "first_seen": "2026-10-17"
+    },
+    "adfection": {
+      "term": "AdFection",
+      "first_seen": "2026-10-17"
+    },
+    "profileguidedschedulingpgs": {
+      "term": "Profile Guided Scheduling (PGS)",
+      "first_seen": "2026-10-17"
+    },
+    "kordexcore": {
+      "term": "KORDEX Core",
+      "first_seen": "2026-10-17"
+    },
+    "idefabrication": {
+      "term": "IDE fabrication",
+      "first_seen": "2026-10-17"
+    },
+    "lightpoweredneuralnetwork": {
+      "term": "Light-powered neural network (광 기반 신경망)",
+      "first_seen": "2026-10-17"
     }
   }
 }
