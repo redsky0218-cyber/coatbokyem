@@ -3966,6 +3966,14 @@
         "MU",
         "SMH"
       ]
+    },
+    "nvidiartxsparkgpu": {
+      "name": "NVIDIA RTX Spark GPU 라인업의 초기 시장 포지셔닝",
+      "first_seen": "2026-10-17",
+      "tickers": [
+        "NVDA",
+        "ASUSY"
+      ]
     }
   },
   "seen_tech": {
@@ -8259,6 +8267,18 @@
     },
     "hybridreasoningagentsai": {
       "term": "Hybrid Reasoning Agents (AI)",
+      "first_seen": "2026-10-17"
+    },
+    "cislunarspaceeconomy": {
+      "term": "Cislunar Space Economy",
+      "first_seen": "2026-10-17"
+    },
+    "privateaccesstokenspats": {
+      "term": "Private Access Tokens (PATs)",
+      "first_seen": "2026-10-17"
+    },
+    "stratallminferenceengine": {
+      "term": "Strata LLM inference engine",
       "first_seen": "2026-10-17"
     }
   }
