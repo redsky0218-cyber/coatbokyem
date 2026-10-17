@@ -3944,6 +3944,28 @@
         "QCOM",
         "MSFT"
       ]
+    },
+    "nvidiartxspark": {
+      "name": "NVIDIA RTX Spark 플랫폼의 부상",
+      "first_seen": "2026-10-17",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "ASUS",
+        "HPQ",
+        "QCOM",
+        "AAPL"
+      ]
+    },
+    "dllmllm": {
+      "name": "디퓨전 언어 모델(dLLM)을 통한 LLM 추론 속도 혁신",
+      "first_seen": "2026-10-17",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "SMH"
+      ]
     }
   },
   "seen_tech": {
@@ -8217,6 +8239,26 @@
     },
     "lightpoweredneuralnetwork": {
       "term": "Light-powered neural network (광 기반 신경망)",
+      "first_seen": "2026-10-17"
+    },
+    "boltgraphicstestchipdemoemsimulationinhw": {
+      "term": "Bolt Graphics Test Chip Demo / EM simulation in HW",
+      "first_seen": "2026-10-17"
+    },
+    "zeroqueryloggingzql": {
+      "term": "Zero Query Logging (ZQL)",
+      "first_seen": "2026-10-17"
+    },
+    "siliconspinqubits": {
+      "term": "Silicon spin qubits",
+      "first_seen": "2026-10-17"
+    },
+    "kabbalahopticaldesigntool": {
+      "term": "KABBALAH (Optical Design Tool)",
+      "first_seen": "2026-10-17"
+    },
+    "hybridreasoningagentsai": {
+      "term": "Hybrid Reasoning Agents (AI)",
       "first_seen": "2026-10-17"
     }
   }
