@@ -3974,6 +3974,15 @@
         "NVDA",
         "ASUSY"
       ]
+    },
+    "aifrontierllm": {
+      "name": "AI 기반 로봇 제어를 위한 Frontier LLM 활용",
+      "first_seen": "2026-10-18",
+      "tickers": [
+        "NVDA",
+        "GOOG",
+        "AMZN"
+      ]
     }
   },
   "seen_tech": {
@@ -8280,6 +8289,30 @@
     "stratallminferenceengine": {
       "term": "Strata LLM inference engine",
       "first_seen": "2026-10-17"
+    },
+    "uciechipletinterconnects": {
+      "term": "UCIe chiplet interconnects",
+      "first_seen": "2026-10-18"
+    },
+    "ngramsformoe": {
+      "term": "n-grams for MoE",
+      "first_seen": "2026-10-18"
+    },
+    "nvidianemotronlabsdory104bbf16": {
+      "term": "NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+      "first_seen": "2026-10-18"
+    },
+    "xricexplainableric": {
+      "term": "X-RIC (eXplainable RIC)",
+      "first_seen": "2026-10-18"
+    },
+    "magnamagicstatefactoryassessmentviaglobalnetworkalgebra": {
+      "term": "Magna (magic-state-factory assessment via global network algebra)",
+      "first_seen": "2026-10-18"
+    },
+    "patchworklatticesurgerycompiler": {
+      "term": "Patchwork (lattice-surgery compiler)",
+      "first_seen": "2026-10-18"
     }
   }
 }
