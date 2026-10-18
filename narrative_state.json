@@ -3983,6 +3983,15 @@
         "GOOG",
         "AMZN"
       ]
+    },
+    "pcb": {
+      "name": "로봇 공학의 PCB 마운트 서보 드라이브 채택 증가",
+      "first_seen": "2026-10-18",
+      "tickers": [
+        "MRVL",
+        "ADI",
+        "MPWR"
+      ]
     }
   },
   "seen_tech": {
@@ -8336,6 +8345,22 @@
     },
     "openspline": {
       "term": "Openspline",
+      "first_seen": "2026-10-18"
+    },
+    "moltensaltreactormsrmaterialsprogramme": {
+      "term": "Molten Salt Reactor (MSR) materials programme",
+      "first_seen": "2026-10-18"
+    },
+    "trisox": {
+      "term": "TRISO-X",
+      "first_seen": "2026-10-18"
+    },
+    "floatingnuclearpowerplants": {
+      "term": "Floating Nuclear Power Plants",
+      "first_seen": "2026-10-18"
+    },
+    "phantombufferedrevasion": {
+      "term": "PhantomBuffer EDR evasion",
       "first_seen": "2026-10-18"
     }
   }
