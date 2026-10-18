@@ -8313,6 +8313,30 @@
     "patchworklatticesurgerycompiler": {
       "term": "Patchwork (lattice-surgery compiler)",
       "first_seen": "2026-10-18"
+    },
+    "chipmultipliercircuitverificationwithcertificates": {
+      "term": "Chip Multiplier Circuit Verification with Certificates",
+      "first_seen": "2026-10-18"
+    },
+    "msrmoltensaltreactormaterialsprogramme": {
+      "term": "MSR (Molten Salt Reactor) Materials Programme",
+      "first_seen": "2026-10-18"
+    },
+    "esp32emulatorbrowserbased": {
+      "term": "ESP32 Emulator (Browser-based)",
+      "first_seen": "2026-10-18"
+    },
+    "oneclasssgdsonar": {
+      "term": "One-Class SGD (SONAR)",
+      "first_seen": "2026-10-18"
+    },
+    "robotreleasecheck": {
+      "term": "robot-release-check",
+      "first_seen": "2026-10-18"
+    },
+    "openspline": {
+      "term": "Openspline",
+      "first_seen": "2026-10-18"
     }
   }
 }
