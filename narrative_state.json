@@ -4032,6 +4032,24 @@
         "INTC",
         "SMCI"
       ]
+    },
+    "nvidiahbmtsmc3nm": {
+      "name": "NVIDIA HBM 베이스 다이 생산의 TSMC 3nm 채택 및 삼성전자 협력",
+      "first_seen": "2026-10-20",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "MU"
+      ]
+    },
+    "6g": {
+      "name": "디지털 빔포밍의 6G 표준 채택 가능성",
+      "first_seen": "2026-10-20",
+      "tickers": [
+        "QCOM",
+        "MRVL",
+        "SWKS"
+      ]
     }
   },
   "seen_tech": {
@@ -8450,6 +8468,38 @@
     "hybridreasoningagents": {
       "term": "Hybrid Reasoning Agents",
       "first_seen": "2026-10-19"
+    },
+    "intelgpudseriescrescentisland": {
+      "term": "Intel GPU D-series / Crescent Island",
+      "first_seen": "2026-10-20"
+    },
+    "axeraax8860p": {
+      "term": "Axera AX8860P",
+      "first_seen": "2026-10-20"
+    },
+    "perovskitetandemsolar": {
+      "term": "Perovskite tandem solar",
+      "first_seen": "2026-10-20"
+    },
+    "monolithic3dm3dintegratedcircuits": {
+      "term": "Monolithic 3D (M3D) integrated circuits",
+      "first_seen": "2026-10-20"
+    },
+    "aidesignedcoolingfluid": {
+      "term": "AI-designed cooling fluid",
+      "first_seen": "2026-10-20"
+    },
+    "appleneuralengineanewithshortcutsactions": {
+      "term": "Apple Neural Engine (ANE) with Shortcuts actions",
+      "first_seen": "2026-10-20"
+    },
+    "diffusiongemma": {
+      "term": "DiffusionGemma",
+      "first_seen": "2026-10-20"
+    },
+    "codeexecutionmodelmaxwell": {
+      "term": "Code Execution Model (Maxwell)",
+      "first_seen": "2026-10-20"
     }
   }
 }
