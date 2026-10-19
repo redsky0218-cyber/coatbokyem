@@ -4002,6 +4002,36 @@
         "XELA",
         "CCJ"
       ]
+    },
+    "fabllm": {
+      "name": "반도체 팹(Fab)에서의 LLM(대규모언어모델) 활용 확대",
+      "first_seen": "2026-10-19",
+      "tickers": [
+        "SNPS",
+        "CDNS",
+        "AMAT",
+        "LRCX"
+      ]
+    },
+    "aiselfimprovingaiagentsharness": {
+      "name": "AI 에이전트의 자체 개선(Self-Improving AI Agents) 및 하네스(Harness) 최적화",
+      "first_seen": "2026-10-19",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "PLTR",
+        "C3.ai"
+      ]
+    },
+    "llmhybridreasoningagents": {
+      "name": "로컬 LLM을 위한 하이브리드 추론 에이전트(Hybrid Reasoning Agents)",
+      "first_seen": "2026-10-19",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -8391,6 +8421,34 @@
     },
     "reprapmicron": {
       "term": "RepRapMicron",
+      "first_seen": "2026-10-19"
+    },
+    "ai5ai6": {
+      "term": "AI5/AI6",
+      "first_seen": "2026-10-19"
+    },
+    "ucielogicalphyverification": {
+      "term": "UCIE logical phy verification",
+      "first_seen": "2026-10-19"
+    },
+    "negativetriangularityplasma": {
+      "term": "Negative Triangularity Plasma",
+      "first_seen": "2026-10-19"
+    },
+    "dnarecordingsystem": {
+      "term": "DNA recording system",
+      "first_seen": "2026-10-19"
+    },
+    "biohybridcomputing": {
+      "term": "Biohybrid Computing",
+      "first_seen": "2026-10-19"
+    },
+    "harness2": {
+      "term": "Harness2",
+      "first_seen": "2026-10-19"
+    },
+    "hybridreasoningagents": {
+      "term": "Hybrid Reasoning Agents",
       "first_seen": "2026-10-19"
     }
   }
