@@ -4066,6 +4066,13 @@
         "MSFT",
         "NVDA"
       ]
+    },
+    "300mminpintel": {
+      "name": "300mm 인듐인(InP) 실리콘 포토닉스 대량 생산 (Intel)",
+      "first_seen": "2026-10-22",
+      "tickers": [
+        "INTC"
+      ]
     }
   },
   "seen_tech": {
@@ -8544,6 +8551,34 @@
     "eagle4": {
       "term": "EAGLE-4",
       "first_seen": "2026-10-21"
+    },
+    "inppicsonsiliconphotonics": {
+      "term": "InP PIC's on Silicon Photonics",
+      "first_seen": "2026-10-22"
+    },
+    "qwenflashnext": {
+      "term": "QwenFlashNext",
+      "first_seen": "2026-10-22"
+    },
+    "micav05": {
+      "term": "Mica v0.5",
+      "first_seen": "2026-10-22"
+    },
+    "izwi010": {
+      "term": "Izwi 0.1.0",
+      "first_seen": "2026-10-22"
+    },
+    "ornith15122b": {
+      "term": "Ornith-1.5-122B",
+      "first_seen": "2026-10-22"
+    },
+    "agenticros": {
+      "term": "AgenticROS",
+      "first_seen": "2026-10-22"
+    },
+    "taktoonehandexoskeleton": {
+      "term": "TAKTO ONE (Hand Exoskeleton)",
+      "first_seen": "2026-10-22"
     }
   }
 }
