@@ -4050,6 +4050,22 @@
         "MRVL",
         "SWKS"
       ]
+    },
+    "amdfsr41api": {
+      "name": "AMD FSR 4.1의 광범위한 플랫폼 및 API 확장",
+      "first_seen": "2026-10-21",
+      "tickers": [
+        "AMD"
+      ]
+    },
+    "aitts": {
+      "name": "AI 에이전트를 위한 온디바이스/에지 TTS 모델 개발",
+      "first_seen": "2026-10-21",
+      "tickers": [
+        "GOOG",
+        "MSFT",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -8500,6 +8516,34 @@
     "codeexecutionmodelmaxwell": {
       "term": "Code Execution Model (Maxwell)",
       "first_seen": "2026-10-20"
+    },
+    "gb300": {
+      "term": "GB300",
+      "first_seen": "2026-10-21"
+    },
+    "fsr41": {
+      "term": "FSR 4.1",
+      "first_seen": "2026-10-21"
+    },
+    "deepinfer": {
+      "term": "DeepInfer",
+      "first_seen": "2026-10-21"
+    },
+    "maxwellaimodel": {
+      "term": "Maxwell (AI Model)",
+      "first_seen": "2026-10-21"
+    },
+    "steertts": {
+      "term": "SteerTTS",
+      "first_seen": "2026-10-21"
+    },
+    "phonontts": {
+      "term": "Phonon (TTS)",
+      "first_seen": "2026-10-21"
+    },
+    "eagle4": {
+      "term": "EAGLE-4",
+      "first_seen": "2026-10-21"
     }
   }
 }
