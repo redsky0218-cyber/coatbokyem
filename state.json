@@ -15,17 +15,17 @@
   "crash": {
     "SNDK": "2026-08-19",
     "GLW": "2026-09-15",
-    "CRS": "2026-10-22"
+    "CRS": "2026-10-23"
   },
   "zone_w": {
     "CRS": 2,
     "BWXT": 0,
     "KLAC": 0,
     "TSLA": 0,
-    "GOOGL": 0,
+    "GOOGL": 2,
     "GLW": 0,
     "KEYS": 0,
-    "AVGO": 0,
+    "AVGO": 2,
     "SNDK": 0,
     "AMZN": 0,
     "ADI": 0
