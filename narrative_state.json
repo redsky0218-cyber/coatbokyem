@@ -4073,6 +4073,30 @@
       "tickers": [
         "INTC"
       ]
+    },
+    "armsnapdragonxaipc": {
+      "name": "ARM 기반 Snapdragon X 시리즈의 AI PC 시장 진입",
+      "first_seen": "2026-10-22",
+      "tickers": [
+        "QCOM",
+        "ACER"
+      ]
+    },
+    "nand": {
+      "name": "고급 NAND 플래시 메모리 제조를 위한 중국 공장 업그레이드",
+      "first_seen": "2026-10-22",
+      "tickers": [
+        "LRCX",
+        "AMAT",
+        "MU"
+      ]
+    },
+    "300mminppiconsiliconphotonics": {
+      "name": "300mm 웨이퍼 기반 InP PIC on Silicon Photonics 기술 상용화",
+      "first_seen": "2026-10-22",
+      "tickers": [
+        "INTC"
+      ]
     }
   },
   "seen_tech": {
@@ -8578,6 +8602,38 @@
     },
     "taktoonehandexoskeleton": {
       "term": "TAKTO ONE (Hand Exoskeleton)",
+      "first_seen": "2026-10-22"
+    },
+    "2dmaterialsshowstoppers": {
+      "term": "2D materials show-stoppers",
+      "first_seen": "2026-10-22"
+    },
+    "inppicsonsiliconphotonics300mm": {
+      "term": "InP PIC's on Silicon Photonics @ 300mm",
+      "first_seen": "2026-10-22"
+    },
+    "abcoptimisedmultipliersyosyssynthbooth": {
+      "term": "ABC-optimised multipliers (yosys synth -booth)",
+      "first_seen": "2026-10-22"
+    },
+    "flipsupercomputeronmoonrover": {
+      "term": "FLIP (supercomputer on moon rover)",
+      "first_seen": "2026-10-22"
+    },
+    "php2shell": {
+      "term": "PHP2Shell",
+      "first_seen": "2026-10-22"
+    },
+    "litellmcompromise": {
+      "term": "LiteLLM compromise",
+      "first_seen": "2026-10-22"
+    },
+    "ucreatorandroidspywareplatform": {
+      "term": "uCreator (Android spyware platform)",
+      "first_seen": "2026-10-22"
+    },
+    "quadraticsolitonmodelockedlaserinlithiumniobatenanophotonics": {
+      "term": "Quadratic-Soliton Mode-Locked Laser in Lithium Niobate Nanophotonics",
       "first_seen": "2026-10-22"
     }
   }
