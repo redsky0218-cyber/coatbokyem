@@ -4097,6 +4097,33 @@
       "tickers": [
         "INTC"
       ]
+    },
+    "riscvcpu": {
+      "name": "고성능 오픈소스 RISC-V CPU의 부상",
+      "first_seen": "2026-10-23",
+      "tickers": [
+        "WDC",
+        "CDNS",
+        "SNPS"
+      ]
+    },
+    "pcarmsnapdragonxeliteplus": {
+      "name": "PC 시장에서 ARM 기반 Snapdragon X Elite/Plus 프로세서의 확장",
+      "first_seen": "2026-10-23",
+      "tickers": [
+        "QCOM",
+        "MSFT",
+        "GOOGL"
+      ]
+    },
+    "thz": {
+      "name": "THz 대역 렌즈 설계 및 이미징 기술 발전",
+      "first_seen": "2026-10-23",
+      "tickers": [
+        "COHR",
+        "LITE",
+        "MRVL"
+      ]
     }
   },
   "seen_tech": {
@@ -8635,6 +8662,34 @@
     "quadraticsolitonmodelockedlaserinlithiumniobatenanophotonics": {
       "term": "Quadratic-Soliton Mode-Locked Laser in Lithium Niobate Nanophotonics",
       "first_seen": "2026-10-22"
+    },
+    "kunminghuv3": {
+      "term": "Kunminghu v3",
+      "first_seen": "2026-10-23"
+    },
+    "hawkheterogeneityawarekvcachetransfer": {
+      "term": "HAWK (Heterogeneity-Aware KV Cache Transfer)",
+      "first_seen": "2026-10-23"
+    },
+    "kittentts2": {
+      "term": "Kitten-TTS 2",
+      "first_seen": "2026-10-23"
+    },
+    "carbonx": {
+      "term": "Carbon-X",
+      "first_seen": "2026-10-23"
+    },
+    "thzlensmaker": {
+      "term": "THz-LensMaker",
+      "first_seen": "2026-10-23"
+    },
+    "allsiliconhyperboloidmetalens": {
+      "term": "All-Silicon Hyperboloid Metalens",
+      "first_seen": "2026-10-23"
+    },
+    "quantumodyssey": {
+      "term": "Quantum Odyssey",
+      "first_seen": "2026-10-23"
     }
   }
 }
