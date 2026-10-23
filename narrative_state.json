@@ -8690,6 +8690,22 @@
     "quantumodyssey": {
       "term": "Quantum Odyssey",
       "first_seen": "2026-10-23"
+    },
+    "openxiangshanproject": {
+      "term": "OpenXiangShan project",
+      "first_seen": "2026-10-23"
+    },
+    "2nmprocessnode": {
+      "term": "2nm process node",
+      "first_seen": "2026-10-23"
+    },
+    "hardwareaireverseengineering": {
+      "term": "Hardware AI reverse engineering",
+      "first_seen": "2026-10-23"
+    },
+    "uciphy": {
+      "term": "UCI Phy",
+      "first_seen": "2026-10-23"
     }
   }
 }
