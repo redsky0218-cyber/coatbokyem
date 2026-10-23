@@ -4140,6 +4140,15 @@
         "MU",
         "WDC"
       ]
+    },
+    "aitvostv": {
+      "name": "AI 기반의 TVOS 및 스마트 TV 홈 스크린",
+      "first_seen": "2026-10-24",
+      "tickers": [
+        "ROKU",
+        "GOOGL",
+        "AAPL"
+      ]
     }
   },
   "seen_tech": {
@@ -8742,6 +8751,34 @@
     "nextconceptmodelingncm": {
       "term": "Next-Concept Modeling (NCM)",
       "first_seen": "2026-10-23"
+    },
+    "rutheniumruinterconnects": {
+      "term": "Ruthenium (Ru) Interconnects",
+      "first_seen": "2026-10-24"
+    },
+    "drycoolersfordatacenters": {
+      "term": "Dry Coolers for Data Centers",
+      "first_seen": "2026-10-24"
+    },
+    "datacenterwasteheatdesalination": {
+      "term": "Data Center Waste Heat Desalination",
+      "first_seen": "2026-10-24"
+    },
+    "gpuperformanceunlockforai": {
+      "term": "GPU Performance Unlock for AI",
+      "first_seen": "2026-10-24"
+    },
+    "qwenflashnextqfn": {
+      "term": "Qwen Flash Next (QFN)",
+      "first_seen": "2026-10-24"
+    },
+    "itofindirecttimeofflightrgbrig": {
+      "term": "iToF (Indirect Time-of-Flight) + RGB rig",
+      "first_seen": "2026-10-24"
+    },
+    "concolictestingforqecc": {
+      "term": "Concolic Testing for QECC",
+      "first_seen": "2026-10-24"
     }
   }
 }
