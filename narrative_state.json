@@ -4124,6 +4124,22 @@
         "LITE",
         "MRVL"
       ]
+    },
+    "ru": {
+      "name": "고급 노드 반도체용 루테늄(Ru) 인터커넥트 채택",
+      "first_seen": "2026-10-23",
+      "tickers": [
+        "AMAT",
+        "LRCX"
+      ]
+    },
+    "ddr6lpddr6hbm4": {
+      "name": "차세대 메모리 표준 (DDR6, LPDDR6, HBM4) 개발 및 수요 증가",
+      "first_seen": "2026-10-23",
+      "tickers": [
+        "MU",
+        "WDC"
+      ]
     }
   },
   "seen_tech": {
@@ -8705,6 +8721,26 @@
     },
     "uciphy": {
       "term": "UCI Phy",
+      "first_seen": "2026-10-23"
+    },
+    "ddr6": {
+      "term": "DDR6",
+      "first_seen": "2026-10-23"
+    },
+    "aiforhardwarereverseengineering": {
+      "term": "AI for Hardware Reverse Engineering",
+      "first_seen": "2026-10-23"
+    },
+    "rutheniuminterconnects": {
+      "term": "Ruthenium interconnects",
+      "first_seen": "2026-10-23"
+    },
+    "autonomousnuclearreactorsforspace": {
+      "term": "Autonomous Nuclear Reactors for Space",
+      "first_seen": "2026-10-23"
+    },
+    "nextconceptmodelingncm": {
+      "term": "Next-Concept Modeling (NCM)",
       "first_seen": "2026-10-23"
     }
   }
