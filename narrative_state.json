@@ -4165,6 +4165,11 @@
         "GOOGL",
         "AMZN"
       ]
+    },
+    "ainostr": {
+      "name": "AI 에이전트 간 통신을 위한 Nostr 프로토콜 활용",
+      "first_seen": "2026-10-24",
+      "tickers": []
     }
   },
   "seen_tech": {
@@ -8814,6 +8819,26 @@
     },
     "steerttsedge": {
       "term": "SteerTTS-edge",
+      "first_seen": "2026-10-24"
+    },
+    "18a": {
+      "term": "18A",
+      "first_seen": "2026-10-24"
+    },
+    "n2p": {
+      "term": "N2P",
+      "first_seen": "2026-10-24"
+    },
+    "2nm": {
+      "term": "2nm",
+      "first_seen": "2026-10-24"
+    },
+    "compoundmemorymodels": {
+      "term": "Compound Memory Models",
+      "first_seen": "2026-10-24"
+    },
+    "fdsoifullydepletedsilicononinsulator": {
+      "term": "FDSOI (Fully Depleted Silicon On Insulator)",
       "first_seen": "2026-10-24"
     }
   }
