@@ -4170,6 +4170,31 @@
       "name": "AI 에이전트 간 통신을 위한 Nostr 프로토콜 활용",
       "first_seen": "2026-10-24",
       "tickers": []
+    },
+    "ddr6lpddr6": {
+      "name": "DDR6 및 LPDDR6 메모리 표준의 부상",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "MU",
+        "SMH"
+      ]
+    },
+    "fdsoiai": {
+      "name": "FDSOI 기술의 AI 칩 적용 확대 가능성",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "GFS",
+        "NXPI",
+        "STM"
+      ]
+    },
+    "smrbwrx300": {
+      "name": "소형 모듈형 원자로(SMR) BWRX-300의 영국 시장 진출",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "GEV",
+        "GE"
+      ]
     }
   },
   "seen_tech": {
@@ -8840,6 +8865,26 @@
     "fdsoifullydepletedsilicononinsulator": {
       "term": "FDSOI (Fully Depleted Silicon On Insulator)",
       "first_seen": "2026-10-24"
+    },
+    "ddr6lpddr6": {
+      "term": "DDR6 / LPDDR6",
+      "first_seen": "2026-10-25"
+    },
+    "haleusupplyfromnavalnuclearfuelrecycling": {
+      "term": "HALEU Supply from Naval Nuclear Fuel Recycling",
+      "first_seen": "2026-10-25"
+    },
+    "autonomousnuclearreactorsforspacemissions": {
+      "term": "Autonomous Nuclear Reactors for Space Missions",
+      "first_seen": "2026-10-25"
+    },
+    "continuousprobabilisticcomputercpc": {
+      "term": "Continuous Probabilistic Computer (CPC)",
+      "first_seen": "2026-10-25"
+    },
+    "aiagentsforquantumcircuitoptimization": {
+      "term": "AI Agents for Quantum Circuit Optimization",
+      "first_seen": "2026-10-25"
     }
   }
 }
