@@ -4149,6 +4149,22 @@
         "GOOGL",
         "AAPL"
       ]
+    },
+    "aisdk": {
+      "name": "차세대 모바일 AI 플랫폼 (퀄컴 아드레노 뉴럴 퓨전 SDK)",
+      "first_seen": "2026-10-24",
+      "tickers": [
+        "QCOM",
+        "ARM"
+      ]
+    },
+    "adfreetv": {
+      "name": "AD-Free 안드로이드 TV 런처/홈 스크린",
+      "first_seen": "2026-10-24",
+      "tickers": [
+        "GOOGL",
+        "AMZN"
+      ]
     }
   },
   "seen_tech": {
@@ -8778,6 +8794,26 @@
     },
     "concolictestingforqecc": {
       "term": "Concolic Testing for QECC",
+      "first_seen": "2026-10-24"
+    },
+    "adrenoneuralfusionsdk": {
+      "term": "Adreno Neural Fusion SDK",
+      "first_seen": "2026-10-24"
+    },
+    "fdsoifullydepletedsilicononinsulatorforaichips": {
+      "term": "FDSOI (Fully Depleted Silicon-On-Insulator) for AI chips",
+      "first_seen": "2026-10-24"
+    },
+    "mylarlunarhabitatinsulator": {
+      "term": "Mylar lunar habitat insulator",
+      "first_seen": "2026-10-24"
+    },
+    "openxttstrainer": {
+      "term": "Open-XTTS-Trainer",
+      "first_seen": "2026-10-24"
+    },
+    "steerttsedge": {
+      "term": "SteerTTS-edge",
       "first_seen": "2026-10-24"
     }
   }
