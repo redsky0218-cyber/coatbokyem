@@ -4224,6 +4224,34 @@
         "ZS",
         "PANW"
       ]
+    },
+    "nvidiartxsparknpuai": {
+      "name": "NVIDIA RTX Spark의 NPU 통합 및 온디바이스 AI 가속화",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "QCOM",
+        "ARM"
+      ]
+    },
+    "androidtv": {
+      "name": "오픈소스 Android TV 런처를 통한 사용자 경험 개선",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "GOOGL",
+        "AMZN",
+        "ROKU"
+      ]
+    },
+    "arctntensornetwork": {
+      "name": "양자 회로 시뮬레이션을 위한 ArcTN Tensor-Network 최적화",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "IONQ",
+        "RGTI",
+        "IBM"
+      ]
     }
   },
   "seen_tech": {
@@ -8937,6 +8965,30 @@
     },
     "programmableonchipnonlinearphotonics": {
       "term": "Programmable On-Chip Nonlinear Photonics",
+      "first_seen": "2026-10-25"
+    },
+    "oryon": {
+      "term": "Oryon",
+      "first_seen": "2026-10-25"
+    },
+    "alldigitalplladpllin22nmfdx": {
+      "term": "All Digital PLL (ADPLL) in 22nm FDX",
+      "first_seen": "2026-10-25"
+    },
+    "pfbrreactor": {
+      "term": "PFBR Reactor",
+      "first_seen": "2026-10-25"
+    },
+    "brotlivulnerabilitycve2026111497": {
+      "term": "Brotli vulnerability (CVE-2026-111497)",
+      "first_seen": "2026-10-25"
+    },
+    "llmbasedpenetrationtesting": {
+      "term": "LLM-Based Penetration Testing",
+      "first_seen": "2026-10-25"
+    },
+    "arctn": {
+      "term": "ArcTN",
       "first_seen": "2026-10-25"
     }
   }
