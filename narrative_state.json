@@ -4252,6 +4252,34 @@
         "RGTI",
         "IBM"
       ]
+    },
+    "npu": {
+      "name": "클라이언트 디바이스에서의 NPU 통합 확대",
+      "first_seen": "2026-10-26",
+      "tickers": [
+        "NVDA",
+        "QCOM",
+        "INTC",
+        "AMD"
+      ]
+    },
+    "llmgpup2ppeertopeer": {
+      "name": "로컬 LLM을 위한 GPU 성능 최적화 및 P2P(Peer-to-Peer) 기술 활용",
+      "first_seen": "2026-10-26",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ]
+    },
+    "pedipulation": {
+      "name": "첨단 로봇 공학의 '페디퓰레이션(Pedipulation)' 능력 부상",
+      "first_seen": "2026-10-26",
+      "tickers": [
+        "IRBT",
+        "OSUR",
+        "ROCK"
+      ]
     }
   },
   "seen_tech": {
@@ -8990,6 +9018,30 @@
     "arctn": {
       "term": "ArcTN",
       "first_seen": "2026-10-25"
+    },
+    "rtxsparknpu": {
+      "term": "RTX Spark NPU",
+      "first_seen": "2026-10-26"
+    },
+    "neocloud": {
+      "term": "Neocloud",
+      "first_seen": "2026-10-26"
+    },
+    "efficientcomputerarchitecturecompilertechnology": {
+      "term": "Efficient Computer architecture/compiler technology",
+      "first_seen": "2026-10-26"
+    },
+    "pedipulation": {
+      "term": "Pedipulation",
+      "first_seen": "2026-10-26"
+    },
+    "microreactorsnuclear": {
+      "term": "Microreactors (Nuclear)",
+      "first_seen": "2026-10-26"
+    },
+    "proteomicsplatformsultrasensitivehighthroughput": {
+      "term": "Proteomics platforms (ultra-sensitive, high-throughput)",
+      "first_seen": "2026-10-26"
     }
   }
 }
