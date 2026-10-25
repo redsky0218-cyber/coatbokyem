@@ -4195,6 +4195,35 @@
         "GEV",
         "GE"
       ]
+    },
+    "aispacex": {
+      "name": "AI 컴퓨팅 인프라에 대한 SpaceX의 공격적인 투자",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "DELL",
+        "CRDO",
+        "MRVL"
+      ]
+    },
+    "sclcamgenimdelltra": {
+      "name": "소세포폐암(SCLC) 치료를 위한 Amgen의 Imdelltra 병용 요법",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "AMGN",
+        "AZN",
+        "MRK"
+      ]
+    },
+    "phprcephp2shell": {
+      "name": "PHP 기반 웹 애플리케이션의 새로운 RCE(원격 코드 실행) 취약점 'php2shell'",
+      "first_seen": "2026-10-25",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "PANW"
+      ]
     }
   },
   "seen_tech": {
@@ -8884,6 +8913,30 @@
     },
     "aiagentsforquantumcircuitoptimization": {
       "term": "AI Agents for Quantum Circuit Optimization",
+      "first_seen": "2026-10-25"
+    },
+    "starshiphlsrefueling": {
+      "term": "Starship HLS refueling",
+      "first_seen": "2026-10-25"
+    },
+    "adcantibodydrugconjugatephase3push": {
+      "term": "ADC (Antibody-Drug Conjugate) Phase 3 Push",
+      "first_seen": "2026-10-25"
+    },
+    "http2shell": {
+      "term": "HTTP2Shell",
+      "first_seen": "2026-10-25"
+    },
+    "ebpfxdpdnsfloodmitigation": {
+      "term": "eBPF/XDP DNS flood mitigation",
+      "first_seen": "2026-10-25"
+    },
+    "llmbasedpenetrationtestingharnesses": {
+      "term": "LLM-Based Penetration Testing Harnesses",
+      "first_seen": "2026-10-25"
+    },
+    "programmableonchipnonlinearphotonics": {
+      "term": "Programmable On-Chip Nonlinear Photonics",
       "first_seen": "2026-10-25"
     }
   }
