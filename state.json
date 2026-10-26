@@ -18,23 +18,24 @@
     "CRS": "2026-10-23"
   },
   "zone_w": {
-    "CRS": 2,
+    "CRS": 0,
     "BWXT": 0,
     "KLAC": 0,
     "TSLA": 0,
     "GOOGL": 2,
     "GLW": 0,
     "KEYS": 0,
-    "AVGO": 2,
+    "AVGO": 0,
     "SNDK": 0,
     "AMZN": 0,
-    "ADI": 0
+    "ADI": 0,
+    "SPCX": 0
   },
   "zone_m": {
     "CRS": 1,
     "BWXT": 1,
     "KLAC": 0,
-    "TSLA": 1,
+    "TSLA": 0,
     "GOOGL": 0,
     "GLW": 0,
     "KEYS": 0,
