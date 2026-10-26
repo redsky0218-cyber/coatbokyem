@@ -4280,6 +4280,36 @@
         "OSUR",
         "ROCK"
       ]
+    },
+    "aigpugddr7": {
+      "name": "AI 데이터센터용 컨슈머 GPU 개조 및 GDDR7 메모리 채택",
+      "first_seen": "2026-10-26",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "SMCI",
+        "DELL"
+      ]
+    },
+    "llmkvssd": {
+      "name": "LLM KV 캐시 오프로딩으로 인한 SSD 수명 단축 및 해결 기술",
+      "first_seen": "2026-10-26",
+      "tickers": [
+        "WDC",
+        "STX",
+        "SMCI",
+        "NVDA"
+      ]
+    },
+    "proteomics": {
+      "name": "차세대 단백질체학(Proteomics) 플랫폼의 부상",
+      "first_seen": "2026-10-26",
+      "tickers": [
+        "NAUT",
+        "QSI",
+        "PACB",
+        "ILMN"
+      ]
     }
   },
   "seen_tech": {
@@ -9041,6 +9071,30 @@
     },
     "proteomicsplatformsultrasensitivehighthroughput": {
       "term": "Proteomics platforms (ultra-sensitive, high-throughput)",
+      "first_seen": "2026-10-26"
+    },
+    "gb202chips": {
+      "term": "GB202 chips",
+      "first_seen": "2026-10-26"
+    },
+    "globallyasynchronouslocallysynchronousgalssystems": {
+      "term": "Globally Asynchronous Locally Synchronous (GALS) Systems",
+      "first_seen": "2026-10-26"
+    },
+    "nuclearmicroreactors": {
+      "term": "Nuclear microreactors",
+      "first_seen": "2026-10-26"
+    },
+    "haleusupply": {
+      "term": "HALEU supply",
+      "first_seen": "2026-10-26"
+    },
+    "qecdecoderresearch": {
+      "term": "QEC decoder research",
+      "first_seen": "2026-10-26"
+    },
+    "codedquantizationcq": {
+      "term": "Coded Quantization (CQ)",
       "first_seen": "2026-10-26"
     }
   }
