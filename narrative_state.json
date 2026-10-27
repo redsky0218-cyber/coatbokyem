@@ -4320,6 +4320,14 @@
         "IRBT",
         "PLTR"
       ]
+    },
+    "gpufp32accumulation": {
+      "name": "GPU 텐서 코어 성능 잠금 해제 (FP32 Accumulation)",
+      "first_seen": "2026-10-27",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -9133,6 +9141,34 @@
     },
     "memt10memorynativearchitectureforaiagents": {
       "term": "memt-1.0 (Memory-Native Architecture for AI Agents)",
+      "first_seen": "2026-10-27"
+    },
+    "nagarelabs": {
+      "term": "Nagare Labs",
+      "first_seen": "2026-10-27"
+    },
+    "intelapx": {
+      "term": "Intel APX",
+      "first_seen": "2026-10-27"
+    },
+    "photonicquantumrd": {
+      "term": "Photonic Quantum R&D",
+      "first_seen": "2026-10-27"
+    },
+    "pacproofprobabilisticallycheckableargumentofknowledgeproof": {
+      "term": "PAC Proof (Probabilistically Checkable Argument of Knowledge Proof)",
+      "first_seen": "2026-10-27"
+    },
+    "contextbombs": {
+      "term": "Context Bombs",
+      "first_seen": "2026-10-27"
+    },
+    "physicalsuperintelligence": {
+      "term": "Physical Superintelligence",
+      "first_seen": "2026-10-27"
+    },
+    "ks3kernelizedselfsupervisedsubspace": {
+      "term": "KS3 (Kernelized Self-Supervised Subspace)",
       "first_seen": "2026-10-27"
     }
   }
