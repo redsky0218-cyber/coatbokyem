@@ -4337,6 +4337,31 @@
         "AMD",
         "INTC"
       ]
+    },
+    "gddrram": {
+      "name": "GDDR 메모리의 시스템 RAM 활용 가능성",
+      "first_seen": "2026-10-28",
+      "tickers": [
+        "AMD",
+        "MU",
+        "SKHY"
+      ]
+    },
+    "l": {
+      "name": "모듈형 양자 컴퓨팅 및 L-커플러 기술",
+      "first_seen": "2026-10-28",
+      "tickers": [
+        "IBM",
+        "QBTS"
+      ]
+    },
+    "aidna": {
+      "name": "AI 기반 DNA 시퀀싱 및 유전체학",
+      "first_seen": "2026-10-28",
+      "tickers": [
+        "PACB",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -9203,6 +9228,34 @@
     "dawgdecodingwithalternatingweightedgraphsparsification": {
       "term": "DAWG (Decoding with Alternating Weighted Graph Sparsification)",
       "first_seen": "2026-10-27"
+    },
+    "gddrforsystemram": {
+      "term": "GDDR for System RAM",
+      "first_seen": "2026-10-28"
+    },
+    "agentdrivenanalogicdesign": {
+      "term": "Agent-driven Analog IC Design",
+      "first_seen": "2026-10-28"
+    },
+    "lcouplersquantumcomputing": {
+      "term": "L-couplers (Quantum Computing)",
+      "first_seen": "2026-10-28"
+    },
+    "llmforquantumalgorithmdiscovery": {
+      "term": "LLM for Quantum Algorithm Discovery",
+      "first_seen": "2026-10-28"
+    },
+    "radhardoptics": {
+      "term": "Rad-hard Optics",
+      "first_seen": "2026-10-28"
+    },
+    "6steploraadaptersnoupsampling": {
+      "term": "6-step LoRA Adapters (no upsampling)",
+      "first_seen": "2026-10-28"
+    },
+    "06adaptivestreamsofthoughtworldmodel": {
+      "term": "Ψ-0.6 (Adaptive Streams of Thought World Model)",
+      "first_seen": "2026-10-28"
     }
   }
 }
