@@ -4362,6 +4362,15 @@
         "PACB",
         "GOOGL"
       ]
+    },
+    "gpuagpu": {
+      "name": "차세대 모바일 GPU 아키텍처 'aGPU'의 부상",
+      "first_seen": "2026-10-29",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "AAPL"
+      ]
     }
   },
   "seen_tech": {
@@ -9256,6 +9265,34 @@
     "06adaptivestreamsofthoughtworldmodel": {
       "term": "Ψ-0.6 (Adaptive Streams of Thought World Model)",
       "first_seen": "2026-10-28"
+    },
+    "agpuarchitecturalgpu": {
+      "term": "aGPU (Architectural GPU)",
+      "first_seen": "2026-10-29"
+    },
+    "sparsecomputingaccelerators": {
+      "term": "Sparse Computing Accelerators",
+      "first_seen": "2026-10-29"
+    },
+    "qwenputer": {
+      "term": "Qwenputer",
+      "first_seen": "2026-10-29"
+    },
+    "cislunarmoonkit": {
+      "term": "Cislunar Moon Kit",
+      "first_seen": "2026-10-29"
+    },
+    "xpessimism": {
+      "term": "X-pessimism",
+      "first_seen": "2026-10-29"
+    },
+    "iq3siq3ksquantization": {
+      "term": "IQ3_S / IQ3_KS Quantization",
+      "first_seen": "2026-10-29"
+    },
+    "hindsightselfdistillationfinsd": {
+      "term": "Hindsight Self-Distillation (Fin-SD)",
+      "first_seen": "2026-10-29"
     }
   }
 }
