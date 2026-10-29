@@ -4371,6 +4371,15 @@
         "NVDA",
         "AAPL"
       ]
+    },
+    "aivishing": {
+      "name": "AI 기반 피싱(Vishing) 시뮬레이션 및 대응 솔루션",
+      "first_seen": "2026-10-30",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "OKTA"
+      ]
     }
   },
   "seen_tech": {
@@ -9293,6 +9302,30 @@
     "hindsightselfdistillationfinsd": {
       "term": "Hindsight Self-Distillation (Fin-SD)",
       "first_seen": "2026-10-29"
+    },
+    "allsolidstatebatteryassb": {
+      "term": "All-Solid-State Battery (ASSB)",
+      "first_seen": "2026-10-30"
+    },
+    "224gserdes": {
+      "term": "224G SerDes",
+      "first_seen": "2026-10-30"
+    },
+    "cryogenicmetallicmaterials": {
+      "term": "Cryogenic Metallic Materials",
+      "first_seen": "2026-10-30"
+    },
+    "computeinmemorycimwithconfidencebasedearlyexit": {
+      "term": "Compute-in-Memory (CiM) with Confidence-Based Early Exit",
+      "first_seen": "2026-10-30"
+    },
+    "spikingneuralnetworkssnnacceleratorsformmwaveisac": {
+      "term": "Spiking Neural Networks (SNN) Accelerators for mmWave ISAC",
+      "first_seen": "2026-10-30"
+    },
+    "analogscoutllmagentsforanalogsizing": {
+      "term": "AnalogScout (LLM Agents for Analog Sizing)",
+      "first_seen": "2026-10-30"
     }
   }
 }
