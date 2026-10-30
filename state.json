@@ -28,7 +28,7 @@
     "KEYS": 0,
     "AVGO": 0,
     "SNDK": 0,
-    "AMZN": 2,
+    "AMZN": 0,
     "ADI": 0,
     "SPCX": 0
   },
@@ -40,8 +40,8 @@
     "GOOGL": 1,
     "GLW": 0,
     "KEYS": 0,
-    "AVGO": 0,
-    "AMZN": 1,
+    "AVGO": 1,
+    "AMZN": 0,
     "ADI": 0
   }
 }
