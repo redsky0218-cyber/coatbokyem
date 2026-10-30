@@ -4407,6 +4407,44 @@
         "NVDA",
         "AMD"
       ]
+    },
+    "aipcb": {
+      "name": "AI 수요로 인한 PCB 공급 부족 및 가격 상승",
+      "first_seen": "2026-10-31",
+      "tickers": [
+        "TTM",
+        "ROG",
+        "SANM"
+      ]
+    },
+    "airam": {
+      "name": "로컬 AI 연산 가치 부각 및 RAM 공급 부족 심화",
+      "first_seen": "2026-10-31",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "INTC"
+      ]
+    },
+    "fda": {
+      "name": "'플러그 앤 플레이' 유전자 치료제 FDA 가이드라인 발표",
+      "first_seen": "2026-10-31",
+      "tickers": [
+        "CRSP",
+        "EDIT",
+        "NTLA",
+        "BEAM"
+      ]
+    },
+    "webassemblywasmrce": {
+      "name": "WebAssembly (Wasm) 샌드박스를 활용한 원격 코드 실행(RCE) 방어",
+      "first_seen": "2026-10-31",
+      "tickers": [
+        "VMW",
+        "CRWD",
+        "NET"
+      ]
     }
   },
   "seen_tech": {
@@ -9381,6 +9419,38 @@
     "tkintegersk5": {
       "term": "TKintegers K5",
       "first_seen": "2026-10-30"
+    },
+    "intelnovalake": {
+      "term": "Intel Nova Lake",
+      "first_seen": "2026-10-31"
+    },
+    "inteladvancedperformanceextensionsapx": {
+      "term": "Intel Advanced Performance Extensions (APX)",
+      "first_seen": "2026-10-31"
+    },
+    "snapdragon8elitegen6snapdragoneliteextremegen6": {
+      "term": "Snapdragon 8 Elite Gen 6 / Snapdragon Elite Extreme Gen 6",
+      "first_seen": "2026-10-31"
+    },
+    "consumertpus": {
+      "term": "consumer TPU's",
+      "first_seen": "2026-10-31"
+    },
+    "starfallcapsule": {
+      "term": "Starfall capsule",
+      "first_seen": "2026-10-31"
+    },
+    "plugandplaygenetherapies": {
+      "term": "'plug and play' gene therapies",
+      "first_seen": "2026-10-31"
+    },
+    "wasmsandboxes": {
+      "term": "Wasm Sandboxes",
+      "first_seen": "2026-10-31"
+    },
+    "metalenses": {
+      "term": "Metalenses",
+      "first_seen": "2026-10-31"
     }
   }
 }
