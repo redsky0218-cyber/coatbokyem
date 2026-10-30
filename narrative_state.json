@@ -4380,6 +4380,33 @@
         "PANW",
         "OKTA"
       ]
+    },
+    "assb": {
+      "name": "전고체 배터리(ASSB)의 고급 애플리케이션 확장",
+      "first_seen": "2026-10-30",
+      "tickers": [
+        "QS",
+        "SLDP"
+      ]
+    },
+    "serdespcb": {
+      "name": "고속 SerDes 및 첨단 PCB 설계의 중요성 증대",
+      "first_seen": "2026-10-30",
+      "tickers": [
+        "MRVL",
+        "AVGO",
+        "AXTI",
+        "CDNS",
+        "SNPS"
+      ]
+    },
+    "llmasrnl": {
+      "name": "LLM을 활용한 음성-텍스트(ASR-NL) 통합 모델 개발",
+      "first_seen": "2026-10-30",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -9325,6 +9352,34 @@
     },
     "analogscoutllmagentsforanalogsizing": {
       "term": "AnalogScout (LLM Agents for Analog Sizing)",
+      "first_seen": "2026-10-30"
+    },
+    "allsolidstatebatteryassb900whl": {
+      "term": "All-Solid-State Battery (ASSB) 900Wh/L",
+      "first_seen": "2026-10-30"
+    },
+    "sparsecomputingsparsityaccelerators": {
+      "term": "Sparse Computing / Sparsity Accelerators",
+      "first_seen": "2026-10-30"
+    },
+    "112g224gserdes": {
+      "term": "112G/224G SerDes",
+      "first_seen": "2026-10-30"
+    },
+    "orbitaldebrismanagement": {
+      "term": "Orbital Debris Management",
+      "first_seen": "2026-10-30"
+    },
+    "nutritionalcountermeasurestospaceflight": {
+      "term": "Nutritional Countermeasures to Spaceflight",
+      "first_seen": "2026-10-30"
+    },
+    "compoundedpeptides": {
+      "term": "Compounded Peptides",
+      "first_seen": "2026-10-30"
+    },
+    "tkintegersk5": {
+      "term": "TKintegers K5",
       "first_seen": "2026-10-30"
     }
   }
