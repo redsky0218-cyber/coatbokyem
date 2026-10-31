@@ -4445,6 +4445,15 @@
         "CRWD",
         "NET"
       ]
+    },
+    "aiondevice": {
+      "name": "AI 모델의 온디바이스(On-device) 실행 및 최적화",
+      "first_seen": "2026-10-31",
+      "tickers": [
+        "QCOM",
+        "ARM",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -9450,6 +9459,34 @@
     },
     "metalenses": {
       "term": "Metalenses",
+      "first_seen": "2026-10-31"
+    },
+    "275gigahertzled": {
+      "term": "2.75 gigahertz LED",
+      "first_seen": "2026-10-31"
+    },
+    "majoranalattice": {
+      "term": "Majorana Lattice",
+      "first_seen": "2026-10-31"
+    },
+    "softmultitokenpredictionsoftmtp": {
+      "term": "Soft Multi-Token Prediction (Soft-MTP)",
+      "first_seen": "2026-10-31"
+    },
+    "mechanochromismbasedtactilesensor": {
+      "term": "Mechanochromism-based tactile sensor",
+      "first_seen": "2026-10-31"
+    },
+    "magevlcowork": {
+      "term": "Mage-VL-Cowork",
+      "first_seen": "2026-10-31"
+    },
+    "zerobreachtoolkit": {
+      "term": "Zero-Breach-Toolkit",
+      "first_seen": "2026-10-31"
+    },
+    "blablindllmagents": {
+      "term": "BLA (Blind LLM Agents)",
       "first_seen": "2026-10-31"
     }
   }
