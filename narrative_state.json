@@ -4454,6 +4454,35 @@
         "ARM",
         "GOOGL"
       ]
+    },
+    "led": {
+      "name": "데이터센터 내 고속, 에너지 효율 LED 광통신 기술",
+      "first_seen": "2026-11-01",
+      "tickers": [
+        "LITE",
+        "IIVI",
+        "AVGO",
+        "MRVL"
+      ]
+    },
+    "smraurora": {
+      "name": "SMR (소형모듈형원자로) Aurora 프로젝트 진전",
+      "first_seen": "2026-11-01",
+      "tickers": [
+        "BWXT",
+        "NPO",
+        "GE"
+      ]
+    },
+    "mrnastx003": {
+      "name": "프로그래밍 가능한 mRNA 치료제 STX-003의 임상 진전",
+      "first_seen": "2026-11-01",
+      "tickers": [
+        "MRNA",
+        "BNTX",
+        "ARWR",
+        "ALNY"
+      ]
     }
   },
   "seen_tech": {
@@ -9488,6 +9517,34 @@
     "blablindllmagents": {
       "term": "BLA (Blind LLM Agents)",
       "first_seen": "2026-10-31"
+    },
+    "275gigahertzledfordatacenters": {
+      "term": "2.75 gigahertz LED for data centers",
+      "first_seen": "2026-11-01"
+    },
+    "lunarnuclearreactors": {
+      "term": "Lunar Nuclear Reactors",
+      "first_seen": "2026-11-01"
+    },
+    "programmablemrnatherapystx003": {
+      "term": "Programmable mRNA Therapy (STX-003)",
+      "first_seen": "2026-11-01"
+    },
+    "aiagentsystemdshsuperagentprototype": {
+      "term": "AI Agent System (DSH Superagent Prototype)",
+      "first_seen": "2026-11-01"
+    },
+    "quantumsnapshotthermometry": {
+      "term": "Quantum Snapshot Thermometry",
+      "first_seen": "2026-11-01"
+    },
+    "lefthandedsuperconductingtransmissionlines": {
+      "term": "Left-Handed Superconducting Transmission Lines",
+      "first_seen": "2026-11-01"
+    },
+    "vulcanvariationalupbuildinglayeredcompressionadaptivenbodyperturbation": {
+      "term": "VULCAN (Variational Upbuilding, Layered Compression, Adaptive N-body perturbation)",
+      "first_seen": "2026-11-01"
     }
   }
 }
