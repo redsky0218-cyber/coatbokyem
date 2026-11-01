@@ -4483,6 +4483,33 @@
         "ARWR",
         "ALNY"
       ]
+    },
+    "aix86ace": {
+      "name": "AI용 x86 ACE 확장 명령어 세트",
+      "first_seen": "2026-11-01",
+      "tickers": [
+        "INTC",
+        "AMD"
+      ]
+    },
+    "275ghzled": {
+      "name": "고속, 에너지 효율 데이터센터용 2.75GHz LED 기술",
+      "first_seen": "2026-11-01",
+      "tickers": [
+        "LITE",
+        "COHR",
+        "MRVL"
+      ]
+    },
+    "aillmvramram": {
+      "name": "AI 에이전트 구동을 위한 로컬 LLM의 고용량 VRAM/RAM 수요 증가",
+      "first_seen": "2026-11-01",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -9544,6 +9571,26 @@
     },
     "vulcanvariationalupbuildinglayeredcompressionadaptivenbodyperturbation": {
       "term": "VULCAN (Variational Upbuilding, Layered Compression, Adaptive N-body perturbation)",
+      "first_seen": "2026-11-01"
+    },
+    "x86aceextensions": {
+      "term": "x86 ACE extensions",
+      "first_seen": "2026-11-01"
+    },
+    "powerblocknuclearfueltechnology": {
+      "term": "PowerBlock™ Nuclear Fuel Technology",
+      "first_seen": "2026-11-01"
+    },
+    "cascadedrandomaccessquantummemory": {
+      "term": "Cascaded Random Access Quantum Memory",
+      "first_seen": "2026-11-01"
+    },
+    "metalenstechnologyforimaging": {
+      "term": "Metalens technology for imaging",
+      "first_seen": "2026-11-01"
+    },
+    "conditionalengrammemorycem": {
+      "term": "Conditional Engram Memory (CEM)",
       "first_seen": "2026-11-01"
     }
   }
