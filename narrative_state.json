@@ -4510,6 +4510,24 @@
         "MU",
         "SMCI"
       ]
+    },
+    "8tsram": {
+      "name": "8T SRAM 도입을 통한 메모리 안정성 향상",
+      "first_seen": "2026-11-01",
+      "tickers": [
+        "RMBS",
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "llmvramgpu": {
+      "name": "로컬 LLM 추론을 위한 고용량 VRAM 소비자 GPU 수요 증가",
+      "first_seen": "2026-11-01",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -9591,6 +9609,26 @@
     },
     "conditionalengrammemorycem": {
       "term": "Conditional Engram Memory (CEM)",
+      "first_seen": "2026-11-01"
+    },
+    "8tsram": {
+      "term": "8T SRAM",
+      "first_seen": "2026-11-01"
+    },
+    "npucompiledinsidellmweightsqwenpu": {
+      "term": "NPU compiled inside LLM weights (QwenPU)",
+      "first_seen": "2026-11-01"
+    },
+    "spacebasedaidatacentersinference": {
+      "term": "Space-based AI data centers/inference",
+      "first_seen": "2026-11-01"
+    },
+    "betelgeusebelclibelserver": {
+      "term": "Betelgeuse (bel-cli/bel-server)",
+      "first_seen": "2026-11-01"
+    },
+    "iq4xsquantizationformat": {
+      "term": "IQ4_XS (quantization format)",
       "first_seen": "2026-11-01"
     }
   }
