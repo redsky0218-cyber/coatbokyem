@@ -4528,6 +4528,15 @@
         "MU",
         "SMCI"
       ]
+    },
+    "aiholocronengine": {
+      "name": "AI 기반 로봇 설계 및 시뮬레이션 자동화 (Holocron Engine)",
+      "first_seen": "2026-11-02",
+      "tickers": [
+        "ADSK",
+        "SSYS",
+        "PTC"
+      ]
     }
   },
   "seen_tech": {
@@ -9630,6 +9639,34 @@
     "iq4xsquantizationformat": {
       "term": "IQ4_XS (quantization format)",
       "first_seen": "2026-11-01"
+    },
+    "thputhoriumplutoniumfuel": {
+      "term": "ThPu (thorium plutonium) fuel",
+      "first_seen": "2026-11-02"
+    },
+    "mocssmultiobjectcoronagraphyforslitlessspectroscopy": {
+      "term": "MOCSS (Multiobject Coronagraphy for Slitless Spectroscopy)",
+      "first_seen": "2026-11-02"
+    },
+    "heretic20arbitraryrankablation": {
+      "term": "Heretic 2.0 (Arbitrary-Rank Ablation)",
+      "first_seen": "2026-11-02"
+    },
+    "crapcompilerreplacementforassemblingprograms": {
+      "term": "CRAP (Compiler Replacement for Assembling Programs)",
+      "first_seen": "2026-11-02"
+    },
+    "finedna": {
+      "term": "FineDNA",
+      "first_seen": "2026-11-02"
+    },
+    "lsreplongitudinalstatereplayprotocol": {
+      "term": "LSREP (Longitudinal State-Replay Protocol)",
+      "first_seen": "2026-11-02"
+    },
+    "gearrsiframework": {
+      "term": "Gear (RSI framework)",
+      "first_seen": "2026-11-02"
     }
   }
 }
