@@ -9667,6 +9667,26 @@
     "gearrsiframework": {
       "term": "Gear (RSI framework)",
       "first_seen": "2026-11-02"
+    },
+    "mirage2faaitmproxyattackcve202669836": {
+      "term": "Mirage2FA / AiTM proxy attack (CVE-2026-69836)",
+      "first_seen": "2026-11-02"
+    },
+    "quantuminspiredmachinelearningqiml": {
+      "term": "Quantum Inspired Machine Learning (QIML)",
+      "first_seen": "2026-11-02"
+    },
+    "unezunsuperviseddirectlyinterpretableneuralnetwork": {
+      "term": "UnEZ (Unsupervised, Directly Interpretable Neural Network)",
+      "first_seen": "2026-11-02"
+    },
+    "gearmetalearninginspiredframeworkforrsi": {
+      "term": "Gear (Meta-learning inspired framework for RSI)",
+      "first_seen": "2026-11-02"
+    },
+    "rareearthfreewhitelightemitter": {
+      "term": "Rare-earth-free white light emitter",
+      "first_seen": "2026-11-02"
     }
   }
 }
