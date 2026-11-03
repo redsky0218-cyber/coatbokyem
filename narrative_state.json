@@ -4537,6 +4537,42 @@
         "SSYS",
         "PTC"
       ]
+    },
+    "ainvhbm": {
+      "name": "AI 가속기용 NVHBM 메모리 표준 부상",
+      "first_seen": "2026-11-04",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "TSM"
+      ]
+    },
+    "smrxe100": {
+      "name": "차세대 소형모듈원자로(SMR) Xe-100 상용화 임박",
+      "first_seen": "2026-11-04",
+      "tickers": [
+        "BWXT",
+        "GE"
+      ]
+    },
+    "ctdna": {
+      "name": "ctDNA 기반 유방암 치료 전환 전략 부상",
+      "first_seen": "2026-11-04",
+      "tickers": [
+        "EXAS",
+        "ILMN",
+        "GH"
+      ]
+    },
+    "aiweightspaceprogramming": {
+      "name": "AI 에이전트 시스템을 위한 'Weight-Space Programming' 개념 확산",
+      "first_seen": "2026-11-04",
+      "tickers": [
+        "GOOG",
+        "MSFT",
+        "PLTR"
+      ]
     }
   },
   "seen_tech": {
@@ -9687,6 +9723,38 @@
     "rareearthfreewhitelightemitter": {
       "term": "Rare-earth-free white light emitter",
       "first_seen": "2026-11-02"
+    },
+    "clusteredgeometryandpartitionedtlas": {
+      "term": "Clustered Geometry and Partitioned TLAS",
+      "first_seen": "2026-11-04"
+    },
+    "nvhbm": {
+      "term": "NVHBM",
+      "first_seen": "2026-11-04"
+    },
+    "roomtemperaturequantumstateofmatter": {
+      "term": "Room-Temperature Quantum State of Matter",
+      "first_seen": "2026-11-04"
+    },
+    "opensourcepdksprocessdesignkits": {
+      "term": "Open-Source PDKs (Process Design Kits)",
+      "first_seen": "2026-11-04"
+    },
+    "aiforphysicaldesignaieda": {
+      "term": "AI for Physical Design (AI-EDA)",
+      "first_seen": "2026-11-04"
+    },
+    "pebblebednuclearreactor": {
+      "term": "Pebble Bed Nuclear Reactor",
+      "first_seen": "2026-11-04"
+    },
+    "ctdnaguidedtherapyswitching": {
+      "term": "ctDNA-Guided Therapy Switching",
+      "first_seen": "2026-11-04"
+    },
+    "weightspaceprogramming": {
+      "term": "Weight-Space Programming",
+      "first_seen": "2026-11-04"
     }
   }
 }
