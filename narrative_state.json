@@ -4592,6 +4592,15 @@
         "LITE",
         "CIEN"
       ]
+    },
+    "hbm2nm2": {
+      "name": "HBM 베이스 다이 전용 삼성 2nm 테일러 팹 2",
+      "first_seen": "2026-11-05",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "CRDO"
+      ]
     }
   },
   "seen_tech": {
@@ -9790,6 +9799,30 @@
     "zblanopticalfibersinspace": {
       "term": "ZBLAN Optical Fibers in Space",
       "first_seen": "2026-11-04"
+    },
+    "nvhbmmemorystandard": {
+      "term": "NVHBM memory standard",
+      "first_seen": "2026-11-05"
+    },
+    "clusteredgeometry": {
+      "term": "Clustered Geometry",
+      "first_seen": "2026-11-05"
+    },
+    "partitionedtlas": {
+      "term": "Partitioned TLAS",
+      "first_seen": "2026-11-05"
+    },
+    "14anodeintel": {
+      "term": "14A Node (Intel)",
+      "first_seen": "2026-11-05"
+    },
+    "opensourcepdks": {
+      "term": "Open-source PDKs",
+      "first_seen": "2026-11-05"
+    },
+    "workloadstaticopticalcircuitswitchingocs": {
+      "term": "Workload-Static Optical Circuit Switching (OCS)",
+      "first_seen": "2026-11-05"
     }
   }
 }
