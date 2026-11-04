@@ -4573,6 +4573,25 @@
         "MSFT",
         "PLTR"
       ]
+    },
+    "hbmnvhbm": {
+      "name": "맞춤형 로직 통합 HBM 베이스 다이 (NVHBM 표준)",
+      "first_seen": "2026-11-04",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "TSM",
+        "MU"
+      ]
+    },
+    "zblan": {
+      "name": "ZBLAN 광섬유의 우주 제조 및 고성능 통신",
+      "first_seen": "2026-11-04",
+      "tickers": [
+        "AAOI",
+        "LITE",
+        "CIEN"
+      ]
     }
   },
   "seen_tech": {
@@ -9754,6 +9773,22 @@
     },
     "weightspaceprogramming": {
       "term": "Weight-Space Programming",
+      "first_seen": "2026-11-04"
+    },
+    "hardwareintheloophilforaidesign": {
+      "term": "Hardware-in-the-loop (HIL) for AI Design",
+      "first_seen": "2026-11-04"
+    },
+    "hybridairansomwareattack": {
+      "term": "Hybrid AI Ransomware Attack",
+      "first_seen": "2026-11-04"
+    },
+    "greeterflowiseaiinfrastructureattack": {
+      "term": "Greeter (Flowise AI Infrastructure Attack)",
+      "first_seen": "2026-11-04"
+    },
+    "zblanopticalfibersinspace": {
+      "term": "ZBLAN Optical Fibers in Space",
       "first_seen": "2026-11-04"
     }
   }
