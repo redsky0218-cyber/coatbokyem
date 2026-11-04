@@ -4601,6 +4601,26 @@
         "NVDA",
         "CRDO"
       ]
+    },
+    "postquantumcryptographypqc": {
+      "name": "Post-Quantum Cryptography (PQC) 전환 가속화",
+      "first_seen": "2026-11-05",
+      "tickers": [
+        "QCOM",
+        "ARM",
+        "BB",
+        "NVDA"
+      ]
+    },
+    "aiweightediting": {
+      "name": "초거대 AI 모델의 소형 모델 가중치 편집(Weight Editing) 방식 부상",
+      "first_seen": "2026-11-05",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "AMD",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -9822,6 +9842,26 @@
     },
     "workloadstaticopticalcircuitswitchingocs": {
       "term": "Workload-Static Optical Circuit Switching (OCS)",
+      "first_seen": "2026-11-05"
+    },
+    "aienabledmalware": {
+      "term": "AI-enabled malware",
+      "first_seen": "2026-11-05"
+    },
+    "aidrivenhardwaredesign": {
+      "term": "AI-driven hardware design",
+      "first_seen": "2026-11-05"
+    },
+    "llmweightediting": {
+      "term": "LLM weight editing",
+      "first_seen": "2026-11-05"
+    },
+    "dynamitedynamicmeasurementscheduling": {
+      "term": "DynaMite (Dynamic Measurement Scheduling)",
+      "first_seen": "2026-11-05"
+    },
+    "quantumhamiltonianembeddings": {
+      "term": "Quantum Hamiltonian Embeddings",
       "first_seen": "2026-11-05"
     }
   }
