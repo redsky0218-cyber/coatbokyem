@@ -4621,6 +4621,43 @@
         "AMD",
         "NVDA"
       ]
+    },
+    "npudpuheterogeneousai": {
+      "name": "NPU-DPU 융합을 통한 이기종(Heterogeneous) AI 클러스터 구축",
+      "first_seen": "2026-11-06",
+      "tickers": [
+        "AMD",
+        "MRVL",
+        "NVDA"
+      ]
+    },
+    "18a": {
+      "name": "인텔의 18A 공정 노드 개발 및 적용 가속화",
+      "first_seen": "2026-11-06",
+      "tickers": [
+        "INTC",
+        "AMAT",
+        "LRCX",
+        "KLAC"
+      ]
+    },
+    "llmaiquantization": {
+      "name": "LLM 경량화 및 온디바이스 AI 구현을 위한 양자화(Quantization) 기술 고도화",
+      "first_seen": "2026-11-06",
+      "tickers": [
+        "AMD",
+        "QCOM",
+        "INTC",
+        "ARM"
+      ]
+    },
+    "loxlng": {
+      "name": "우주 발사체 엔진 기술 혁신: LOX/LNG 추진체 개발",
+      "first_seen": "2026-11-06",
+      "tickers": [
+        "RKLB",
+        "VACQ"
+      ]
     }
   },
   "seen_tech": {
@@ -9863,6 +9900,38 @@
     "quantumhamiltonianembeddings": {
       "term": "Quantum Hamiltonian Embeddings",
       "first_seen": "2026-11-05"
+    },
+    "18anode": {
+      "term": "18A Node",
+      "first_seen": "2026-11-06"
+    },
+    "heterogeneousaiclusternpudpu": {
+      "term": "Heterogeneous AI Cluster (NPU+DPU)",
+      "first_seen": "2026-11-06"
+    },
+    "envlp": {
+      "term": "ENVLP",
+      "first_seen": "2026-11-06"
+    },
+    "northstarengineloxlng": {
+      "term": "Northstar Engine (LOX/LNG)",
+      "first_seen": "2026-11-06"
+    },
+    "opticalchipforlightrecycling": {
+      "term": "Optical Chip for Light Recycling",
+      "first_seen": "2026-11-06"
+    },
+    "ggufmlxonnxquantization": {
+      "term": "GGUF / MLX / ONNX Quantization",
+      "first_seen": "2026-11-06"
+    },
+    "moemixtureofexpertstraininghandbook": {
+      "term": "MoE (Mixture-of-Experts) Training Handbook",
+      "first_seen": "2026-11-06"
+    },
+    "agentvqa": {
+      "term": "AgentVQA",
+      "first_seen": "2026-11-06"
     }
   }
 }
