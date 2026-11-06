@@ -4658,6 +4658,26 @@
         "RKLB",
         "VACQ"
       ]
+    },
+    "vlmai": {
+      "name": "소비자 기기용 경량 비전-언어 모델(VLM) 및 온디바이스 AI",
+      "first_seen": "2026-11-07",
+      "tickers": [
+        "QCOM",
+        "INTC",
+        "GOOGL",
+        "AAPL"
+      ]
+    },
+    "hcf": {
+      "name": "홀로코어 광섬유(HCF)를 활용한 차세대 광학 네트워크",
+      "first_seen": "2026-11-07",
+      "tickers": [
+        "CIEN",
+        "LITE",
+        "FN",
+        "GOOGL"
+      ]
     }
   },
   "seen_tech": {
@@ -9932,6 +9952,42 @@
     "agentvqa": {
       "term": "AgentVQA",
       "first_seen": "2026-11-06"
+    },
+    "edgerot": {
+      "term": "Edge Rot",
+      "first_seen": "2026-11-07"
+    },
+    "robotictrussbuilder": {
+      "term": "Robotic Truss Builder",
+      "first_seen": "2026-11-07"
+    },
+    "zeptoverse": {
+      "term": "Zeptoverse",
+      "first_seen": "2026-11-07"
+    },
+    "regenerativedentistrynewtoothgrowth": {
+      "term": "Regenerative Dentistry (New Tooth Growth)",
+      "first_seen": "2026-11-07"
+    },
+    "trappedelectronquantumcomputing": {
+      "term": "Trapped Electron Quantum Computing",
+      "first_seen": "2026-11-07"
+    },
+    "opticalchiplightrecycling": {
+      "term": "Optical Chip (Light Recycling)",
+      "first_seen": "2026-11-07"
+    },
+    "miragevisuallanguagemodel": {
+      "term": "Mirage (Visual-Language Model)",
+      "first_seen": "2026-11-07"
+    },
+    "higgsrealtimeduplex": {
+      "term": "Higgs Realtime Duplex",
+      "first_seen": "2026-11-07"
+    },
+    "hollowcorefiberhcf": {
+      "term": "Hollow-Core Fiber (HCF)",
+      "first_seen": "2026-11-07"
     }
   }
 }
