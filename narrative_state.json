@@ -4678,6 +4678,27 @@
         "FN",
         "GOOGL"
       ]
+    },
+    "amdzen6teeriscv": {
+      "name": "AMD Zen 6 TEE에 RISC-V 아키텍처 채택",
+      "first_seen": "2026-11-07",
+      "tickers": [
+        "AMD"
+      ]
+    },
+    "trappedelectronquantumcomputing": {
+      "name": "트랩드 전자 양자 컴퓨팅 (Trapped Electron Quantum Computing)",
+      "first_seen": "2026-11-07",
+      "tickers": []
+    },
+    "hollowcorefiberhcf": {
+      "name": "홀로우 코어 광섬유 (Hollow-Core Fiber, HCF)의 데이터센터 및 네트워크 적용",
+      "first_seen": "2026-11-07",
+      "tickers": [
+        "CIEN",
+        "LITE",
+        "FN"
+      ]
     }
   },
   "seen_tech": {
@@ -10007,6 +10028,10 @@
     },
     "port0cybersecurity": {
       "term": "Port 0 (Cybersecurity)",
+      "first_seen": "2026-11-07"
+    },
+    "riscvintee": {
+      "term": "RISC-V in TEE",
       "first_seen": "2026-11-07"
     }
   }
