@@ -4699,6 +4699,28 @@
         "LITE",
         "FN"
       ]
+    },
+    "tsmc3ddram": {
+      "name": "TSMC의 3D DRAM 제조 진출 가능성",
+      "first_seen": "2026-11-08",
+      "tickers": [
+        "TSM",
+        "MU",
+        "WDC",
+        "NVDA"
+      ]
+    },
+    "ainimbyism": {
+      "name": "AI 데이터센터 전력 수요 및 NIMBYism으로 인한 인프라 제약",
+      "first_seen": "2026-11-08",
+      "tickers": [
+        "STRL",
+        "EQIX",
+        "DLR",
+        "VRT",
+        "ETN",
+        "GEV"
+      ]
     }
   },
   "seen_tech": {
@@ -10033,6 +10055,22 @@
     "riscvintee": {
       "term": "RISC-V in TEE",
       "first_seen": "2026-11-07"
+    },
+    "analogcimcomputeinmemorywithchipletintegration": {
+      "term": "Analog CIM (Compute-in-Memory) with chiplet integration",
+      "first_seen": "2026-11-08"
+    },
+    "moltensaltreactormsrformaritimeuse": {
+      "term": "Molten Salt Reactor (MSR) for Maritime Use",
+      "first_seen": "2026-11-08"
+    },
+    "ling32flash": {
+      "term": "Ling-3.2-flash",
+      "first_seen": "2026-11-08"
+    },
+    "quantumknowledgedistillation": {
+      "term": "Quantum Knowledge Distillation",
+      "first_seen": "2026-11-08"
     }
   }
 }
