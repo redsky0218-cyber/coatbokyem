@@ -9988,6 +9988,26 @@
     "hollowcorefiberhcf": {
       "term": "Hollow-Core Fiber (HCF)",
       "first_seen": "2026-11-07"
+    },
+    "edgerotwoledtv": {
+      "term": "Edge Rot (WOLED TV)",
+      "first_seen": "2026-11-07"
+    },
+    "northstarloxlngengine": {
+      "term": "Northstar LOX/LNG engine",
+      "first_seen": "2026-11-07"
+    },
+    "robotictrussbuilderinspace": {
+      "term": "Robotic Truss Builder in Space",
+      "first_seen": "2026-11-07"
+    },
+    "zeptoversebreakthrough": {
+      "term": "Zeptoverse Breakthrough",
+      "first_seen": "2026-11-07"
+    },
+    "port0cybersecurity": {
+      "term": "Port 0 (Cybersecurity)",
+      "first_seen": "2026-11-07"
     }
   }
 }
