@@ -10127,6 +10127,26 @@
     "decoupleddiffusiondraftingd3dforasynchronousspeculativedecoding": {
       "term": "Decoupled Diffusion Drafting (D3D) for Asynchronous Speculative Decoding",
       "first_seen": "2026-11-08"
+    },
+    "keplerformal": {
+      "term": "kepler-formal",
+      "first_seen": "2026-11-08"
+    },
+    "tbviewer": {
+      "term": "TBViewer",
+      "first_seen": "2026-11-08"
+    },
+    "zerodayradar": {
+      "term": "Zero-Day Radar",
+      "first_seen": "2026-11-08"
+    },
+    "agenticaitoolingartex": {
+      "term": "Agentic AI tooling (ARTEX)",
+      "first_seen": "2026-11-08"
+    },
+    "sensorguardrv": {
+      "term": "SensorGuard-RV",
+      "first_seen": "2026-11-08"
     }
   }
 }
