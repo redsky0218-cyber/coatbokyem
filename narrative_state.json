@@ -4757,6 +4757,14 @@
         "IONQ",
         "HON"
       ]
+    },
+    "zen6teeriscvamd": {
+      "name": "Zen 6 TEE의 RISC-V 전환을 통한 AMD의 보안 강화",
+      "first_seen": "2026-11-09",
+      "tickers": [
+        "AMD",
+        "SIFIVE"
+      ]
     }
   },
   "seen_tech": {
@@ -10147,6 +10155,30 @@
     "sensorguardrv": {
       "term": "SensorGuard-RV",
       "first_seen": "2026-11-08"
+    },
+    "openhardwarestandardformodularphones": {
+      "term": "Open Hardware Standard for Modular Phones",
+      "first_seen": "2026-11-09"
+    },
+    "riscvteetrustedexecutionenvironment": {
+      "term": "RISC-V TEE (Trusted Execution Environment)",
+      "first_seen": "2026-11-09"
+    },
+    "lasercommunicationsforsatellites": {
+      "term": "Laser Communications for Satellites",
+      "first_seen": "2026-11-09"
+    },
+    "leadlikelibraries": {
+      "term": "Lead-Like Libraries",
+      "first_seen": "2026-11-09"
+    },
+    "alternativebiobasedliquidcoolingfordatacenters": {
+      "term": "Alternative/Bio-based Liquid Cooling for Data Centers",
+      "first_seen": "2026-11-09"
+    },
+    "nextconceptmodeling": {
+      "term": "Next-Concept Modeling",
+      "first_seen": "2026-11-09"
     }
   }
 }
