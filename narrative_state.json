@@ -4721,6 +4721,42 @@
         "ETN",
         "GEV"
       ]
+    },
+    "riscvtrustedexecutionenvironmenttee": {
+      "name": "RISC-V 기반 Trusted Execution Environment (TEE) 채택 증가",
+      "first_seen": "2026-11-08",
+      "tickers": [
+        "AMD",
+        "SIFIVE",
+        "RVSN"
+      ]
+    },
+    "msrhtgr": {
+      "name": "차세대 원자력 발전 기술: 용융염 원자로 (MSR) 및 고온 가스 원자로 (HTGR)",
+      "first_seen": "2026-11-08",
+      "tickers": [
+        "BWXT",
+        "XELA",
+        "OKLO"
+      ]
+    },
+    "aidrugscreeninginultralargechemicalspace": {
+      "name": "AI 기반 초거대 화학 공간 스크리닝 (Drug Screening in Ultralarge Chemical Space)",
+      "first_seen": "2026-11-08",
+      "tickers": [
+        "DDOG",
+        "CDNS",
+        "SYNOPSYS"
+      ]
+    },
+    "qhtm": {
+      "name": "양자 컴퓨팅 하드웨어에 대한 사이버 보안 위협 매트릭스 (QHTM)",
+      "first_seen": "2026-11-08",
+      "tickers": [
+        "RGTI",
+        "IONQ",
+        "HON"
+      ]
     }
   },
   "seen_tech": {
@@ -10070,6 +10106,26 @@
     },
     "quantumknowledgedistillation": {
       "term": "Quantum Knowledge Distillation",
+      "first_seen": "2026-11-08"
+    },
+    "zen6teetrustedexecutionenvironment": {
+      "term": "Zen 6 TEE (Trusted Execution Environment)",
+      "first_seen": "2026-11-08"
+    },
+    "sodiumionbatteries": {
+      "term": "Sodium-ion batteries (나트륨 이온 배터리)",
+      "first_seen": "2026-11-08"
+    },
+    "artexagenticaitoolingforsecurity": {
+      "term": "ARTeX (Agentic AI Tooling for Security)",
+      "first_seen": "2026-11-08"
+    },
+    "qhtmquantumhardwarethreatmatrix": {
+      "term": "QHTM (Quantum Hardware Threat Matrix)",
+      "first_seen": "2026-11-08"
+    },
+    "decoupleddiffusiondraftingd3dforasynchronousspeculativedecoding": {
+      "term": "Decoupled Diffusion Drafting (D3D) for Asynchronous Speculative Decoding",
       "first_seen": "2026-11-08"
     }
   }
