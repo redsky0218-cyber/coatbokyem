@@ -4765,6 +4765,14 @@
         "AMD",
         "SIFIVE"
       ]
+    },
+    "gpuai": {
+      "name": "레거시 GPU를 활용한 로컬 AI 모델 개발 환경 확장",
+      "first_seen": "2026-11-09",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -10178,6 +10186,30 @@
     },
     "nextconceptmodeling": {
       "term": "Next-Concept Modeling",
+      "first_seen": "2026-11-09"
+    },
+    "decentralizedopenhardwarestandard": {
+      "term": "Decentralized, open hardware standard",
+      "first_seen": "2026-11-09"
+    },
+    "agenticchipdesignflows": {
+      "term": "Agentic Chip Design Flows",
+      "first_seen": "2026-11-09"
+    },
+    "aidrivenpcbdesignautomation": {
+      "term": "AI-driven PCB Design Automation",
+      "first_seen": "2026-11-09"
+    },
+    "nighthawkprocessor": {
+      "term": "Nighthawk processor",
+      "first_seen": "2026-11-09"
+    },
+    "parsimonybenchmark": {
+      "term": "Parsimony Benchmark",
+      "first_seen": "2026-11-09"
+    },
+    "offensiveaipackagesegpentagicairn": {
+      "term": "Offensive AI Packages (e.g., PentAGI, Cairn)",
       "first_seen": "2026-11-09"
     }
   }
