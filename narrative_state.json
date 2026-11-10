@@ -4773,6 +4773,48 @@
         "NVDA",
         "AMD"
       ]
+    },
+    "reballedmemory": {
+      "name": "재구슬화 메모리 (Reballed Memory) 스마트폰 채택 증가",
+      "first_seen": "2026-11-10",
+      "tickers": [
+        "MU",
+        "TSM",
+        "AMAT"
+      ]
+    },
+    "aiagenticchipdesignflows": {
+      "name": "AI 에이전트 기반 칩 설계 자동화 (Agentic Chip Design Flows)",
+      "first_seen": "2026-11-10",
+      "tickers": [
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "nasa": {
+      "name": "달 탐사 및 핵추진 로버를 위한 NASA 계약 확대",
+      "first_seen": "2026-11-10",
+      "tickers": [
+        "LMT",
+        "RKLB",
+        "OKLO"
+      ]
+    },
+    "pretrainedtactilefeatures": {
+      "name": "로봇 촉각 센서 데이터 처리를 위한 사전 학습된 특징 (Pretrained Tactile Features)",
+      "first_seen": "2026-11-10",
+      "tickers": [
+        "MBLY",
+        "NVDA"
+      ]
+    },
+    "ainpcnpcjudgementcalls": {
+      "name": "AI 모델을 활용한 게임 내 NPC 의사 결정 (NPC Judgement Calls)",
+      "first_seen": "2026-11-10",
+      "tickers": [
+        "U",
+        "RBLX"
+      ]
     }
   },
   "seen_tech": {
@@ -10211,6 +10253,30 @@
     "offensiveaipackagesegpentagicairn": {
       "term": "Offensive AI Packages (e.g., PentAGI, Cairn)",
       "first_seen": "2026-11-09"
+    },
+    "reballedmemory": {
+      "term": "Reballed Memory",
+      "first_seen": "2026-11-10"
+    },
+    "lithiumfusionlipfusion": {
+      "term": "Lithium Fusion (⁷Li + p fusion)",
+      "first_seen": "2026-11-10"
+    },
+    "frcfieldreversedconfigurations": {
+      "term": "FRC (Field Reversed Configurations)",
+      "first_seen": "2026-11-10"
+    },
+    "nuclearpoweredrover": {
+      "term": "Nuclear-powered rover",
+      "first_seen": "2026-11-10"
+    },
+    "clapcpp": {
+      "term": "clap.cpp",
+      "first_seen": "2026-11-10"
+    },
+    "productatlas": {
+      "term": "Product Atlas",
+      "first_seen": "2026-11-10"
     }
   }
 }
