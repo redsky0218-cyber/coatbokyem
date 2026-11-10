@@ -4815,6 +4815,40 @@
         "U",
         "RBLX"
       ]
+    },
+    "amdzen5avx512": {
+      "name": "AMD Zen 5 AVX-512 최적화로 성능 향상",
+      "first_seen": "2026-11-11",
+      "tickers": [
+        "AMD"
+      ]
+    },
+    "byonvme": {
+      "name": "소비자용 외장 하이브리드 스토리지 (BYO NVMe)",
+      "first_seen": "2026-11-11",
+      "tickers": [
+        "STX",
+        "WDC",
+        "MU"
+      ]
+    },
+    "3dcubeh": {
+      "name": "삼성의 3D Cube-H 첨단 패키징 기술 개발",
+      "first_seen": "2026-11-11",
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX"
+      ]
+    },
+    "aigeoint": {
+      "name": "AI 기반 위성 영상 자동 분석 (GEOINT) 플랫폼",
+      "first_seen": "2026-11-11",
+      "tickers": [
+        "RKLB",
+        "MAXR",
+        "PL"
+      ]
     }
   },
   "seen_tech": {
@@ -10277,6 +10311,34 @@
     "productatlas": {
       "term": "Product Atlas",
       "first_seen": "2026-11-10"
+    },
+    "3dcubehpackaging": {
+      "term": "3D Cube-H Packaging",
+      "first_seen": "2026-11-11"
+    },
+    "aichiplocationverification": {
+      "term": "AI Chip Location Verification",
+      "first_seen": "2026-11-11"
+    },
+    "eomasterplatform": {
+      "term": "EO Master Platform",
+      "first_seen": "2026-11-11"
+    },
+    "lingbottouch": {
+      "term": "LingBot-Touch",
+      "first_seen": "2026-11-11"
+    },
+    "sophonrealtimev1": {
+      "term": "Sophon-Realtime v1",
+      "first_seen": "2026-11-11"
+    },
+    "closedloopstepperdriverwithdualencoders": {
+      "term": "Closed-Loop Stepper Driver with Dual Encoders",
+      "first_seen": "2026-11-11"
+    },
+    "svapshot": {
+      "term": "SVApshot",
+      "first_seen": "2026-11-11"
     }
   }
 }
