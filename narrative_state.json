@@ -4849,6 +4849,14 @@
         "MAXR",
         "PL"
       ]
+    },
+    "aimicrodroplet": {
+      "name": "AI 데이터센터를 위한 마이크로-액적(Micro-droplet) 냉각 기술",
+      "first_seen": "2026-11-11",
+      "tickers": [
+        "VRT",
+        "ETN"
+      ]
     }
   },
   "seen_tech": {
@@ -10338,6 +10346,34 @@
     },
     "svapshot": {
       "term": "SVApshot",
+      "first_seen": "2026-11-11"
+    },
+    "3dcubehpackagingtechnology": {
+      "term": "3D Cube-H Packaging Technology",
+      "first_seen": "2026-11-11"
+    },
+    "microdropletcoolingforchiphotspots": {
+      "term": "Micro-droplet cooling for chip hotspots",
+      "first_seen": "2026-11-11"
+    },
+    "tesseractnpu": {
+      "term": "Tesseract NPU",
+      "first_seen": "2026-11-11"
+    },
+    "projectomega": {
+      "term": "Project Omega",
+      "first_seen": "2026-11-11"
+    },
+    "cuclthermochemicalcycle": {
+      "term": "Cu-Cl thermo-chemical cycle",
+      "first_seen": "2026-11-11"
+    },
+    "deletiontuning": {
+      "term": "Deletion Tuning",
+      "first_seen": "2026-11-11"
+    },
+    "gaussiansplatting": {
+      "term": "Gaussian Splatting",
       "first_seen": "2026-11-11"
     }
   }
