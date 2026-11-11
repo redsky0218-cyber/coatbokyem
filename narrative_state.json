@@ -4857,6 +4857,15 @@
         "VRT",
         "ETN"
       ]
+    },
+    "aimcpmachinecomposableprotocol": {
+      "name": "AI 에이전트의 웹 인터랙션을 위한 MCP(Machine-Composable Protocol) 표준화",
+      "first_seen": "2026-11-12",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ]
     }
   },
   "seen_tech": {
@@ -10375,6 +10384,38 @@
     "gaussiansplatting": {
       "term": "Gaussian Splatting",
       "first_seen": "2026-11-11"
+    },
+    "tinydropsofcoolantforchiphotspots": {
+      "term": "Tiny drops of coolant for chip hotspots",
+      "first_seen": "2026-11-12"
+    },
+    "highspeedmixedsignals": {
+      "term": "High speed mixed signals",
+      "first_seen": "2026-11-12"
+    },
+    "hierarchicalsynthesis": {
+      "term": "Hierarchical Synthesis",
+      "first_seen": "2026-11-12"
+    },
+    "axi4idmaengine": {
+      "term": "AXI4 iDMA engine",
+      "first_seen": "2026-11-12"
+    },
+    "alphagenome2": {
+      "term": "AlphaGenome 2",
+      "first_seen": "2026-11-12"
+    },
+    "pixelleak": {
+      "term": "PixelLeak",
+      "first_seen": "2026-11-12"
+    },
+    "sleeperagentsaisecurity": {
+      "term": "Sleeper agents (AI security)",
+      "first_seen": "2026-11-12"
+    },
+    "pomeradomcpforagents": {
+      "term": "Pomerado (MCP for agents)",
+      "first_seen": "2026-11-12"
     }
   }
 }
