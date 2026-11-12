@@ -4888,6 +4888,22 @@
         "KLA",
         "ASX"
       ]
+    },
+    "nvidiaceoai": {
+      "name": "NVIDIA CEO 사임 및 AI 칩 시장 재편 가능성",
+      "first_seen": "2026-11-13",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MRVL"
+      ]
+    },
+    "aiainose": {
+      "name": "AI 기반 화학 지능 플랫폼 (AI Nose)",
+      "first_seen": "2026-11-13",
+      "tickers": [
+        "AIMD"
+      ]
     }
   },
   "seen_tech": {
@@ -10462,6 +10478,30 @@
     "localaiagenticsetup": {
       "term": "Local AI Agentic Setup",
       "first_seen": "2026-11-12"
+    },
+    "ainosesystems": {
+      "term": "AI Nose Systems",
+      "first_seen": "2026-11-13"
+    },
+    "skiplanezeroskippingcnnengines": {
+      "term": "SkipLane (Zero-Skipping CNN Engines)",
+      "first_seen": "2026-11-13"
+    },
+    "multidimensionalquantumblockturbocodes": {
+      "term": "Multidimensional Quantum Block Turbo Codes",
+      "first_seen": "2026-11-13"
+    },
+    "onchipdissipationforqubitreset": {
+      "term": "On-chip Dissipation for Qubit Reset",
+      "first_seen": "2026-11-13"
+    },
+    "electricalstarktuningofsiliconvacanciesin4hsic": {
+      "term": "Electrical Stark Tuning of Silicon Vacancies in 4H-SiC",
+      "first_seen": "2026-11-13"
+    },
+    "selfassembledmetalnanoparticlesforsemiconductornanostructuring": {
+      "term": "Self-Assembled Metal Nanoparticles for Semiconductor Nanostructuring",
+      "first_seen": "2026-11-13"
     }
   }
 }
