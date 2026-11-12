@@ -4866,6 +4866,28 @@
         "GOOGL",
         "AMZN"
       ]
+    },
+    "300mmsic": {
+      "name": "300mm 실리콘 카바이드(SiC) 전력 반도체 생산 가속화",
+      "first_seen": "2026-11-12",
+      "tickers": [
+        "ON",
+        "WOLF",
+        "AMAT",
+        "LRCX",
+        "KLA"
+      ]
+    },
+    "25d3d": {
+      "name": "첨단 반도체 패키징 기술(2.5D/3D 통합, 칩렛, 하이브리드 본딩)의 확산 및 중요성 증대",
+      "first_seen": "2026-11-12",
+      "tickers": [
+        "TXN",
+        "AMAT",
+        "LRCX",
+        "KLA",
+        "ASX"
+      ]
     }
   },
   "seen_tech": {
@@ -10415,6 +10437,30 @@
     },
     "pomeradomcpforagents": {
       "term": "Pomerado (MCP for agents)",
+      "first_seen": "2026-11-12"
+    },
+    "300mmsiliconcarbidewafersforpowerchips": {
+      "term": "300-mm Silicon Carbide wafers (for power chips)",
+      "first_seen": "2026-11-12"
+    },
+    "moltensaltreactorsmsrs": {
+      "term": "Molten Salt Reactors (MSRs)",
+      "first_seen": "2026-11-12"
+    },
+    "aifirstsmartphones": {
+      "term": "AI-first smartphones",
+      "first_seen": "2026-11-12"
+    },
+    "lightfielddisplayforhumanoidrobotfaces": {
+      "term": "Light-field display for humanoid robot faces",
+      "first_seen": "2026-11-12"
+    },
+    "voltageglitchingtounlockgpus": {
+      "term": "Voltage glitching to unlock GPUs",
+      "first_seen": "2026-11-12"
+    },
+    "localaiagenticsetup": {
+      "term": "Local AI Agentic Setup",
       "first_seen": "2026-11-12"
     }
   }
