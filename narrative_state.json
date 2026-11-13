@@ -4904,6 +4904,30 @@
       "tickers": [
         "AIMD"
       ]
+    },
+    "hbm4micron": {
+      "name": "HBM4 메모리 시장 경쟁 심화 및 Micron의 기회",
+      "first_seen": "2026-11-13",
+      "tickers": [
+        "MU"
+      ]
+    },
+    "aigpurubinblackwell": {
+      "name": "차세대 AI GPU 아키텍처(Rubin, Blackwell) 전환 가속화",
+      "first_seen": "2026-11-13",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "AMAT"
+      ]
+    },
+    "haleusmr": {
+      "name": "HALEU 핵연료 공급망 구축 및 SMR 발전소 상용화",
+      "first_seen": "2026-11-13",
+      "tickers": [
+        "LEU",
+        "CCJ"
+      ]
     }
   },
   "seen_tech": {
@@ -10501,6 +10525,26 @@
     },
     "selfassembledmetalnanoparticlesforsemiconductornanostructuring": {
       "term": "Self-Assembled Metal Nanoparticles for Semiconductor Nanostructuring",
+      "first_seen": "2026-11-13"
+    },
+    "carbicecarbonnanotubethermalpad": {
+      "term": "Carbice® carbon nanotube thermal pad",
+      "first_seen": "2026-11-13"
+    },
+    "vlavisuallanguageactionmodels": {
+      "term": "VLA (Visual-Language-Action) models",
+      "first_seen": "2026-11-13"
+    },
+    "tactileencoder": {
+      "term": "Tactile encoder",
+      "first_seen": "2026-11-13"
+    },
+    "edge0145b": {
+      "term": "Edge0-145B",
+      "first_seen": "2026-11-13"
+    },
+    "rubinblackwellgpuarchitectures": {
+      "term": "Rubin / Blackwell (GPU architectures)",
       "first_seen": "2026-11-13"
     }
   }
