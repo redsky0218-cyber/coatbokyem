@@ -4928,6 +4928,36 @@
         "LEU",
         "CCJ"
       ]
+    },
+    "customsilicon": {
+      "name": "하이퍼스케일러 외 기업들의 맞춤형 반도체(Custom Silicon) 채택 증가",
+      "first_seen": "2026-11-14",
+      "tickers": [
+        "MPWR",
+        "MCHP",
+        "SNPS",
+        "CDNS",
+        "RMBS"
+      ]
+    },
+    "metahaleusmr": {
+      "name": "메타(Meta) 선불 결제 기반의 HALEU 연료 공급 계약 체결을 통한 SMR(소형 모듈형 원자로) 상용화 가속화",
+      "first_seen": "2026-11-14",
+      "tickers": [
+        "LEU",
+        "BWXT",
+        "GE"
+      ]
+    },
+    "llmquantization": {
+      "name": "엣지 디바이스 및 저사양 하드웨어에서 LLM 실행을 위한 양자화(Quantization) 및 효율성 최적화 기술 발전",
+      "first_seen": "2026-11-14",
+      "tickers": [
+        "ARM",
+        "QCOM",
+        "INTC",
+        "AMD"
+      ]
     }
   },
   "seen_tech": {
@@ -10573,6 +10603,18 @@
     },
     "gcmp": {
       "term": "GCMP",
+      "first_seen": "2026-11-14"
+    },
+    "moemixtureofexpertsarchitecturescaling": {
+      "term": "MoE (Mixture of Experts) Architecture Scaling",
+      "first_seen": "2026-11-14"
+    },
+    "lazyweightsdecodeondemandedgellms": {
+      "term": "LazyWeights (Decode-on-Demand Edge LLMs)",
+      "first_seen": "2026-11-14"
+    },
+    "opticalfiberloopsforllmweightserving": {
+      "term": "Optical Fiber Loops for LLM Weight Serving",
       "first_seen": "2026-11-14"
     }
   }
