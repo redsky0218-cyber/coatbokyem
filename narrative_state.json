@@ -10546,6 +10546,34 @@
     "rubinblackwellgpuarchitectures": {
       "term": "Rubin / Blackwell (GPU architectures)",
       "first_seen": "2026-11-13"
+    },
+    "qssr": {
+      "term": "QSSR",
+      "first_seen": "2026-11-14"
+    },
+    "ocimsa": {
+      "term": "OCI-MSA",
+      "first_seen": "2026-11-14"
+    },
+    "librelane": {
+      "term": "LibreLane",
+      "first_seen": "2026-11-14"
+    },
+    "triqueue": {
+      "term": "Tri-Queue",
+      "first_seen": "2026-11-14"
+    },
+    "sovtranscribe1": {
+      "term": "SOV-Transcribe-1",
+      "first_seen": "2026-11-14"
+    },
+    "cq4bit": {
+      "term": "CQ 4-bit",
+      "first_seen": "2026-11-14"
+    },
+    "gcmp": {
+      "term": "GCMP",
+      "first_seen": "2026-11-14"
     }
   }
 }
