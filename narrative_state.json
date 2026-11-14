@@ -4958,6 +4958,24 @@
         "INTC",
         "AMD"
       ]
+    },
+    "llmlazyweights": {
+      "name": "LLM(대규모 언어 모델)의 엣지 디바이스 최적화 기술 (LazyWeights)",
+      "first_seen": "2026-11-15",
+      "tickers": [
+        "NVDA",
+        "ARM",
+        "QCOM"
+      ]
+    },
+    "llmhbmbroadcastdontreplicate": {
+      "name": "데이터센터 LLM 서빙을 위한 HBM 없는 가중치 분배 (Broadcast, Don't Replicate)",
+      "first_seen": "2026-11-15",
+      "tickers": [
+        "NVDA",
+        "MRVL",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -10616,6 +10634,26 @@
     "opticalfiberloopsforllmweightserving": {
       "term": "Optical Fiber Loops for LLM Weight Serving",
       "first_seen": "2026-11-14"
+    },
+    "proofofpersonhood": {
+      "term": "Proof of Personhood",
+      "first_seen": "2026-11-15"
+    },
+    "diracquantumwalksontriangularandhoneycomblattices": {
+      "term": "Dirac quantum walks on triangular and honeycomb lattices",
+      "first_seen": "2026-11-15"
+    },
+    "metasurfacewaveguidesforarglasses": {
+      "term": "Metasurface waveguides for AR glasses",
+      "first_seen": "2026-11-15"
+    },
+    "sparseread": {
+      "term": "SparseRead",
+      "first_seen": "2026-11-15"
+    },
+    "sensenovaloop": {
+      "term": "SenseNova-Loop",
+      "first_seen": "2026-11-15"
     }
   }
 }
