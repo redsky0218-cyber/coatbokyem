@@ -1078,198 +1078,180 @@
   },
   "1061768": {
    "name": "클라먼 (Baupost)",
-   "acc": "0001061768-26-000010",
-   "filed": "2026-08-13",
-   "period": "2026-06-30",
+   "acc": "0001061768-26-000015",
+   "filed": "2026-11-13",
+   "period": "2026-09-30",
    "tracked": [
     {
-     "ticker": "AMZN",
-     "type": "top",
-     "ref": 249.56,
-     "weight": 16.5,
-     "issuer": "AMAZON COM INC",
-     "period": "2026-06-30",
-     "since": "2025-12-31"
+     "ticker": "HONA",
+     "type": "new",
+     "cusip": "43849R105",
+     "ref": 182.48,
+     "weight": 3.5,
+     "issuer": "HONEYWELL AEROSPACE INC",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
     },
     {
-     "ticker": "ELV",
-     "type": "top",
-     "ref": 367.15,
-     "weight": 9.1,
-     "issuer": "ELEVANCE HEALTH INC FORMERLY",
-     "period": "2026-06-30",
-     "since": "2025-03-31"
-    },
-    {
-     "ticker": "QSR",
-     "type": "top",
-     "ref": 75.44,
-     "weight": 9.0,
-     "issuer": "RESTAURANT BRANDS INTL INC",
-     "period": "2026-06-30",
-     "since": "2024-09-30"
-    },
-    {
-     "ticker": "GOOG",
-     "type": "top",
-     "ref": 354.81,
-     "weight": 9.0,
-     "issuer": "ALPHABET INC",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
-    },
-    {
-     "ticker": "FERG",
-     "type": "top",
-     "ref": 239.47,
-     "weight": 6.4,
-     "issuer": "FERGUSON ENTERPRISES INC",
-     "period": "2026-06-30",
-     "since": "2024-12-31"
+     "ticker": "SITE",
+     "type": "new",
+     "cusip": "82982L103",
+     "ref": 98.66,
+     "weight": 2.2,
+     "issuer": "SITEONE LANDSCAPE SUPPLY INC",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
     },
     {
      "ticker": "GPC",
-     "type": "top",
-     "ref": 103.58,
-     "weight": 6.1,
+     "type": "add",
+     "cusip": "372460105",
+     "ref": 129.22,
+     "weight": 7.7,
      "issuer": "GENUINE PARTS CO",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
+     "inc": 10,
      "since": "2024-12-31"
     },
     {
-     "ticker": "UNP",
-     "type": "top",
-     "ref": 261.02,
-     "weight": 6.0,
-     "issuer": "UNION PAC CORP",
-     "period": "2026-06-30",
-     "since": "2025-09-30"
+     "ticker": "FERG",
+     "type": "add",
+     "cusip": "31488V107",
+     "ref": 231.11,
+     "weight": 6.9,
+     "issuer": "FERGUSON ENTERPRISES INC",
+     "period": "2026-09-30",
+     "inc": 8,
+     "since": "2024-12-31"
     },
     {
-     "ticker": "V",
-     "type": "top",
-     "ref": 319.52,
-     "weight": 4.4,
-     "issuer": "VISA INC",
-     "period": "2026-06-30",
-     "since": "2026-03-31"
+     "ticker": "WCC",
+     "type": "add",
+     "cusip": "95082P105",
+     "ref": 343.85,
+     "weight": 5.1,
+     "issuer": "WESCO INTL INC",
+     "period": "2026-09-30",
+     "inc": 8,
+     "since": "2024-03-31"
+    },
+    {
+     "ticker": "CME",
+     "type": "add",
+     "cusip": "12572Q105",
+     "ref": 262.09,
+     "weight": 3.6,
+     "issuer": "CME GROUP INC",
+     "period": "2026-09-30",
+     "inc": 11,
+     "since": "2026-06-30"
     }
    ],
    "holdings": {
     "02079K107": {
      "issuer": "ALPHABET INC",
-     "shares": 1371931.0,
-     "value": 484744.0
+     "shares": 949931.0,
+     "value": 323679.0
     },
     "023135106": {
      "issuer": "AMAZON COM INC",
      "shares": 3743854.0,
-     "value": 892310.0
+     "value": 932781.0
     },
     "03064D108": {
      "issuer": "AMERICOLD REALTY TRUST INC",
      "shares": 6830230.0,
-     "value": 107371.0
+     "value": 95487.0
     },
     "G0403H108": {
      "issuer": "AON PLC",
-     "shares": 687000.0,
-     "value": 227871.0
+     "shares": 674779.0,
+     "value": 186759.0
     },
     "G0750C108": {
      "issuer": "AXALTA COATING SYS LTD",
-     "shares": 1274356.0,
-     "value": 43608.0
+     "shares": 2506031.0,
+     "value": 80594.0
     },
     "12572Q105": {
      "issuer": "CME GROUP INC",
-     "shares": 619000.0,
-     "value": 136694.0
-    },
-    "67011P100": {
-     "issuer": "DNOW INC",
-     "shares": 2788000.0,
-     "value": 36160.0
+     "shares": 685435.0,
+     "value": 179570.0
     },
     "26969P108": {
      "issuer": "EAGLE MATLS INC",
      "shares": 530763.0,
-     "value": 119422.0
+     "value": 90771.0
     },
     "036752103": {
      "issuer": "ELEVANCE HEALTH INC FORMERLY",
      "shares": 1275154.0,
-     "value": 493140.0
+     "value": 495805.0
     },
     "31488V107": {
      "issuer": "FERGUSON ENTERPRISES INC",
-     "shares": 1450594.0,
-     "value": 344269.0
+     "shares": 1571594.0,
+     "value": 349868.0
     },
     "36165L108": {
      "issuer": "GDS HLDGS LTD",
      "shares": 3769818.0,
-     "value": 113208.0
+     "value": 117731.0
     },
     "372460105": {
      "issuer": "GENUINE PARTS CO",
-     "shares": 2816178.0,
-     "value": 332253.0
+     "shares": 3097978.0,
+     "value": 389540.0
     },
     "40054J109": {
      "issuer": "GRUPO AEROMEXICO SAB DE CV",
      "shares": 4880188.0,
-     "value": 87843.0
+     "value": 77058.0
     },
     "G4412G101": {
      "issuer": "HERBALIFE LTD",
-     "shares": 9259844.0,
-     "value": 121767.0
+     "shares": 10259844.0,
+     "value": 124452.0
     },
-    "G61188127": {
-     "issuer": "LIBERTY GLOBAL LTD",
-     "shares": 8543161.0,
-     "value": 93975.0
+    "43849R105": {
+     "issuer": "HONEYWELL AEROSPACE INC",
+     "shares": 1132000.0,
+     "value": 175426.0
     },
     "60855R100": {
      "issuer": "MOLINA HEALTHCARE INC",
-     "shares": 633609.0,
-     "value": 144906.0
-    },
-    "G66721104": {
-     "issuer": "NORWEGIAN CRUISE LINE HLDGS",
-     "shares": 7730000.0,
-     "value": 163180.0
+     "shares": 449609.0,
+     "value": 85021.0
     },
     "71531U102": {
      "issuer": "PERSHING SQUARE INC",
      "shares": 392000.0,
-     "value": 12881.0
+     "value": 21928.0
     },
     "76131D103": {
      "issuer": "RESTAURANT BRANDS INTL INC",
      "shares": 6753112.0,
-     "value": 489612.0
+     "value": 480104.0
     },
-    "879369106": {
-     "issuer": "TELEFLEX INCORPORATED",
-     "shares": 1409000.0,
-     "value": 178605.0
+    "82982L103": {
+     "issuer": "SITEONE LANDSCAPE SUPPLY INC",
+     "shares": 1245000.0,
+     "value": 112436.0
     },
     "907818108": {
      "issuer": "UNION PAC CORP",
-     "shares": 1185395.0,
-     "value": 322427.0
+     "shares": 795395.0,
+     "value": 216451.0
     },
     "92826C839": {
      "issuer": "VISA INC",
      "shares": 701355.0,
-     "value": 240628.0
+     "value": 252018.0
     },
     "95082P105": {
      "issuer": "WESCO INTL INC",
-     "shares": 662881.0,
-     "value": 228979.0
+     "shares": 718523.0,
+     "value": 258374.0
     }
    },
    "first_seen": {
@@ -1346,7 +1328,9 @@
     "92826C839": "2026-03-31",
     "G0750C108": "2026-06-30",
     "12572Q105": "2026-06-30",
-    "71531U102": "2026-06-30"
+    "71531U102": "2026-06-30",
+    "43849R105": "2026-09-30",
+    "82982L103": "2026-09-30"
    },
    "first_seen_oldest": "2023-09-30",
    "first_seen_done": true
@@ -1494,58 +1478,63 @@
   },
   "1549575": {
    "name": "파브라이 (Dalal Street)",
-   "acc": "0001549575-26-000015",
-   "filed": "2026-08-13",
-   "period": "2026-06-30",
+   "acc": "0001549575-26-000023",
+   "filed": "2026-11-13",
+   "period": "2026-09-30",
    "tracked": [
     {
      "ticker": "HCC",
-     "type": "top",
-     "ref": 90.41,
-     "weight": 43.3,
+     "type": "add",
+     "cusip": "93627C101",
+     "ref": 88.73,
+     "weight": 45.4,
      "issuer": "WARRIOR MET COAL INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
+     "inc": 7,
      "since": "2023-12-31"
+    },
+    {
+     "ticker": "KSPI",
+     "type": "add",
+     "cusip": "48581R205",
+     "ref": 93.83,
+     "weight": 5.4,
+     "issuer": "KASPI KZ JSC",
+     "period": "2026-09-30",
+     "inc": 12192,
+     "since": "2026-06-30"
     },
     {
      "ticker": "AMR",
      "type": "top",
-     "ref": 191.22,
-     "weight": 26.1,
+     "cusip": "020764106",
+     "ref": 174.21,
+     "weight": 7.9,
      "issuer": "ALPHA METALLURGICAL RESOUR I",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
-    },
-    {
-     "ticker": "KSPI",
-     "type": "top",
-     "ref": 82.67,
-     "weight": 0.0,
-     "issuer": "KASPI KZ JSC",
-     "period": "2026-06-30",
-     "since": "2026-06-30"
     }
    ],
    "holdings": {
     "020764106": {
      "issuer": "ALPHA METALLURGICAL RESOUR I",
-     "shares": 517194.0,
-     "value": 85305978.0
+     "shares": 170744.0,
+     "value": 28722556.0
     },
     "48581R205": {
      "issuer": "KASPI KZ JSC",
-     "shares": 1702.0,
-     "value": 147461.0
+     "shares": 209211.0,
+     "value": 19678387.0
     },
     "H8817H100": {
      "issuer": "TRANSOCEAN LTD",
-     "shares": 20398659.0,
-     "value": 99749443.0
+     "shares": 28475305.0,
+     "value": 149210598.0
     },
     "93627C101": {
      "issuer": "WARRIOR MET COAL INC",
-     "shares": 1744050.0,
-     "value": 141547098.0
+     "shares": 1867295.0,
+     "value": 164452671.0
     }
    },
    "first_seen": {
@@ -2010,1031 +1999,1021 @@
   },
   "1697748": {
    "name": "캐시 우드 (ARK)",
-   "acc": "0001104659-26-096910",
-   "filed": "2026-08-14",
-   "period": "2026-06-30",
+   "acc": "0001104659-26-126785",
+   "filed": "2026-11-13",
+   "period": "2026-09-30",
    "tracked": [
     {
-     "ticker": "TSLA",
-     "type": "top",
-     "cusip": "88160R101",
-     "ref": 396.65,
-     "weight": 7.5,
-     "issuer": "Tesla Inc",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
+     "ticker": "FRNM",
+     "type": "new",
+     "cusip": "35661P100",
+     "ref": 13.22,
+     "weight": 0.3,
+     "issuer": "Freenome Inc",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
     },
     {
-     "ticker": "AMD",
-     "type": "top",
-     "cusip": "007903107",
-     "ref": 403.42,
-     "weight": 5.3,
-     "issuer": "Advanced Micro Devices Inc",
-     "period": "2026-06-30",
+     "ticker": "SECZ",
+     "type": "new",
+     "cusip": "81517B101",
+     "ref": 8.37,
+     "weight": 0.2,
+     "issuer": "Securitize Corp",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "ARKY",
+     "type": "new",
+     "cusip": "00214Q724",
+     "ref": 19.95,
+     "weight": 0.2,
+     "issuer": "ARK Active Autocallable Income",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "SCTX",
+     "type": "new",
+     "cusip": "811033109",
+     "ref": 26.46,
+     "weight": 0.1,
+     "issuer": "Scribe Therapeutics Inc",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "FUTU",
+     "type": "new",
+     "cusip": "36118L106",
+     "ref": 108.33,
+     "weight": 0.1,
+     "issuer": "Futu Holdings Ltd",
+     "period": "2026-09-30",
+     "since": "2025-03-31"
+    },
+    {
+     "ticker": "TSLA",
+     "type": "add",
+     "cusip": "88160R101",
+     "ref": 358.84,
+     "weight": 6.9,
+     "issuer": "Tesla Inc",
+     "period": "2026-09-30",
+     "inc": 22,
      "since": "2023-09-30"
     },
     {
      "ticker": "SPCX",
-     "type": "top",
+     "type": "add",
      "cusip": "84615Q103",
-     "ref": 170.68,
-     "weight": 5.0,
-     "issuer": "Space Exploration Technologies Corp",
-     "period": "2026-06-30",
+     "ref": 138.91,
+     "weight": 5.9,
+     "issuer": "Space Exploration Technologies",
+     "period": "2026-09-30",
+     "inc": 51,
      "since": "2026-06-30"
     },
     {
-     "ticker": "TEM",
-     "type": "top",
-     "cusip": "88023B103",
-     "ref": 49.94,
-     "weight": 3.8,
-     "issuer": "Tempus AI Inc",
-     "period": "2026-06-30",
-     "since": "2024-06-30"
-    },
-    {
-     "ticker": "HOOD",
-     "type": "top",
-     "cusip": "770700102",
-     "ref": 83.21,
+     "ticker": "NVDA",
+     "type": "add",
+     "cusip": "67066G104",
+     "ref": 213.99,
      "weight": 3.4,
-     "issuer": "Robinhood Markets Inc",
-     "period": "2026-06-30",
+     "issuer": "NVIDIA Corp",
+     "period": "2026-09-30",
+     "inc": 85,
      "since": "2023-09-30"
     },
     {
-     "ticker": "SHOP",
-     "type": "top",
-     "cusip": "82509L107",
-     "ref": 114.15,
+     "ticker": "CRCL",
+     "type": "add",
+     "cusip": "172573107",
+     "ref": 76.92,
+     "weight": 3.2,
+     "issuer": "Circle Internet Group Inc",
+     "period": "2026-09-30",
+     "inc": 50,
+     "since": "2025-06-30"
+    },
+    {
+     "ticker": "COIN",
+     "type": "add",
+     "cusip": "19260Q107",
+     "ref": 169.49,
      "weight": 3.1,
-     "issuer": "Shopify Inc",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
-    },
-    {
-     "ticker": "TWST",
-     "type": "top",
-     "cusip": "90184D100",
-     "ref": 64.46,
-     "weight": 3.0,
-     "issuer": "Twist Bioscience Corp",
-     "period": "2026-06-30",
+     "issuer": "Coinbase Global Inc",
+     "period": "2026-09-30",
+     "inc": 17,
      "since": "2023-09-30"
     }
    ],
    "holdings": {
     "008073108": {
      "issuer": "AeroVironment Inc",
-     "shares": 607502.0,
-     "value": 100280355.0
+     "shares": 624362.0,
+     "value": 88796764.0
     },
     "016255101": {
      "issuer": "Align Technology Inc",
-     "shares": 5264.0,
-     "value": 887826.0
+     "shares": 5467.0,
+     "value": 794628.0
     },
     "01741R102": {
      "issuer": "ATI Inc",
-     "shares": 487.0,
-     "value": 95988.0
+     "shares": 444.0,
+     "value": 84094.0
     },
     "02079K107": {
      "issuer": "Alphabet Inc",
-     "shares": 1043334.0,
-     "value": 368641312.0
+     "shares": 1022923.0,
+     "value": 348550865.0
     },
     "023135106": {
      "issuer": "Amazon.com Inc",
-     "shares": 1591177.0,
-     "value": 379241133.0
+     "shares": 1697749.0,
+     "value": 422994246.0
     },
     "031100100": {
      "issuer": "AMETEK Inc",
-     "shares": 4186.0,
-     "value": 1012761.0
+     "shares": 4110.0,
+     "value": 1018170.0
     },
     "03969T109": {
      "issuer": "Arcturus Therapeutics Holdings",
-     "shares": 2901635.0,
-     "value": 19498987.0
+     "shares": 2994550.0,
+     "value": 40995387.0
     },
     "052769106": {
      "issuer": "Autodesk Inc",
-     "shares": 12226.0,
-     "value": 2376979.0
+     "shares": 13382.0,
+     "value": 2796838.0
     },
     "14167L103": {
      "issuer": "CareDx Inc",
-     "shares": 1953531.0,
-     "value": 55675622.0
+     "shares": 1609054.0,
+     "value": 104588493.0
     },
     "144285103": {
      "issuer": "Carpenter Technology Corp",
-     "shares": 178.0,
-     "value": 109798.0
+     "shares": 148.0,
+     "value": 57545.0
     },
     "157085101": {
      "issuer": "Cerus Corp",
-     "shares": 17932099.0,
-     "value": 52361728.0
+     "shares": 20508004.0,
+     "value": 48809050.0
     },
     "244199105": {
      "issuer": "Deere & Co",
-     "shares": 393025.0,
-     "value": 249307586.0
+     "shares": 151701.0,
+     "value": 101874612.0
     },
     "40434L105": {
      "issuer": "HP Inc",
-     "shares": 113869.0,
-     "value": 2498286.0
+     "shares": 90898.0,
+     "value": 2843289.0
     },
     "45826J105": {
      "issuer": "Intellia Therapeutics Inc",
-     "shares": 16875684.0,
-     "value": 285536575.0
+     "shares": 15925221.0,
+     "value": 192058167.0
     },
     "46120E602": {
      "issuer": "Intuitive Surgical Inc",
-     "shares": 70375.0,
-     "value": 27986730.0
+     "shares": 74399.0,
+     "value": 30252865.0
     },
     "462222100": {
      "issuer": "Ionis Pharmaceuticals Inc",
-     "shares": 300770.0,
-     "value": 23848064.0
+     "shares": 923162.0,
+     "value": 41219180.0
     },
     "46269C102": {
      "issuer": "Iridium Communications Inc",
-     "shares": 1215113.0,
-     "value": 66648948.0
+     "shares": 79876.0,
+     "value": 3826060.0
     },
     "483007704": {
-     "issuer": "Kaiser Aluminum Corp",
-     "shares": 7530.0,
-     "value": 1473094.0
+     "issuer": "Kaiser Aluminium Corp",
+     "shares": 6897.0,
+     "value": 998824.0
     },
     "50077B207": {
-     "issuer": "Kratos Defense & Security Solutions Inc.",
-     "shares": 4672566.0,
-     "value": 232974116.0
+     "issuer": "Kratos Defense & Security Solu",
+     "shares": 5254442.0,
+     "value": 224312131.0
     },
     "533900106": {
      "issuer": "Lincoln Electric Holdings Inc",
-     "shares": 4193.0,
-     "value": 1113283.0
+     "shares": 4265.0,
+     "value": 1128434.0
     },
     "57667T100": {
      "issuer": "Materialise NV",
-     "shares": 419784.0,
-     "value": 3118995.0
+     "shares": 342123.0,
+     "value": 2928573.0
     },
     "58733R102": {
      "issuer": "MercadoLibre Inc",
-     "shares": 22044.0,
-     "value": 37417265.0
+     "shares": 26175.0,
+     "value": 45244273.0
     },
     "615394202": {
      "issuer": "Moog Inc",
-     "shares": 3455.0,
-     "value": 1464367.0
+     "shares": 2750.0,
+     "value": 1049043.0
     },
     "63008G203": {
      "issuer": "Nano Dimension Ltd",
-     "shares": 1247498.0,
-     "value": 1808872.0
+     "shares": 1461479.0,
+     "value": 2294522.0
     },
     "M3760D101": {
      "issuer": "Elbit Systems Ltd",
-     "shares": 62709.0,
-     "value": 47578572.0
+     "shares": 45778.0,
+     "value": 31221054.0
     },
     "653656108": {
      "issuer": "Nice Ltd",
-     "shares": 21035.0,
-     "value": 1911030.0
+     "shares": 21536.0,
+     "value": 2396311.0
     },
     "69370C100": {
      "issuer": "PTC Inc",
-     "shares": 21049.0,
-     "value": 2391377.0
+     "shares": 23019.0,
+     "value": 3229566.0
     },
     "69404D108": {
-     "issuer": "Pacific Biosciences of California, Inc.",
-     "shares": 29781416.0,
-     "value": 50032778.0
+     "issuer": "Pacific Biosciences of Califor",
+     "shares": 29749893.0,
+     "value": 70507247.0
     },
     "71535D106": {
      "issuer": "Personalis Inc",
-     "shares": 8271339.0,
-     "value": 110835941.0
+     "shares": 7119390.0,
+     "value": 115903674.0
     },
     "743713109": {
      "issuer": "Proto Labs Inc",
-     "shares": 35418.0,
-     "value": 2886921.0
+     "shares": 28649.0,
+     "value": 2717358.0
     },
     "77543R102": {
      "issuer": "Roku Inc",
-     "shares": 595880.0,
-     "value": 82314834.0
+     "shares": 4586.0,
+     "value": 698336.0
     },
     "82509L107": {
      "issuer": "Shopify Inc",
-     "shares": 4155925.0,
-     "value": 474523465.0
+     "shares": 3145496.0,
+     "value": 466477128.0
     },
     "852234103": {
      "issuer": "Block Inc",
-     "shares": 3097973.0,
-     "value": 235445950.0
+     "shares": 4621881.0,
+     "value": 339846908.0
     },
     "880770102": {
      "issuer": "Teradyne Inc",
-     "shares": 644782.0,
-     "value": 311971420.0
+     "shares": 646911.0,
+     "value": 259353089.0
     },
     "88160R101": {
      "issuer": "Tesla Inc",
-     "shares": 2759800.0,
-     "value": 1160772073.0
-    },
-    "881624209": {
-     "issuer": "Teva Pharmaceutical Industries",
-     "shares": 68653.0,
-     "value": 2325964.0
+     "shares": 3371681.0,
+     "value": 1196306136.0
     },
     "88554D205": {
      "issuer": "3D Systems Corp",
-     "shares": 1032786.0,
-     "value": 3119014.0
+     "shares": 822291.0,
+     "value": 2960248.0
     },
     "88579Y101": {
      "issuer": "3M Co",
-     "shares": 470.0,
-     "value": 76098.0
+     "shares": 509.0,
+     "value": 83552.0
     },
     "896239100": {
      "issuer": "Trimble Inc",
-     "shares": 1331680.0,
-     "value": 68155382.0
+     "shares": 1157449.0,
+     "value": 66101912.0
     },
     "90184D100": {
      "issuer": "Twist Bioscience Corp",
-     "shares": 4549803.0,
-     "value": 468083756.0
+     "shares": 3398057.0,
+     "value": 656640575.0
     },
     "92337F107": {
      "issuer": "Veracyte Inc",
-     "shares": 2295951.0,
-     "value": 134841222.0
+     "shares": 2964650.0,
+     "value": 136492485.0
     },
     "98954M200": {
      "issuer": "Zillow Group Inc",
-     "shares": 152575.0,
-     "value": 4809164.0
+     "shares": 960.0,
+     "value": 26045.0
     },
     "H17182108": {
      "issuer": "CRISPR Therapeutics AG",
-     "shares": 9460939.0,
-     "value": 515999631.0
+     "shares": 10056844.0,
+     "value": 556344632.0
     },
     "L8681T102": {
      "issuer": "Spotify Technology SA",
-     "shares": 75108.0,
-     "value": 34484423.0
+     "shares": 85872.0,
+     "value": 41852529.0
     },
     "M15342104": {
      "issuer": "AudioCodes Ltd",
-     "shares": 246438.0,
-     "value": 2385520.0
+     "shares": 224791.0,
+     "value": 2400768.0
     },
     "M20791105": {
-     "issuer": "Camtek Ltd",
-     "shares": 12161.0,
-     "value": 1983702.0
+     "issuer": "Camtek Ltd/Israel",
+     "shares": 14844.0,
+     "value": 2304531.0
     },
     "M22465104": {
-     "issuer": "Check Point Software Technologies Ltd",
+     "issuer": "Check Point Software Technolog",
      "shares": 16112.0,
-     "value": 2117600.0
+     "value": 2067975.0
     },
     "M4R82T106": {
      "issuer": "Fiverr International Ltd",
-     "shares": 202039.0,
-     "value": 2085042.0
+     "shares": 184562.0,
+     "value": 1590924.0
     },
     "M6158M104": {
-     "issuer": "Ituran Location and Control Ltd",
-     "shares": 40137.0,
-     "value": 2448758.0
+     "issuer": "Ituran Location and Control Lt",
+     "shares": 39397.0,
+     "value": 2017914.0
     },
     "M7516K103": {
      "issuer": "Nova Ltd",
-     "shares": 4220.0,
-     "value": 2291207.0
+     "shares": 4628.0,
+     "value": 1782706.0
     },
     "M81873107": {
      "issuer": "Radware Ltd",
-     "shares": 86280.0,
-     "value": 2662601.0
+     "shares": 72865.0,
+     "value": 2172106.0
     },
     "M85548101": {
      "issuer": "Stratasys Ltd",
-     "shares": 512180.0,
-     "value": 4384261.0
+     "shares": 538219.0,
+     "value": 4472600.0
     },
     "M87915274": {
      "issuer": "Tower Semiconductor Ltd",
-     "shares": 10126.0,
-     "value": 2639241.0
+     "shares": 9196.0,
+     "value": 2091446.0
     },
     "M96088105": {
      "issuer": "UroGen Pharma Ltd",
-     "shares": 101508.0,
-     "value": 3735494.0
+     "shares": 54250.0,
+     "value": 2204178.0
     },
     "M98068105": {
      "issuer": "Wix.com Ltd",
-     "shares": 32312.0,
-     "value": 1465995.0
+     "shares": 41078.0,
+     "value": 2962956.0
     },
     "M5425M103": {
      "issuer": "Inmode Ltd",
-     "shares": 153224.0,
-     "value": 2240135.0
+     "shares": 139148.0,
+     "value": 1971727.0
     },
     "M78673114": {
      "issuer": "Perion Network Ltd",
-     "shares": 211984.0,
-     "value": 2058365.0
+     "shares": 225335.0,
+     "value": 1958161.0
     },
     "81141R100": {
      "issuer": "Sea Ltd",
-     "shares": 158412.0,
-     "value": 15180586.0
+     "shares": 166170.0,
+     "value": 16178274.0
     },
     "871607107": {
      "issuer": "Synopsys Inc",
-     "shares": 81283.0,
-     "value": 36257908.0
+     "shares": 75081.0,
+     "value": 32655730.0
     },
     "149123101": {
      "issuer": "Caterpillar Inc",
-     "shares": 56008.0,
-     "value": 59642919.0
+     "shares": 32029.0,
+     "value": 25968793.0
     },
     "00650F109": {
      "issuer": "Adaptive Biotechnologies Corp",
-     "shares": 2090306.0,
-     "value": 44837058.0
+     "shares": 1920772.0,
+     "value": 55510311.0
     },
     "88025U109": {
      "issuer": "10X Genomics Inc",
-     "shares": 10003057.0,
-     "value": 383517223.0
+     "shares": 6272998.0,
+     "value": 566828112.0
     },
     "80810D103": {
-     "issuer": "Schrodinger Inc",
-     "shares": 2154018.0,
-     "value": 35002797.0
+     "issuer": "Schrodinger Inc/United States",
+     "shares": 2374906.0,
+     "value": 73740830.0
     },
     "M51474118": {
      "issuer": "Gilat Satellite Networks Ltd",
-     "shares": 118601.0,
-     "value": 1578579.0
+     "shares": 196785.0,
+     "value": 1942268.0
     },
     "07373V105": {
      "issuer": "Beam Therapeutics Inc",
-     "shares": 10234862.0,
-     "value": 351260447.0
+     "shares": 11805372.0,
+     "value": 288641356.0
     },
     "18915M107": {
      "issuer": "Cloudflare Inc",
-     "shares": 175723.0,
-     "value": 43101337.0
+     "shares": 563167.0,
+     "value": 195576483.0
     },
     "48581R205": {
      "issuer": "Kaspi.KZ JSC",
-     "shares": 41525.0,
-     "value": 3597726.0
+     "shares": 43559.0,
+     "value": 4097160.0
     },
     "65443P102": {
      "issuer": "908 Devices Inc",
-     "shares": 2027920.0,
-     "value": 17642905.0
+     "shares": 2094832.0,
+     "value": 25850227.0
     },
     "M6191J100": {
      "issuer": "JFrog Ltd",
-     "shares": 50621.0,
-     "value": 4600436.0
+     "shares": 25182.0,
+     "value": 2443661.0
     },
     "539830109": {
      "issuer": "Lockheed Martin Corp",
-     "shares": 14806.0,
-     "value": 7543065.0
-    },
-    "M70700105": {
-     "issuer": "Nano-X Imaging Ltd",
-     "shares": 806614.0,
-     "value": 935672.0
+     "shares": 12511.0,
+     "value": 6371227.0
     },
     "879360105": {
      "issuer": "Teledyne Technologies Inc",
-     "shares": 54873.0,
-     "value": 36594804.0
+     "shares": 14147.0,
+     "value": 8584541.0
     },
     "124155102": {
      "issuer": "Butterfly Network Inc",
-     "shares": 5085456.0,
-     "value": 42819541.0
+     "shares": 5254216.0,
+     "value": 47077779.0
     },
     "H2906T109": {
      "issuer": "Garmin Ltd",
-     "shares": 61682.0,
-     "value": 14651942.0
+     "shares": 42220.0,
+     "value": 12110385.0
     },
     "422806109": {
      "issuer": "HEICO Corp",
-     "shares": 50052.0,
-     "value": 17828022.0
+     "shares": 38446.0,
+     "value": 11656058.0
     },
     "502431109": {
      "issuer": "L3Harris Technologies Inc",
-     "shares": 431179.0,
-     "value": 125296306.0
+     "shares": 423010.0,
+     "value": 100160308.0
     },
     "771049103": {
      "issuer": "ROBLOX Corp",
-     "shares": 6465890.0,
-     "value": 351615103.0
+     "shares": 1376551.0,
+     "value": 58324453.0
     },
     "19260Q107": {
      "issuer": "Coinbase Global Inc",
-     "shares": 2511319.0,
-     "value": 367129713.0
+     "shares": 2927800.0,
+     "value": 545771189.0
     },
     "75629V104": {
      "issuer": "Recursion Pharmaceuticals Inc",
-     "shares": 41337632.0,
-     "value": 151709111.0
-    },
-    "092667104": {
-     "issuer": "Strata Critical Medical Inc",
-     "shares": 2730855.0,
-     "value": 14391606.0
+     "shares": 44745025.0,
+     "value": 184796952.0
     },
     "74765K105": {
      "issuer": "Quantum-Si Inc",
-     "shares": 7167738.0,
-     "value": 6343448.0
+     "shares": 7393014.0,
+     "value": 7910525.0
     },
     "98423F109": {
      "issuer": "Xometry Inc",
-     "shares": 46048.0,
-     "value": 4444553.0
+     "shares": 22804.0,
+     "value": 2345391.0
     },
     "770700102": {
      "issuer": "Robinhood Markets Inc",
-     "shares": 5236031.0,
-     "value": 525069168.0
+     "shares": 4604197.0,
+     "value": 517972160.0
     },
     "72815L107": {
      "issuer": "Playtika Holding Corp",
-     "shares": 614004.0,
-     "value": 2284095.0
+     "shares": 528629.0,
+     "value": 1131266.0
     },
     "M25133105": {
      "issuer": "Cognyte Software Ltd",
-     "shares": 225795.0,
-     "value": 1982480.0
+     "shares": 244586.0,
+     "value": 2125452.0
     },
     "M7S64H106": {
      "issuer": "Monday.com Ltd",
-     "shares": 33167.0,
-     "value": 2400959.0
+     "shares": 27267.0,
+     "value": 2139369.0
     },
     "M84137104": {
      "issuer": "SimilarWeb Ltd",
-     "shares": 834663.0,
-     "value": 5116484.0
+     "shares": 307891.0,
+     "value": 2389234.0
     },
     "G65163100": {
      "issuer": "Joby Aviation Inc",
-     "shares": 6694311.0,
-     "value": 59713254.0
+     "shares": 6040332.0,
+     "value": 36544009.0
     },
     "369604301": {
      "issuer": "GE Aerospace",
-     "shares": 3610.0,
-     "value": 1349165.0
+     "shares": 3097.0,
+     "value": 967162.0
     },
     "G3934V109": {
      "issuer": "Genius Sports Ltd",
-     "shares": 3065770.0,
-     "value": 18578566.0
+     "shares": 2624596.0,
+     "value": 15038935.0
     },
     "03945R102": {
      "issuer": "Archer Aviation Inc",
-     "shares": 31963922.0,
-     "value": 151189352.0
+     "shares": 33822169.0,
+     "value": 168096179.0
     },
     "888787108": {
      "issuer": "Toast Inc",
-     "shares": 1859887.0,
-     "value": 51742056.0
+     "shares": 1989625.0,
+     "value": 57679229.0
     },
     "22788C105": {
      "issuer": "Crowdstrike Holdings Inc",
-     "shares": 94500.0,
-     "value": 18029183.0
+     "shares": 281295.0,
+     "value": 74472851.0
     },
     "67066G104": {
      "issuer": "NVIDIA Corp",
-     "shares": 1381247.0,
-     "value": 276373746.0
+     "shares": 2561223.0,
+     "value": 584932116.0
     },
     "G6683N103": {
-     "issuer": "NU Holdings Ltd",
-     "shares": 1071519.0,
-     "value": 14315494.0
+     "issuer": "NU Holdings Ltd/Cayman Islands",
+     "shares": 1180206.0,
+     "value": 14941408.0
     },
     "67080M103": {
      "issuer": "Nurix Therapeutics Inc",
-     "shares": 1793196.0,
-     "value": 43502930.0
+     "shares": 1852587.0,
+     "value": 43924834.0
     },
     "M2197Q107": {
      "issuer": "Cellebrite DI Ltd",
-     "shares": 170923.0,
-     "value": 2495476.0
+     "shares": 139021.0,
+     "value": 1565376.0
     },
     "M8216R109": {
      "issuer": "Riskified Ltd",
-     "shares": 488797.0,
-     "value": 2463537.0
+     "shares": 421877.0,
+     "value": 3337047.0
     },
     "M8744T106": {
      "issuer": "Taboola.com Ltd",
-     "shares": 602812.0,
-     "value": 3014060.0
+     "shares": 397003.0,
+     "value": 1333930.0
     },
     "26142V105": {
      "issuer": "DraftKings Inc",
-     "shares": 1228846.0,
-     "value": 31040642.0
+     "shares": 1233963.0,
+     "value": 23445296.0
     },
     "40131M109": {
      "issuer": "Guardant Health Inc",
-     "shares": 506416.0,
-     "value": 75977634.0
+     "shares": 607173.0,
+     "value": 108295449.0
     },
     "20451W101": {
      "issuer": "Compass Pathways Plc",
-     "shares": 3451965.0,
-     "value": 48845310.0
+     "shares": 4905613.0,
+     "value": 61025828.0
     },
     "74168J101": {
      "issuer": "Prime Medicine Inc",
-     "shares": 8348746.0,
-     "value": 30806875.0
+     "shares": 10043509.0,
+     "value": 30682919.0
     },
     "60741F104": {
      "issuer": "Mobileye Global Inc",
-     "shares": 281104.0,
-     "value": 2721087.0
+     "shares": 243997.0,
+     "value": 1803138.0
     },
     "M7S750159": {
      "issuer": "Nayax Ltd",
-     "shares": 33306.0,
-     "value": 2163772.0
+     "shares": 33575.0,
+     "value": 1603647.0
     },
     "007903107": {
      "issuer": "Advanced Micro Devices Inc",
-     "shares": 1416443.0,
-     "value": 822826048.0
+     "shares": 675668.0,
+     "value": 413346374.0
     },
     "464287614": {
-     "issuer": "iShares Russell 1000 Growth ETF",
-     "shares": 570.0,
-     "value": 70792.0
+     "issuer": "iShares Russell 1000 Growth ET",
+     "shares": 40.0,
+     "value": 5027.0
     },
     "69608A108": {
      "issuer": "Palantir Technologies Inc",
-     "shares": 3212286.0,
-     "value": 374777381.0
+     "shares": 2607717.0,
+     "value": 487773444.0
     },
     "83406F102": {
      "issuer": "SoFi Technologies Inc",
-     "shares": 3742479.0,
-     "value": 67102642.0
+     "shares": 4130258.0,
+     "value": 64927656.0
     },
     "30303M102": {
      "issuer": "Meta Platforms Inc",
-     "shares": 238973.0,
-     "value": 134610910.0
+     "shares": 489941.0,
+     "value": 355295103.0
     },
     "874039100": {
-     "issuer": "Taiwan Semiconductor Manufacturing Company Ltd",
-     "shares": 482286.0,
-     "value": 230325325.0
+     "issuer": "Taiwan Semiconductor Manufactu",
+     "shares": 532668.0,
+     "value": 242997815.0
     },
     "74624M102": {
      "issuer": "Everpure Inc",
-     "shares": 397952.0,
-     "value": 31354638.0
+     "shares": 336139.0,
+     "value": 43960258.0
     },
     "05368V106": {
      "issuer": "Avient Corp",
-     "shares": 2015.0,
-     "value": 74474.0
+     "shares": 2007.0,
+     "value": 80782.0
     },
     "24906P109": {
-     "issuer": "Dentsply Sirona Inc",
-     "shares": 235538.0,
-     "value": 2499058.0
+     "issuer": "DENTSPLY SIRONA Inc",
+     "shares": 207727.0,
+     "value": 1840461.0
     },
     "13321L108": {
      "issuer": "Cameco Corp",
-     "shares": 361570.0,
-     "value": 36829520.0
+     "shares": 338275.0,
+     "value": 29318294.0
     },
     "M7S64L123": {
      "issuer": "Pagaya Technologies Ltd",
-     "shares": 147603.0,
-     "value": 2693755.0
+     "shares": 123942.0,
+     "value": 2146675.0
     },
     "466313103": {
      "issuer": "Jabil Inc",
-     "shares": 245.0,
-     "value": 94443.0
+     "shares": 249.0,
+     "value": 71428.0
     },
     "00091E109": {
      "issuer": "Absci Corp",
-     "shares": 12925271.0,
-     "value": 149803896.0
+     "shares": 11928917.0,
+     "value": 128474441.0
     },
     "040919102": {
      "issuer": "ARK 21Shares Bitcoin ETF",
-     "shares": 6454565.0,
-     "value": 125605835.0
+     "shares": 4895387.0,
+     "value": 135553266.0
     },
     "632307104": {
      "issuer": "Natera Inc",
-     "shares": 688855.0,
-     "value": 186989592.0
+     "shares": 546144.0,
+     "value": 225726826.0
     },
     "23804L103": {
      "issuer": "Datadog Inc",
-     "shares": 210148.0,
-     "value": 54714133.0
+     "shares": 215275.0,
+     "value": 58953059.0
     },
     "781154109": {
      "issuer": "Rubrik Inc",
-     "shares": 365426.0,
-     "value": 29336399.0
+     "shares": 396164.0,
+     "value": 45348893.0
     },
     "88023B103": {
      "issuer": "Tempus AI Inc",
-     "shares": 10022634.0,
-     "value": 580611200.0
+     "shares": 9357545.0,
+     "value": 766382941.0
     },
     "576690101": {
      "issuer": "Materion Corp",
-     "shares": 455.0,
-     "value": 135312.0
+     "shares": 340.0,
+     "value": 91661.0
     },
     "02156V109": {
      "issuer": "Oklo Inc",
-     "shares": 372257.0,
-     "value": 19480209.0
+     "shares": 442808.0,
+     "value": 16392752.0
     },
     "37637K108": {
      "issuer": "Gitlab Inc",
-     "shares": 767998.0,
-     "value": 23446979.0
+     "shares": 820505.0,
+     "value": 38768861.0
     },
     "M68830112": {
      "issuer": "MediWound Ltd",
-     "shares": 126576.0,
-     "value": 1860667.0
+     "shares": 146717.0,
+     "value": 2020293.0
     },
     "00214Q104": {
      "issuer": "ARK Innovation ETF",
-     "shares": 91105.0,
-     "value": 7363075.0
+     "shares": 68204.0,
+     "value": 6076966.0
     },
     "051774107": {
      "issuer": "Aurora Innovation Inc",
-     "shares": 6131831.0,
-     "value": 41819087.0
-    },
-    "00214Q302": {
-     "issuer": "ARK Genomic Revolution ETF",
-     "shares": 1659.0,
-     "value": 69794.0
+     "shares": 5719098.0,
+     "value": 31683803.0
     },
     "452327109": {
      "issuer": "Illumina Inc",
-     "shares": 1045010.0,
-     "value": 183744158.0
+     "shares": 851785.0,
+     "value": 233116470.0
     },
     "05605H100": {
      "issuer": "BWX Technologies Inc",
-     "shares": 549881.0,
-     "value": 107034337.0
+     "shares": 754114.0,
+     "value": 103313618.0
+    },
+    "36118L106": {
+     "issuer": "Futu Holdings Ltd",
+     "shares": 117127.0,
+     "value": 12948390.0
     },
     "87151X101": {
      "issuer": "Symbotic Inc",
-     "shares": 796749.0,
-     "value": 35813868.0
+     "shares": 742917.0,
+     "value": 31254518.0
     },
     "46125A100": {
      "issuer": "Intuitive Machines Inc",
-     "shares": 2699401.0,
-     "value": 57740187.0
+     "shares": 3387527.0,
+     "value": 48238384.0
     },
     "M8740S227": {
      "issuer": "TAT Technologies Ltd",
-     "shares": 52284.0,
-     "value": 2508930.0
+     "shares": 51337.0,
+     "value": 1862396.0
     },
     "M0854Q105": {
      "issuer": "Allot Ltd",
-     "shares": 297726.0,
-     "value": 2587620.0
+     "shares": 259103.0,
+     "value": 2199445.0
     },
     "M81865111": {
      "issuer": "RADCOM Ltd",
-     "shares": 174214.0,
-     "value": 2456417.0
+     "shares": 159788.0,
+     "value": 1647414.0
     },
     "M9607U115": {
      "issuer": "Valens Semiconductor Ltd",
-     "shares": 1412570.0,
-     "value": 3192408.0
+     "shares": 1251107.0,
+     "value": 2352081.0
     },
     "009066101": {
      "issuer": "Airbnb Inc",
-     "shares": 148320.0,
-     "value": 21224619.0
+     "shares": 218989.0,
+     "value": 35180613.0
     },
     "056752108": {
      "issuer": "Baidu Inc",
-     "shares": 301934.0,
-     "value": 34508037.0
+     "shares": 209917.0,
+     "value": 18235490.0
     },
     "21873S108": {
      "issuer": "CoreWeave Inc",
-     "shares": 2657192.0,
-     "value": 264496911.0
+     "shares": 4210433.0,
+     "value": 366812897.0
     },
     "489170100": {
      "issuer": "Kennametal Inc",
-     "shares": 1979.0,
-     "value": 69364.0
+     "shares": 2150.0,
+     "value": 66091.0
     },
     "773121108": {
      "issuer": "Rocket Lab Corp",
-     "shares": 1631207.0,
-     "value": 165812192.0
+     "shares": 3557458.0,
+     "value": 247883675.0
     },
     "G32089107": {
      "issuer": "Etoro Group Ltd",
-     "shares": 315645.0,
-     "value": 12458508.0
+     "shares": 328004.0,
+     "value": 8429703.0
     },
     "172573107": {
      "issuer": "Circle Internet Group Inc",
-     "shares": 4558162.0,
-     "value": 285477674.0
+     "shares": 6857482.0,
+     "value": 563479299.0
     },
     "25809K105": {
      "issuer": "DoorDash Inc",
-     "shares": 380139.0,
-     "value": 70147050.0
+     "shares": 388357.0,
+     "value": 71282927.0
     },
     "09175A206": {
      "issuer": "BitMine Immersion Technologies",
-     "shares": 8811588.0,
-     "value": 117282236.0
+     "shares": 9249752.0,
+     "value": 244470945.0
     },
     "316841105": {
      "issuer": "Figma Inc",
-     "shares": 3042015.0,
-     "value": 55030051.0
+     "shares": 1089971.0,
+     "value": 22911190.0
     },
     "M7518J104": {
      "issuer": "Oddity Tech Ltd",
-     "shares": 146754.0,
-     "value": 2220388.0
+     "shares": 132485.0,
+     "value": 2472170.0
     },
     "G16910120": {
      "issuer": "Bullish",
-     "shares": 6746186.0,
-     "value": 158063147.0
+     "shares": 7199006.0,
+     "value": 251173322.0
     },
     "81663L200": {
      "issuer": "GeneDx Holdings Corp",
-     "shares": 1610189.0,
-     "value": 110539494.0
+     "shares": 1913123.0,
+     "value": 138318822.0
     },
     "732908108": {
      "issuer": "Pony AI Inc",
-     "shares": 2212454.0,
-     "value": 15376555.0
+     "shares": 3065236.0,
+     "value": 20046643.0
     },
     "01609W102": {
      "issuer": "Alibaba Group Holding Ltd",
-     "shares": 119555.0,
-     "value": 11474896.0
+     "shares": 4691.0,
+     "value": 504470.0
     },
     "G5279N105": {
      "issuer": "Klarna Group PLC",
-     "shares": 712201.0,
-     "value": 14414948.0
+     "shares": 747121.0,
+     "value": 9256829.0
     },
     "500081104": {
      "issuer": "Kodiak AI Inc",
-     "shares": 5150227.0,
-     "value": 26163153.0
+     "shares": 5500657.0,
+     "value": 10561261.0
     },
     "64110L106": {
      "issuer": "Netflix Inc",
-     "shares": 224871.0,
-     "value": 16055789.0
+     "shares": 289011.0,
+     "value": 20109385.0
     },
     "10501L106": {
      "issuer": "Brainsway Ltd",
-     "shares": 142500.0,
-     "value": 2210175.0
+     "shares": 146850.0,
+     "value": 1938420.0
     },
     "594918104": {
      "issuer": "Microsoft Corp",
-     "shares": 6177.0,
-     "value": 2304145.0
+     "shares": 5693.0,
+     "value": 2919940.0
     },
     "432705309": {
      "issuer": "Canton Strategic Holdings Inc",
-     "shares": 3657548.0,
-     "value": 10314285.0
+     "shares": 3246879.0,
+     "value": 7711338.0
     },
     "950915108": {
      "issuer": "WeRide Inc",
-     "shares": 3742949.0,
-     "value": 21783963.0
-    },
-    "78462F103": {
-     "issuer": "State Street SPDR S&P 500 ETF Trust",
-     "shares": 0.0,
-     "value": 344.0
+     "shares": 3969187.0,
+     "value": 21076383.0
     },
     "92259N302": {
      "issuer": "Velo3D Inc",
-     "shares": 194753.0,
-     "value": 3417915.0
+     "shares": 209897.0,
+     "value": 2285778.0
     },
     "11135F101": {
      "issuer": "Broadcom Inc",
-     "shares": 407202.0,
-     "value": 153820556.0
+     "shares": 782119.0,
+     "value": 274672400.0
     },
     "M25722105": {
      "issuer": "Compugen Ltd",
-     "shares": 786536.0,
-     "value": 1683187.0
-    },
-    "M6240T109": {
-     "issuer": "Kamada Ltd",
-     "shares": 263304.0,
-     "value": 1931485.0
-    },
-    "M4130Y106": {
-     "issuer": "Enlivex Ltd",
-     "shares": 2382731.0,
-     "value": 1310264.0
+     "shares": 887867.0,
+     "value": 2113123.0
     },
     "M0740A108": {
      "issuer": "Alpha Tau Medical Ltd",
-     "shares": 277086.0,
-     "value": 3485742.0
+     "shares": 184377.0,
+     "value": 2749061.0
     },
     "38964R203": {
      "issuer": "Grayscale Ethereum Staking Min",
-     "shares": 4280.0,
-     "value": 64328.0
-    },
-    "024061103": {
-     "issuer": "Dauch Corporation",
-     "shares": 6386.0,
-     "value": 34612.0
+     "shares": 3952.0,
+     "value": 100736.0
     },
     "370920100": {
      "issuer": "Generate Biomedicines Inc",
-     "shares": 1284617.0,
-     "value": 21671492.0
-    },
-    "922908736": {
-     "issuer": "Vanguard Growth ETF",
-     "shares": 768.0,
-     "value": 66182.0
+     "shares": 1964661.0,
+     "value": 29509210.0
     },
     "70450C101": {
      "issuer": "PayPay Corp",
-     "shares": 244985.0,
-     "value": 3510635.0
+     "shares": 256991.0,
+     "value": 4034759.0
     },
     "09075V102": {
      "issuer": "BioNTech SE",
-     "shares": 133333.0,
-     "value": 12406622.0
+     "shares": 2.0,
+     "value": 237.0
     },
     "532457108": {
      "issuer": "Eli Lilly & Co",
-     "shares": 77254.0,
-     "value": 92660897.0
+     "shares": 107838.0,
+     "value": 124776742.0
     },
     "98386P102": {
      "issuer": "X-Energy Inc",
-     "shares": 5411846.0,
-     "value": 99361493.0
+     "shares": 9054281.0,
+     "value": 128389705.0
     },
     "010911105": {
      "issuer": "Alamar Biosciences Inc",
-     "shares": 1373959.0,
-     "value": 37220549.0
-    },
-    "G22845104": {
-     "issuer": "Octave Intelligence PLC",
-     "shares": 8897.0,
-     "value": 145021.0
+     "shares": 1240334.0,
+     "value": 42258184.0
     },
     "15675D103": {
      "issuer": "Cerebras Systems Inc",
-     "shares": 764613.0,
-     "value": 168979473.0
-    },
-    "78464A870": {
-     "issuer": "State Street SPDR S&P Biotech ETF",
-     "shares": 94.0,
-     "value": 14822.0
-    },
-    "78464A771": {
-     "issuer": "State Street SPDR S&P Capital Markets ETF",
-     "shares": 19.0,
-     "value": 2775.0
+     "shares": 1489007.0,
+     "value": 264522069.0
     },
     "02079K305": {
      "issuer": "Alphabet Inc",
-     "shares": 140122.0,
-     "value": 50075399.0
+     "shares": 101.0,
+     "value": 34752.0
     },
     "43849R105": {
      "issuer": "Honeywell Aerospace Inc",
-     "shares": 23262.0,
-     "value": 5142763.0
-    },
-    "438516205": {
-     "issuer": "Honeywell International Inc",
-     "shares": 23262.0,
-     "value": 5208362.0
+     "shares": 19968.0,
+     "value": 3094441.0
     },
     "84615Q103": {
-     "issuer": "Space Exploration Technologies Corp",
-     "shares": 4478013.0,
-     "value": 765113281.0
+     "issuer": "Space Exploration Technologies",
+     "shares": 6746417.0,
+     "value": 1017764417.0
     },
     "833445109": {
      "issuer": "Snowflake Inc",
-     "shares": 269539.0,
-     "value": 68597731.0
+     "shares": 71190.0,
+     "value": 24173127.0
     },
-    "316092873": {
-     "issuer": "Fidelity MSCI Communication Services Index ETF",
-     "shares": 7.0,
-     "value": 482.0
+    "81517B101": {
+     "issuer": "Securitize Corp",
+     "shares": 2583728.0,
+     "value": 37696592.0
     },
-    "464287515": {
-     "issuer": "iShares Expanded Tech-Software Sector ETF",
-     "shares": 56.0,
-     "value": 5109.0
+    "811033109": {
+     "issuer": "Scribe Therapeutics Inc",
+     "shares": 786921.0,
+     "value": 14483278.0
     },
-    "464288794": {
-     "issuer": "iShares U.S. Broker-Dealers & Securities Exchanges ETF",
-     "shares": 2.0,
-     "value": 424.0
+    "M84116108": {
+     "issuer": "Silicom Ltd",
+     "shares": 55022.0,
+     "value": 2877651.0
     },
-    "78464A631": {
-     "issuer": "State Street SPDR S&P Aerospace & Defense ETF",
-     "shares": 3.0,
-     "value": 729.0
+    "M8694L137": {
+     "issuer": "Sol-Gel Technologies Ltd",
+     "shares": 28148.0,
+     "value": 2090833.0
     },
-    "78464A581": {
-     "issuer": "State Street SPDR S&P Health Care Equipment ETF",
-     "shares": 21.0,
-     "value": 1805.0
+    "M8T80P204": {
+     "issuer": "Nexxen International Ltd",
+     "shares": 210004.0,
+     "value": 1890036.0
+    },
+    "35661P100": {
+     "issuer": "Freenome Inc",
+     "shares": 2787707.0,
+     "value": 43906384.0
+    },
+    "00214Q724": {
+     "issuer": "ARK Active Autocallable Income",
+     "shares": 1470005.0,
+     "value": 29782301.0
+    },
+    "M8769Q102": {
+     "issuer": "Teva Pharmaceutical Industries",
+     "shares": 68295.0,
+     "value": 2735355.0
     }
    },
    "first_seen": {
@@ -3369,7 +3348,13 @@
     "464287515": "2026-06-30",
     "464288794": "2026-06-30",
     "78464A631": "2026-06-30",
-    "78464A581": "2026-06-30"
+    "78464A581": "2026-06-30",
+    "81517B101": "2026-09-30",
+    "811033109": "2026-09-30",
+    "M8694L137": "2026-09-30",
+    "35661P100": "2026-09-30",
+    "00214Q724": "2026-09-30",
+    "M8769Q102": "2026-09-30"
    },
    "first_seen_oldest": "2023-09-30",
    "first_seen_done": true
@@ -3423,6 +3408,27 @@
   "770700102": "HOOD",
   "H17182108": null,
   "82509L107": "SHOP",
-  "90184D100": "TWST"
+  "90184D100": "TWST",
+  "43849R105": "HONA",
+  "82982L103": "SITE",
+  "95082P105": "WCC",
+  "12572Q105": "CME",
+  "G4412G101": null,
+  "G0750C108": null,
+  "35661P100": "FRNM",
+  "81517B101": "SECZ",
+  "00214Q724": "ARKY",
+  "811033109": "SCTX",
+  "36118L106": "FUTU",
+  "M84116108": null,
+  "M8769Q102": null,
+  "M8694L137": null,
+  "M8T80P204": null,
+  "67066G104": "NVDA",
+  "172573107": "CRCL",
+  "19260Q107": "COIN",
+  "21873S108": "CRWV",
+  "852234103": "XYZ",
+  "88025U109": "TXG"
  }
 }
