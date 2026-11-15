@@ -4984,6 +4984,24 @@
         "RIVN",
         "UBER"
       ]
+    },
+    "starship": {
+      "name": "Starship의 완전 재사용 성공 및 우주 발사 비용 절감 기대",
+      "first_seen": "2026-11-16",
+      "tickers": [
+        "SPCX",
+        "RKLB",
+        "IRDM"
+      ]
+    },
+    "ragretrievalaugmentedgenerationai": {
+      "name": "RAG(Retrieval-Augmented Generation) AI 에이전트의 프롬프트 주입 공격 취약성",
+      "first_seen": "2026-11-16",
+      "tickers": [
+        "CRWD",
+        "OKTA",
+        "NET"
+      ]
     }
   },
   "seen_tech": {
@@ -10682,6 +10700,22 @@
     "mobilegestalteditorforios27xgestaltxerosioncn": {
       "term": "MobileGestalt editor for iOS 27.x (GestaltX / Erosion-CN)",
       "first_seen": "2026-11-15"
+    },
+    "opticalfiberloopsasdelaylinememory": {
+      "term": "Optical Fiber Loops as Delay-Line Memory",
+      "first_seen": "2026-11-16"
+    },
+    "singleeventburnoutsebsolution": {
+      "term": "Single-Event Burnout (SEB) Solution",
+      "first_seen": "2026-11-16"
+    },
+    "aiagentforautonomouscyberattacks": {
+      "term": "AI Agent for Autonomous Cyberattacks",
+      "first_seen": "2026-11-16"
+    },
+    "ragpromptinjectiontesting": {
+      "term": "RAG Prompt Injection Testing",
+      "first_seen": "2026-11-16"
     }
   }
 }
