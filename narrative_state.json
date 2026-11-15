@@ -5002,6 +5002,55 @@
         "OKTA",
         "NET"
       ]
+    },
+    "radiationhardenedelectronicsforextremeenvironments": {
+      "name": "극단적 환경을 위한 방사선 내성 전자장치 (Radiation-Hardened Electronics for Extreme Environments)",
+      "first_seen": "2026-11-16",
+      "tickers": [
+        "BA",
+        "LMT",
+        "RTX",
+        "NOC",
+        "SPCE"
+      ]
+    },
+    "cpuintelsnextgencpuplatforms": {
+      "name": "차세대 인텔 CPU 플랫폼 (Intel's Next-Gen CPU Platforms)",
+      "first_seen": "2026-11-16",
+      "tickers": [
+        "INTC"
+      ]
+    },
+    "aiaipoweredautonomouscyberattacksanddefense": {
+      "name": "AI 기반 자율 사이버 공격 및 방어 (AI-Powered Autonomous Cyberattacks and Defense)",
+      "first_seen": "2026-11-16",
+      "tickers": [
+        "PANW",
+        "CRWD",
+        "FTNT",
+        "ZS"
+      ]
+    },
+    "aiailocalaimodelsandedgeaiexecution": {
+      "name": "로컬 AI 모델 및 엣지 디바이스에서의 AI 실행 (Local AI Models and Edge AI Execution)",
+      "first_seen": "2026-11-16",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MSFT",
+        "SMCI"
+      ]
+    },
+    "gpuoptimizinggpumemorytransferspeed": {
+      "name": "GPU 메모리 전송 속도 최적화 (Optimizing GPU Memory Transfer Speed)",
+      "first_seen": "2026-11-16",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -10715,6 +10764,30 @@
     },
     "ragpromptinjectiontesting": {
       "term": "RAG Prompt Injection Testing",
+      "first_seen": "2026-11-16"
+    },
+    "spacechips": {
+      "term": "Space Chips",
+      "first_seen": "2026-11-16"
+    },
+    "2nmtech2": {
+      "term": "2nm tech (2나노 기술)",
+      "first_seen": "2026-11-16"
+    },
+    "coralrapidsrazorlake": {
+      "term": "Coral Rapids & Razor Lake",
+      "first_seen": "2026-11-16"
+    },
+    "dietodielink": {
+      "term": "Die-to-die link",
+      "first_seen": "2026-11-16"
+    },
+    "phaseinterpolatorpi": {
+      "term": "Phase Interpolator (PI)",
+      "first_seen": "2026-11-16"
+    },
+    "uraniumextractionfromseawater": {
+      "term": "Uranium extraction from seawater",
       "first_seen": "2026-11-16"
     }
   }
