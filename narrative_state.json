@@ -4976,6 +4976,14 @@
         "MRVL",
         "SMCI"
       ]
+    },
+    "rivn": {
+      "name": "리비안(RIVN)의 자율주행 및 로보택시 기술 부상",
+      "first_seen": "2026-11-15",
+      "tickers": [
+        "RIVN",
+        "UBER"
+      ]
     }
   },
   "seen_tech": {
@@ -10653,6 +10661,26 @@
     },
     "sensenovaloop": {
       "term": "SenseNova-Loop",
+      "first_seen": "2026-11-15"
+    },
+    "singleeventburnoutseb": {
+      "term": "Single-Event Burnout (SEB)",
+      "first_seen": "2026-11-15"
+    },
+    "deepxdxm2": {
+      "term": "DeepX DX-M2",
+      "first_seen": "2026-11-15"
+    },
+    "sensenovaloop9bpreview": {
+      "term": "SenseNova-Loop-9B-Preview",
+      "first_seen": "2026-11-15"
+    },
+    "graphattentionnetworksgatsforepilepsydetection": {
+      "term": "Graph Attention Networks (GATs) for Epilepsy Detection",
+      "first_seen": "2026-11-15"
+    },
+    "mobilegestalteditorforios27xgestaltxerosioncn": {
+      "term": "MobileGestalt editor for iOS 27.x (GestaltX / Erosion-CN)",
       "first_seen": "2026-11-15"
     }
   }
