@@ -5051,6 +5051,16 @@
         "INTC",
         "SMCI"
       ]
+    },
+    "starshipartemis": {
+      "name": "Starship의 궤도 비행 및 회수 성공과 Artemis 프로그램의 가속화",
+      "first_seen": "2026-11-16",
+      "tickers": [
+        "BA",
+        "LMT",
+        "RKLB",
+        "VACQ"
+      ]
     }
   },
   "seen_tech": {
@@ -10788,6 +10798,38 @@
     },
     "uraniumextractionfromseawater": {
       "term": "Uranium extraction from seawater",
+      "first_seen": "2026-11-16"
+    },
+    "ecrionix": {
+      "term": "EcrioniX",
+      "first_seen": "2026-11-16"
+    },
+    "dietodielinkandphaseinterpolator": {
+      "term": "Die-to-die link (and Phase Interpolator)",
+      "first_seen": "2026-11-16"
+    },
+    "qwen3827bperplexingpegasusheretic": {
+      "term": "Qwen3.8-27B-Perplexing-Pegasus-Heretic",
+      "first_seen": "2026-11-16"
+    },
+    "abliterationtechniquesaslora": {
+      "term": "Abliteration techniques as LoRA",
+      "first_seen": "2026-11-16"
+    },
+    "berthv060engineswapboard": {
+      "term": "Berth v0.6.0 (Engine Swap Board)",
+      "first_seen": "2026-11-16"
+    },
+    "insidellm": {
+      "term": "Inside-llm",
+      "first_seen": "2026-11-16"
+    },
+    "trainingfreeearlyexitforreasoningmodels": {
+      "term": "Training-free early exit for reasoning models",
+      "first_seen": "2026-11-16"
+    },
+    "unbundlingmultimodalvisionencoding": {
+      "term": "Unbundling Multimodal Vision Encoding",
       "first_seen": "2026-11-16"
     }
   }
