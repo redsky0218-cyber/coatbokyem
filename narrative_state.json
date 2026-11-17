@@ -5090,6 +5090,23 @@
         "STRL",
         "AMAT"
       ]
+    },
+    "formalverificationai": {
+      "name": "칩 설계의 공식 검증(Formal Verification)에 AI 활용 증가",
+      "first_seen": "2026-11-18",
+      "tickers": [
+        "SNPS",
+        "CDNS"
+      ]
+    },
+    "aidroneasaservice": {
+      "name": "AI 드론(Drone as a Service)을 활용한 에너지 산업 계약 증가",
+      "first_seen": "2026-11-18",
+      "tickers": [
+        "ZENA",
+        "TXT",
+        "KTOS"
+      ]
     }
   },
   "seen_tech": {
@@ -10892,6 +10909,22 @@
     "lipiindiclanguagesinbrowserstt": {
       "term": "Lipi (Indic languages in-browser STT)",
       "first_seen": "2026-11-17"
+    },
+    "maxwellblocksparseattentionmbsa": {
+      "term": "Maxwell Block Sparse Attention (MBSA)",
+      "first_seen": "2026-11-18"
+    },
+    "manifoldconstrainedhyperconnections": {
+      "term": "Manifold-Constrained Hyper-Connections",
+      "first_seen": "2026-11-18"
+    },
+    "finegrainedmixtureofexpertsmoe": {
+      "term": "Fine-Grained Mixture of Experts (MoE)",
+      "first_seen": "2026-11-18"
+    },
+    "sensenovaloop9bloopedtransformer": {
+      "term": "SenseNova-Loop-9B (Looped Transformer)",
+      "first_seen": "2026-11-18"
     }
   }
 }
