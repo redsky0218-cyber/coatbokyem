@@ -2,71 +2,111 @@
  "gurus": {
   "1067983": {
    "name": "버핏 (Berkshire)",
-   "acc": "0001193125-26-352200",
-   "filed": "2026-08-14",
-   "period": "2026-06-30",
+   "acc": "0001193125-26-463399",
+   "filed": "2026-11-16",
+   "period": "2026-09-30",
    "tracked": [
+    {
+     "ticker": "DAL",
+     "type": "add",
+     "cusip": "247361702",
+     "ref": 84.7,
+     "weight": 1.8,
+     "issuer": "DELTA AIR LINES INC",
+     "period": "2026-09-30",
+     "inc": 12,
+     "since": "2026-03-31"
+    },
+    {
+     "ticker": "LEN",
+     "type": "add",
+     "cusip": "526057104",
+     "ref": 83.52,
+     "weight": 0.7,
+     "issuer": "LENNAR CORP",
+     "period": "2026-09-30",
+     "inc": 99,
+     "since": "2025-06-30"
+    },
+    {
+     "ticker": "LEN-B",
+     "type": "add",
+     "cusip": "526057302",
+     "ref": 81.93,
+     "weight": 0.0,
+     "issuer": "LENNAR CORP",
+     "period": "2026-09-30",
+     "inc": 85,
+     "since": "2023-09-30"
+    },
     {
      "ticker": "AAPL",
      "type": "top",
-     "ref": 284.56,
-     "weight": 22.0,
+     "cusip": "037833100",
+     "ref": 320.35,
+     "weight": 25.0,
      "issuer": "APPLE INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
      "ticker": "AXP",
      "type": "top",
-     "ref": 318.63,
-     "weight": 17.1,
+     "cusip": "025816109",
+     "ref": 333.13,
+     "weight": 15.2,
      "issuer": "AMERICAN EXPRESS CO",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
      "ticker": "KO",
      "type": "top",
-     "ref": 78.47,
-     "weight": 10.9,
+     "cusip": "191216100",
+     "ref": 86.23,
+     "weight": 11.3,
      "issuer": "COCA COLA CO",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
      "ticker": "GOOGL",
      "type": "top",
-     "ref": 357.32,
-     "weight": 9.4,
+     "cusip": "02079K305",
+     "ref": 347.06,
+     "weight": 8.9,
      "issuer": "ALPHABET INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2025-09-30"
     },
     {
      "ticker": "BAC",
      "type": "top",
-     "ref": 52.82,
-     "weight": 9.2,
+     "cusip": "060505104",
+     "ref": 60.64,
+     "weight": 8.2,
      "issuer": "BANK OF AMER CORP",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
      "ticker": "CHV",
      "type": "top",
+     "cusip": "166764100",
      "ref": null,
-     "weight": 4.7,
+     "weight": 5.7,
      "issuer": "CHEVRON CORPORATION",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
      "ticker": "OXY",
      "type": "top",
-     "ref": 56.85,
-     "weight": 4.3,
+     "cusip": "674599105",
+     "ref": 56.82,
+     "weight": 4.8,
      "issuer": "OCCIDENTAL PETE CORP",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     }
    ],
@@ -74,147 +114,152 @@
     "02005N100": {
      "issuer": "ALLY FINL INC",
      "shares": 27000000.0,
-     "value": 1240650000.0
+     "value": 1015740001.0
     },
     "02079K107": {
      "issuer": "ALPHABET INC",
      "shares": 27188433.0,
-     "value": 9606489032.0
+     "value": 9264186660.0
     },
     "02079K305": {
      "issuer": "ALPHABET INC",
      "shares": 78791167.0,
-     "value": 28157599351.0
+     "value": 27110464741.0
     },
     "025816109": {
      "issuer": "AMERICAN EXPRESS CO",
      "shares": 151610700.0,
-     "value": 51282319275.0
+     "value": 46104813870.0
     },
     "037833100": {
      "issuer": "APPLE INC",
      "shares": 227917808.0,
-     "value": 65950296923.0
+     "value": 75901188420.0
     },
     "060505104": {
      "issuer": "BANK OF AMER CORP",
-     "shares": 483394015.0,
-     "value": 27543790975.0
+     "shares": 455860908.0,
+     "value": 24812509222.0
     },
     "14040H105": {
      "issuer": "CAPITAL ONE FINL CORP",
-     "shares": 3000000.0,
-     "value": 601860000.0
+     "shares": 1150000.0,
+     "value": 222030500.0
     },
     "166764100": {
      "issuer": "CHEVRON CORPORATION",
      "shares": 84375856.0,
-     "value": 13986141890.0
+     "value": 17230393553.0
     },
     "191216100": {
      "issuer": "COCA COLA CO",
      "shares": 400000000.0,
-     "value": 32508000000.0
+     "value": 34432000000.0
     },
     "23331A109": {
      "issuer": "D R HORTON INC",
      "shares": 3564.0,
-     "value": 580504.0
+     "value": 487021.0
     },
     "23918K108": {
      "issuer": "DAVITA INC",
-     "shares": 28880209.0,
-     "value": 6425268898.0
+     "shares": 28697229.0,
+     "value": 5019719296.0
     },
     "247361702": {
      "issuer": "DELTA AIR LINES INC",
-     "shares": 57320000.0,
-     "value": 5368591200.0
+     "shares": 64450000.0,
+     "value": 5378997000.0
     },
     "47233W109": {
      "issuer": "JEFFERIES FINANCIAL GROUP IN",
      "shares": 433558.0,
-     "value": 21669229.0
+     "value": 19826607.0
     },
     "500754106": {
      "issuer": "KRAFT HEINZ CO",
      "shares": 325634818.0,
-     "value": 7691494401.0
+     "value": 7398423065.0
     },
     "501044101": {
      "issuer": "KROGER CO",
-     "shares": 39000000.0,
-     "value": 2165670000.0
+     "shares": 35000000.0,
+     "value": 2051700000.0
     },
     "526057104": {
      "issuer": "LENNAR CORP",
-     "shares": 13111741.0,
-     "value": 1186481443.0
+     "shares": 26034436.0,
+     "value": 2124149633.0
     },
     "526057302": {
      "issuer": "LENNAR CORP",
-     "shares": 298117.0,
-     "value": 26445959.0
+     "shares": 553000.0,
+     "value": 44234470.0
     },
     "530909100": {
      "issuer": "LIBERTY LIVE HOLDINGS INC",
      "shares": 4986588.0,
-     "value": 504941901.0
+     "value": 471930689.0
     },
     "530909308": {
      "issuer": "LIBERTY LIVE HOLDINGS INC",
      "shares": 10587143.0,
-     "value": 1118425787.0
+     "value": 1029599657.0
     },
     "546347105": {
      "issuer": "LOUISIANA PAC CORP",
      "shares": 5664793.0,
-     "value": 445592617.0
+     "value": 365662388.0
     },
     "55616P104": {
      "issuer": "MACYS INC",
-     "shares": 7347426.0,
-     "value": 173031882.0
+     "shares": 7538800.0,
+     "value": 171658476.0
     },
     "615369105": {
      "issuer": "MOODYS CORP",
      "shares": 24669778.0,
-     "value": 11173435852.0
+     "value": 11203286284.0
     },
     "62944T105": {
      "issuer": "NVR INC",
      "shares": 11112.0,
-     "value": 75710501.0
+     "value": 68387582.0
     },
     "650111107": {
      "issuer": "NEW YORK TIMES CO MTN BE",
      "shares": 15700000.0,
-     "value": 1098686000.0
+     "value": 1000090000.0
     },
     "670346105": {
      "issuer": "NUCOR CORP",
-     "shares": 1857752.0,
-     "value": 413814258.0
+     "shares": 1580776.0,
+     "value": 369506390.0
     },
     "674599105": {
      "issuer": "OCCIDENTAL PETE CORP",
      "shares": 264941431.0,
-     "value": 12868205304.0
+     "value": 14656559963.0
     },
     "829933100": {
      "issuer": "SIRIUSXM HOLDINGS INC",
      "shares": 124807117.0,
-     "value": 3686802237.0
+     "value": 3230008188.0
     },
     "92343E102": {
      "issuer": "VERISIGN INC",
-     "shares": 8989880.0,
-     "value": 2261494212.0
+     "shares": 5922136.0,
+     "value": 1670101573.0
     },
     "H1467J104": {
      "issuer": "CHUBB LIMITED",
      "shares": 34249183.0,
-     "value": 11670066615.0
+     "value": 11139546771.0
+    },
+    "T19377109": {
+     "issuer": "BENDING SPOONS SPA",
+     "shares": 20689655.0,
+     "value": 689379305.0
     }
    },
    "first_seen": {
@@ -282,511 +327,419 @@
     "650111107": "2025-12-31",
     "02079K107": "2026-03-31",
     "247361702": "2026-03-31",
-    "55616P104": "2026-03-31"
+    "55616P104": "2026-03-31",
+    "T19377109": "2026-09-30"
    },
    "first_seen_oldest": "2023-09-30",
    "first_seen_done": true
   },
   "1536411": {
    "name": "드러켄밀러 (Duquesne)",
-   "acc": "0001536411-26-000006",
-   "filed": "2026-08-14",
-   "period": "2026-06-30",
+   "acc": "0001536411-26-000011",
+   "filed": "2026-11-16",
+   "period": "2026-09-30",
    "tracked": [
     {
-     "ticker": "NTRA",
-     "type": "top",
-     "ref": 212.61,
-     "weight": 19.9,
-     "issuer": "Natera Inc",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
-    },
-    {
-     "ticker": "TSM",
-     "type": "top",
-     "ref": 402.6,
-     "weight": 6.5,
-     "issuer": "Taiwan Semiconductor Manufac",
-     "period": "2026-06-30",
-     "since": "2024-09-30"
-    },
-    {
-     "ticker": "STM",
-     "type": "top",
-     "ref": 59.23,
-     "weight": 5.3,
-     "issuer": "Stmicroelectronics N V",
-     "period": "2026-06-30",
-     "since": "2025-12-31"
-    },
-    {
-     "ticker": "IM8N",
-     "type": "top",
+     "ticker": "TPD",
+     "type": "new",
+     "cusip": "88023U101",
      "ref": null,
-     "weight": 3.5,
-     "issuer": "Insmed Inc",
-     "period": "2026-06-30",
-     "since": "2024-06-30"
+     "weight": 1.5,
+     "issuer": "Somnigroup International Inc",
+     "period": "2026-09-30",
+     "since": "2023-12-31"
     },
     {
-     "ticker": "YPF",
-     "type": "top",
-     "ref": 46.89,
-     "weight": 3.3,
-     "issuer": "Ypf Sociedad Anonima",
-     "period": "2026-06-30",
-     "since": "2024-06-30"
+     "ticker": "NEM",
+     "type": "new",
+     "cusip": "651639106",
+     "ref": 111.5,
+     "weight": 1.1,
+     "issuer": "Newmont Corp",
+     "period": "2026-09-30",
+     "since": "2023-12-31"
     },
     {
-     "ticker": "AMZN",
-     "type": "top",
-     "ref": 249.56,
-     "weight": 3.0,
-     "issuer": "Amazon Com Inc",
-     "period": "2026-06-30",
+     "ticker": "B",
+     "type": "new",
+     "cusip": "06849F108",
+     "ref": 40.81,
+     "weight": 1.0,
+     "issuer": "Barrick Mng Corp",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "AEM",
+     "type": "new",
+     "cusip": "008474108",
+     "ref": 176.8,
+     "weight": 1.0,
+     "issuer": "Agnico Eagle Mines Ltd",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "WDC",
+     "type": "new",
+     "cusip": "958102105",
+     "ref": 488.41,
+     "weight": 0.9,
+     "issuer": "Western Digital Corp",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
-     "ticker": "GOOGL",
-     "type": "top",
-     "ref": 357.32,
-     "weight": 2.8,
-     "issuer": "Alphabet Inc",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
+     "ticker": "APP",
+     "type": "new",
+     "cusip": "03831W108",
+     "ref": 370.5,
+     "weight": 0.8,
+     "issuer": "Applovin Corp",
+     "period": "2026-09-30",
+     "since": "2025-03-31"
+    },
+    {
+     "ticker": "SPCX",
+     "type": "new",
+     "cusip": "84615Q103",
+     "ref": 138.91,
+     "weight": 0.7,
+     "issuer": "Space Exploration Techn Corp",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "TTMI",
+     "type": "new",
+     "cusip": "87305R109",
+     "ref": 129.32,
+     "weight": 0.7,
+     "issuer": "Ttm Technologies Inc",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "HUM",
+     "type": "new",
+     "cusip": "444859102",
+     "ref": 388.08,
+     "weight": 0.6,
+     "issuer": "Humana Inc",
+     "period": "2026-09-30",
+     "since": "2026-03-31"
+    },
+    {
+     "ticker": "PLTR",
+     "type": "new",
+     "cusip": "69608A108",
+     "ref": 158.71,
+     "weight": 0.4,
+     "issuer": "Palantir Technologies Inc",
+     "period": "2026-09-30",
+     "since": "2024-03-31"
     }
    ],
    "holdings": {
-    "88025U109": {
-     "issuer": "10X Genomics Inc",
-     "shares": 403100.0,
-     "value": 15455.0
-    },
     "000899104": {
      "issuer": "Adma Biologics Inc",
-     "shares": 2784110.0,
-     "value": 23303.0
+     "shares": 2212810.0,
+     "value": 22194.0
     },
-    "007903107": {
-     "issuer": "Advanced Micro Devices Inc",
-     "shares": 72900.0,
-     "value": 42348.0
-    },
-    "00835Q202": {
-     "issuer": "Aeva Technologies Inc",
-     "shares": 720175.0,
-     "value": 20683.0
-    },
-    "013872106": {
-     "issuer": "Alcoa Corp",
-     "shares": 185640.0,
-     "value": 9679.0
-    },
-    "02079K305": {
-     "issuer": "Alphabet Inc",
-     "shares": 336300.0,
-     "value": 120184.0
+    "008474108": {
+     "issuer": "Agnico Eagle Mines Ltd",
+     "shares": 231050.0,
+     "value": 42345.0
     },
     "023135106": {
      "issuer": "Amazon Com Inc",
-     "shares": 541600.0,
-     "value": 129085.0
+     "shares": 772600.0,
+     "value": 192493.0
     },
-    "042068205": {
-     "issuer": "Arm Holdings Plc",
-     "shares": 28090.0,
-     "value": 9960.0
+    "03831W108": {
+     "issuer": "Applovin Corp",
+     "shares": 109460.0,
+     "value": 31790.0
     },
     "051774107": {
      "issuer": "Aurora Innovation Inc",
      "shares": 633700.0,
-     "value": 4322.0
+     "value": 3511.0
     },
-    "056752108": {
-     "issuer": "Baidu Inc",
-     "shares": 88200.0,
-     "value": 10080.0
+    "06849F108": {
+     "issuer": "Barrick Mng Corp",
+     "shares": 1054600.0,
+     "value": 42891.0
     },
     "G0896C103": {
      "issuer": "Bbb Foods Inc",
-     "shares": 2901733.0,
-     "value": 120915.0
+     "shares": 1647408.0,
+     "value": 86720.0
     },
     "07373V105": {
      "issuer": "Beam Therapeutics Inc",
-     "shares": 153600.0,
-     "value": 5272.0
+     "shares": 699700.0,
+     "value": 17108.0
     },
     "07782B104": {
      "issuer": "Belite Bio Inc Sponsored",
      "shares": 106100.0,
-     "value": 16338.0
+     "value": 18018.0
     },
     "G11448100": {
      "issuer": "Bitdeer Technologies Group",
-     "shares": 4074993.0,
-     "value": 64670.0
-    },
-    "142152107": {
-     "issuer": "Caris Life Sciences Inc",
-     "shares": 1894450.0,
-     "value": 33759.0
-    },
-    "146869102": {
-     "issuer": "Carvana Co",
-     "shares": 151000.0,
-     "value": 9939.0
+     "shares": 3781493.0,
+     "value": 39668.0
     },
     "149568107": {
      "issuer": "Cavco Inds Inc Del",
-     "shares": 39500.0,
-     "value": 24268.0
-    },
-    "12510Q100": {
-     "issuer": "Ccc Intelligent Solutions Hl",
-     "shares": 1170900.0,
-     "value": 6042.0
+     "shares": 56620.0,
+     "value": 31722.0
     },
     "12514G108": {
      "issuer": "Cdw Corp",
-     "shares": 743950.0,
-     "value": 104629.0
+     "shares": 575750.0,
+     "value": 73788.0
     },
     "830830105": {
      "issuer": "Champion Homes Inc",
-     "shares": 254400.0,
-     "value": 22418.0
+     "shares": 371200.0,
+     "value": 31812.0
     },
-    "185899101": {
-     "issuer": "Cleveland-Cliffs Inc New",
-     "shares": 4216184.0,
-     "value": 39590.0
+    "19240Q201": {
+     "issuer": "Cogent Biosciences Inc",
+     "shares": 221112.0,
+     "value": 7080.0
     },
     "22266T109": {
      "issuer": "Coupang Inc",
      "shares": 2667485.0,
-     "value": 46334.0
+     "value": 36998.0
     },
     "G25508105": {
      "issuer": "Crh Plc",
-     "shares": 553555.0,
-     "value": 59230.0
-    },
-    "23331A109": {
-     "issuer": "D R Horton Inc",
-     "shares": 299000.0,
-     "value": 48701.0
+     "shares": 159355.0,
+     "value": 13195.0
     },
     "234264109": {
      "issuer": "Daktronics Inc",
-     "shares": 1123109.0,
-     "value": 21968.0
-    },
-    "235851102": {
-     "issuer": "Danaher Corp Del",
-     "shares": 50300.0,
-     "value": 9581.0
+     "shares": 1794035.0,
+     "value": 31198.0
     },
     "23306J309": {
-     "issuer": "Dbv Technologies S A Sponsored",
-     "shares": 383363.0,
-     "value": 6287.0
-    },
-    "24477V105": {
-     "issuer": "Definium Therapeutics Inc",
-     "shares": 356600.0,
-     "value": 16774.0
-    },
-    "247361702": {
-     "issuer": "Delta Air Lines Inc",
-     "shares": 603000.0,
-     "value": 56477.0
+     "issuer": "Dbv Technologies S A",
+     "shares": 173028.0,
+     "value": 2035.0
     },
     "532457108": {
      "issuer": "Eli Lilly & Co",
-     "shares": 12380.0,
-     "value": 14849.0
-    },
-    "29362U104": {
-     "issuer": "Entegris Inc",
-     "shares": 118300.0,
-     "value": 21277.0
-    },
-    "29444U700": {
-     "issuer": "Equinix Inc",
-     "shares": 18450.0,
-     "value": 19232.0
-    },
-    "315616102": {
-     "issuer": "F5 Inc",
-     "shares": 22000.0,
-     "value": 9151.0
+     "shares": 3800.0,
+     "value": 4397.0
     },
     "343412102": {
      "issuer": "Fluor Corp",
-     "shares": 982200.0,
-     "value": 51457.0
+     "shares": 723000.0,
+     "value": 34617.0
     },
     "35137L105": {
      "issuer": "Fox Corp",
-     "shares": 2204600.0,
-     "value": 114992.0
+     "shares": 3046050.0,
+     "value": 190835.0
     },
     "35137L204": {
      "issuer": "Fox Corp",
      "shares": 632600.0,
-     "value": 29631.0
+     "value": 35615.0
     },
-    "G3730V105": {
-     "issuer": "Ftai Aviation Ltd",
-     "shares": 20200.0,
-     "value": 5465.0
-    },
-    "37950E259": {
-     "issuer": "Global X Fds",
-     "shares": 328800.0,
-     "value": 30019.0
-    },
-    "399909100": {
-     "issuer": "Grupo Financiero Galicia S.A",
-     "shares": 59500.0,
-     "value": 2977.0
-    },
-    "44812J104": {
-     "issuer": "Hut 8 Corp",
-     "shares": 314150.0,
-     "value": 36267.0
+    "444859102": {
+     "issuer": "Humana Inc",
+     "shares": 65220.0,
+     "value": 24886.0
     },
     "44916Y106": {
      "issuer": "Hyperliquid Strategies Inc",
      "shares": 2941500.0,
-     "value": 23150.0
+     "value": 36092.0
+    },
+    "45765U103": {
+     "issuer": "Insight Enterprises Inc",
+     "shares": 67100.0,
+     "value": 10489.0
     },
     "457669307": {
      "issuer": "Insmed Inc",
-     "shares": 1424690.0,
-     "value": 151900.0
+     "shares": 1092650.0,
+     "value": 124715.0
     },
     "46137V357": {
      "issuer": "Invesco Exchange Traded Fd T",
      "shares": 74400.0,
-     "value": 15830.0
-    },
-    "Q4982L109": {
-     "issuer": "Iren Limited",
-     "shares": 87100.0,
-     "value": 3983.0
+     "value": 15477.0
     },
     "464286400": {
      "issuer": "Ishares Inc",
-     "shares": 3436170.0,
-     "value": 118548.0
+     "shares": 3377570.0,
+     "value": 125814.0
     },
     "N4732M103": {
      "issuer": "Jbs N.V.",
-     "shares": 655900.0,
-     "value": 7772.0
+     "shares": 1406200.0,
+     "value": 15876.0
     },
-    "512807306": {
-     "issuer": "Lam Research Corp",
-     "shares": 43600.0,
-     "value": 18893.0
+    "23255M303": {
+     "issuer": "Korsana Biosciences Inc",
+     "shares": 278561.0,
+     "value": 8914.0
     },
-    "G54950103": {
-     "issuer": "Linde Plc",
-     "shares": 41200.0,
-     "value": 21380.0
+    "55306N104": {
+     "issuer": "Mks Inc.",
+     "shares": 31920.0,
+     "value": 8470.0
     },
-    "61225M102": {
-     "issuer": "Monte Rosa Therapeutics Inc",
-     "shares": 297600.0,
-     "value": 7202.0
+    "61559X104": {
+     "issuer": "Moonlake Immunotherapeutics",
+     "shares": 494000.0,
+     "value": 5780.0
     },
     "632307104": {
      "issuer": "Natera Inc",
-     "shares": 3186306.0,
-     "value": 864923.0
-    },
-    "63942X106": {
-     "issuer": "Navitas Semiconductor Corp",
-     "shares": 311100.0,
-     "value": 5575.0
+     "shares": 3160666.0,
+     "value": 1306335.0
     },
     "N62509109": {
      "issuer": "Newamsterdam Pharma Company",
-     "shares": 3070146.0,
-     "value": 104047.0
+     "shares": 3357146.0,
+     "value": 81646.0
+    },
+    "651639106": {
+     "issuer": "Newmont Corp",
+     "shares": 380400.0,
+     "value": 43875.0
     },
     "67080N101": {
      "issuer": "Nuvation Bio Inc",
-     "shares": 4539800.0,
-     "value": 25786.0
+     "shares": 2269900.0,
+     "value": 12711.0
     },
     "68062P106": {
      "issuer": "Olema Pharmaceuticals Inc",
      "shares": 986827.0,
-     "value": 12345.0
+     "value": 8526.0
+    },
+    "69608A108": {
+     "issuer": "Palantir Technologies Inc",
+     "shares": 80100.0,
+     "value": 14983.0
     },
     "697435105": {
      "issuer": "Palo Alto Networks Inc",
-     "shares": 116650.0,
-     "value": 39780.0
-    },
-    "74366E102": {
-     "issuer": "Protagonist Therapeutics Inc",
-     "shares": 208900.0,
-     "value": 25607.0
+     "shares": 30000.0,
+     "value": 11919.0
     },
     "74623V103": {
      "issuer": "Purecycle Technologies Inc",
      "shares": 2681415.0,
-     "value": 21746.0
-    },
-    "74743L100": {
-     "issuer": "Qnity Electronics Inc",
-     "shares": 125655.0,
-     "value": 20521.0
-    },
-    "750917106": {
-     "issuer": "Rambus Inc Del",
-     "shares": 173000.0,
-     "value": 22964.0
-    },
-    "75734B100": {
-     "issuer": "Reddit Inc",
-     "shares": 56550.0,
-     "value": 9816.0
+     "value": 11825.0
     },
     "75943R102": {
      "issuer": "Relay Therapeutics Inc",
-     "shares": 349000.0,
-     "value": 6530.0
+     "shares": 852600.0,
+     "value": 15389.0
     },
     "759916109": {
      "issuer": "Repligen Corp",
      "shares": 77400.0,
-     "value": 10560.0
+     "value": 14879.0
     },
     "76155X100": {
      "issuer": "Revolution Medicines Inc",
-     "shares": 399587.0,
-     "value": 74835.0
+     "shares": 436287.0,
+     "value": 89552.0
     },
     "76243J105": {
      "issuer": "Rhythm Pharmaceuticals Inc",
-     "shares": 203618.0,
-     "value": 22608.0
+     "shares": 269900.0,
+     "value": 25699.0
     },
     "767292105": {
      "issuer": "Riot Platforms Inc",
-     "shares": 754800.0,
-     "value": 20666.0
+     "shares": 905600.0,
+     "value": 18248.0
     },
     "77311W101": {
      "issuer": "Rocket Cos Inc",
      "shares": 652220.0,
-     "value": 10272.0
+     "value": 7507.0
     },
     "77543R102": {
      "issuer": "Roku Inc",
      "shares": 184055.0,
-     "value": 25425.0
-    },
-    "80004C200": {
-     "issuer": "Sandisk Corp",
-     "shares": 34900.0,
-     "value": 79353.0
+     "value": 28028.0
     },
     "81141R100": {
      "issuer": "Sea Ltd",
-     "shares": 1099905.0,
-     "value": 105404.0
+     "shares": 1592765.0,
+     "value": 155072.0
     },
     "G7997R103": {
      "issuer": "Seagate Technology Hldngs Pl",
-     "shares": 122000.0,
-     "value": 117730.0
+     "shares": 341790.0,
+     "value": 315247.0
     },
     "83056P715": {
      "issuer": "Skeena Res Ltd New",
      "shares": 300200.0,
-     "value": 8003.0
+     "value": 8925.0
     },
-    "83443Q103": {
-     "issuer": "Solstice Advanced Matls Inc",
-     "shares": 62525.0,
-     "value": 5540.0
+    "88023U101": {
+     "issuer": "Somnigroup International Inc",
+     "shares": 993600.0,
+     "value": 61712.0
     },
-    "84265V105": {
-     "issuer": "Southern Copper Corp",
-     "shares": 123060.0,
-     "value": 21444.0
+    "84615Q103": {
+     "issuer": "Space Exploration Techn Corp",
+     "shares": 202125.0,
+     "value": 30493.0
     },
     "861012102": {
      "issuer": "Stmicroelectronics N V",
-     "shares": 3102880.0,
-     "value": 232375.0
+     "shares": 1615380.0,
+     "value": 86197.0
     },
     "874039100": {
      "issuer": "Taiwan Semiconductor Manufac",
-     "shares": 589680.0,
-     "value": 281613.0
+     "shares": 32700.0,
+     "value": 14917.0
     },
-    "881624209": {
-     "issuer": "Teva Pharmaceutical Inds Ltd",
-     "shares": 624999.0,
-     "value": 21175.0
+    "87162W100": {
+     "issuer": "Td Synnex Corporation",
+     "shares": 56500.0,
+     "value": 14512.0
     },
-    "883556102": {
-     "issuer": "Thermo Fisher Scientific Inc",
-     "shares": 19200.0,
-     "value": 9626.0
-    },
-    "910047109": {
-     "issuer": "United Airls Hldgs Inc",
-     "shares": 794795.0,
-     "value": 108084.0
+    "87305R109": {
+     "issuer": "Ttm Technologies Inc",
+     "shares": 221505.0,
+     "value": 27210.0
     },
     "91332U101": {
      "issuer": "Unity Software Inc",
-     "shares": 738785.0,
-     "value": 21114.0
+     "shares": 3956385.0,
+     "value": 161935.0
     },
-    "91823B109": {
-     "issuer": "Uwm Holdings Corporation",
-     "shares": 2583000.0,
-     "value": 5915.0
-    },
-    "92837L109": {
-     "issuer": "Vista Energy S.A.B. De C.V.",
-     "shares": 134700.0,
-     "value": 8594.0
-    },
-    "929740108": {
-     "issuer": "Wabtec",
-     "shares": 56595.0,
-     "value": 15258.0
-    },
-    "Y95308105": {
-     "issuer": "Wave Life Sciences Ltd",
+    "94352A104": {
+     "issuer": "Wave Life Sciences Inc",
      "shares": 173000.0,
-     "value": 1005.0
+     "value": 640.0
     },
-    "980745103": {
-     "issuer": "Woodward Inc",
-     "shares": 67194.0,
-     "value": 28587.0
-    },
-    "98420N105": {
-     "issuer": "Xenon Pharmaceuticals Inc",
-     "shares": 238600.0,
-     "value": 14402.0
+    "958102105": {
+     "issuer": "Western Digital Corp",
+     "shares": 80960.0,
+     "value": 36793.0
     },
     "984245100": {
      "issuer": "Ypf Sociedad Anonima",
-     "shares": 3138897.0,
-     "value": 142726.0
+     "shares": 3541897.0,
+     "value": 177555.0
     }
    },
    "first_seen": {
@@ -1071,7 +1024,16 @@
     "767292105": "2026-06-30",
     "77311W101": "2026-06-30",
     "83056P715": "2026-06-30",
-    "91823B109": "2026-06-30"
+    "91823B109": "2026-06-30",
+    "008474108": "2026-09-30",
+    "06849F108": "2026-09-30",
+    "45765U103": "2026-09-30",
+    "23255M303": "2026-09-30",
+    "55306N104": "2026-09-30",
+    "84615Q103": "2026-09-30",
+    "87162W100": "2026-09-30",
+    "87305R109": "2026-09-30",
+    "94352A104": "2026-09-30"
    },
    "first_seen_oldest": "2023-09-30",
    "first_seen_done": true
@@ -1337,80 +1299,90 @@
   },
   "1709323": {
    "name": "리 루 (Himalaya)",
-   "acc": "0002043585-26-000022",
-   "filed": "2026-08-14",
-   "period": "2026-06-30",
+   "acc": "0002043585-26-000030",
+   "filed": "2026-11-16",
+   "period": "2026-09-30",
    "tracked": [
+    {
+     "ticker": "PDD",
+     "type": "add",
+     "cusip": "722304102",
+     "ref": 84.04,
+     "weight": 24.2,
+     "issuer": "PDD HOLDINGS INC",
+     "period": "2026-09-30",
+     "inc": 9,
+     "since": "2025-06-30"
+    },
+    {
+     "ticker": "TME",
+     "type": "add",
+     "cusip": "88034P109",
+     "ref": 8.69,
+     "weight": 3.1,
+     "issuer": "TENCENT MUSIC ENTERTAINM",
+     "period": "2026-09-30",
+     "inc": 125,
+     "since": "2026-03-31"
+    },
     {
      "ticker": "GOOGL",
      "type": "top",
-     "ref": 357.32,
-     "weight": 24.5,
+     "cusip": "02079K305",
+     "ref": 347.06,
+     "weight": 23.1,
      "issuer": "ALPHABET INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
      "ticker": "GOOG",
      "type": "top",
-     "ref": 354.81,
-     "weight": 23.4,
+     "cusip": "02079K107",
+     "ref": 344.69,
+     "weight": 22.1,
      "issuer": "ALPHABET INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
-    },
-    {
-     "ticker": "PDD",
-     "type": "top",
-     "ref": 92.63,
-     "weight": 22.2,
-     "issuer": "PDD HOLDINGS INC",
-     "period": "2026-06-30",
-     "since": "2025-06-30"
     },
     {
      "ticker": "BRK-B",
      "type": "top",
-     "ref": 480.63,
-     "weight": 15.0,
+     "cusip": "084670702",
+     "ref": 504.46,
+     "weight": 14.6,
      "issuer": "BERKSHIRE HATHAWAY INC DEL",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
      "ticker": "EWBC",
      "type": "top",
-     "ref": 121.29,
-     "weight": 9.7,
+     "cusip": "27579R104",
+     "ref": 129.21,
+     "weight": 9.1,
      "issuer": "EAST WEST BANCORP INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     },
     {
      "ticker": "CROX",
      "type": "top",
-     "ref": 108.4,
-     "weight": 2.9,
+     "cusip": "227046109",
+     "ref": 126.13,
+     "weight": 2.8,
      "issuer": "CROCS INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2025-12-31"
-    },
-    {
-     "ticker": "TME",
-     "type": "top",
-     "ref": 9.13,
-     "weight": 1.5,
-     "issuer": "TENCENT MUSIC ENTERTAINM",
-     "period": "2026-06-30",
-     "since": "2026-03-31"
     },
     {
      "ticker": "AAPL",
      "type": "top",
-     "ref": 284.56,
-     "weight": 0.9,
+     "cusip": "037833100",
+     "ref": 320.35,
+     "weight": 1.0,
      "issuer": "APPLE INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
      "since": "2023-09-30"
     }
    ],
@@ -1418,42 +1390,42 @@
     "02079K305": {
      "issuer": "ALPHABET INC",
      "shares": 2543300.0,
-     "value": 908899121.0
+     "value": 875098664.0
     },
     "02079K107": {
      "issuer": "ALPHABET INC",
      "shares": 2451300.0,
-     "value": 866117829.0
+     "value": 835255962.0
     },
     "037833100": {
      "issuer": "APPLE INC",
      "shares": 110600.0,
-     "value": 32003216.0
+     "value": 36832012.0
     },
     "084670702": {
      "issuer": "BERKSHIRE HATHAWAY INC DEL",
      "shares": 1108318.0,
-     "value": 554591244.0
+     "value": 551886948.0
     },
     "227046109": {
      "issuer": "CROCS INC",
      "shares": 887093.0,
-     "value": 107018900.0
+     "value": 104064880.0
     },
     "27579R104": {
      "issuer": "EAST WEST BANCORP INC",
      "shares": 2776351.0,
-     "value": 358399151.0
+     "value": 344073179.0
     },
     "722304102": {
      "issuer": "PDD HOLDINGS INC",
-     "shares": 10761119.0,
-     "value": 820858157.0
+     "shares": 11761119.0,
+     "value": 916661615.0
     },
     "88034P109": {
      "issuer": "TENCENT MUSIC ENTERTAINM",
-     "shares": 6590836.0,
-     "value": 55033481.0
+     "shares": 14824464.0,
+     "value": 117558000.0
     }
    },
    "first_seen": {
@@ -1554,208 +1526,226 @@
   },
   "1656456": {
    "name": "테퍼 (Appaloosa)",
-   "acc": "0001656456-26-000003",
-   "filed": "2026-08-14",
-   "period": "2026-06-30",
+   "acc": "0001656456-26-000004",
+   "filed": "2026-11-16",
+   "period": "2026-09-30",
    "tracked": [
     {
-     "ticker": "AMZN",
-     "type": "top",
-     "ref": 249.56,
-     "weight": 16.0,
-     "issuer": "AMAZON COM INC",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
+     "ticker": "ORCL",
+     "type": "new",
+     "cusip": "68389X105",
+     "ref": 140.6,
+     "weight": 2.3,
+     "issuer": "ORACLE CORP",
+     "period": "2026-09-30",
+     "since": "2023-12-31"
+    },
+    {
+     "ticker": "AMAT",
+     "type": "new",
+     "cusip": "038222105",
+     "ref": 510.75,
+     "weight": 1.5,
+     "issuer": "APPLIED MATLS INC",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "MOD",
+     "type": "new",
+     "cusip": "607828100",
+     "ref": 205.13,
+     "weight": 0.7,
+     "issuer": "MODINE MFG CO",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
+    },
+    {
+     "ticker": "PCG",
+     "type": "new",
+     "cusip": "69331C108",
+     "ref": 15.98,
+     "weight": 0.4,
+     "issuer": "PG&E CORP",
+     "period": "2026-09-30",
+     "since": "2026-09-30"
     },
     {
      "ticker": "MU",
-     "type": "top",
-     "ref": 736.65,
-     "weight": 15.1,
+     "type": "add",
+     "cusip": "595112103",
+     "ref": 952.88,
+     "weight": 17.6,
      "issuer": "MICRON TECHNOLOGY INC",
-     "period": "2026-06-30",
+     "period": "2026-09-30",
+     "inc": 28,
      "since": "2023-09-30"
     },
     {
-     "ticker": "TSM",
-     "type": "top",
-     "ref": 402.6,
-     "weight": 10.5,
-     "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
-    },
-    {
-     "ticker": "GOOG",
-     "type": "top",
-     "ref": 354.81,
-     "weight": 8.7,
-     "issuer": "ALPHABET INC",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
-    },
-    {
-     "ticker": "UBER",
-     "type": "top",
-     "ref": 73.25,
+     "ticker": "SPCX",
+     "type": "add",
+     "cusip": "84615Q103",
+     "ref": 138.91,
      "weight": 7.4,
-     "issuer": "UBER TECHNOLOGIES INC",
-     "period": "2026-06-30",
+     "issuer": "SPACE EXPLORATION TECHN CORP",
+     "period": "2026-09-30",
+     "inc": 1626,
+     "since": "2026-06-30"
+    },
+    {
+     "ticker": "NVDA",
+     "type": "add",
+     "cusip": "67066G104",
+     "ref": 213.99,
+     "weight": 6.0,
+     "issuer": "NVIDIA CORPORATION",
+     "period": "2026-09-30",
+     "inc": 31,
      "since": "2023-09-30"
     },
     {
-     "ticker": "EWY",
-     "type": "top",
-     "ref": 174.73,
-     "weight": 6.6,
-     "issuer": "ISHARES INC",
-     "period": "2026-06-30",
-     "since": "2025-12-31"
+     "ticker": "LRCX",
+     "type": "add",
+     "cusip": "512807306",
+     "ref": 313.81,
+     "weight": 2.7,
+     "issuer": "LAM RESEARCH CORP",
+     "period": "2026-09-30",
+     "inc": 63,
+     "since": "2024-12-31"
     },
     {
-     "ticker": "META",
-     "type": "top",
-     "ref": 609.22,
-     "weight": 5.1,
-     "issuer": "META PLATFORMS INC",
-     "period": "2026-06-30",
-     "since": "2023-09-30"
-    },
-    {
-     "ticker": "VST",
-     "type": "top",
-     "ref": 154.76,
-     "weight": 4.7,
-     "issuer": "VISTRA CORP",
-     "period": "2026-06-30",
-     "since": "2024-09-30"
+     "ticker": "CRWV",
+     "type": "add",
+     "cusip": "21873S108",
+     "ref": 85.62,
+     "weight": 1.4,
+     "issuer": "COREWEAVE INC",
+     "period": "2026-09-30",
+     "inc": 13,
+     "since": "2026-06-30"
     }
    ],
    "holdings": {
-    "007903107": {
-     "issuer": "ADVANCED MICRO DEVICES INC",
-     "shares": 197500.0,
-     "value": 114729725.0
-    },
     "01609W102": {
      "issuer": "ALIBABA GROUP HLDG LTD",
-     "shares": 2000000.0,
-     "value": 191960000.0
+     "shares": 1850000.0,
+     "value": 198949000.0
     },
     "02079K107": {
      "issuer": "ALPHABET INC",
-     "shares": 1850000.0,
-     "value": 653660500.0
+     "shares": 1000000.0,
+     "value": 340740000.0
     },
     "023135106": {
      "issuer": "AMAZON COM INC",
-     "shares": 5000000.0,
-     "value": 1191700000.0
+     "shares": 4475000.0,
+     "value": 1114946250.0
     },
     "02376R102": {
      "issuer": "AMERICAN AIRLINES GROUP INC",
-     "shares": 7500000.0,
-     "value": 135525000.0
+     "shares": 3928435.0,
+     "value": 52523176.0
+    },
+    "038222105": {
+     "issuer": "APPLIED MATLS INC",
+     "shares": 225000.0,
+     "value": 115060500.0
     },
     "N07059210": {
      "issuer": "ASML HLDG NV",
-     "shares": 50000.0,
-     "value": 99472000.0
+     "shares": 65000.0,
+     "value": 117758550.0
     },
     "056752108": {
      "issuer": "BAIDU INC",
-     "shares": 1295000.0,
-     "value": 148005550.0
+     "shares": 1100000.0,
+     "value": 95557000.0
     },
     "097023105": {
      "issuer": "BOEING CO",
-     "shares": 800000.0,
-     "value": 173176000.0
-    },
-    "11135F101": {
-     "issuer": "BROADCOM INC",
-     "shares": 150000.0,
-     "value": 56662500.0
+     "shares": 760000.0,
+     "value": 141398000.0
     },
     "21873S108": {
      "issuer": "COREWEAVE INC",
-     "shares": 1078248.0,
-     "value": 107328806.0
+     "shares": 1215000.0,
+     "value": 105850800.0
     },
     "29273V100": {
      "issuer": "ENERGY TRANSFER L P",
-     "shares": 1576125.0,
-     "value": 30135510.0
-    },
-    "382550101": {
-     "issuer": "GOODYEAR TIRE & RUBR CO",
-     "shares": 1508591.0,
-     "value": 9956701.0
+     "shares": 1497317.0,
+     "value": 29601957.0
     },
     "464286772": {
      "issuer": "ISHARES INC",
-     "shares": 2425000.0,
-     "value": 489607500.0
+     "shares": 2106149.0,
+     "value": 384961914.0
     },
     "512807306": {
      "issuer": "LAM RESEARCH CORP",
-     "shares": 382500.0,
-     "value": 165748725.0
+     "shares": 625000.0,
+     "value": 205318750.0
     },
     "30303M102": {
      "issuer": "META PLATFORMS INC",
-     "shares": 675000.0,
-     "value": 380220750.0
+     "shares": 525000.0,
+     "value": 380719500.0
     },
     "595112103": {
      "issuer": "MICRON TECHNOLOGY INC",
-     "shares": 975000.0,
-     "value": 1125432750.0
+     "shares": 1250000.0,
+     "value": 1331387500.0
+    },
+    "607828100": {
+     "issuer": "MODINE MFG CO",
+     "shares": 282959.0,
+     "value": 52969925.0
     },
     "55336V100": {
      "issuer": "MPLX LP",
-     "shares": 502460.0,
-     "value": 28303572.0
+     "shares": 477336.0,
+     "value": 26883564.0
     },
     "629377508": {
      "issuer": "NRG ENERGY INC",
-     "shares": 1760000.0,
-     "value": 257065600.0
+     "shares": 1425000.0,
+     "value": 136301250.0
     },
     "67066G104": {
      "issuer": "NVIDIA CORPORATION",
-     "shares": 1525000.0,
-     "value": 305137250.0
+     "shares": 2000000.0,
+     "value": 456760000.0
     },
-    "747525103": {
-     "issuer": "QUALCOMM INC",
-     "shares": 250000.0,
-     "value": 46197500.0
+    "68389X105": {
+     "issuer": "ORACLE CORP",
+     "shares": 1253932.0,
+     "value": 172164864.0
     },
-    "84615Q103": {
-     "issuer": "SPACE EXPLORATION TECHN CORP",
-     "shares": 225000.0,
-     "value": 38443500.0
+    "69331C108": {
+     "issuer": "PG&E CORP",
+     "shares": 2525000.0,
+     "value": 30931250.0
     },
     "874039100": {
      "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-     "shares": 1650000.0,
-     "value": 787990500.0
+     "shares": 1575000.0,
+     "value": 718499250.0
     },
     "90353T100": {
      "issuer": "UBER TECHNOLOGIES INC",
-     "shares": 7694071.0,
-     "value": 555204163.0
+     "shares": 7315000.0,
+     "value": 501150650.0
     },
     "92840M102": {
      "issuer": "VISTRA CORP",
-     "shares": 2215272.0,
-     "value": 351408597.0
+     "shares": 2115272.0,
+     "value": 292647881.0
     },
-    "963320106": {
-     "issuer": "WHIRLPOOL CORP",
-     "shares": 715000.0,
-     "value": 28185300.0
+    "84615Q103": {
+     "issuer": "SPACE EXPLORATION TECHN CORP",
+     "shares": 3883329.0,
+     "value": 556547062.0
     }
    },
    "first_seen": {
@@ -1833,7 +1823,10 @@
     "464286772": "2025-12-31",
     "80004C200": "2026-03-31",
     "21873S108": "2026-06-30",
-    "84615Q103": "2026-06-30"
+    "84615Q103": "2026-06-30",
+    "038222105": "2026-09-30",
+    "607828100": "2026-09-30",
+    "69331C108": "2026-09-30"
    },
    "first_seen_oldest": "2023-09-30",
    "first_seen_done": true
@@ -3429,6 +3422,35 @@
   "19260Q107": "COIN",
   "21873S108": "CRWV",
   "852234103": "XYZ",
-  "88025U109": "TXG"
+  "88025U109": "TXG",
+  "T19377109": null,
+  "247361702": "DAL",
+  "526057104": "LEN",
+  "526057302": "LEN-B",
+  "615369105": "DUT",
+  "88023U101": "TPD",
+  "651639106": "NEM",
+  "06849F108": "B",
+  "008474108": "AEM",
+  "958102105": "WDC",
+  "03831W108": "APP",
+  "87305R109": "TTMI",
+  "444859102": "HUM",
+  "69608A108": "PLTR",
+  "G7997R103": null,
+  "35137L105": "FOXA",
+  "91332U101": "U",
+  "81141R100": "SE",
+  "76155X100": "RVMD",
+  "N62509109": null,
+  "830830105": "SKY",
+  "149568107": "CVCO",
+  "464286400": "EWZ",
+  "68389X105": "ORCL",
+  "038222105": "AMAT",
+  "607828100": "MOD",
+  "69331C108": "PCG",
+  "512807306": "LRCX",
+  "N07059210": null
  }
 }
