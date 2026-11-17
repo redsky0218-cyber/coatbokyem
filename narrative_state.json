@@ -5061,6 +5061,35 @@
         "RKLB",
         "VACQ"
       ]
+    },
+    "amdepyc": {
+      "name": "기밀 컴퓨팅 워크로드 내 AMD Epyc 칩의 지속적인 채택",
+      "first_seen": "2026-11-17",
+      "tickers": [
+        "AMD"
+      ]
+    },
+    "ai4": {
+      "name": "AI 모델 훈련을 위한 4비트 포워드 패스 기술 도입",
+      "first_seen": "2026-11-17",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ]
+    },
+    "aiopenrouter": {
+      "name": "AI 모델 추론 라우팅에 OpenRouter 채택 확산",
+      "first_seen": "2026-11-17",
+      "tickers": []
+    },
+    "aihvac": {
+      "name": "데이터센터의 AI 기반 HVAC 예측 유지보수 시스템",
+      "first_seen": "2026-11-17",
+      "tickers": [
+        "VERT",
+        "STRL",
+        "AMAT"
+      ]
     }
   },
   "seen_tech": {
@@ -10831,6 +10860,38 @@
     "unbundlingmultimodalvisionencoding": {
       "term": "Unbundling Multimodal Vision Encoding",
       "first_seen": "2026-11-16"
+    },
+    "dlss4": {
+      "term": "DLSS 4",
+      "first_seen": "2026-11-17"
+    },
+    "rubinhpcgpu": {
+      "term": "Rubin HPC GPU",
+      "first_seen": "2026-11-17"
+    },
+    "dielectriclaseracceleratorsdla": {
+      "term": "Dielectric Laser Accelerators (DLA)",
+      "first_seen": "2026-11-17"
+    },
+    "clover2": {
+      "term": "Clover 2",
+      "first_seen": "2026-11-17"
+    },
+    "inflectv3": {
+      "term": "Inflect v3",
+      "first_seen": "2026-11-17"
+    },
+    "ediar": {
+      "term": "eDIAR",
+      "first_seen": "2026-11-17"
+    },
+    "maxwellv10flash": {
+      "term": "Maxwell-V1.0-Flash",
+      "first_seen": "2026-11-17"
+    },
+    "lipiindiclanguagesinbrowserstt": {
+      "term": "Lipi (Indic languages in-browser STT)",
+      "first_seen": "2026-11-17"
     }
   }
 }
