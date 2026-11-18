@@ -5107,6 +5107,36 @@
         "TXT",
         "KTOS"
       ]
+    },
+    "aidisaggregatedaiinferencearchitectures": {
+      "name": "탈집중형 AI 추론 아키텍처 (Disaggregated AI Inference Architectures)",
+      "first_seen": "2026-11-18",
+      "tickers": [
+        "MRVL",
+        "CRDO",
+        "SMCI",
+        "NVDA"
+      ]
+    },
+    "aicicdselfimprovingcicdwithaiagents": {
+      "name": "AI 에이전트 기반의 자가 개선형 CI/CD (Self-improving CI/CD with AI Agents)",
+      "first_seen": "2026-11-18",
+      "tickers": [
+        "DDOG",
+        "GIT",
+        "TEAM",
+        "MSFT"
+      ]
+    },
+    "aihy4flash": {
+      "name": "AI 모델을 위한 새로운 플래시 메모리 기술 (Hy4 Flash)",
+      "first_seen": "2026-11-18",
+      "tickers": [
+        "MU",
+        "WDC",
+        "SMCI",
+        "AMPX"
+      ]
     }
   },
   "seen_tech": {
@@ -10924,6 +10954,30 @@
     },
     "sensenovaloop9bloopedtransformer": {
       "term": "SenseNova-Loop-9B (Looped Transformer)",
+      "first_seen": "2026-11-18"
+    },
+    "disaggregatedinference": {
+      "term": "Disaggregated Inference",
+      "first_seen": "2026-11-18"
+    },
+    "latentlatticelanguagemodels": {
+      "term": "Latent Lattice Language Models",
+      "first_seen": "2026-11-18"
+    },
+    "hy4flash": {
+      "term": "Hy4 Flash",
+      "first_seen": "2026-11-18"
+    },
+    "selfimprovingciforagentvolumerepos": {
+      "term": "Self-improving CI for agent-volume repos",
+      "first_seen": "2026-11-18"
+    },
+    "maicode2andcode2flash": {
+      "term": "MAI Code 2 and Code 2 Flash",
+      "first_seen": "2026-11-18"
+    },
+    "programasweights": {
+      "term": "Program-as-Weights",
       "first_seen": "2026-11-18"
     }
   }
