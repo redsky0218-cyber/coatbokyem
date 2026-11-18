@@ -5137,6 +5137,43 @@
         "SMCI",
         "AMPX"
       ]
+    },
+    "energybasedreasonersai": {
+      "name": "에너지 기반 추론기 (Energy-Based Reasoners)를 통한 AI 추론 효율성 극대화",
+      "first_seen": "2026-11-19",
+      "tickers": [
+        "NVDA",
+        "SMCI",
+        "CRDO"
+      ]
+    },
+    "lashpat": {
+      "name": "칩렛 기반 시스템을 위한 데드락 없는 적응형 최단 경로 라우팅 (LASH-PAT)",
+      "first_seen": "2026-11-19",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "MRVL"
+      ]
+    },
+    "gpulsu": {
+      "name": "GPU 부하/저장 장치(LSU)의 보안 취약점 및 성능 분석",
+      "first_seen": "2026-11-19",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "CRDO",
+        "PANW"
+      ]
+    },
+    "prism": {
+      "name": "양자 컴퓨팅의 논리-물리 경계 컴파일러 (PRISM)",
+      "first_seen": "2026-11-19",
+      "tickers": [
+        "IONQ",
+        "IBM",
+        "RGTI"
+      ]
     }
   },
   "seen_tech": {
@@ -10979,6 +11016,38 @@
     "programasweights": {
       "term": "Program-as-Weights",
       "first_seen": "2026-11-18"
+    },
+    "energybasedreasoners": {
+      "term": "Energy-Based Reasoners",
+      "first_seen": "2026-11-19"
+    },
+    "streamingdpd": {
+      "term": "StreamingDPD",
+      "first_seen": "2026-11-19"
+    },
+    "3dvase": {
+      "term": "3D-VASE",
+      "first_seen": "2026-11-19"
+    },
+    "lashpat": {
+      "term": "LASH-PAT",
+      "first_seen": "2026-11-19"
+    },
+    "prismlogicalphysicalboundarycompiler": {
+      "term": "PRISM (Logical-Physical Boundary Compiler)",
+      "first_seen": "2026-11-19"
+    },
+    "rydbergatomthzradiometer": {
+      "term": "Rydberg atom THz radiometer",
+      "first_seen": "2026-11-19"
+    },
+    "linclinearinductivecoupler": {
+      "term": "LINC (Linear Inductive Coupler)",
+      "first_seen": "2026-11-19"
+    },
+    "fusionbasedquantumcomputingfbqc": {
+      "term": "Fusion-Based Quantum Computing (FBQC)",
+      "first_seen": "2026-11-19"
     }
   }
 }
