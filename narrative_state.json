@@ -11048,6 +11048,30 @@
     "fusionbasedquantumcomputingfbqc": {
       "term": "Fusion-Based Quantum Computing (FBQC)",
       "first_seen": "2026-11-19"
+    },
+    "gemini4neon": {
+      "term": "Gemini 4 Neon",
+      "first_seen": "2026-11-19"
+    },
+    "llminversionpromptreconstruction": {
+      "term": "LLM Inversion (Prompt Reconstruction)",
+      "first_seen": "2026-11-19"
+    },
+    "agentnativecloud": {
+      "term": "Agent-Native Cloud",
+      "first_seen": "2026-11-19"
+    },
+    "mastrafactory": {
+      "term": "Mastra Factory",
+      "first_seen": "2026-11-19"
+    },
+    "java4shell": {
+      "term": "Java4Shell",
+      "first_seen": "2026-11-19"
+    },
+    "llminferenceoptimisationskill": {
+      "term": "LLM Inference Optimisation Skill",
+      "first_seen": "2026-11-19"
     }
   }
 }
