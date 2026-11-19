@@ -38,7 +38,7 @@
   "zone_m": {
     "CRS": 1,
     "BWXT": 1,
-    "KLAC": 0,
+    "KLAC": 1,
     "TSLA": 1,
     "GOOGL": 1,
     "GLW": 1,
