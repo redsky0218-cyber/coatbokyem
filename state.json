@@ -13,7 +13,7 @@
     "ADI": 1
   },
   "crash": {
-    "SNDK": "2026-11-06",
+    "SNDK": "2026-11-21",
     "GLW": "2026-11-06",
     "CRS": "2026-10-23",
     "AMZN": "2026-10-30",
@@ -27,10 +27,10 @@
     "KLAC": 0,
     "TSLA": 0,
     "GOOGL": 2,
-    "GLW": 0,
-    "KEYS": 0,
+    "GLW": 2,
+    "KEYS": 2,
     "AVGO": 0,
-    "SNDK": 0,
+    "SNDK": 2,
     "AMZN": 0,
     "ADI": 0,
     "SPCX": 0
@@ -43,9 +43,9 @@
     "GOOGL": 1,
     "GLW": 1,
     "KEYS": 0,
-    "AVGO": 0,
+    "AVGO": 1,
     "AMZN": 0,
     "ADI": 0,
-    "SNDK": 0
+    "SNDK": 1
   }
 }
