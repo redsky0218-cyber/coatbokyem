@@ -5174,6 +5174,24 @@
         "IBM",
         "RGTI"
       ]
+    },
+    "oncolyticvirus": {
+      "name": "온콜리틱 바이러스(Oncolytic Virus)를 이용한 췌장암 치료 초기 성공",
+      "first_seen": "2026-11-20",
+      "tickers": [
+        "MRK",
+        "REPL",
+        "IMGN"
+      ]
+    },
+    "rustrustanything": {
+      "name": "Rust 기반 점진적 애플리케이션 리라이트 도구 'rust-anything'",
+      "first_seen": "2026-11-20",
+      "tickers": [
+        "MSFT",
+        "GOOG",
+        "AMZN"
+      ]
     }
   },
   "seen_tech": {
@@ -11072,6 +11090,26 @@
     "llminferenceoptimisationskill": {
       "term": "LLM Inference Optimisation Skill",
       "first_seen": "2026-11-19"
+    },
+    "modelsengineeringindexmei": {
+      "term": "Models Engineering Index (MEI)",
+      "first_seen": "2026-11-20"
+    },
+    "onlookagenticdesigntool": {
+      "term": "Onlook (agentic design tool)",
+      "first_seen": "2026-11-20"
+    },
+    "rustanything": {
+      "term": "rust-anything",
+      "first_seen": "2026-11-20"
+    },
+    "inferenceoptimisationskill": {
+      "term": "inference-optimisation-skill",
+      "first_seen": "2026-11-20"
+    },
+    "vividframegpu": {
+      "term": "VividFrame-GPU",
+      "first_seen": "2026-11-20"
     }
   }
 }
