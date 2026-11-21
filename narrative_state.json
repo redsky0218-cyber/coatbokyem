@@ -5192,6 +5192,17 @@
         "GOOG",
         "AMZN"
       ]
+    },
+    "vibecoding": {
+      "name": "인퍼런스 칩 최적화를 위한 'Vibecoding' 기술",
+      "first_seen": "2026-11-21",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "CRDO",
+        "MRVL"
+      ]
     }
   },
   "seen_tech": {
@@ -11110,6 +11121,26 @@
     "vividframegpu": {
       "term": "VividFrame-GPU",
       "first_seen": "2026-11-20"
+    },
+    "opencomputer": {
+      "term": "OpenComputer",
+      "first_seen": "2026-11-21"
+    },
+    "mathhorizon": {
+      "term": "math-horizon",
+      "first_seen": "2026-11-21"
+    },
+    "winedroid": {
+      "term": "Winedroid",
+      "first_seen": "2026-11-21"
+    },
+    "adversarialdistillation": {
+      "term": "adversarial distillation",
+      "first_seen": "2026-11-21"
+    },
+    "wirelessdevicebatterymonitor": {
+      "term": "Wireless-Device-Battery-Monitor",
+      "first_seen": "2026-11-21"
     }
   }
 }
