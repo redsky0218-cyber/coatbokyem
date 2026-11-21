@@ -5203,6 +5203,15 @@
         "CRDO",
         "MRVL"
       ]
+    },
+    "rust": {
+      "name": "Rust 기반 시스템 및 애플리케이션 개발 확산",
+      "first_seen": "2026-11-22",
+      "tickers": [
+        "MSFT",
+        "CRDO",
+        "SMCI"
+      ]
     }
   },
   "seen_tech": {
@@ -11141,6 +11150,18 @@
     "wirelessdevicebatterymonitor": {
       "term": "Wireless-Device-Battery-Monitor",
       "first_seen": "2026-11-21"
+    },
+    "merkletreecertificates": {
+      "term": "Merkle Tree Certificates",
+      "first_seen": "2026-11-22"
+    },
+    "pixelartgaussiansplats": {
+      "term": "pixel-art Gaussian splats",
+      "first_seen": "2026-11-22"
+    },
+    "winrust": {
+      "term": "WinRust",
+      "first_seen": "2026-11-22"
     }
   }
 }
