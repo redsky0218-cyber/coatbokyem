@@ -5212,6 +5212,17 @@
         "CRDO",
         "SMCI"
       ]
+    },
+    "cam": {
+      "name": "아날로그 CAM을 활용한 머신러닝 추론 가속화",
+      "first_seen": "2026-11-22",
+      "tickers": [
+        "SMCI",
+        "MRVL",
+        "CRDO",
+        "LRCX",
+        "AMAT"
+      ]
     }
   },
   "seen_tech": {
@@ -11161,6 +11172,34 @@
     },
     "winrust": {
       "term": "WinRust",
+      "first_seen": "2026-11-22"
+    },
+    "upload2shell": {
+      "term": "Upload2Shell",
+      "first_seen": "2026-11-22"
+    },
+    "inkling2mini": {
+      "term": "Inkling-2-Mini",
+      "first_seen": "2026-11-22"
+    },
+    "zeroc": {
+      "term": "Zero C#",
+      "first_seen": "2026-11-22"
+    },
+    "neuralgaussiantensornetworksnngpeps": {
+      "term": "Neural Gaussian Tensor Networks (NN-GPEPS)",
+      "first_seen": "2026-11-22"
+    },
+    "verifytheverifier": {
+      "term": "Verify the Verifier",
+      "first_seen": "2026-11-22"
+    },
+    "dynamicalaveragingnqs": {
+      "term": "Dynamical Averaging (NQS)",
+      "first_seen": "2026-11-22"
+    },
+    "activar": {
+      "term": "ACTIVAR",
       "first_seen": "2026-11-22"
     }
   }
