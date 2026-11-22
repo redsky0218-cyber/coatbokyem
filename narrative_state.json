@@ -5223,6 +5223,25 @@
         "LRCX",
         "AMAT"
       ]
+    },
+    "aimcpmultiagentcommunicationprotocol": {
+      "name": "AI 에이전트 상호운용성을 위한 MCP(Multi-Agent Communication Protocol) 부상",
+      "first_seen": "2026-11-22",
+      "tickers": [
+        "AI",
+        "PLTR",
+        "SMCI",
+        "NVDA"
+      ]
+    },
+    "studiodisplayethernetusbc": {
+      "name": "Studio Display Ethernet 이슈를 통한 USB-C 허브/독의 중요성 재조명",
+      "first_seen": "2026-11-22",
+      "tickers": [
+        "PLUG",
+        "ATEN",
+        "LGND"
+      ]
     }
   },
   "seen_tech": {
@@ -11200,6 +11219,18 @@
     },
     "activar": {
       "term": "ACTIVAR",
+      "first_seen": "2026-11-22"
+    },
+    "mcpmultiagentcommunicationprotocol": {
+      "term": "MCP (Multi-Agent Communication Protocol)",
+      "first_seen": "2026-11-22"
+    },
+    "nativepcrecompilationforconsolegames": {
+      "term": "Native PC Recompilation (for console games)",
+      "first_seen": "2026-11-22"
+    },
+    "rcsmessagingappwithoutgooglemessages": {
+      "term": "RCS Messaging App without Google Messages",
       "first_seen": "2026-11-22"
     }
   }
