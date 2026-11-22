@@ -5242,6 +5242,16 @@
         "ATEN",
         "LGND"
       ]
+    },
+    "fpgaqec": {
+      "name": "FPGA 기반 실시간 양자 오류 수정 (QEC) 가속화",
+      "first_seen": "2026-11-23",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "RGTI",
+        "IONQ"
+      ]
     }
   },
   "seen_tech": {
@@ -11232,6 +11242,34 @@
     "rcsmessagingappwithoutgooglemessages": {
       "term": "RCS Messaging App without Google Messages",
       "first_seen": "2026-11-22"
+    },
+    "canarytokensaisupplychain": {
+      "term": "Canary Tokens (AI Supply Chain)",
+      "first_seen": "2026-11-23"
+    },
+    "kvcachecompressionllmagents": {
+      "term": "KV Cache Compression (LLM Agents)",
+      "first_seen": "2026-11-23"
+    },
+    "llmbasedanomalycrosscheckeruvmscoreboardescapes": {
+      "term": "LLM-based Anomaly Cross-Checker (UVM Scoreboard Escapes)",
+      "first_seen": "2026-11-23"
+    },
+    "activaranalogcamfortreeinference": {
+      "term": "ACTIVAR (Analog CAM for Tree Inference)",
+      "first_seen": "2026-11-23"
+    },
+    "maskpemaskdirectedsystolicarray": {
+      "term": "MaskPE (Mask-Directed Systolic Array)",
+      "first_seen": "2026-11-23"
+    },
+    "uniformmarkovpropertyhightemperaturegibbsstates": {
+      "term": "Uniform Markov Property (High-Temperature Gibbs States)",
+      "first_seen": "2026-11-23"
+    },
+    "dynamicalaveragingneuralnetworkquantumstates": {
+      "term": "Dynamical Averaging (Neural-Network Quantum States)",
+      "first_seen": "2026-11-23"
     }
   }
 }
