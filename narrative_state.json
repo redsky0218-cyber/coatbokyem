@@ -11270,6 +11270,30 @@
     "dynamicalaveragingneuralnetworkquantumstates": {
       "term": "Dynamical Averaging (Neural-Network Quantum States)",
       "first_seen": "2026-11-23"
+    },
+    "canarytokens": {
+      "term": "Canary Tokens (카나리 토큰)",
+      "first_seen": "2026-11-23"
+    },
+    "aiassistedrustserverforpythonappsmuru": {
+      "term": "AI-assisted Rust server for Python apps (Muru)",
+      "first_seen": "2026-11-23"
+    },
+    "aipoweredblenderaddonblenderaimcpaddon": {
+      "term": "AI-powered Blender Addon (blender-ai-mcp-addon)",
+      "first_seen": "2026-11-23"
+    },
+    "localopensourcevideoclippingengineneonclipping": {
+      "term": "Local, Open-Source Video Clipping Engine (neonclipping)",
+      "first_seen": "2026-11-23"
+    },
+    "xboxrecompilationforpcleonidaxbox2windows": {
+      "term": "Xbox Recompilation for PC (Leonida, Xbox2Windows)",
+      "first_seen": "2026-11-23"
+    },
+    "windowsnarratorlockscreenbypass0dayvulnerabilityfastunlock": {
+      "term": "Windows Narrator LockScreen Bypass 0day Vulnerability (FastUnlock)",
+      "first_seen": "2026-11-23"
     }
   }
 }
