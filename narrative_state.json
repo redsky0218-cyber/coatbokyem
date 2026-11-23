@@ -11294,6 +11294,26 @@
     "windowsnarratorlockscreenbypass0dayvulnerabilityfastunlock": {
       "term": "Windows Narrator LockScreen Bypass 0day Vulnerability (FastUnlock)",
       "first_seen": "2026-11-23"
+    },
+    "localai": {
+      "term": "Local AI",
+      "first_seen": "2026-11-23"
+    },
+    "aisupplychainprivacy": {
+      "term": "AI Supply Chain Privacy",
+      "first_seen": "2026-11-23"
+    },
+    "aiagenticcoding": {
+      "term": "AI Agentic Coding",
+      "first_seen": "2026-11-23"
+    },
+    "agentswarm": {
+      "term": "Agent Swarm",
+      "first_seen": "2026-11-23"
+    },
+    "0rwxaiusagemodel": {
+      "term": "0rwx (AI Usage Model)",
+      "first_seen": "2026-11-23"
     }
   }
 }
