@@ -5252,6 +5252,33 @@
         "RGTI",
         "IONQ"
       ]
+    },
+    "duckdbpostgresql": {
+      "name": "DuckDB 기반의 경량 PostgreSQL 읽기 복제본 및 분석 데이터베이스",
+      "first_seen": "2026-11-25",
+      "tickers": [
+        "SNOW",
+        "DDOG",
+        "MDB"
+      ]
+    },
+    "llmrsa2048": {
+      "name": "LLM 기반 검증 가능한 양자 컴파일을 통한 RSA-2048 인수분해 효율성 증대",
+      "first_seen": "2026-11-25",
+      "tickers": [
+        "IBM",
+        "IONQ",
+        "RGTI"
+      ]
+    },
+    "gpusoc": {
+      "name": "GPU 서브시스템 모델링을 통한 시스템온칩(SoC) 검증 효율성 향상",
+      "first_seen": "2026-11-25",
+      "tickers": [
+        "ARM",
+        "SNPS",
+        "CDNS"
+      ]
     }
   },
   "seen_tech": {
@@ -11314,6 +11341,38 @@
     "0rwxaiusagemodel": {
       "term": "0rwx (AI Usage Model)",
       "first_seen": "2026-11-23"
+    },
+    "vpvnp": {
+      "term": "VP ≠ VNP",
+      "first_seen": "2026-11-25"
+    },
+    "masonpostgresreadreplica": {
+      "term": "Mason (Postgres read-replica)",
+      "first_seen": "2026-11-25"
+    },
+    "songe": {
+      "term": "Songe",
+      "first_seen": "2026-11-25"
+    },
+    "quantuminteractiveproofsystemstwomessages": {
+      "term": "Quantum interactive proof systems (two messages)",
+      "first_seen": "2026-11-25"
+    },
+    "smallworldnetworksforquantumcodes": {
+      "term": "Small-world networks for quantum codes",
+      "first_seen": "2026-11-25"
+    },
+    "schismdistributedquantumcomputingarchitecture": {
+      "term": "Schism (Distributed Quantum Computing Architecture)",
+      "first_seen": "2026-11-25"
+    },
+    "llmdrivenverifiablequantumcompilation": {
+      "term": "LLM-Driven Verifiable Quantum Compilation",
+      "first_seen": "2026-11-25"
+    },
+    "nonlinearresonatorsforprotectedchargereadout": {
+      "term": "Nonlinear Resonators for Protected Charge Readout",
+      "first_seen": "2026-11-25"
     }
   }
 }
