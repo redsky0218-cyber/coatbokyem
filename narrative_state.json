@@ -5298,6 +5298,25 @@
         "AMD",
         "NVDA"
       ]
+    },
+    "pc": {
+      "name": "콘솔 게임 에뮬레이션 및 PC 포팅 기술 발전",
+      "first_seen": "2026-11-26",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA",
+        "MSFT"
+      ]
+    },
+    "ti": {
+      "name": "초박형 Ti 시드 레이어를 이용한 고품질 알파-탄탈룸 성장",
+      "first_seen": "2026-11-26",
+      "tickers": [
+        "AMAT",
+        "LRCX",
+        "VEEV"
+      ]
     }
   },
   "seen_tech": {
@@ -11424,6 +11443,38 @@
     "neodymiumimplantedsiliconnitridelasers": {
       "term": "Neodymium-implanted silicon nitride lasers",
       "first_seen": "2026-11-25"
+    },
+    "factoringinp": {
+      "term": "Factoring in P",
+      "first_seen": "2026-11-26"
+    },
+    "cogenticpapers": {
+      "term": "Cogentic papers",
+      "first_seen": "2026-11-26"
+    },
+    "adaptvqe": {
+      "term": "ADAPT-VQE",
+      "first_seen": "2026-11-26"
+    },
+    "holevoratevisiblecompression": {
+      "term": "Holevo-Rate Visible Compression",
+      "first_seen": "2026-11-26"
+    },
+    "tantalum": {
+      "term": "α-tantalum (알파-탄탈룸)",
+      "first_seen": "2026-11-26"
+    },
+    "fourierneuraloperators": {
+      "term": "Fourier Neural Operators",
+      "first_seen": "2026-11-26"
+    },
+    "diracpropagation": {
+      "term": "Dirac Propagation",
+      "first_seen": "2026-11-26"
+    },
+    "quantummpembaeffect": {
+      "term": "Quantum Mpemba Effect",
+      "first_seen": "2026-11-26"
     }
   }
 }
