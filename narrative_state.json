@@ -5279,6 +5279,25 @@
         "SNPS",
         "CDNS"
       ]
+    },
+    "aimcp": {
+      "name": "AI 기반 금융 거래 에이전트 (MCP)",
+      "first_seen": "2026-11-25",
+      "tickers": [
+        "SOFI",
+        "PYPL",
+        "SQ",
+        "INTU"
+      ]
+    },
+    "xboxseriespc": {
+      "name": "Xbox Series 게임 PC 호환성 레이어 및 에뮬레이션",
+      "first_seen": "2026-11-25",
+      "tickers": [
+        "MSFT",
+        "AMD",
+        "NVDA"
+      ]
     }
   },
   "seen_tech": {
@@ -11372,6 +11391,38 @@
     },
     "nonlinearresonatorsforprotectedchargereadout": {
       "term": "Nonlinear Resonators for Protected Charge Readout",
+      "first_seen": "2026-11-25"
+    },
+    "pengpt": {
+      "term": "PenGPT",
+      "first_seen": "2026-11-25"
+    },
+    "gpt6proteindesigncapabilities": {
+      "term": "GPT-6 protein-design capabilities",
+      "first_seen": "2026-11-25"
+    },
+    "mcpmoneycommunicationprotocol": {
+      "term": "MCP (Money Communication Protocol)",
+      "first_seen": "2026-11-25"
+    },
+    "ternarybonsai2527b": {
+      "term": "Ternary Bonsai 2.5 27B",
+      "first_seen": "2026-11-25"
+    },
+    "torchtpu": {
+      "term": "TorchTPU",
+      "first_seen": "2026-11-25"
+    },
+    "adaptvqeforlatticefieldtheoriesin21d": {
+      "term": "ADAPT-VQE for Lattice Field Theories in 2+1D",
+      "first_seen": "2026-11-25"
+    },
+    "tantalumalphatafilmsforsuperconductingcircuits": {
+      "term": "α-Tantalum (alpha-Ta) films for superconducting circuits",
+      "first_seen": "2026-11-25"
+    },
+    "neodymiumimplantedsiliconnitridelasers": {
+      "term": "Neodymium-implanted silicon nitride lasers",
       "first_seen": "2026-11-25"
     }
   }
