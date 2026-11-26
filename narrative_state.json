@@ -5317,6 +5317,34 @@
         "LRCX",
         "VEEV"
       ]
+    },
+    "orbitaldatacenters": {
+      "name": "궤도 데이터 센터 (Orbital Data Centers)",
+      "first_seen": "2026-11-26",
+      "tickers": [
+        "RKLB",
+        "ASTR",
+        "LHX",
+        "VSAT"
+      ]
+    },
+    "pcconsolegamepcportingcompatibilitylayers": {
+      "name": "콘솔 게임 PC 이식/호환성 레이어 (Console Game PC Porting/Compatibility Layers)",
+      "first_seen": "2026-11-26",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA"
+      ]
+    },
+    "llmbaremetalllminference": {
+      "name": "베어 메탈 LLM 추론 (Bare Metal LLM Inference)",
+      "first_seen": "2026-11-26",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ]
     }
   },
   "seen_tech": {
@@ -11474,6 +11502,18 @@
     },
     "quantummpembaeffect": {
       "term": "Quantum Mpemba Effect",
+      "first_seen": "2026-11-26"
+    },
+    "xclxboxseriescompatibilitylayer": {
+      "term": "xcl (Xbox Series Compatibility Layer)",
+      "first_seen": "2026-11-26"
+    },
+    "baremetalllminference": {
+      "term": "Bare Metal LLM Inference",
+      "first_seen": "2026-11-26"
+    },
+    "matrixmultiplicationexponent": {
+      "term": "Matrix Multiplication Exponent",
       "first_seen": "2026-11-26"
     }
   }
