@@ -5345,6 +5345,16 @@
         "AMD",
         "INTC"
       ]
+    },
+    "amdllm": {
+      "name": "AMD 기반 로컬 LLM 추론 최적화",
+      "first_seen": "2026-11-27",
+      "tickers": [
+        "AMD",
+        "SMCI",
+        "DELL",
+        "HPE"
+      ]
     }
   },
   "seen_tech": {
@@ -11515,6 +11525,38 @@
     "matrixmultiplicationexponent": {
       "term": "Matrix Multiplication Exponent",
       "first_seen": "2026-11-26"
+    },
+    "spacedatacentres": {
+      "term": "Space Data Centres",
+      "first_seen": "2026-11-27"
+    },
+    "aiagentscontrollingcompute": {
+      "term": "AI agents controlling compute",
+      "first_seen": "2026-11-27"
+    },
+    "bytedancearkwrappers": {
+      "term": "ByteDance Ark wrappers",
+      "first_seen": "2026-11-27"
+    },
+    "voltageenhancedphotorefractivehysteresisinthinfilmlithiumniobatenanocavities": {
+      "term": "Voltage-Enhanced Photorefractive Hysteresis in Thin-Film Lithium Niobate Nanocavities",
+      "first_seen": "2026-11-27"
+    },
+    "neuralnetworkdecodersforqubitloss": {
+      "term": "Neural Network Decoders For Qubit Loss",
+      "first_seen": "2026-11-27"
+    },
+    "reconfigurablefourstatesensorpdvo2": {
+      "term": "Reconfigurable Four-State Sensor (Pd/VO2)",
+      "first_seen": "2026-11-27"
+    },
+    "rydbergarraysforbinaryoptimization": {
+      "term": "Rydberg Arrays for Binary Optimization",
+      "first_seen": "2026-11-27"
+    },
+    "photonicn00nstatesfrom3rmos2flake": {
+      "term": "Photonic N00N states from 3R-MoS2 flake",
+      "first_seen": "2026-11-27"
     }
   }
 }
