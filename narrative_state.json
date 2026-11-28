@@ -11605,6 +11605,26 @@
     "aiselfhosting": {
       "term": "AI Self-Hosting",
       "first_seen": "2026-11-28"
+    },
+    "spacedatacenters": {
+      "term": "Space Data Centers",
+      "first_seen": "2026-11-29"
+    },
+    "aidesignedhardware": {
+      "term": "AI-designed Hardware",
+      "first_seen": "2026-11-29"
+    },
+    "webassemblyengineforllms": {
+      "term": "WebAssembly Engine for LLMs",
+      "first_seen": "2026-11-29"
+    },
+    "ggufllmmodels": {
+      "term": "GGUF LLM Models",
+      "first_seen": "2026-11-29"
+    },
+    "n00nstateswithlayeredsemiconductors": {
+      "term": "N00N states with layered semiconductors",
+      "first_seen": "2026-11-29"
     }
   }
 }
