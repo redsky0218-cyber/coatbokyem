@@ -5355,6 +5355,26 @@
         "DELL",
         "HPE"
       ]
+    },
+    "x8664llmos": {
+      "name": "x86-64 어셈블리 기반 초경량 LLM 추론 및 OS",
+      "first_seen": "2026-11-28",
+      "tickers": [
+        "INTC",
+        "AMD",
+        "ARM",
+        "NVDA"
+      ]
+    },
+    "webrtc": {
+      "name": "WebRTC 기반 신용카드 스키밍 공격 증가",
+      "first_seen": "2026-11-28",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "OKTA",
+        "ZS"
+      ]
     }
   },
   "seen_tech": {
@@ -11557,6 +11577,34 @@
     "photonicn00nstatesfrom3rmos2flake": {
       "term": "Photonic N00N states from 3R-MoS2 flake",
       "first_seen": "2026-11-27"
+    },
+    "unkernel": {
+      "term": "Unkernel",
+      "first_seen": "2026-11-28"
+    },
+    "deepcrossattention": {
+      "term": "DeepCrossAttention",
+      "first_seen": "2026-11-28"
+    },
+    "tabernetes": {
+      "term": "Tabernetes",
+      "first_seen": "2026-11-28"
+    },
+    "aicodingharnessprospero": {
+      "term": "AI Coding Harness (Prospero)",
+      "first_seen": "2026-11-28"
+    },
+    "declarativedragging": {
+      "term": "Declarative Dragging",
+      "first_seen": "2026-11-28"
+    },
+    "victoryxboxseriescompatibilitylayer": {
+      "term": "VIctory (Xbox Series compatibility layer)",
+      "first_seen": "2026-11-28"
+    },
+    "aiselfhosting": {
+      "term": "AI Self-Hosting",
+      "first_seen": "2026-11-28"
     }
   }
 }
